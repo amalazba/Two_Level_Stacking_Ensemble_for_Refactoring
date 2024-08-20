@@ -1,0 +1,841 @@
+﻿,Model,FS,Accuracy,Precision,Recall,F1-score,F1-micro,F1-weight,Brier,AUC,MCC,Type,Dataset
+0,Stack-LR,PCA,77.22,74.69,82.35,78.33,77.22,77.16,0.16,0.85,0.55,Stacking,Extract And Move Method
+1,Stack-LR,PCA,77.16,74.85,81.81,78.17,77.16,77.11,0.16,0.85,0.55,Stacking,Extract And Move Method
+2,Stack-LR,PCA,76.89,76.49,77.63,77.06,76.89,76.89,0.17,0.84,0.55,Stacking,Extract And Move Method
+3,Stack-LR,PCA,77.22,74.34,83.15,78.5,77.22,77.14,0.15,0.85,0.55,Stacking,Extract And Move Method
+4,Stack-LR,PCA,78.84,77.23,81.81,79.45,78.84,78.82,0.15,0.87,0.55,Stacking,Extract And Move Method
+5,Stack-LR,PCA,77.83,76.58,80.19,78.34,77.83,77.82,0.16,0.85,0.55,Stacking,Extract And Move Method
+6,Stack-LR,PCA,79.58,75.79,86.93,80.98,79.58,79.47,0.14,0.88,0.55,Stacking,Extract And Move Method
+7,Stack-LR,PCA,76.08,75.16,77.9,76.51,76.08,76.07,0.17,0.82,0.55,Stacking,Extract And Move Method
+8,Stack-LR,PCA,79.23,75.8,85.83,80.51,79.23,79.14,0.15,0.87,0.55,Stacking,Extract And Move Method
+9,Stack-LR,PCA,74.51,74.01,75.61,74.8,74.51,74.51,0.18,0.82,0.55,Stacking,Extract And Move Method
+10,Stack-DT,PCA,69.95,71.57,66.17,68.77,69.95,69.9,0.3,0.7,0.37,Stacking,Extract And Move Method
+11,Stack-DT,PCA,69.47,71.22,65.36,68.17,69.47,69.42,0.31,0.69,0.37,Stacking,Extract And Move Method
+12,Stack-DT,PCA,67.45,69.47,62.26,65.67,67.45,67.36,0.33,0.67,0.37,Stacking,Extract And Move Method
+13,Stack-DT,PCA,68.87,68.72,69.27,68.99,68.87,68.87,0.31,0.69,0.37,Stacking,Extract And Move Method
+14,Stack-DT,PCA,67.65,69.67,62.53,65.91,67.65,67.57,0.32,0.68,0.37,Stacking,Extract And Move Method
+15,Stack-DT,PCA,68.4,69.09,66.58,67.81,68.4,68.39,0.32,0.68,0.37,Stacking,Extract And Move Method
+16,Stack-DT,PCA,70.15,70.62,69,69.8,70.15,70.14,0.3,0.7,0.37,Stacking,Extract And Move Method
+17,Stack-DT,PCA,66.44,67.58,63.21,65.32,66.44,66.41,0.34,0.66,0.37,Stacking,Extract And Move Method
+18,Stack-DT,PCA,69.72,69.16,71.12,70.13,69.72,69.72,0.3,0.7,0.37,Stacking,Extract And Move Method
+19,Stack-DT,PCA,64.46,67.09,56.87,61.56,64.46,64.26,0.36,0.64,0.37,Stacking,Extract And Move Method
+0,TBStack-LR,PCA,78.64,77.78,80.19,78.96,78.64,78.63,0.15,0.87,0.59,TreeStacking,Extract And Move Method
+1,TBStack-LR,PCA,76.89,77.29,76.15,76.71,76.89,76.89,0.15,0.87,0.59,TreeStacking,Extract And Move Method
+2,TBStack-LR,PCA,79.11,79.51,78.44,78.97,79.11,79.11,0.14,0.88,0.59,TreeStacking,Extract And Move Method
+3,TBStack-LR,PCA,77.83,76.44,80.46,78.4,77.83,77.81,0.15,0.86,0.59,TreeStacking,Extract And Move Method
+4,TBStack-LR,PCA,82.41,81.19,84.37,82.75,82.41,82.41,0.13,0.88,0.59,TreeStacking,Extract And Move Method
+5,TBStack-LR,PCA,78.84,77.94,80.46,79.18,78.84,78.84,0.15,0.87,0.59,TreeStacking,Extract And Move Method
+6,TBStack-LR,PCA,82.82,80.17,87.2,83.54,82.82,82.78,0.13,0.9,0.59,TreeStacking,Extract And Move Method
+7,TBStack-LR,PCA,76.95,77.55,75.88,76.7,76.95,76.95,0.16,0.86,0.59,TreeStacking,Extract And Move Method
+8,TBStack-LR,PCA,81.66,79.5,85.29,82.29,81.66,81.63,0.13,0.89,0.59,TreeStacking,Extract And Move Method
+9,TBStack-LR,PCA,77.21,77.67,76.42,77.04,77.21,77.21,0.16,0.85,0.59,TreeStacking,Extract And Move Method
+10,TBStack-DT,PCA,70.49,72.29,66.44,69.24,70.49,70.44,0.3,0.7,0.43,TreeStacking,Extract And Move Method
+11,TBStack-DT,PCA,71.9,73.79,67.92,70.74,71.9,71.86,0.28,0.72,0.43,TreeStacking,Extract And Move Method
+12,TBStack-DT,PCA,73.18,74.93,69.68,72.21,73.18,73.15,0.27,0.73,0.43,TreeStacking,Extract And Move Method
+13,TBStack-DT,PCA,69.88,70.86,67.52,69.15,69.88,69.86,0.3,0.7,0.43,TreeStacking,Extract And Move Method
+14,TBStack-DT,PCA,73.58,75,70.75,72.82,73.58,73.56,0.26,0.74,0.43,TreeStacking,Extract And Move Method
+15,TBStack-DT,PCA,69.68,69.89,69.14,69.51,69.68,69.68,0.3,0.7,0.43,TreeStacking,Extract And Move Method
+16,TBStack-DT,PCA,73.11,73.85,71.56,72.69,73.11,73.11,0.27,0.73,0.43,TreeStacking,Extract And Move Method
+17,TBStack-DT,PCA,70.28,72.04,66.31,69.05,70.28,70.24,0.3,0.7,0.43,TreeStacking,Extract And Move Method
+18,TBStack-DT,PCA,70.53,70.88,69.64,70.25,70.53,70.53,0.29,0.71,0.43,TreeStacking,Extract And Move Method
+19,TBStack-DT,PCA,71.54,71.68,71.29,71.49,71.54,71.54,0.28,0.72,0.43,TreeStacking,Extract And Move Method
+0,Stack-LR,PCA,81.47,81.14,82,81.57,81.47,81.47,0.13,0.89,0.6,Stacking,Extract Method
+1,Stack-LR,PCA,81.39,82.51,79.65,81.06,81.39,81.38,0.13,0.89,0.6,Stacking,Extract Method
+2,Stack-LR,PCA,81.99,81.51,82.76,82.13,81.99,81.99,0.13,0.89,0.6,Stacking,Extract Method
+3,Stack-LR,PCA,79.87,79.4,80.66,80.02,79.87,79.86,0.14,0.87,0.6,Stacking,Extract Method
+4,Stack-LR,PCA,72.28,68.86,81.35,74.59,72.28,72.06,0.19,0.8,0.6,Stacking,Extract Method
+5,Stack-LR,PCA,82.69,83.62,81.31,82.45,82.69,82.69,0.13,0.9,0.6,Stacking,Extract Method
+6,Stack-LR,PCA,79.74,78.94,81.11,80.01,79.74,79.73,0.14,0.88,0.6,Stacking,Extract Method
+7,Stack-LR,PCA,81.07,80.96,81.24,81.1,81.07,81.07,0.13,0.89,0.6,Stacking,Extract Method
+8,Stack-LR,PCA,78.2,76.09,82.24,79.05,78.2,78.17,0.15,0.86,0.6,Stacking,Extract Method
+9,Stack-LR,PCA,80.59,79.1,83.15,81.07,80.59,80.58,0.14,0.88,0.6,Stacking,Extract Method
+10,Stack-DT,PCA,70.13,68.4,74.8,71.46,70.13,70.06,0.3,0.7,0.35,Stacking,Extract Method
+11,Stack-DT,PCA,70.25,68.51,74.93,71.58,70.25,70.18,0.3,0.7,0.35,Stacking,Extract Method
+12,Stack-DT,PCA,67.07,64.69,75.18,69.54,67.07,66.85,0.33,0.67,0.35,Stacking,Extract Method
+13,Stack-DT,PCA,69.31,67.22,75.37,71.06,69.31,69.2,0.31,0.69,0.35,Stacking,Extract Method
+14,Stack-DT,PCA,64.7,61.97,76.1,68.31,64.7,64.23,0.35,0.65,0.35,Stacking,Extract Method
+15,Stack-DT,PCA,64,62.07,72.01,66.67,64,63.77,0.36,0.64,0.35,Stacking,Extract Method
+16,Stack-DT,PCA,64.76,62.09,75.77,68.25,64.76,64.33,0.35,0.65,0.35,Stacking,Extract Method
+17,Stack-DT,PCA,67.42,65.04,75.33,69.81,67.42,67.22,0.33,0.67,0.35,Stacking,Extract Method
+18,Stack-DT,PCA,67.77,65.89,73.69,69.57,67.77,67.66,0.32,0.68,0.35,Stacking,Extract Method
+19,Stack-DT,PCA,67.05,64.7,75.02,69.48,67.05,66.84,0.33,0.67,0.35,Stacking,Extract Method
+0,TBStack-LR,PCA,81.72,82.7,80.22,81.44,81.72,81.71,0.13,0.9,0.6,TreeStacking,Extract Method
+1,TBStack-LR,PCA,80.45,81.11,79.4,80.24,80.45,80.45,0.14,0.88,0.6,TreeStacking,Extract Method
+2,TBStack-LR,PCA,81.95,83.41,79.76,81.54,81.95,81.94,0.13,0.9,0.6,TreeStacking,Extract Method
+3,TBStack-LR,PCA,79.93,80.1,79.65,79.87,79.93,79.93,0.14,0.88,0.6,TreeStacking,Extract Method
+4,TBStack-LR,PCA,73.83,70.85,80.96,75.57,73.83,73.69,0.19,0.8,0.6,TreeStacking,Extract Method
+5,TBStack-LR,PCA,81.87,83.26,79.79,81.49,81.87,81.87,0.13,0.89,0.6,TreeStacking,Extract Method
+6,TBStack-LR,PCA,77.25,75.85,79.94,77.84,77.25,77.23,0.15,0.87,0.6,TreeStacking,Extract Method
+7,TBStack-LR,PCA,81.89,83.22,79.88,81.51,81.89,81.88,0.13,0.89,0.6,TreeStacking,Extract Method
+8,TBStack-LR,PCA,79.18,78.66,80.09,79.37,79.18,79.18,0.15,0.87,0.6,TreeStacking,Extract Method
+9,TBStack-LR,PCA,81.05,81.1,80.96,81.03,81.05,81.05,0.13,0.89,0.6,TreeStacking,Extract Method
+10,TBStack-DT,PCA,71.37,70.14,74.43,72.22,71.37,71.34,0.29,0.71,0.39,TreeStacking,Extract Method
+11,TBStack-DT,PCA,70.33,68.81,74.37,71.48,70.33,70.28,0.3,0.7,0.39,TreeStacking,Extract Method
+12,TBStack-DT,PCA,68.16,65.72,75.93,70.46,68.16,67.97,0.32,0.68,0.39,TreeStacking,Extract Method
+13,TBStack-DT,PCA,69.66,67.92,74.52,71.06,69.66,69.59,0.3,0.7,0.39,TreeStacking,Extract Method
+14,TBStack-DT,PCA,66.12,63.5,75.86,69.13,66.12,65.8,0.34,0.66,0.39,TreeStacking,Extract Method
+15,TBStack-DT,PCA,67.68,65.53,74.57,69.76,67.68,67.52,0.32,0.68,0.39,TreeStacking,Extract Method
+16,TBStack-DT,PCA,68.37,66.3,74.71,70.25,68.37,68.24,0.32,0.68,0.39,TreeStacking,Extract Method
+17,TBStack-DT,PCA,70.02,68.2,75.02,71.45,70.02,69.94,0.3,0.7,0.39,TreeStacking,Extract Method
+18,TBStack-DT,PCA,70.5,68.84,74.93,71.75,70.5,70.45,0.29,0.71,0.39,TreeStacking,Extract Method
+19,TBStack-DT,PCA,70.65,68.97,75.07,71.89,70.65,70.59,0.29,0.71,0.39,TreeStacking,Extract Method
+0,Stack-LR,PCA,81.38,81.23,81.63,81.43,81.38,81.38,0.14,0.88,0.63,Stacking,Inline Method
+1,Stack-LR,PCA,82.78,80.4,86.68,83.42,82.78,82.75,0.12,0.9,0.63,Stacking,Inline Method
+2,Stack-LR,PCA,81.6,79.68,84.82,82.17,81.6,81.58,0.13,0.89,0.63,Stacking,Inline Method
+3,Stack-LR,PCA,81.42,81.01,82.09,81.54,81.42,81.42,0.13,0.89,0.63,Stacking,Inline Method
+4,Stack-LR,PCA,81.48,80.44,83.19,81.79,81.48,81.48,0.13,0.89,0.63,Stacking,Inline Method
+5,Stack-LR,PCA,81.25,79.98,83.37,81.64,81.25,81.24,0.13,0.89,0.63,Stacking,Inline Method
+6,Stack-LR,PCA,81.55,80.94,82.54,81.73,81.55,81.55,0.13,0.89,0.63,Stacking,Inline Method
+7,Stack-LR,PCA,82.02,80.96,83.75,82.33,82.02,82.02,0.13,0.89,0.63,Stacking,Inline Method
+8,Stack-LR,PCA,81.08,80.75,81.64,81.19,81.08,81.08,0.13,0.89,0.63,Stacking,Inline Method
+9,Stack-LR,PCA,82.36,80.94,84.68,82.76,82.36,82.35,0.13,0.9,0.63,Stacking,Inline Method
+10,Stack-DT,PCA,73.46,75.1,70.18,72.55,73.46,73.43,0.27,0.73,0.48,Stacking,Inline Method
+11,Stack-DT,PCA,74.81,75.62,73.24,74.41,74.81,74.81,0.25,0.75,0.48,Stacking,Inline Method
+12,Stack-DT,PCA,74.29,74.52,73.79,74.16,74.29,74.29,0.26,0.74,0.48,Stacking,Inline Method
+13,Stack-DT,PCA,73.91,74.8,72.11,73.43,73.91,73.9,0.26,0.74,0.48,Stacking,Inline Method
+14,Stack-DT,PCA,73.95,74.95,71.93,73.41,73.95,73.94,0.26,0.74,0.48,Stacking,Inline Method
+15,Stack-DT,PCA,73.89,74.61,72.42,73.5,73.89,73.88,0.26,0.74,0.48,Stacking,Inline Method
+16,Stack-DT,PCA,73.85,74.54,72.44,73.48,73.85,73.84,0.26,0.74,0.48,Stacking,Inline Method
+17,Stack-DT,PCA,73.81,73.89,73.65,73.77,73.81,73.81,0.26,0.74,0.48,Stacking,Inline Method
+18,Stack-DT,PCA,73.48,75.04,70.38,72.64,73.48,73.46,0.27,0.73,0.48,Stacking,Inline Method
+19,Stack-DT,PCA,74.78,75.44,73.47,74.45,74.78,74.77,0.25,0.75,0.48,Stacking,Inline Method
+0,TBStack-LR,PCA,84.94,83.26,87.46,85.31,84.94,84.93,0.11,0.92,0.73,TreeStacking,Inline Method
+1,TBStack-LR,PCA,87.11,84.24,91.31,87.63,87.11,87.09,0.1,0.93,0.73,TreeStacking,Inline Method
+2,TBStack-LR,PCA,86.02,83.79,89.32,86.46,86.02,86,0.1,0.93,0.73,TreeStacking,Inline Method
+3,TBStack-LR,PCA,86.38,84.17,89.62,86.81,86.38,86.37,0.1,0.93,0.73,TreeStacking,Inline Method
+4,TBStack-LR,PCA,86.02,83.8,89.3,86.46,86.02,86,0.1,0.93,0.73,TreeStacking,Inline Method
+5,TBStack-LR,PCA,85.63,83.38,89,86.1,85.63,85.61,0.11,0.92,0.73,TreeStacking,Inline Method
+6,TBStack-LR,PCA,86.38,83.44,90.78,86.96,86.38,86.36,0.1,0.92,0.73,TreeStacking,Inline Method
+7,TBStack-LR,PCA,86.62,84.05,90.4,87.11,86.62,86.6,0.1,0.93,0.73,TreeStacking,Inline Method
+8,TBStack-LR,PCA,86.41,83.67,90.48,86.94,86.41,86.39,0.1,0.92,0.73,TreeStacking,Inline Method
+9,TBStack-LR,PCA,87.26,84.49,91.28,87.76,87.26,87.24,0.09,0.93,0.73,TreeStacking,Inline Method
+10,TBStack-DT,PCA,78.04,79.14,76.16,77.62,78.04,78.04,0.22,0.78,0.58,TreeStacking,Inline Method
+11,TBStack-DT,PCA,79.84,80.77,78.32,79.53,79.84,79.83,0.2,0.8,0.58,TreeStacking,Inline Method
+12,TBStack-DT,PCA,78.75,79.96,76.71,78.3,78.75,78.74,0.21,0.79,0.58,TreeStacking,Inline Method
+13,TBStack-DT,PCA,79.26,80.19,77.71,78.93,79.26,79.26,0.21,0.79,0.58,TreeStacking,Inline Method
+14,TBStack-DT,PCA,79.21,80.12,77.69,78.89,79.21,79.21,0.21,0.79,0.58,TreeStacking,Inline Method
+15,TBStack-DT,PCA,78.52,79.24,77.29,78.26,78.52,78.52,0.21,0.79,0.58,TreeStacking,Inline Method
+16,TBStack-DT,PCA,79.21,79.64,78.5,79.06,79.21,79.21,0.21,0.79,0.58,TreeStacking,Inline Method
+17,TBStack-DT,PCA,78.88,79.81,77.34,78.56,78.88,78.88,0.21,0.79,0.58,TreeStacking,Inline Method
+18,TBStack-DT,PCA,79.12,79.48,78.52,79,79.12,79.12,0.21,0.79,0.58,TreeStacking,Inline Method
+19,TBStack-DT,PCA,80.05,80.52,79.3,79.9,80.05,80.05,0.2,0.8,0.58,TreeStacking,Inline Method
+0,Stack-LR,PCA,86.21,85.76,86.83,86.29,86.21,86.21,0.1,0.93,0.72,Stacking,Move Method
+1,Stack-LR,PCA,85.61,85.87,85.26,85.56,85.61,85.61,0.11,0.93,0.72,Stacking,Move Method
+2,Stack-LR,PCA,84.64,85.2,83.84,84.51,84.64,84.64,0.11,0.91,0.72,Stacking,Move Method
+3,Stack-LR,PCA,85.34,85.69,84.84,85.26,85.34,85.34,0.11,0.92,0.72,Stacking,Move Method
+4,Stack-LR,PCA,86.25,85.91,86.72,86.31,86.25,86.25,0.1,0.93,0.72,Stacking,Move Method
+5,Stack-LR,PCA,86.19,86.46,85.82,86.14,86.19,86.19,0.1,0.93,0.72,Stacking,Move Method
+6,Stack-LR,PCA,85.69,86.31,84.84,85.57,85.69,85.69,0.11,0.92,0.72,Stacking,Move Method
+7,Stack-LR,PCA,86.05,85.59,86.7,86.14,86.05,86.05,0.1,0.93,0.72,Stacking,Move Method
+8,Stack-LR,PCA,86.74,86.51,87.05,86.78,86.74,86.74,0.1,0.94,0.72,Stacking,Move Method
+9,Stack-LR,PCA,86.52,85.88,87.42,86.64,86.52,86.52,0.1,0.93,0.72,Stacking,Move Method
+10,Stack-DT,PCA,79.56,80.34,78.28,79.3,79.56,79.56,0.2,0.8,0.59,Stacking,Move Method
+11,Stack-DT,PCA,80.1,81.6,77.72,79.61,80.1,80.09,0.2,0.8,0.59,Stacking,Move Method
+12,Stack-DT,PCA,79.08,81.25,75.61,78.33,79.08,79.05,0.21,0.79,0.59,Stacking,Move Method
+13,Stack-DT,PCA,79.79,80.7,78.3,79.48,79.79,79.78,0.2,0.8,0.59,Stacking,Move Method
+14,Stack-DT,PCA,79.61,80.09,78.81,79.44,79.61,79.61,0.2,0.8,0.59,Stacking,Move Method
+15,Stack-DT,PCA,77.8,79.95,74.21,76.97,77.8,77.77,0.22,0.78,0.59,Stacking,Move Method
+16,Stack-DT,PCA,79.71,80.43,78.53,79.46,79.71,79.71,0.2,0.8,0.59,Stacking,Move Method
+17,Stack-DT,PCA,79.59,79.62,79.53,79.57,79.59,79.59,0.2,0.8,0.59,Stacking,Move Method
+18,Stack-DT,PCA,80.59,81.12,79.74,80.43,80.59,80.59,0.19,0.81,0.59,Stacking,Move Method
+19,Stack-DT,PCA,79.8,80.61,78.47,79.52,79.8,79.79,0.2,0.8,0.59,Stacking,Move Method
+0,TBStack-LR,PCA,92.43,90,95.47,92.65,92.43,92.42,0.06,0.97,0.85,TreeStacking,Move Method
+1,TBStack-LR,PCA,92.44,90.1,95.35,92.65,92.44,92.43,0.06,0.97,0.85,TreeStacking,Move Method
+2,TBStack-LR,PCA,91.43,89.52,93.84,91.63,91.43,91.42,0.06,0.96,0.85,TreeStacking,Move Method
+3,TBStack-LR,PCA,92.37,90.17,95.12,92.58,92.37,92.37,0.06,0.97,0.85,TreeStacking,Move Method
+4,TBStack-LR,PCA,92.91,90.26,96.21,93.14,92.91,92.91,0.06,0.97,0.85,TreeStacking,Move Method
+5,TBStack-LR,PCA,92.18,90.07,94.81,92.38,92.18,92.18,0.06,0.97,0.85,TreeStacking,Move Method
+6,TBStack-LR,PCA,92.42,90.23,95.15,92.62,92.42,92.42,0.06,0.97,0.85,TreeStacking,Move Method
+7,TBStack-LR,PCA,92.43,90.08,95.36,92.64,92.43,92.42,0.06,0.97,0.85,TreeStacking,Move Method
+8,TBStack-LR,PCA,92.5,90.24,95.3,92.7,92.5,92.49,0.06,0.97,0.85,TreeStacking,Move Method
+9,TBStack-LR,PCA,92.58,89.73,96.17,92.84,92.58,92.57,0.06,0.97,0.85,TreeStacking,Move Method
+10,TBStack-DT,PCA,87.37,88.41,86.01,87.2,87.37,87.37,0.13,0.87,0.75,TreeStacking,Move Method
+11,TBStack-DT,PCA,87.65,88.55,86.49,87.51,87.65,87.65,0.12,0.88,0.75,TreeStacking,Move Method
+12,TBStack-DT,PCA,87.19,88.07,86.03,87.04,87.19,87.18,0.13,0.87,0.75,TreeStacking,Move Method
+13,TBStack-DT,PCA,87.15,88.51,85.38,86.92,87.15,87.14,0.13,0.87,0.75,TreeStacking,Move Method
+14,TBStack-DT,PCA,87.68,88.75,86.3,87.51,87.68,87.68,0.12,0.88,0.75,TreeStacking,Move Method
+15,TBStack-DT,PCA,87.54,88.44,86.35,87.39,87.54,87.53,0.12,0.88,0.75,TreeStacking,Move Method
+16,TBStack-DT,PCA,87.72,88.34,86.92,87.62,87.72,87.72,0.12,0.88,0.75,TreeStacking,Move Method
+17,TBStack-DT,PCA,87.27,88.04,86.26,87.14,87.27,87.27,0.13,0.87,0.75,TreeStacking,Move Method
+18,TBStack-DT,PCA,87.51,88.33,86.45,87.38,87.51,87.51,0.12,0.88,0.75,TreeStacking,Move Method
+19,TBStack-DT,PCA,87.39,87.96,86.63,87.29,87.39,87.38,0.13,0.87,0.75,TreeStacking,Move Method
+0,Stack-LR,PCA,86.7,86.81,86.56,86.68,86.7,86.7,0.1,0.93,0.74,Stacking,Pull Up Method
+1,Stack-LR,PCA,88.6,86.81,91.03,88.87,88.6,88.59,0.09,0.95,0.74,Stacking,Pull Up Method
+2,Stack-LR,PCA,86.42,86.44,86.39,86.42,86.42,86.42,0.1,0.93,0.74,Stacking,Pull Up Method
+3,Stack-LR,PCA,87.56,86.99,88.34,87.66,87.56,87.56,0.09,0.94,0.74,Stacking,Pull Up Method
+4,Stack-LR,PCA,87.07,87.46,86.55,87,87.07,87.07,0.1,0.94,0.74,Stacking,Pull Up Method
+5,Stack-LR,PCA,86.48,87.27,85.43,86.34,86.48,86.48,0.1,0.93,0.74,Stacking,Pull Up Method
+6,Stack-LR,PCA,86.62,86.64,86.6,86.62,86.62,86.62,0.1,0.93,0.74,Stacking,Pull Up Method
+7,Stack-LR,PCA,86.23,86.93,85.29,86.1,86.23,86.23,0.1,0.94,0.74,Stacking,Pull Up Method
+8,Stack-LR,PCA,86.65,87.21,85.9,86.55,86.65,86.65,0.1,0.93,0.74,Stacking,Pull Up Method
+9,Stack-LR,PCA,87.94,86.76,89.56,88.14,87.94,87.94,0.09,0.94,0.74,Stacking,Pull Up Method
+10,Stack-DT,PCA,80.56,82.89,77.01,79.84,80.56,80.53,0.19,0.81,0.62,Stacking,Pull Up Method
+11,Stack-DT,PCA,81.6,83.62,78.61,81.03,81.6,81.59,0.18,0.82,0.62,Stacking,Pull Up Method
+12,Stack-DT,PCA,78.61,83.11,71.81,77.05,78.61,78.51,0.21,0.79,0.62,Stacking,Pull Up Method
+13,Stack-DT,PCA,81.09,83.49,77.49,80.38,81.09,81.06,0.19,0.81,0.62,Stacking,Pull Up Method
+14,Stack-DT,PCA,81.63,83.69,78.58,81.05,81.63,81.62,0.18,0.82,0.62,Stacking,Pull Up Method
+15,Stack-DT,PCA,80.51,83.37,76.23,79.64,80.51,80.48,0.19,0.81,0.62,Stacking,Pull Up Method
+16,Stack-DT,PCA,81.44,83.22,78.75,80.92,81.44,81.42,0.19,0.81,0.62,Stacking,Pull Up Method
+17,Stack-DT,PCA,80.51,83.05,76.69,79.74,80.51,80.49,0.19,0.81,0.62,Stacking,Pull Up Method
+18,Stack-DT,PCA,81.44,83.87,77.85,80.75,81.44,81.42,0.19,0.81,0.62,Stacking,Pull Up Method
+19,Stack-DT,PCA,81.59,82.84,79.68,81.23,81.59,81.58,0.18,0.82,0.62,Stacking,Pull Up Method
+0,TBStack-LR,PCA,92.03,91.04,93.23,92.12,92.03,92.03,0.06,0.97,0.85,TreeStacking,Pull Up Method
+1,TBStack-LR,PCA,93.29,91.64,95.27,93.42,93.29,93.29,0.05,0.97,0.85,TreeStacking,Pull Up Method
+2,TBStack-LR,PCA,91.75,91.29,92.3,91.79,91.75,91.75,0.06,0.97,0.85,TreeStacking,Pull Up Method
+3,TBStack-LR,PCA,93.17,91.57,95.09,93.3,93.17,93.17,0.05,0.97,0.85,TreeStacking,Pull Up Method
+4,TBStack-LR,PCA,92.57,91.76,93.53,92.64,92.57,92.56,0.06,0.97,0.85,TreeStacking,Pull Up Method
+5,TBStack-LR,PCA,92.07,90.97,93.42,92.18,92.07,92.07,0.06,0.97,0.85,TreeStacking,Pull Up Method
+6,TBStack-LR,PCA,92.36,91.62,93.24,92.43,92.36,92.36,0.06,0.97,0.85,TreeStacking,Pull Up Method
+7,TBStack-LR,PCA,92.48,91.25,93.98,92.59,92.48,92.48,0.06,0.97,0.85,TreeStacking,Pull Up Method
+8,TBStack-LR,PCA,92.41,91.9,93.02,92.46,92.41,92.41,0.06,0.97,0.85,TreeStacking,Pull Up Method
+9,TBStack-LR,PCA,93.05,91.7,94.66,93.16,93.05,93.05,0.05,0.97,0.85,TreeStacking,Pull Up Method
+10,TBStack-DT,PCA,86.84,88.84,84.26,86.49,86.84,86.83,0.13,0.87,0.75,TreeStacking,Pull Up Method
+11,TBStack-DT,PCA,87.87,89.48,85.83,87.62,87.87,87.87,0.12,0.88,0.75,TreeStacking,Pull Up Method
+12,TBStack-DT,PCA,87.06,89.26,84.26,86.69,87.06,87.05,0.13,0.87,0.75,TreeStacking,Pull Up Method
+13,TBStack-DT,PCA,87.96,89.3,86.26,87.75,87.96,87.96,0.12,0.88,0.75,TreeStacking,Pull Up Method
+14,TBStack-DT,PCA,87.46,89.64,84.71,87.11,87.46,87.45,0.13,0.87,0.75,TreeStacking,Pull Up Method
+15,TBStack-DT,PCA,86.88,88.67,84.58,86.58,86.88,86.88,0.13,0.87,0.75,TreeStacking,Pull Up Method
+16,TBStack-DT,PCA,87.55,89.27,85.38,87.28,87.55,87.55,0.12,0.88,0.75,TreeStacking,Pull Up Method
+17,TBStack-DT,PCA,87.21,89.04,84.87,86.9,87.21,87.2,0.13,0.87,0.75,TreeStacking,Pull Up Method
+18,TBStack-DT,PCA,87.66,89.89,84.88,87.31,87.66,87.65,0.12,0.88,0.75,TreeStacking,Pull Up Method
+19,TBStack-DT,PCA,88.49,89.74,86.92,88.31,88.49,88.49,0.12,0.88,0.75,TreeStacking,Pull Up Method
+0,Stack-LR,PCA,84.36,83.48,85.68,84.57,84.36,84.36,0.12,0.91,0.68,Stacking,Push Down Method
+1,Stack-LR,PCA,81.97,82.56,81.07,81.81,81.97,81.97,0.13,0.89,0.68,Stacking,Push Down Method
+2,Stack-LR,PCA,83.43,84.24,82.25,83.23,83.43,83.43,0.12,0.91,0.68,Stacking,Push Down Method
+3,Stack-LR,PCA,86.22,84.32,88.99,86.59,86.22,86.21,0.1,0.93,0.68,Stacking,Push Down Method
+4,Stack-LR,PCA,85.54,84.35,87.28,85.79,85.54,85.54,0.11,0.93,0.68,Stacking,Push Down Method
+5,Stack-LR,PCA,84.24,82.92,86.26,84.55,84.24,84.24,0.11,0.92,0.68,Stacking,Push Down Method
+6,Stack-LR,PCA,84.06,83.12,85.49,84.29,84.06,84.06,0.12,0.91,0.68,Stacking,Push Down Method
+7,Stack-LR,PCA,81.4,82.98,78.99,80.94,81.4,81.39,0.13,0.9,0.68,Stacking,Push Down Method
+8,Stack-LR,PCA,83.83,84,83.56,83.78,83.83,83.83,0.12,0.91,0.68,Stacking,Push Down Method
+9,Stack-LR,PCA,84.74,82.93,87.49,85.15,84.74,84.73,0.11,0.92,0.68,Stacking,Push Down Method
+10,Stack-DT,PCA,77.04,80.84,70.87,75.53,77.04,76.95,0.23,0.77,0.54,Stacking,Push Down Method
+11,Stack-DT,PCA,75.3,80.04,67.42,73.19,75.3,75.15,0.25,0.75,0.54,Stacking,Push Down Method
+12,Stack-DT,PCA,75.86,80.92,67.68,73.71,75.86,75.69,0.24,0.76,0.54,Stacking,Push Down Method
+13,Stack-DT,PCA,77.72,81.3,71.99,76.36,77.72,77.64,0.22,0.78,0.54,Stacking,Push Down Method
+14,Stack-DT,PCA,77.5,81.14,71.65,76.1,77.5,77.42,0.22,0.78,0.54,Stacking,Push Down Method
+15,Stack-DT,PCA,77.42,79.96,73.18,76.42,77.42,77.38,0.23,0.77,0.54,Stacking,Push Down Method
+16,Stack-DT,PCA,74.7,80.61,65.05,72,74.7,74.46,0.25,0.75,0.54,Stacking,Push Down Method
+17,Stack-DT,PCA,74.98,79.64,67.1,72.84,74.98,74.82,0.25,0.75,0.54,Stacking,Push Down Method
+18,Stack-DT,PCA,77.06,80.95,70.77,75.52,77.06,76.97,0.23,0.77,0.54,Stacking,Push Down Method
+19,Stack-DT,PCA,77.75,81.22,72.2,76.44,77.75,77.68,0.22,0.78,0.54,Stacking,Push Down Method
+0,TBStack-LR,PCA,87.92,87.83,88.04,87.94,87.92,87.92,0.09,0.94,0.75,TreeStacking,Push Down Method
+1,TBStack-LR,PCA,85.7,87.34,83.5,85.38,85.7,85.69,0.1,0.94,0.75,TreeStacking,Push Down Method
+2,TBStack-LR,PCA,86.21,88.72,82.97,85.75,86.21,86.19,0.1,0.94,0.75,TreeStacking,Push Down Method
+3,TBStack-LR,PCA,89.85,88.98,90.97,89.96,89.85,89.85,0.08,0.95,0.75,TreeStacking,Push Down Method
+4,TBStack-LR,PCA,88.33,89.05,87.4,88.22,88.33,88.33,0.08,0.95,0.75,TreeStacking,Push Down Method
+5,TBStack-LR,PCA,87.04,87.17,86.87,87.02,87.04,87.04,0.09,0.95,0.75,TreeStacking,Push Down Method
+6,TBStack-LR,PCA,88.28,87.81,88.9,88.35,88.28,88.28,0.09,0.95,0.75,TreeStacking,Push Down Method
+7,TBStack-LR,PCA,86.17,87.41,84.52,85.94,86.17,86.17,0.1,0.94,0.75,TreeStacking,Push Down Method
+8,TBStack-LR,PCA,87.83,88.17,87.37,87.77,87.83,87.83,0.09,0.95,0.75,TreeStacking,Push Down Method
+9,TBStack-LR,PCA,89.45,88.02,91.33,89.64,89.45,89.44,0.08,0.95,0.75,TreeStacking,Push Down Method
+10,TBStack-DT,PCA,81.17,84.72,76.06,80.16,81.17,81.12,0.19,0.81,0.64,TreeStacking,Push Down Method
+11,TBStack-DT,PCA,79.95,84.56,73.28,78.51,79.95,79.86,0.2,0.8,0.64,TreeStacking,Push Down Method
+12,TBStack-DT,PCA,81.13,86.01,74.37,79.76,81.13,81.05,0.19,0.81,0.64,TreeStacking,Push Down Method
+13,TBStack-DT,PCA,83.25,85.78,79.73,82.64,83.25,83.23,0.17,0.83,0.64,TreeStacking,Push Down Method
+14,TBStack-DT,PCA,82.19,85.46,77.58,81.33,82.19,82.16,0.18,0.82,0.64,TreeStacking,Push Down Method
+15,TBStack-DT,PCA,82.86,84.77,80.11,82.38,82.86,82.85,0.17,0.83,0.64,TreeStacking,Push Down Method
+16,TBStack-DT,PCA,82.69,85.55,78.68,81.97,82.69,82.67,0.17,0.83,0.64,TreeStacking,Push Down Method
+17,TBStack-DT,PCA,79.9,83.97,73.89,78.61,79.9,79.82,0.2,0.8,0.64,TreeStacking,Push Down Method
+18,TBStack-DT,PCA,82.83,86.32,78.01,81.96,82.83,82.79,0.17,0.83,0.64,TreeStacking,Push Down Method
+19,TBStack-DT,PCA,83,85.3,79.75,82.43,83,82.99,0.17,0.83,0.64,TreeStacking,Push Down Method
+0,Stack-LR,PCA,82.82,82.95,82.63,82.79,82.82,82.82,0.13,0.91,0.58,Stacking,Rename Method
+1,Stack-LR,PCA,79.46,76.84,84.34,80.41,79.46,79.41,0.15,0.87,0.58,Stacking,Rename Method
+2,Stack-LR,PCA,80.27,78.76,82.89,80.77,80.27,80.25,0.14,0.89,0.58,Stacking,Rename Method
+3,Stack-LR,PCA,79.59,77.28,83.81,80.42,79.59,79.55,0.14,0.87,0.58,Stacking,Rename Method
+4,Stack-LR,PCA,68.05,63.63,84.28,72.51,68.05,67.19,0.22,0.76,0.58,Stacking,Rename Method
+5,Stack-LR,PCA,82.76,82.43,83.27,82.85,82.76,82.76,0.13,0.9,0.58,Stacking,Rename Method
+6,Stack-LR,PCA,78.43,75.58,83.98,79.56,78.43,78.36,0.15,0.85,0.58,Stacking,Rename Method
+7,Stack-LR,PCA,81.06,79.8,83.17,81.45,81.06,81.05,0.14,0.89,0.58,Stacking,Rename Method
+8,Stack-LR,PCA,74.2,70.76,82.5,76.18,74.2,74.03,0.18,0.79,0.58,Stacking,Rename Method
+9,Stack-LR,PCA,78.99,76.67,83.32,79.86,78.99,78.95,0.15,0.87,0.58,Stacking,Rename Method
+10,Stack-DT,PCA,68.51,65.79,77.12,71,68.51,68.27,0.31,0.69,0.29,Stacking,Rename Method
+11,Stack-DT,PCA,66.16,63.38,76.53,69.34,66.16,65.79,0.34,0.66,0.29,Stacking,Rename Method
+12,Stack-DT,PCA,63.95,61.36,75.33,67.63,63.95,63.47,0.36,0.64,0.29,Stacking,Rename Method
+13,Stack-DT,PCA,65.81,63.19,75.73,68.9,65.81,65.47,0.34,0.66,0.29,Stacking,Rename Method
+14,Stack-DT,PCA,59.46,56.97,77.32,65.61,59.46,58.13,0.41,0.59,0.29,Stacking,Rename Method
+15,Stack-DT,PCA,62.23,59.5,76.62,66.98,62.23,61.43,0.38,0.62,0.29,Stacking,Rename Method
+16,Stack-DT,PCA,63.51,60.71,76.6,67.74,63.51,62.88,0.36,0.64,0.29,Stacking,Rename Method
+17,Stack-DT,PCA,64.99,61.91,77.93,69,64.99,64.4,0.35,0.65,0.29,Stacking,Rename Method
+18,Stack-DT,PCA,62.65,59.66,78.1,67.65,62.65,61.73,0.37,0.63,0.29,Stacking,Rename Method
+19,Stack-DT,PCA,64.6,61.51,78.02,68.79,64.6,63.95,0.35,0.65,0.29,Stacking,Rename Method
+0,TBStack-LR,PCA,82.94,85.11,79.86,82.4,82.94,82.93,0.13,0.91,0.57,TreeStacking,Rename Method
+1,TBStack-LR,PCA,78.71,77.16,81.56,79.3,78.71,78.69,0.15,0.87,0.57,TreeStacking,Rename Method
+2,TBStack-LR,PCA,79.6,78.92,80.77,79.83,79.6,79.59,0.14,0.88,0.57,TreeStacking,Rename Method
+3,TBStack-LR,PCA,80.21,79.75,80.99,80.37,80.21,80.21,0.14,0.88,0.57,TreeStacking,Rename Method
+4,TBStack-LR,PCA,69.1,65.4,81.08,72.4,69.1,68.65,0.21,0.76,0.57,TreeStacking,Rename Method
+5,TBStack-LR,PCA,82.15,83.05,80.8,81.91,82.15,82.15,0.13,0.9,0.57,TreeStacking,Rename Method
+6,TBStack-LR,PCA,78.59,77.33,80.9,79.07,78.59,78.58,0.16,0.84,0.57,TreeStacking,Rename Method
+7,TBStack-LR,PCA,81.52,82.29,80.33,81.3,81.52,81.52,0.14,0.89,0.57,TreeStacking,Rename Method
+8,TBStack-LR,PCA,73.18,70.07,80.92,75.11,73.18,73.02,0.19,0.79,0.57,TreeStacking,Rename Method
+9,TBStack-LR,PCA,79.78,78.75,81.57,80.14,79.78,79.77,0.14,0.88,0.57,TreeStacking,Rename Method
+10,TBStack-DT,PCA,71.02,69.69,74.41,71.97,71.02,70.99,0.29,0.71,0.35,TreeStacking,Rename Method
+11,TBStack-DT,PCA,67.17,64.73,75.44,69.68,67.17,66.94,0.33,0.67,0.35,TreeStacking,Rename Method
+12,TBStack-DT,PCA,66.94,64.66,74.71,69.33,66.94,66.74,0.33,0.67,0.35,TreeStacking,Rename Method
+13,TBStack-DT,PCA,69.8,67.55,76.2,71.62,69.8,69.68,0.3,0.7,0.35,TreeStacking,Rename Method
+14,TBStack-DT,PCA,63.59,60.72,77,67.9,63.59,62.93,0.36,0.64,0.35,TreeStacking,Rename Method
+15,TBStack-DT,PCA,68.69,66.82,74.24,70.33,68.69,68.59,0.31,0.69,0.35,TreeStacking,Rename Method
+16,TBStack-DT,PCA,65.76,63.25,75.21,68.71,65.76,65.45,0.34,0.66,0.35,TreeStacking,Rename Method
+17,TBStack-DT,PCA,69.28,67.3,75.01,70.94,69.28,69.18,0.31,0.69,0.35,TreeStacking,Rename Method
+18,TBStack-DT,PCA,63.58,60.75,76.74,67.82,63.58,62.94,0.36,0.64,0.35,TreeStacking,Rename Method
+19,TBStack-DT,PCA,66.75,64.17,75.86,69.53,66.75,66.47,0.33,0.67,0.35,TreeStacking,Rename Method
+0,Stack-LR,NoFS,79.99,79.55,80.73,80.13,79.99,79.99,0.14,0.88,0.58,Stacking,Extract And Move Method
+1,Stack-LR,NoFS,78.44,78.51,78.3,78.41,78.44,78.44,0.14,0.87,0.58,Stacking,Extract And Move Method
+2,Stack-LR,NoFS,76.08,76.62,75.07,75.83,76.08,76.08,0.16,0.84,0.58,Stacking,Extract And Move Method
+3,Stack-LR,NoFS,79.31,78.21,81.27,79.71,79.31,79.3,0.14,0.87,0.58,Stacking,Extract And Move Method
+4,Stack-LR,NoFS,78.37,77.37,80.19,78.76,78.37,78.36,0.14,0.87,0.58,Stacking,Extract And Move Method
+5,Stack-LR,NoFS,79.78,79.08,81,80.03,79.78,79.78,0.14,0.87,0.58,Stacking,Extract And Move Method
+6,Stack-LR,NoFS,81.94,80.31,84.64,82.41,81.94,81.93,0.13,0.89,0.58,Stacking,Extract And Move Method
+7,Stack-LR,NoFS,77.29,76.61,78.57,77.58,77.29,77.29,0.16,0.84,0.58,Stacking,Extract And Move Method
+8,Stack-LR,NoFS,82.74,81.45,84.75,83.07,82.74,82.73,0.13,0.89,0.58,Stacking,Extract And Move Method
+9,Stack-LR,NoFS,77.55,77.16,78.3,77.73,77.55,77.54,0.16,0.85,0.58,Stacking,Extract And Move Method
+10,Stack-DT,NoFS,70.35,70.8,69.27,70.03,70.35,70.35,0.3,0.7,0.41,Stacking,Extract And Move Method
+11,Stack-DT,NoFS,72.91,74.01,70.62,72.28,72.91,72.9,0.27,0.73,0.41,Stacking,Extract And Move Method
+12,Stack-DT,NoFS,67.32,69.15,62.53,65.68,67.32,67.24,0.33,0.67,0.41,Stacking,Extract And Move Method
+13,Stack-DT,NoFS,66.64,67.08,65.36,66.21,66.64,66.64,0.33,0.67,0.41,Stacking,Extract And Move Method
+14,Stack-DT,NoFS,70.89,71.35,69.81,70.57,70.89,70.89,0.29,0.71,0.41,Stacking,Extract And Move Method
+15,Stack-DT,NoFS,72.17,72.75,70.89,71.81,72.17,72.17,0.28,0.72,0.41,Stacking,Extract And Move Method
+16,Stack-DT,NoFS,74.8,74.53,75.34,74.93,74.8,74.8,0.25,0.75,0.41,Stacking,Extract And Move Method
+17,Stack-DT,NoFS,69.61,71.12,66.04,68.48,69.61,69.57,0.3,0.7,0.41,Stacking,Extract And Move Method
+18,Stack-DT,NoFS,71.54,72.5,69.37,70.9,71.54,71.53,0.28,0.72,0.41,Stacking,Extract And Move Method
+19,Stack-DT,NoFS,70.73,71.94,68.06,69.94,70.73,70.71,0.29,0.71,0.41,Stacking,Extract And Move Method
+0,TBStack-LR,NoFS,85.92,83.61,89.35,86.38,85.92,85.9,0.1,0.92,0.71,TreeStacking,Extract And Move Method
+1,TBStack-LR,NoFS,84.43,84.39,84.5,84.44,84.43,84.43,0.11,0.93,0.71,TreeStacking,Extract And Move Method
+2,TBStack-LR,NoFS,84.3,83.71,85.18,84.44,84.3,84.3,0.11,0.92,0.71,TreeStacking,Extract And Move Method
+3,TBStack-LR,NoFS,84.97,84.19,86.12,85.14,84.97,84.97,0.1,0.93,0.71,TreeStacking,Extract And Move Method
+4,TBStack-LR,NoFS,85.78,84.89,87.06,85.96,85.78,85.78,0.11,0.92,0.71,TreeStacking,Extract And Move Method
+5,TBStack-LR,NoFS,86.25,85.3,87.6,86.44,86.25,86.25,0.1,0.93,0.71,TreeStacking,Extract And Move Method
+6,TBStack-LR,NoFS,88.01,85.25,91.91,88.46,88.01,87.99,0.09,0.94,0.71,TreeStacking,Extract And Move Method
+7,TBStack-LR,NoFS,82.21,81.87,82.75,82.31,82.21,82.21,0.13,0.9,0.71,TreeStacking,Extract And Move Method
+8,TBStack-LR,NoFS,86.92,84.84,89.88,87.29,86.92,86.91,0.1,0.93,0.71,TreeStacking,Extract And Move Method
+9,TBStack-LR,NoFS,84.49,84.5,84.5,84.5,84.49,84.49,0.12,0.91,0.71,TreeStacking,Extract And Move Method
+10,TBStack-DT,NoFS,81.27,80.69,82.21,81.44,81.27,81.27,0.19,0.81,0.59,TreeStacking,Extract And Move Method
+11,TBStack-DT,NoFS,79.31,81.48,75.88,78.58,79.31,79.29,0.21,0.79,0.59,TreeStacking,Extract And Move Method
+12,TBStack-DT,NoFS,78.3,80.43,74.8,77.51,78.3,78.28,0.22,0.78,0.59,TreeStacking,Extract And Move Method
+13,TBStack-DT,NoFS,78.23,79.63,75.88,77.71,78.23,78.22,0.22,0.78,0.59,TreeStacking,Extract And Move Method
+14,TBStack-DT,NoFS,80.26,81.31,78.57,79.92,80.26,80.25,0.2,0.8,0.59,TreeStacking,Extract And Move Method
+15,TBStack-DT,NoFS,78.98,81.8,74.53,78,78.98,78.93,0.21,0.79,0.59,TreeStacking,Extract And Move Method
+16,TBStack-DT,NoFS,82.01,81.79,82.35,82.07,82.01,82.01,0.18,0.82,0.59,TreeStacking,Extract And Move Method
+17,TBStack-DT,NoFS,77.76,79.26,75.2,77.18,77.76,77.75,0.22,0.78,0.59,TreeStacking,Extract And Move Method
+18,TBStack-DT,NoFS,79.7,80.73,78,79.34,79.7,79.7,0.2,0.8,0.59,TreeStacking,Extract And Move Method
+19,TBStack-DT,NoFS,80.38,81.81,78.17,79.94,80.38,80.37,0.2,0.8,0.59,TreeStacking,Extract And Move Method
+0,Stack-LR,NoFS,81.54,81.16,82.16,81.65,81.54,81.54,0.13,0.89,0.61,Stacking,Extract Method
+1,Stack-LR,NoFS,82.82,82.7,82.99,82.85,82.82,82.82,0.13,0.9,0.61,Stacking,Extract Method
+2,Stack-LR,NoFS,82.44,82.67,82.08,82.38,82.44,82.44,0.13,0.9,0.61,Stacking,Extract Method
+3,Stack-LR,NoFS,80.82,80.15,81.92,81.03,80.82,80.81,0.14,0.88,0.61,Stacking,Extract Method
+4,Stack-LR,NoFS,73.05,68.68,84.73,75.87,73.05,72.68,0.18,0.81,0.61,Stacking,Extract Method
+5,Stack-LR,NoFS,82.97,84.48,80.77,82.59,82.97,82.96,0.13,0.9,0.61,Stacking,Extract Method
+6,Stack-LR,NoFS,80.06,78.51,82.78,80.59,80.06,80.04,0.14,0.88,0.61,Stacking,Extract Method
+7,Stack-LR,NoFS,81.72,80.91,83.02,81.95,81.72,81.71,0.13,0.89,0.61,Stacking,Extract Method
+8,Stack-LR,NoFS,79.05,76.96,82.94,79.84,79.05,79.02,0.15,0.87,0.61,Stacking,Extract Method
+9,Stack-LR,NoFS,80.24,79.97,80.69,80.33,80.24,80.24,0.14,0.88,0.61,Stacking,Extract Method
+10,Stack-DT,NoFS,70.29,69.01,73.65,71.26,70.29,70.26,0.3,0.7,0.38,Stacking,Extract Method
+11,Stack-DT,NoFS,69.4,67.24,75.63,71.19,69.4,69.28,0.31,0.69,0.38,Stacking,Extract Method
+12,Stack-DT,NoFS,69.62,67.98,74.17,70.94,69.62,69.55,0.3,0.7,0.38,Stacking,Extract Method
+13,Stack-DT,NoFS,70.07,67.73,76.66,71.92,70.07,69.94,0.3,0.7,0.38,Stacking,Extract Method
+14,Stack-DT,NoFS,65.92,63.42,75.23,68.82,65.92,65.62,0.34,0.66,0.38,Stacking,Extract Method
+15,Stack-DT,NoFS,67.07,64.83,74.62,69.38,67.07,66.88,0.33,0.67,0.38,Stacking,Extract Method
+16,Stack-DT,NoFS,67.1,64.52,75.99,69.79,67.1,66.84,0.33,0.67,0.38,Stacking,Extract Method
+17,Stack-DT,NoFS,69.8,68.31,73.85,70.97,69.8,69.75,0.3,0.7,0.38,Stacking,Extract Method
+18,Stack-DT,NoFS,69.66,68.02,74.23,70.99,69.66,69.6,0.3,0.7,0.38,Stacking,Extract Method
+19,Stack-DT,NoFS,71.54,70.7,73.57,72.1,71.54,71.52,0.28,0.72,0.38,Stacking,Extract Method
+0,TBStack-LR,NoFS,82.89,82.93,82.83,82.88,82.89,82.89,0.12,0.91,0.62,TreeStacking,Extract Method
+1,TBStack-LR,NoFS,82.97,83.09,82.8,82.94,82.97,82.97,0.12,0.91,0.62,TreeStacking,Extract Method
+2,TBStack-LR,NoFS,82.83,83.41,81.97,82.68,82.83,82.83,0.12,0.91,0.62,TreeStacking,Extract Method
+3,TBStack-LR,NoFS,81.57,81.01,82.47,81.73,81.57,81.57,0.13,0.89,0.62,TreeStacking,Extract Method
+4,TBStack-LR,NoFS,76.26,73.12,83.06,77.77,76.26,76.15,0.17,0.83,0.62,TreeStacking,Extract Method
+5,TBStack-LR,NoFS,82.64,82.62,82.67,82.65,82.64,82.64,0.13,0.9,0.62,TreeStacking,Extract Method
+6,TBStack-LR,NoFS,77.56,74.8,83.12,78.74,77.56,77.49,0.15,0.87,0.62,TreeStacking,Extract Method
+7,TBStack-LR,NoFS,82.18,81.8,82.76,82.28,82.18,82.18,0.13,0.9,0.62,TreeStacking,Extract Method
+8,TBStack-LR,NoFS,81.03,80.25,82.32,81.27,81.03,81.02,0.14,0.88,0.62,TreeStacking,Extract Method
+9,TBStack-LR,NoFS,82.1,81.88,82.45,82.16,82.1,82.1,0.13,0.9,0.62,TreeStacking,Extract Method
+10,TBStack-DT,NoFS,73.81,72.8,76.02,74.37,73.81,73.8,0.26,0.74,0.46,TreeStacking,Extract Method
+11,TBStack-DT,NoFS,73.68,71.99,77.53,74.66,73.68,73.64,0.26,0.74,0.46,TreeStacking,Extract Method
+12,TBStack-DT,NoFS,74.09,73.12,76.21,74.63,74.09,74.08,0.26,0.74,0.46,TreeStacking,Extract Method
+13,TBStack-DT,NoFS,73.43,71.92,76.87,74.31,73.43,73.4,0.27,0.73,0.46,TreeStacking,Extract Method
+14,TBStack-DT,NoFS,69.09,66.61,76.56,71.24,69.09,68.91,0.31,0.69,0.46,TreeStacking,Extract Method
+15,TBStack-DT,NoFS,72.98,71.49,76.45,73.88,72.98,72.95,0.27,0.73,0.46,TreeStacking,Extract Method
+16,TBStack-DT,NoFS,70.67,68.57,76.3,72.23,70.67,70.57,0.29,0.71,0.46,TreeStacking,Extract Method
+17,TBStack-DT,NoFS,71.92,70.57,75.23,72.82,71.92,71.89,0.28,0.72,0.46,TreeStacking,Extract Method
+18,TBStack-DT,NoFS,72.98,71.46,76.54,73.91,72.98,72.95,0.27,0.73,0.46,TreeStacking,Extract Method
+19,TBStack-DT,NoFS,74.26,73.26,76.44,74.81,74.26,74.25,0.26,0.74,0.46,TreeStacking,Extract Method
+0,Stack-LR,NoFS,88.83,90.6,86.66,88.58,88.83,88.83,0.09,0.94,0.8,Stacking,Inline Method
+1,Stack-LR,NoFS,90.19,90.98,89.22,90.09,90.19,90.19,0.08,0.96,0.8,Stacking,Inline Method
+2,Stack-LR,NoFS,89.93,90.74,88.92,89.82,89.93,89.92,0.08,0.96,0.8,Stacking,Inline Method
+3,Stack-LR,NoFS,89.26,90.72,87.46,89.06,89.26,89.26,0.08,0.95,0.8,Stacking,Inline Method
+4,Stack-LR,NoFS,89.7,90.58,88.62,89.59,89.7,89.7,0.08,0.95,0.8,Stacking,Inline Method
+5,Stack-LR,NoFS,88.76,90.02,87.19,88.58,88.76,88.75,0.08,0.95,0.8,Stacking,Inline Method
+6,Stack-LR,NoFS,89.96,90.2,89.68,89.94,89.96,89.96,0.08,0.95,0.8,Stacking,Inline Method
+7,Stack-LR,NoFS,89.7,91.41,87.64,89.48,89.7,89.7,0.08,0.96,0.8,Stacking,Inline Method
+8,Stack-LR,NoFS,90.18,91.45,88.65,90.03,90.18,90.17,0.08,0.95,0.8,Stacking,Inline Method
+9,Stack-LR,NoFS,91.03,92,89.88,90.93,91.03,91.03,0.07,0.96,0.8,Stacking,Inline Method
+10,Stack-DT,NoFS,83.27,84.12,82.01,83.05,83.27,83.27,0.17,0.83,0.68,Stacking,Inline Method
+11,Stack-DT,NoFS,84.81,84.54,85.2,84.87,84.81,84.81,0.15,0.85,0.68,Stacking,Inline Method
+12,Stack-DT,NoFS,84.75,84.58,85,84.79,84.75,84.75,0.15,0.85,0.68,Stacking,Inline Method
+13,Stack-DT,NoFS,83.56,83.8,83.19,83.5,83.56,83.56,0.16,0.84,0.68,Stacking,Inline Method
+14,Stack-DT,NoFS,84.85,84.71,85.05,84.88,84.85,84.85,0.15,0.85,0.68,Stacking,Inline Method
+15,Stack-DT,NoFS,83.28,83.63,82.77,83.2,83.28,83.28,0.17,0.83,0.68,Stacking,Inline Method
+16,Stack-DT,NoFS,82.78,83.76,81.34,82.53,82.78,82.77,0.17,0.83,0.68,Stacking,Inline Method
+17,Stack-DT,NoFS,82.99,84.04,81.46,82.73,82.99,82.99,0.17,0.83,0.68,Stacking,Inline Method
+18,Stack-DT,NoFS,84.21,84.46,83.85,84.15,84.21,84.21,0.16,0.84,0.68,Stacking,Inline Method
+19,Stack-DT,NoFS,84.56,84.4,84.8,84.6,84.56,84.56,0.15,0.85,0.68,Stacking,Inline Method
+0,TBStack-LR,NoFS,95.8,95.44,96.21,95.82,95.8,95.8,0.03,0.99,0.94,TreeStacking,Inline Method
+1,TBStack-LR,NoFS,96.9,95.85,98.04,96.93,96.9,96.9,0.03,0.99,0.94,TreeStacking,Inline Method
+2,TBStack-LR,NoFS,97.12,96.02,98.32,97.16,97.12,97.12,0.02,0.99,0.94,TreeStacking,Inline Method
+3,TBStack-LR,NoFS,96.53,95.41,97.76,96.57,96.53,96.53,0.03,0.99,0.94,TreeStacking,Inline Method
+4,TBStack-LR,NoFS,96.97,95.97,98.07,97.01,96.97,96.97,0.02,0.99,0.94,TreeStacking,Inline Method
+5,TBStack-LR,NoFS,96.47,95.57,97.46,96.51,96.47,96.47,0.03,0.99,0.94,TreeStacking,Inline Method
+6,TBStack-LR,NoFS,96.95,95.83,98.17,96.98,96.95,96.95,0.02,0.99,0.94,TreeStacking,Inline Method
+7,TBStack-LR,NoFS,97.27,96.01,98.64,97.31,97.27,97.27,0.02,0.99,0.94,TreeStacking,Inline Method
+8,TBStack-LR,NoFS,96.48,95.48,97.59,96.52,96.48,96.48,0.03,0.99,0.94,TreeStacking,Inline Method
+9,TBStack-LR,NoFS,97.31,96.24,98.47,97.34,97.31,97.31,0.02,0.99,0.94,TreeStacking,Inline Method
+10,TBStack-DT,NoFS,93.82,94.76,92.76,93.75,93.82,93.82,0.06,0.94,0.9,TreeStacking,Inline Method
+11,TBStack-DT,NoFS,94.74,95.32,94.1,94.7,94.74,94.74,0.05,0.95,0.9,TreeStacking,Inline Method
+12,TBStack-DT,NoFS,95,95.27,94.7,94.98,95,95,0.05,0.95,0.9,TreeStacking,Inline Method
+13,TBStack-DT,NoFS,94.36,94.64,94.05,94.34,94.36,94.36,0.06,0.94,0.9,TreeStacking,Inline Method
+14,TBStack-DT,NoFS,95.67,95.86,95.45,95.66,95.67,95.67,0.04,0.96,0.9,TreeStacking,Inline Method
+15,TBStack-DT,NoFS,94.21,94.85,93.49,94.17,94.21,94.21,0.06,0.94,0.9,TreeStacking,Inline Method
+16,TBStack-DT,NoFS,95.3,95.55,95.03,95.29,95.3,95.3,0.05,0.95,0.9,TreeStacking,Inline Method
+17,TBStack-DT,NoFS,95.29,95.35,95.23,95.29,95.29,95.29,0.05,0.95,0.9,TreeStacking,Inline Method
+18,TBStack-DT,NoFS,93.98,94.78,93.09,93.93,93.98,93.98,0.06,0.94,0.9,TreeStacking,Inline Method
+19,TBStack-DT,NoFS,95.5,95.94,95.03,95.48,95.5,95.5,0.04,0.96,0.9,TreeStacking,Inline Method
+0,Stack-LR,NoFS,93.32,94.31,92.2,93.24,93.32,93.32,0.05,0.98,0.86,Stacking,Move Method
+1,Stack-LR,NoFS,92.26,94.99,89.23,92.02,92.26,92.25,0.06,0.97,0.86,Stacking,Move Method
+2,Stack-LR,NoFS,93.17,94.59,91.58,93.06,93.17,93.17,0.05,0.97,0.86,Stacking,Move Method
+3,Stack-LR,NoFS,93.02,95.36,90.44,92.83,93.02,93.01,0.05,0.97,0.86,Stacking,Move Method
+4,Stack-LR,NoFS,93.66,95.31,91.85,93.55,93.66,93.66,0.05,0.98,0.86,Stacking,Move Method
+5,Stack-LR,NoFS,92.65,94.64,90.41,92.48,92.65,92.64,0.06,0.97,0.86,Stacking,Move Method
+6,Stack-LR,NoFS,92.87,95.46,90.02,92.66,92.87,92.86,0.06,0.97,0.86,Stacking,Move Method
+7,Stack-LR,NoFS,93.84,94.8,92.78,93.78,93.84,93.84,0.05,0.98,0.86,Stacking,Move Method
+8,Stack-LR,NoFS,93.08,94.34,91.66,92.98,93.08,93.08,0.05,0.97,0.86,Stacking,Move Method
+9,Stack-LR,NoFS,93.42,95.46,91.17,93.27,93.42,93.41,0.05,0.98,0.86,Stacking,Move Method
+10,Stack-DT,NoFS,89.86,89.9,89.82,89.86,89.86,89.86,0.1,0.9,0.8,Stacking,Move Method
+11,Stack-DT,NoFS,89.02,89.5,88.42,88.96,89.02,89.02,0.11,0.89,0.8,Stacking,Move Method
+12,Stack-DT,NoFS,90.06,89.91,90.25,90.08,90.06,90.06,0.1,0.9,0.8,Stacking,Move Method
+13,Stack-DT,NoFS,90.13,90.75,89.36,90.05,90.13,90.12,0.1,0.9,0.8,Stacking,Move Method
+14,Stack-DT,NoFS,90.6,90.74,90.42,90.58,90.6,90.6,0.09,0.91,0.8,Stacking,Move Method
+15,Stack-DT,NoFS,90,90.38,89.53,89.95,90,90,0.1,0.9,0.8,Stacking,Move Method
+16,Stack-DT,NoFS,89.18,90.24,87.87,89.04,89.18,89.18,0.11,0.89,0.8,Stacking,Move Method
+17,Stack-DT,NoFS,90.39,90.02,90.84,90.43,90.39,90.39,0.1,0.9,0.8,Stacking,Move Method
+18,Stack-DT,NoFS,89.89,89.97,89.79,89.88,89.89,89.89,0.1,0.9,0.8,Stacking,Move Method
+19,Stack-DT,NoFS,89.1,90.2,87.72,88.94,89.1,89.09,0.11,0.89,0.8,Stacking,Move Method
+0,TBStack-LR,NoFS,99.02,98.75,99.31,99.03,99.02,99.02,0.01,1,0.98,TreeStacking,Move Method
+1,TBStack-LR,NoFS,98.94,98.9,98.99,98.94,98.94,98.94,0.01,1,0.98,TreeStacking,Move Method
+2,TBStack-LR,NoFS,98.92,98.82,99.02,98.92,98.92,98.92,0.01,1,0.98,TreeStacking,Move Method
+3,TBStack-LR,NoFS,98.84,98.86,98.82,98.84,98.84,98.84,0.01,1,0.98,TreeStacking,Move Method
+4,TBStack-LR,NoFS,99.05,99.12,98.99,99.05,99.05,99.05,0.01,1,0.98,TreeStacking,Move Method
+5,TBStack-LR,NoFS,98.83,98.66,99,98.83,98.83,98.83,0.01,1,0.98,TreeStacking,Move Method
+6,TBStack-LR,NoFS,99.12,98.82,99.42,99.12,99.12,99.12,0.01,1,0.98,TreeStacking,Move Method
+7,TBStack-LR,NoFS,98.97,98.84,99.12,98.98,98.97,98.97,0.01,1,0.98,TreeStacking,Move Method
+8,TBStack-LR,NoFS,98.85,98.56,99.15,98.85,98.85,98.85,0.01,1,0.98,TreeStacking,Move Method
+9,TBStack-LR,NoFS,99.04,98.82,99.25,99.04,99.04,99.04,0.01,1,0.98,TreeStacking,Move Method
+10,TBStack-DT,NoFS,98.34,98.39,98.29,98.34,98.34,98.34,0.02,0.98,0.97,TreeStacking,Move Method
+11,TBStack-DT,NoFS,98.25,98.29,98.2,98.25,98.25,98.25,0.02,0.98,0.97,TreeStacking,Move Method
+12,TBStack-DT,NoFS,98.32,98.53,98.1,98.31,98.32,98.32,0.02,0.98,0.97,TreeStacking,Move Method
+13,TBStack-DT,NoFS,98.49,98.76,98.2,98.48,98.49,98.49,0.02,0.98,0.97,TreeStacking,Move Method
+14,TBStack-DT,NoFS,98.51,98.55,98.47,98.51,98.51,98.51,0.01,0.99,0.97,TreeStacking,Move Method
+15,TBStack-DT,NoFS,98.4,98.39,98.42,98.4,98.4,98.4,0.02,0.98,0.97,TreeStacking,Move Method
+16,TBStack-DT,NoFS,98.52,98.31,98.74,98.52,98.52,98.52,0.01,0.99,0.97,TreeStacking,Move Method
+17,TBStack-DT,NoFS,98.49,98.63,98.36,98.49,98.49,98.49,0.02,0.98,0.97,TreeStacking,Move Method
+18,TBStack-DT,NoFS,98.39,98.55,98.22,98.39,98.39,98.39,0.02,0.98,0.97,TreeStacking,Move Method
+19,TBStack-DT,NoFS,98.32,98.55,98.09,98.32,98.32,98.32,0.02,0.98,0.97,TreeStacking,Move Method
+0,Stack-LR,NoFS,91.56,93.68,89.13,91.35,91.56,91.56,0.06,0.97,0.84,Stacking,Pull Up Method
+1,Stack-LR,NoFS,93.28,94.19,92.25,93.21,93.28,93.28,0.05,0.98,0.84,Stacking,Pull Up Method
+2,Stack-LR,NoFS,91.39,93.55,88.9,91.17,91.39,91.38,0.06,0.97,0.84,Stacking,Pull Up Method
+3,Stack-LR,NoFS,92.28,93.44,90.94,92.17,92.28,92.28,0.06,0.97,0.84,Stacking,Pull Up Method
+4,Stack-LR,NoFS,92.38,93.74,90.83,92.26,92.38,92.38,0.06,0.97,0.84,Stacking,Pull Up Method
+5,Stack-LR,NoFS,91.1,93.77,88.05,90.82,91.1,91.09,0.07,0.96,0.84,Stacking,Pull Up Method
+6,Stack-LR,NoFS,91.49,93.61,89.05,91.27,91.49,91.48,0.06,0.97,0.84,Stacking,Pull Up Method
+7,Stack-LR,NoFS,90.95,92.28,89.38,90.81,90.95,90.95,0.07,0.97,0.84,Stacking,Pull Up Method
+8,Stack-LR,NoFS,91.73,93.11,90.14,91.6,91.73,91.73,0.06,0.97,0.84,Stacking,Pull Up Method
+9,Stack-LR,NoFS,92.29,92.57,91.96,92.26,92.29,92.29,0.06,0.97,0.84,Stacking,Pull Up Method
+10,Stack-DT,NoFS,88.27,89.64,86.54,88.06,88.27,88.27,0.12,0.88,0.77,Stacking,Pull Up Method
+11,Stack-DT,NoFS,89.21,90.14,88.05,89.08,89.21,89.21,0.11,0.89,0.77,Stacking,Pull Up Method
+12,Stack-DT,NoFS,88.49,89.33,87.43,88.37,88.49,88.49,0.12,0.88,0.77,Stacking,Pull Up Method
+13,Stack-DT,NoFS,88.33,88.42,88.2,88.31,88.33,88.33,0.12,0.88,0.77,Stacking,Pull Up Method
+14,Stack-DT,NoFS,87.86,88.81,86.62,87.7,87.86,87.85,0.12,0.88,0.77,Stacking,Pull Up Method
+15,Stack-DT,NoFS,88.3,89.18,87.19,88.17,88.3,88.3,0.12,0.88,0.77,Stacking,Pull Up Method
+16,Stack-DT,NoFS,88.56,89.6,87.26,88.41,88.56,88.56,0.11,0.89,0.77,Stacking,Pull Up Method
+17,Stack-DT,NoFS,89.21,89.33,89.04,89.19,89.21,89.21,0.11,0.89,0.77,Stacking,Pull Up Method
+18,Stack-DT,NoFS,88.49,89.68,86.98,88.31,88.49,88.48,0.12,0.88,0.77,Stacking,Pull Up Method
+19,Stack-DT,NoFS,88.55,88.86,88.16,88.51,88.55,88.55,0.11,0.89,0.77,Stacking,Pull Up Method
+0,TBStack-LR,NoFS,98.62,98.52,98.73,98.62,98.62,98.62,0.01,1,0.97,TreeStacking,Pull Up Method
+1,TBStack-LR,NoFS,98.78,98.18,99.41,98.79,98.78,98.78,0.01,1,0.97,TreeStacking,Pull Up Method
+2,TBStack-LR,NoFS,98.8,98.32,99.29,98.8,98.8,98.8,0.01,1,0.97,TreeStacking,Pull Up Method
+3,TBStack-LR,NoFS,98.56,98.27,98.86,98.56,98.56,98.56,0.01,1,0.97,TreeStacking,Pull Up Method
+4,TBStack-LR,NoFS,97.8,98.15,97.43,97.79,97.8,97.8,0.02,0.99,0.97,TreeStacking,Pull Up Method
+5,TBStack-LR,NoFS,98.47,98.22,98.74,98.48,98.47,98.47,0.01,1,0.97,TreeStacking,Pull Up Method
+6,TBStack-LR,NoFS,98.41,97.96,98.88,98.42,98.41,98.41,0.01,1,0.97,TreeStacking,Pull Up Method
+7,TBStack-LR,NoFS,98.7,98.23,99.19,98.71,98.7,98.7,0.01,1,0.97,TreeStacking,Pull Up Method
+8,TBStack-LR,NoFS,98.6,98.29,98.92,98.6,98.6,98.6,0.01,1,0.97,TreeStacking,Pull Up Method
+9,TBStack-LR,NoFS,98.75,98.2,99.32,98.76,98.75,98.75,0.01,1,0.97,TreeStacking,Pull Up Method
+10,TBStack-DT,NoFS,97.27,98.36,96.15,97.24,97.27,97.27,0.03,0.97,0.95,TreeStacking,Pull Up Method
+11,TBStack-DT,NoFS,97.89,98,97.76,97.88,97.89,97.89,0.02,0.98,0.95,TreeStacking,Pull Up Method
+12,TBStack-DT,NoFS,97.79,98.02,97.56,97.79,97.79,97.79,0.02,0.98,0.95,TreeStacking,Pull Up Method
+13,TBStack-DT,NoFS,97.69,98.07,97.3,97.69,97.69,97.69,0.02,0.98,0.95,TreeStacking,Pull Up Method
+14,TBStack-DT,NoFS,97.63,97.96,97.29,97.62,97.63,97.63,0.02,0.98,0.95,TreeStacking,Pull Up Method
+15,TBStack-DT,NoFS,97.96,98.1,97.81,97.96,97.96,97.96,0.02,0.98,0.95,TreeStacking,Pull Up Method
+16,TBStack-DT,NoFS,97.56,98.11,96.98,97.54,97.56,97.56,0.02,0.98,0.95,TreeStacking,Pull Up Method
+17,TBStack-DT,NoFS,97.38,97.95,96.8,97.37,97.38,97.38,0.03,0.97,0.95,TreeStacking,Pull Up Method
+18,TBStack-DT,NoFS,97.58,98,97.13,97.57,97.58,97.58,0.02,0.98,0.95,TreeStacking,Pull Up Method
+19,TBStack-DT,NoFS,97.98,98.24,97.72,97.98,97.98,97.98,0.02,0.98,0.95,TreeStacking,Pull Up Method
+0,Stack-LR,NoFS,89.19,88.6,89.95,89.27,89.19,89.19,0.08,0.95,0.75,Stacking,Push Down Method
+1,Stack-LR,NoFS,86.8,89.4,83.52,86.36,86.8,86.79,0.1,0.94,0.75,Stacking,Push Down Method
+2,Stack-LR,NoFS,86.77,87.78,85.42,86.59,86.77,86.77,0.09,0.94,0.75,Stacking,Push Down Method
+3,Stack-LR,NoFS,87.59,88.7,86.16,87.41,87.59,87.59,0.09,0.94,0.75,Stacking,Push Down Method
+4,Stack-LR,NoFS,88.35,88.5,88.16,88.33,88.35,88.35,0.08,0.96,0.75,Stacking,Push Down Method
+5,Stack-LR,NoFS,87.28,88.47,85.73,87.08,87.28,87.28,0.09,0.95,0.75,Stacking,Push Down Method
+6,Stack-LR,NoFS,87.4,90.01,84.14,86.97,87.4,87.39,0.09,0.94,0.75,Stacking,Push Down Method
+7,Stack-LR,NoFS,85.56,88.15,82.18,85.06,85.56,85.55,0.1,0.94,0.75,Stacking,Push Down Method
+8,Stack-LR,NoFS,87.54,87.94,87.02,87.48,87.54,87.54,0.09,0.94,0.75,Stacking,Push Down Method
+9,Stack-LR,NoFS,88.98,89.71,88.07,88.88,88.98,88.98,0.08,0.95,0.75,Stacking,Push Down Method
+10,Stack-DT,NoFS,84.36,86.4,81.56,83.91,84.36,84.35,0.16,0.84,0.66,Stacking,Push Down Method
+11,Stack-DT,NoFS,82.51,85.68,78.07,81.69,82.51,82.47,0.17,0.83,0.66,Stacking,Push Down Method
+12,Stack-DT,NoFS,83.59,85.37,81.06,83.16,83.59,83.58,0.16,0.84,0.66,Stacking,Push Down Method
+13,Stack-DT,NoFS,82.53,85.55,78.28,81.75,82.53,82.5,0.17,0.83,0.66,Stacking,Push Down Method
+14,Stack-DT,NoFS,84.53,86.39,81.97,84.12,84.53,84.52,0.15,0.85,0.66,Stacking,Push Down Method
+15,Stack-DT,NoFS,83.19,85.7,79.68,82.58,83.19,83.17,0.17,0.83,0.66,Stacking,Push Down Method
+16,Stack-DT,NoFS,82.43,85.86,77.66,81.55,82.43,82.39,0.18,0.82,0.66,Stacking,Push Down Method
+17,Stack-DT,NoFS,80.97,85.08,75.11,79.78,80.97,80.9,0.19,0.81,0.66,Stacking,Push Down Method
+18,Stack-DT,NoFS,81.98,86.39,75.92,80.82,81.98,81.91,0.18,0.82,0.66,Stacking,Push Down Method
+19,Stack-DT,NoFS,83.38,85.56,80.32,82.86,83.38,83.37,0.17,0.83,0.66,Stacking,Push Down Method
+0,TBStack-LR,NoFS,94.05,96.09,91.83,93.91,94.05,94.04,0.04,0.99,0.91,TreeStacking,Push Down Method
+1,TBStack-LR,NoFS,96.45,96.34,96.57,96.46,96.45,96.45,0.03,0.99,0.91,TreeStacking,Push Down Method
+2,TBStack-LR,NoFS,94.32,95.75,92.76,94.23,94.32,94.32,0.04,0.98,0.91,TreeStacking,Push Down Method
+3,TBStack-LR,NoFS,96.76,96.6,96.93,96.77,96.76,96.76,0.03,0.99,0.91,TreeStacking,Push Down Method
+4,TBStack-LR,NoFS,96.69,95.79,97.67,96.72,96.69,96.69,0.03,0.99,0.91,TreeStacking,Push Down Method
+5,TBStack-LR,NoFS,95.59,95.53,95.66,95.6,95.59,95.59,0.03,0.99,0.91,TreeStacking,Push Down Method
+6,TBStack-LR,NoFS,96.19,95.88,96.52,96.2,96.19,96.19,0.03,0.99,0.91,TreeStacking,Push Down Method
+7,TBStack-LR,NoFS,94.72,95.94,93.4,94.65,94.72,94.72,0.04,0.99,0.91,TreeStacking,Push Down Method
+8,TBStack-LR,NoFS,95.69,95.78,95.59,95.68,95.69,95.69,0.03,0.99,0.91,TreeStacking,Push Down Method
+9,TBStack-LR,NoFS,96.76,95.89,97.71,96.79,96.76,96.76,0.03,0.99,0.91,TreeStacking,Push Down Method
+10,TBStack-DT,NoFS,92.57,96.98,87.88,92.2,92.57,92.55,0.07,0.93,0.86,TreeStacking,Push Down Method
+11,TBStack-DT,NoFS,93.9,96.35,91.26,93.74,93.9,93.9,0.06,0.94,0.86,TreeStacking,Push Down Method
+12,TBStack-DT,NoFS,90.63,96.28,84.52,90.02,90.63,90.59,0.09,0.91,0.86,TreeStacking,Push Down Method
+13,TBStack-DT,NoFS,92.87,96.7,88.76,92.56,92.87,92.85,0.07,0.93,0.86,TreeStacking,Push Down Method
+14,TBStack-DT,NoFS,92.84,95.75,89.66,92.61,92.84,92.83,0.07,0.93,0.86,TreeStacking,Push Down Method
+15,TBStack-DT,NoFS,94.74,96.3,93.04,94.65,94.74,94.73,0.05,0.95,0.86,TreeStacking,Push Down Method
+16,TBStack-DT,NoFS,92.84,95.96,89.45,92.59,92.84,92.83,0.07,0.93,0.86,TreeStacking,Push Down Method
+17,TBStack-DT,NoFS,92.9,96.51,89.02,92.61,92.9,92.89,0.07,0.93,0.86,TreeStacking,Push Down Method
+18,TBStack-DT,NoFS,92.77,96.31,88.95,92.48,92.77,92.76,0.07,0.93,0.86,TreeStacking,Push Down Method
+19,TBStack-DT,NoFS,94.13,96.56,91.52,93.97,94.13,94.12,0.06,0.94,0.86,TreeStacking,Push Down Method
+0,Stack-LR,NoFS,83.88,83.73,84.11,83.92,83.88,83.88,0.12,0.91,0.58,Stacking,Rename Method
+1,Stack-LR,NoFS,80.89,79.14,83.88,81.44,80.89,80.87,0.14,0.88,0.58,Stacking,Rename Method
+2,Stack-LR,NoFS,80.76,79.39,83.09,81.19,80.76,80.75,0.14,0.89,0.58,Stacking,Rename Method
+3,Stack-LR,NoFS,79.88,77.85,83.54,80.59,79.88,79.86,0.14,0.88,0.58,Stacking,Rename Method
+4,Stack-LR,NoFS,68.26,64.01,83.43,72.44,68.26,67.52,0.21,0.77,0.58,Stacking,Rename Method
+5,Stack-LR,NoFS,82.63,82.42,82.96,82.69,82.63,82.63,0.13,0.9,0.58,Stacking,Rename Method
+6,Stack-LR,NoFS,78.84,76.51,83.23,79.73,78.84,78.8,0.15,0.85,0.58,Stacking,Rename Method
+7,Stack-LR,NoFS,81.27,79.77,83.8,81.73,81.27,81.26,0.13,0.89,0.58,Stacking,Rename Method
+8,Stack-LR,NoFS,74.06,70.31,83.29,76.25,74.06,73.83,0.18,0.8,0.58,Stacking,Rename Method
+9,Stack-LR,NoFS,79.29,76.83,83.88,80.2,79.29,79.25,0.14,0.88,0.58,Stacking,Rename Method
+10,Stack-DT,NoFS,67.74,64.99,76.93,70.46,67.74,67.47,0.32,0.68,0.31,Stacking,Rename Method
+11,Stack-DT,NoFS,65.96,63.04,77.15,69.38,65.96,65.53,0.34,0.66,0.31,Stacking,Rename Method
+12,Stack-DT,NoFS,63.62,61.13,74.78,67.27,63.62,63.16,0.36,0.64,0.31,Stacking,Rename Method
+13,Stack-DT,NoFS,68.44,66.38,74.74,70.31,68.44,68.32,0.32,0.68,0.31,Stacking,Rename Method
+14,Stack-DT,NoFS,61.88,58.78,79.53,67.6,61.88,60.65,0.38,0.62,0.31,Stacking,Rename Method
+15,Stack-DT,NoFS,65.36,62.19,78.36,69.34,65.36,64.76,0.35,0.65,0.31,Stacking,Rename Method
+16,Stack-DT,NoFS,62.46,59.7,76.67,67.13,62.46,61.69,0.38,0.62,0.31,Stacking,Rename Method
+17,Stack-DT,NoFS,65.54,63.26,74.15,68.27,65.54,65.29,0.34,0.66,0.31,Stacking,Rename Method
+18,Stack-DT,NoFS,62.23,59.21,78.62,67.55,62.23,61.19,0.38,0.62,0.31,Stacking,Rename Method
+19,Stack-DT,NoFS,68.04,65.42,76.55,70.55,68.04,67.81,0.32,0.68,0.31,Stacking,Rename Method
+0,TBStack-LR,NoFS,84.15,86.62,80.79,83.6,84.15,84.14,0.12,0.92,0.59,TreeStacking,Rename Method
+1,TBStack-LR,NoFS,82.05,83.04,80.56,81.78,82.05,82.05,0.13,0.89,0.59,TreeStacking,Rename Method
+2,TBStack-LR,NoFS,79.84,79.03,81.23,80.12,79.84,79.84,0.14,0.89,0.59,TreeStacking,Rename Method
+3,TBStack-LR,NoFS,80.74,81.12,80.14,80.63,80.74,80.74,0.14,0.89,0.59,TreeStacking,Rename Method
+4,TBStack-LR,NoFS,70.12,66.41,81.4,73.15,70.12,69.73,0.2,0.78,0.59,TreeStacking,Rename Method
+5,TBStack-LR,NoFS,82.07,83.3,80.23,81.74,82.07,82.07,0.13,0.9,0.59,TreeStacking,Rename Method
+6,TBStack-LR,NoFS,76.5,74.11,81.48,77.62,76.5,76.45,0.16,0.85,0.59,TreeStacking,Rename Method
+7,TBStack-LR,NoFS,82,82.57,81.11,81.84,82,82,0.13,0.9,0.59,TreeStacking,Rename Method
+8,TBStack-LR,NoFS,74.88,72.74,79.57,76.01,74.88,74.82,0.18,0.81,0.59,TreeStacking,Rename Method
+9,TBStack-LR,NoFS,80.21,79.52,81.39,80.44,80.21,80.21,0.14,0.88,0.59,TreeStacking,Rename Method
+10,TBStack-DT,NoFS,70.03,67.25,78.09,72.27,70.03,69.84,0.3,0.7,0.33,TreeStacking,Rename Method
+11,TBStack-DT,NoFS,67.23,64.4,77.04,70.16,67.23,66.91,0.33,0.67,0.33,TreeStacking,Rename Method
+12,TBStack-DT,NoFS,64.48,61.15,79.39,69.09,64.48,63.67,0.36,0.64,0.33,TreeStacking,Rename Method
+13,TBStack-DT,NoFS,68.58,65.32,79.21,71.6,68.58,68.22,0.31,0.69,0.33,TreeStacking,Rename Method
+14,TBStack-DT,NoFS,62.48,59.19,80.37,68.17,62.48,61.23,0.38,0.62,0.33,TreeStacking,Rename Method
+15,TBStack-DT,NoFS,65.1,61.6,80.17,69.67,65.1,64.29,0.35,0.65,0.33,TreeStacking,Rename Method
+16,TBStack-DT,NoFS,62.4,59.27,79.26,67.82,62.4,61.3,0.38,0.62,0.33,TreeStacking,Rename Method
+17,TBStack-DT,NoFS,67.64,64.95,76.66,70.32,67.64,67.38,0.32,0.68,0.33,TreeStacking,Rename Method
+18,TBStack-DT,NoFS,64.16,60.73,80.14,69.1,64.16,63.22,0.36,0.64,0.33,TreeStacking,Rename Method
+19,TBStack-DT,NoFS,66.27,63.39,77.04,69.55,66.27,65.88,0.34,0.66,0.33,TreeStacking,Rename Method
+0,Stack-LR,GR,79.99,79.01,81.67,80.32,79.99,79.98,0.14,0.89,0.59,Stacking,Extract And Move Method
+1,Stack-LR,GR,78.03,78.26,77.63,77.94,78.03,78.03,0.15,0.86,0.59,Stacking,Extract And Move Method
+2,Stack-LR,GR,78.23,78.82,77.22,78.01,78.23,78.23,0.15,0.86,0.59,Stacking,Extract And Move Method
+3,Stack-LR,GR,79.65,79.57,79.78,79.68,79.65,79.65,0.14,0.88,0.59,Stacking,Extract And Move Method
+4,Stack-LR,GR,78.57,78.57,78.57,78.57,78.57,78.57,0.15,0.87,0.59,Stacking,Extract And Move Method
+5,Stack-LR,GR,81.33,81.63,80.86,81.25,81.33,81.33,0.14,0.87,0.59,Stacking,Extract And Move Method
+6,Stack-LR,GR,82.48,80.98,84.91,82.89,82.48,82.47,0.13,0.89,0.59,Stacking,Extract And Move Method
+7,Stack-LR,GR,78.23,79.55,76.01,77.74,78.23,78.22,0.15,0.86,0.59,Stacking,Extract And Move Method
+8,Stack-LR,GR,81.32,80.77,82.19,81.47,81.32,81.32,0.14,0.88,0.59,Stacking,Extract And Move Method
+9,Stack-LR,GR,75.93,77.23,73.58,75.36,75.93,75.91,0.17,0.82,0.59,Stacking,Extract And Move Method
+10,Stack-DT,GR,70.01,71.06,67.52,69.25,70.01,69.99,0.3,0.7,0.41,Stacking,Extract And Move Method
+11,Stack-DT,GR,71.16,72.95,67.25,69.99,71.16,71.11,0.29,0.71,0.41,Stacking,Extract And Move Method
+12,Stack-DT,GR,72.3,73.48,69.81,71.6,72.3,72.29,0.28,0.72,0.41,Stacking,Extract And Move Method
+13,Stack-DT,GR,67.18,68.95,62.53,65.58,67.18,67.11,0.33,0.67,0.41,Stacking,Extract And Move Method
+14,Stack-DT,GR,66.58,67.98,62.67,65.22,66.58,66.53,0.33,0.67,0.41,Stacking,Extract And Move Method
+15,Stack-DT,GR,70.89,72.86,66.58,69.58,70.89,70.84,0.29,0.71,0.41,Stacking,Extract And Move Method
+16,Stack-DT,GR,74.8,74.4,75.61,75,74.8,74.8,0.25,0.75,0.41,Stacking,Extract And Move Method
+17,Stack-DT,GR,70.42,72.71,65.36,68.84,70.42,70.34,0.3,0.7,0.41,Stacking,Extract And Move Method
+18,Stack-DT,GR,71.68,71.66,71.66,71.66,71.68,71.68,0.28,0.72,0.41,Stacking,Extract And Move Method
+19,Stack-DT,GR,71.81,73.55,68.19,70.77,71.81,71.78,0.28,0.72,0.41,Stacking,Extract And Move Method
+0,TBStack-LR,GR,87.2,85.94,88.95,87.42,87.2,87.19,0.09,0.94,0.74,TreeStacking,Extract And Move Method
+1,TBStack-LR,GR,87.2,85.2,90.03,87.55,87.2,87.19,0.1,0.93,0.74,TreeStacking,Extract And Move Method
+2,TBStack-LR,GR,86.05,83.4,90.03,86.58,86.05,86.03,0.1,0.92,0.74,TreeStacking,Extract And Move Method
+3,TBStack-LR,GR,86.59,84.24,90.03,87.04,86.59,86.57,0.1,0.93,0.74,TreeStacking,Extract And Move Method
+4,TBStack-LR,GR,88.27,85.5,92.18,88.72,88.27,88.26,0.09,0.93,0.74,TreeStacking,Extract And Move Method
+5,TBStack-LR,GR,85.24,83.74,87.47,85.56,85.24,85.24,0.1,0.93,0.74,TreeStacking,Extract And Move Method
+6,TBStack-LR,GR,88.01,85.07,92.18,88.49,88.01,87.98,0.09,0.94,0.74,TreeStacking,Extract And Move Method
+7,TBStack-LR,GR,85.51,85.27,85.85,85.56,85.51,85.51,0.1,0.93,0.74,TreeStacking,Extract And Move Method
+8,TBStack-LR,GR,88.87,85.64,93.39,89.35,88.87,88.85,0.09,0.94,0.74,TreeStacking,Extract And Move Method
+9,TBStack-LR,GR,84.42,83.57,85.71,84.63,84.42,84.42,0.11,0.91,0.74,TreeStacking,Extract And Move Method
+10,TBStack-DT,GR,79.58,83.51,73.72,78.31,79.58,79.51,0.2,0.8,0.59,TreeStacking,Extract And Move Method
+11,TBStack-DT,GR,77.49,80.45,72.64,76.35,77.49,77.44,0.23,0.77,0.59,TreeStacking,Extract And Move Method
+12,TBStack-DT,GR,77.9,81.46,72.24,76.57,77.9,77.83,0.22,0.78,0.59,TreeStacking,Extract And Move Method
+13,TBStack-DT,GR,82.08,82.43,81.54,81.98,82.08,82.07,0.18,0.82,0.59,TreeStacking,Extract And Move Method
+14,TBStack-DT,GR,80.86,83.38,77.09,80.11,80.86,80.84,0.19,0.81,0.59,TreeStacking,Extract And Move Method
+15,TBStack-DT,GR,76.35,80.31,69.81,74.69,76.35,76.25,0.24,0.76,0.59,TreeStacking,Extract And Move Method
+16,TBStack-DT,GR,79.78,82.31,75.88,78.96,79.78,79.75,0.2,0.8,0.59,TreeStacking,Extract And Move Method
+17,TBStack-DT,GR,81.47,83.79,78.03,80.81,81.47,81.45,0.19,0.81,0.59,TreeStacking,Extract And Move Method
+18,TBStack-DT,GR,82.4,83.52,80.7,82.09,82.4,82.4,0.18,0.82,0.59,TreeStacking,Extract And Move Method
+19,TBStack-DT,GR,77.07,80.55,71.43,75.71,77.07,77,0.23,0.77,0.59,TreeStacking,Extract And Move Method
+0,Stack-LR,GR,81.06,81.63,80.16,80.89,81.06,81.06,0.13,0.89,0.61,Stacking,Extract Method
+1,Stack-LR,GR,82.43,82.26,82.71,82.48,82.43,82.43,0.13,0.89,0.61,Stacking,Extract Method
+2,Stack-LR,GR,82.2,82.36,81.96,82.16,82.2,82.2,0.13,0.9,0.61,Stacking,Extract Method
+3,Stack-LR,GR,80.63,79.07,83.31,81.14,80.63,80.62,0.14,0.88,0.61,Stacking,Extract Method
+4,Stack-LR,GR,74.32,70.41,83.88,76.56,74.32,74.08,0.18,0.82,0.61,Stacking,Extract Method
+5,Stack-LR,GR,83.05,83.21,82.82,83.02,83.05,83.05,0.12,0.9,0.61,Stacking,Extract Method
+6,Stack-LR,GR,80.99,79.65,83.24,81.41,80.99,80.98,0.14,0.88,0.61,Stacking,Extract Method
+7,Stack-LR,GR,81.44,81.93,80.67,81.3,81.44,81.44,0.13,0.89,0.61,Stacking,Extract Method
+8,Stack-LR,GR,79.71,78.09,82.59,80.28,79.71,79.69,0.14,0.87,0.61,Stacking,Extract Method
+9,Stack-LR,GR,81.01,80.55,81.78,81.16,81.01,81.01,0.13,0.89,0.61,Stacking,Extract Method
+10,Stack-DT,GR,71.6,70.14,75.23,72.6,71.6,71.57,0.28,0.72,0.39,Stacking,Extract Method
+11,Stack-DT,GR,71.54,70.22,74.79,72.43,71.54,71.51,0.28,0.72,0.39,Stacking,Extract Method
+12,Stack-DT,GR,68.09,66.53,72.82,69.53,68.09,68.02,0.32,0.68,0.39,Stacking,Extract Method
+13,Stack-DT,GR,70.21,68.48,74.87,71.54,70.21,70.14,0.3,0.7,0.39,Stacking,Extract Method
+14,Stack-DT,GR,66.44,64.47,73.26,68.58,66.44,66.29,0.34,0.66,0.39,Stacking,Extract Method
+15,Stack-DT,GR,66.78,64.44,74.88,69.27,66.78,66.56,0.33,0.67,0.39,Stacking,Extract Method
+16,Stack-DT,GR,66.87,64.47,75.15,69.4,66.87,66.64,0.33,0.67,0.39,Stacking,Extract Method
+17,Stack-DT,GR,69.02,66.49,76.7,71.23,69.02,68.84,0.31,0.69,0.39,Stacking,Extract Method
+18,Stack-DT,GR,68.77,66.34,76.18,70.92,68.77,68.6,0.31,0.69,0.39,Stacking,Extract Method
+19,Stack-DT,GR,72,70.71,75.11,72.84,72,71.97,0.28,0.72,0.39,Stacking,Extract Method
+0,TBStack-LR,GR,82.51,82.52,82.49,82.51,82.51,82.51,0.12,0.91,0.63,TreeStacking,Extract Method
+1,TBStack-LR,GR,83.2,83.26,83.11,83.18,83.2,83.2,0.12,0.9,0.63,TreeStacking,Extract Method
+2,TBStack-LR,GR,83.03,83.36,82.54,82.95,83.03,83.03,0.12,0.91,0.63,TreeStacking,Extract Method
+3,TBStack-LR,GR,81.45,80.51,82.99,81.73,81.45,81.44,0.13,0.89,0.63,TreeStacking,Extract Method
+4,TBStack-LR,GR,76.35,73.16,83.23,77.87,76.35,76.24,0.17,0.83,0.63,TreeStacking,Extract Method
+5,TBStack-LR,GR,83.68,84.31,82.77,83.53,83.68,83.68,0.12,0.9,0.63,TreeStacking,Extract Method
+6,TBStack-LR,GR,77.78,74.97,83.4,78.96,77.78,77.71,0.15,0.87,0.63,TreeStacking,Extract Method
+7,TBStack-LR,GR,82.17,82.35,81.89,82.12,82.17,82.17,0.13,0.9,0.63,TreeStacking,Extract Method
+8,TBStack-LR,GR,80.6,78.99,83.38,81.13,80.6,80.59,0.14,0.88,0.63,TreeStacking,Extract Method
+9,TBStack-LR,GR,81.94,81.32,82.93,82.12,81.94,81.94,0.13,0.9,0.63,TreeStacking,Extract Method
+10,TBStack-DT,GR,73.17,71.97,75.89,73.88,73.17,73.15,0.27,0.73,0.44,TreeStacking,Extract Method
+11,TBStack-DT,GR,72.85,71.5,75.99,73.68,72.85,72.82,0.27,0.73,0.44,TreeStacking,Extract Method
+12,TBStack-DT,GR,73,71.62,76.17,73.83,73,72.97,0.27,0.73,0.44,TreeStacking,Extract Method
+13,TBStack-DT,GR,72.25,71.17,74.78,72.93,72.25,72.23,0.28,0.72,0.44,TreeStacking,Extract Method
+14,TBStack-DT,GR,68.8,66.44,75.97,70.89,68.8,68.64,0.31,0.69,0.44,TreeStacking,Extract Method
+15,TBStack-DT,GR,73.4,72.33,75.79,74.02,73.4,73.38,0.27,0.73,0.44,TreeStacking,Extract Method
+16,TBStack-DT,GR,69.7,67.19,76.99,71.76,69.7,69.54,0.3,0.7,0.44,TreeStacking,Extract Method
+17,TBStack-DT,GR,71.11,69.45,75.38,72.29,71.11,71.06,0.29,0.71,0.44,TreeStacking,Extract Method
+18,TBStack-DT,GR,72.03,70.28,76.35,73.19,72.03,71.98,0.28,0.72,0.44,TreeStacking,Extract Method
+19,TBStack-DT,GR,72.64,71.04,76.45,73.65,72.64,72.6,0.27,0.73,0.44,TreeStacking,Extract Method
+0,Stack-LR,GR,91.58,94.02,88.82,91.34,91.58,91.58,0.07,0.95,0.84,Stacking,Inline Method
+1,Stack-LR,GR,91.47,93.63,88.99,91.25,91.47,91.47,0.07,0.96,0.84,Stacking,Inline Method
+2,Stack-LR,GR,91.57,93.74,89.1,91.36,91.57,91.57,0.07,0.96,0.84,Stacking,Inline Method
+3,Stack-LR,GR,92.65,93.92,91.21,92.54,92.65,92.65,0.06,0.97,0.84,Stacking,Inline Method
+4,Stack-LR,GR,92.22,94.47,89.7,92.02,92.22,92.22,0.06,0.96,0.84,Stacking,Inline Method
+5,Stack-LR,GR,91.61,94.45,88.42,91.33,91.61,91.6,0.07,0.96,0.84,Stacking,Inline Method
+6,Stack-LR,GR,91.5,94.89,87.72,91.16,91.5,91.48,0.07,0.96,0.84,Stacking,Inline Method
+7,Stack-LR,GR,92.22,94.52,89.65,92.02,92.22,92.22,0.06,0.96,0.84,Stacking,Inline Method
+8,Stack-LR,GR,90.93,93.79,87.67,90.63,90.93,90.92,0.07,0.95,0.84,Stacking,Inline Method
+9,Stack-LR,GR,92.44,95.33,89.25,92.19,92.44,92.43,0.06,0.96,0.84,Stacking,Inline Method
+10,Stack-DT,GR,85.69,85.79,85.55,85.67,85.69,85.69,0.14,0.86,0.72,Stacking,Inline Method
+11,Stack-DT,GR,85.93,85.5,86.53,86.01,85.93,85.93,0.14,0.86,0.72,Stacking,Inline Method
+12,Stack-DT,GR,86.94,86.26,87.86,87.06,86.94,86.94,0.13,0.87,0.72,Stacking,Inline Method
+13,Stack-DT,GR,86.87,86.12,87.91,87.01,86.87,86.87,0.13,0.87,0.72,Stacking,Inline Method
+14,Stack-DT,GR,86.11,85.32,87.21,86.26,86.11,86.11,0.14,0.86,0.72,Stacking,Inline Method
+15,Stack-DT,GR,86.77,86.2,87.57,86.88,86.77,86.77,0.13,0.87,0.72,Stacking,Inline Method
+16,Stack-DT,GR,87.07,87.54,86.46,87,87.07,87.07,0.13,0.87,0.72,Stacking,Inline Method
+17,Stack-DT,GR,84.17,81.44,88.52,84.83,84.17,84.14,0.16,0.84,0.72,Stacking,Inline Method
+18,Stack-DT,GR,86.13,86.21,86.03,86.12,86.13,86.13,0.14,0.86,0.72,Stacking,Inline Method
+19,Stack-DT,GR,86.35,85.98,86.86,86.42,86.35,86.35,0.14,0.86,0.72,Stacking,Inline Method
+0,TBStack-LR,GR,96.92,97.1,96.73,96.92,96.92,96.92,0.02,0.99,0.96,TreeStacking,Inline Method
+1,TBStack-LR,GR,97.83,97.24,98.44,97.84,97.83,97.83,0.02,0.99,0.96,TreeStacking,Inline Method
+2,TBStack-LR,GR,97.86,96.92,98.87,97.89,97.86,97.86,0.02,0.99,0.96,TreeStacking,Inline Method
+3,TBStack-LR,GR,98.03,97.23,98.87,98.04,98.03,98.03,0.02,0.99,0.96,TreeStacking,Inline Method
+4,TBStack-LR,GR,98.2,97.83,98.59,98.21,98.2,98.2,0.02,0.99,0.96,TreeStacking,Inline Method
+5,TBStack-LR,GR,97.58,96.93,98.27,97.59,97.58,97.58,0.02,0.99,0.96,TreeStacking,Inline Method
+6,TBStack-LR,GR,98.1,97.52,98.72,98.12,98.1,98.1,0.02,0.99,0.96,TreeStacking,Inline Method
+7,TBStack-LR,GR,98.03,97.09,99.02,98.05,98.03,98.03,0.02,0.99,0.96,TreeStacking,Inline Method
+8,TBStack-LR,GR,97.66,96.96,98.42,97.68,97.66,97.66,0.02,0.99,0.96,TreeStacking,Inline Method
+9,TBStack-LR,GR,98.12,97.68,98.57,98.12,98.12,98.12,0.02,0.99,0.96,TreeStacking,Inline Method
+10,TBStack-DT,GR,96.11,96.67,95.5,96.08,96.11,96.11,0.04,0.96,0.93,TreeStacking,Inline Method
+11,TBStack-DT,GR,96.28,96.47,96.08,96.27,96.28,96.28,0.04,0.96,0.93,TreeStacking,Inline Method
+12,TBStack-DT,GR,96.38,96.15,96.63,96.39,96.38,96.38,0.04,0.96,0.93,TreeStacking,Inline Method
+13,TBStack-DT,GR,96.14,96.39,95.88,96.13,96.14,96.14,0.04,0.96,0.93,TreeStacking,Inline Method
+14,TBStack-DT,GR,96.7,97.3,96.06,96.67,96.7,96.7,0.03,0.97,0.93,TreeStacking,Inline Method
+15,TBStack-DT,GR,96.19,96.84,95.5,96.17,96.19,96.19,0.04,0.96,0.93,TreeStacking,Inline Method
+16,TBStack-DT,GR,96.29,96.8,95.75,96.27,96.29,96.29,0.04,0.96,0.93,TreeStacking,Inline Method
+17,TBStack-DT,GR,96.19,96.72,95.63,96.17,96.19,96.19,0.04,0.96,0.93,TreeStacking,Inline Method
+18,TBStack-DT,GR,96.26,96.4,96.11,96.25,96.26,96.26,0.04,0.96,0.93,TreeStacking,Inline Method
+19,TBStack-DT,GR,96.09,97.03,95.1,96.05,96.09,96.09,0.04,0.96,0.93,TreeStacking,Inline Method
+0,Stack-LR,GR,97.56,98.93,96.16,97.53,97.56,97.56,0.02,0.99,0.95,Stacking,Move Method
+1,Stack-LR,GR,97.53,98.89,96.13,97.49,97.53,97.53,0.02,0.99,0.95,Stacking,Move Method
+2,Stack-LR,GR,97.08,98.55,95.56,97.03,97.08,97.08,0.02,0.98,0.95,Stacking,Move Method
+3,Stack-LR,GR,96.96,98.22,95.66,96.92,96.96,96.96,0.02,0.99,0.95,Stacking,Move Method
+4,Stack-LR,GR,97.54,98.89,96.17,97.51,97.54,97.54,0.02,0.99,0.95,Stacking,Move Method
+5,Stack-LR,GR,97.66,98.87,96.43,97.63,97.66,97.66,0.02,0.99,0.95,Stacking,Move Method
+6,Stack-LR,GR,97.9,98.93,96.84,97.88,97.9,97.9,0.02,0.99,0.95,Stacking,Move Method
+7,Stack-LR,GR,98.02,98.74,97.29,98.01,98.02,98.02,0.02,0.99,0.95,Stacking,Move Method
+8,Stack-LR,GR,97.65,98.79,96.48,97.62,97.65,97.65,0.02,0.99,0.95,Stacking,Move Method
+9,Stack-LR,GR,97.73,98.61,96.83,97.71,97.73,97.73,0.02,0.99,0.95,Stacking,Move Method
+10,Stack-DT,GR,95.27,94.83,95.76,95.29,95.27,95.27,0.05,0.95,0.9,Stacking,Move Method
+11,Stack-DT,GR,95.14,94.19,96.22,95.19,95.14,95.14,0.05,0.95,0.9,Stacking,Move Method
+12,Stack-DT,GR,94.74,94.89,94.58,94.74,94.74,94.74,0.05,0.95,0.9,Stacking,Move Method
+13,Stack-DT,GR,94.41,94.03,94.83,94.43,94.41,94.41,0.06,0.94,0.9,Stacking,Move Method
+14,Stack-DT,GR,95.47,94.92,96.08,95.5,95.47,95.47,0.05,0.95,0.9,Stacking,Move Method
+15,Stack-DT,GR,95.69,95.32,96.1,95.71,95.69,95.69,0.04,0.96,0.9,Stacking,Move Method
+16,Stack-DT,GR,95.51,94.61,96.52,95.56,95.51,95.51,0.04,0.96,0.9,Stacking,Move Method
+17,Stack-DT,GR,95.29,94.03,96.71,95.35,95.29,95.28,0.05,0.95,0.9,Stacking,Move Method
+18,Stack-DT,GR,95.91,95.46,96.4,95.93,95.91,95.91,0.04,0.96,0.9,Stacking,Move Method
+19,Stack-DT,GR,93.11,92.64,93.67,93.15,93.11,93.11,0.07,0.93,0.9,Stacking,Move Method
+0,TBStack-LR,GR,99.63,99.66,99.61,99.63,99.63,99.63,0,1,0.99,TreeStacking,Move Method
+1,TBStack-LR,GR,99.39,99.45,99.33,99.39,99.39,99.39,0,1,0.99,TreeStacking,Move Method
+2,TBStack-LR,GR,99.54,99.65,99.42,99.53,99.54,99.54,0,1,0.99,TreeStacking,Move Method
+3,TBStack-LR,GR,99.4,99.69,99.11,99.4,99.4,99.4,0.01,1,0.99,TreeStacking,Move Method
+4,TBStack-LR,GR,99.26,99.45,99.06,99.26,99.26,99.26,0,1,0.99,TreeStacking,Move Method
+5,TBStack-LR,GR,99.55,99.58,99.52,99.55,99.55,99.55,0,1,0.99,TreeStacking,Move Method
+6,TBStack-LR,GR,99.5,99.36,99.64,99.5,99.5,99.5,0,1,0.99,TreeStacking,Move Method
+7,TBStack-LR,GR,99.51,99.44,99.58,99.51,99.51,99.51,0,1,0.99,TreeStacking,Move Method
+8,TBStack-LR,GR,99.55,99.6,99.51,99.55,99.55,99.55,0,1,0.99,TreeStacking,Move Method
+9,TBStack-LR,GR,99.49,99.31,99.67,99.49,99.49,99.49,0,1,0.99,TreeStacking,Move Method
+10,TBStack-DT,GR,99.29,99.29,99.29,99.29,99.29,99.29,0.01,0.99,0.98,TreeStacking,Move Method
+11,TBStack-DT,GR,99,98.74,99.26,99,99,99,0.01,0.99,0.98,TreeStacking,Move Method
+12,TBStack-DT,GR,98.67,98.68,98.67,98.67,98.67,98.67,0.01,0.99,0.98,TreeStacking,Move Method
+13,TBStack-DT,GR,98.94,98.93,98.94,98.94,98.94,98.94,0.01,0.99,0.98,TreeStacking,Move Method
+14,TBStack-DT,GR,98.88,98.8,98.97,98.88,98.88,98.88,0.01,0.99,0.98,TreeStacking,Move Method
+15,TBStack-DT,GR,99.1,99.09,99.1,99.1,99.1,99.1,0.01,0.99,0.98,TreeStacking,Move Method
+16,TBStack-DT,GR,99.2,99.22,99.18,99.2,99.2,99.2,0.01,0.99,0.98,TreeStacking,Move Method
+17,TBStack-DT,GR,98.74,99.12,98.36,98.74,98.74,98.74,0.01,0.99,0.98,TreeStacking,Move Method
+18,TBStack-DT,GR,99.11,99.03,99.2,99.11,99.11,99.11,0.01,0.99,0.98,TreeStacking,Move Method
+19,TBStack-DT,GR,99.05,99.02,99.08,99.05,99.05,99.05,0.01,0.99,0.98,TreeStacking,Move Method
+0,Stack-LR,GR,95.32,97.5,93.03,95.21,95.32,95.32,0.04,0.98,0.92,Stacking,Pull Up Method
+1,Stack-LR,GR,96.91,97.96,95.8,96.87,96.91,96.91,0.03,0.99,0.92,Stacking,Pull Up Method
+2,Stack-LR,GR,94.99,97.12,92.74,94.88,94.99,94.99,0.04,0.98,0.92,Stacking,Pull Up Method
+3,Stack-LR,GR,95.57,98.08,92.96,95.45,95.57,95.57,0.04,0.98,0.92,Stacking,Pull Up Method
+4,Stack-LR,GR,95.63,97.98,93.19,95.53,95.63,95.63,0.04,0.98,0.92,Stacking,Pull Up Method
+5,Stack-LR,GR,96.27,98.2,94.27,96.19,96.27,96.27,0.03,0.98,0.92,Stacking,Pull Up Method
+6,Stack-LR,GR,96.03,97.83,94.16,95.96,96.03,96.03,0.03,0.98,0.92,Stacking,Pull Up Method
+7,Stack-LR,GR,95.96,97.77,94.08,95.89,95.96,95.96,0.03,0.98,0.92,Stacking,Pull Up Method
+8,Stack-LR,GR,95.88,97.95,93.71,95.79,95.88,95.87,0.03,0.98,0.92,Stacking,Pull Up Method
+9,Stack-LR,GR,96.39,97.57,95.16,96.35,96.39,96.39,0.03,0.99,0.92,Stacking,Pull Up Method
+10,Stack-DT,GR,93.88,94.57,93.09,93.83,93.88,93.88,0.06,0.94,0.88,Stacking,Pull Up Method
+11,Stack-DT,GR,95.25,95.45,95.03,95.24,95.25,95.25,0.05,0.95,0.88,Stacking,Pull Up Method
+12,Stack-DT,GR,93.72,94.83,92.48,93.64,93.72,93.72,0.06,0.94,0.88,Stacking,Pull Up Method
+13,Stack-DT,GR,94.07,95.68,92.31,93.97,94.07,94.07,0.06,0.94,0.88,Stacking,Pull Up Method
+14,Stack-DT,GR,93.64,94.49,92.69,93.58,93.64,93.64,0.06,0.94,0.88,Stacking,Pull Up Method
+15,Stack-DT,GR,93.26,94.81,91.53,93.14,93.26,93.26,0.07,0.93,0.88,Stacking,Pull Up Method
+16,Stack-DT,GR,94.14,95.01,93.17,94.08,94.14,94.14,0.06,0.94,0.88,Stacking,Pull Up Method
+17,Stack-DT,GR,92.56,94.07,90.84,92.43,92.56,92.55,0.07,0.93,0.88,Stacking,Pull Up Method
+18,Stack-DT,GR,93.92,94.86,92.88,93.86,93.92,93.92,0.06,0.94,0.88,Stacking,Pull Up Method
+19,Stack-DT,GR,94.4,94.99,93.74,94.36,94.4,94.4,0.06,0.94,0.88,Stacking,Pull Up Method
+0,TBStack-LR,GR,99.33,99.3,99.37,99.34,99.33,99.33,0.01,1,0.99,TreeStacking,Pull Up Method
+1,TBStack-LR,GR,99.46,99.3,99.63,99.46,99.46,99.46,0,1,0.99,TreeStacking,Pull Up Method
+2,TBStack-LR,GR,99.37,99.24,99.5,99.37,99.37,99.37,0.01,1,0.99,TreeStacking,Pull Up Method
+3,TBStack-LR,GR,99.38,99.41,99.36,99.38,99.38,99.38,0.01,1,0.99,TreeStacking,Pull Up Method
+4,TBStack-LR,GR,98.82,99.39,98.24,98.81,98.82,98.82,0.01,1,0.99,TreeStacking,Pull Up Method
+5,TBStack-LR,GR,99.04,99.34,98.75,99.04,99.04,99.04,0.01,1,0.99,TreeStacking,Pull Up Method
+6,TBStack-LR,GR,99.3,99.33,99.26,99.3,99.3,99.3,0.01,1,0.99,TreeStacking,Pull Up Method
+7,TBStack-LR,GR,99.47,99.24,99.7,99.47,99.47,99.47,0.01,1,0.99,TreeStacking,Pull Up Method
+8,TBStack-LR,GR,99.22,99.36,99.08,99.22,99.22,99.22,0.01,1,0.99,TreeStacking,Pull Up Method
+9,TBStack-LR,GR,99.37,99.43,99.31,99.37,99.37,99.37,0.01,1,0.99,TreeStacking,Pull Up Method
+10,TBStack-DT,GR,97.24,99.15,95.3,97.19,97.24,97.24,0.03,0.97,0.97,TreeStacking,Pull Up Method
+11,TBStack-DT,GR,97.98,99.14,96.79,97.95,97.98,97.97,0.02,0.98,0.97,TreeStacking,Pull Up Method
+12,TBStack-DT,GR,98.75,99.14,98.36,98.75,98.75,98.75,0.01,0.99,0.97,TreeStacking,Pull Up Method
+13,TBStack-DT,GR,98.65,99.3,97.99,98.64,98.65,98.65,0.01,0.99,0.97,TreeStacking,Pull Up Method
+14,TBStack-DT,GR,98.15,99.08,97.21,98.13,98.15,98.15,0.02,0.98,0.97,TreeStacking,Pull Up Method
+15,TBStack-DT,GR,98.73,99.1,98.35,98.72,98.73,98.73,0.01,0.99,0.97,TreeStacking,Pull Up Method
+16,TBStack-DT,GR,98.51,99.33,97.67,98.49,98.51,98.51,0.01,0.99,0.97,TreeStacking,Pull Up Method
+17,TBStack-DT,GR,98.58,99.22,97.93,98.57,98.58,98.58,0.01,0.99,0.97,TreeStacking,Pull Up Method
+18,TBStack-DT,GR,97.97,98.92,96.98,97.95,97.97,97.97,0.02,0.98,0.97,TreeStacking,Pull Up Method
+19,TBStack-DT,GR,98.65,99.11,98.19,98.65,98.65,98.65,0.01,0.99,0.97,TreeStacking,Pull Up Method
+0,Stack-LR,GR,89.35,93.13,84.97,88.86,89.35,89.33,0.08,0.96,0.79,Stacking,Push Down Method
+1,Stack-LR,GR,89.22,92.78,85.07,88.76,89.22,89.2,0.08,0.95,0.79,Stacking,Push Down Method
+2,Stack-LR,GR,86.4,90.66,81.16,85.65,86.4,86.36,0.1,0.93,0.79,Stacking,Push Down Method
+3,Stack-LR,GR,90.33,92.39,87.9,90.09,90.33,90.32,0.07,0.95,0.79,Stacking,Push Down Method
+4,Stack-LR,GR,89.41,92.41,85.87,89.02,89.41,89.4,0.08,0.96,0.79,Stacking,Push Down Method
+5,Stack-LR,GR,90.75,92.62,88.54,90.54,90.75,90.74,0.07,0.96,0.79,Stacking,Push Down Method
+6,Stack-LR,GR,89.88,92.23,87.09,89.59,89.88,89.87,0.08,0.96,0.79,Stacking,Push Down Method
+7,Stack-LR,GR,88.83,92.23,84.8,88.36,88.83,88.81,0.08,0.95,0.79,Stacking,Push Down Method
+8,Stack-LR,GR,89.04,92.91,84.54,88.53,89.04,89.02,0.08,0.95,0.79,Stacking,Push Down Method
+9,Stack-LR,GR,88.83,92.63,84.37,88.31,88.83,88.81,0.09,0.94,0.79,Stacking,Push Down Method
+10,Stack-DT,GR,86.69,92.24,80.11,85.75,86.69,86.63,0.13,0.87,0.7,Stacking,Push Down Method
+11,Stack-DT,GR,84.95,91.8,76.76,83.61,84.95,84.85,0.15,0.85,0.7,Stacking,Push Down Method
+12,Stack-DT,GR,83.17,91.73,72.92,81.25,83.17,82.99,0.17,0.83,0.7,Stacking,Push Down Method
+13,Stack-DT,GR,81.54,90.54,70.44,79.23,81.54,81.31,0.18,0.82,0.7,Stacking,Push Down Method
+14,Stack-DT,GR,88.07,92.45,82.9,87.42,88.07,88.03,0.12,0.88,0.7,Stacking,Push Down Method
+15,Stack-DT,GR,87.26,92.48,81.11,86.42,87.26,87.21,0.13,0.87,0.7,Stacking,Push Down Method
+16,Stack-DT,GR,83.36,90.72,74.32,81.71,83.36,83.22,0.17,0.83,0.7,Stacking,Push Down Method
+17,Stack-DT,GR,82.17,91.67,70.77,79.88,82.17,81.94,0.18,0.82,0.7,Stacking,Push Down Method
+18,Stack-DT,GR,81.67,91.51,69.82,79.21,81.67,81.41,0.18,0.82,0.7,Stacking,Push Down Method
+19,Stack-DT,GR,84.17,92.1,74.75,82.52,84.17,84.03,0.16,0.84,0.7,Stacking,Push Down Method
+0,TBStack-LR,GR,96.83,97.17,96.47,96.82,96.83,96.83,0.03,0.99,0.94,TreeStacking,Push Down Method
+1,TBStack-LR,GR,97.89,97.43,98.38,97.9,97.89,97.89,0.02,0.99,0.94,TreeStacking,Push Down Method
+2,TBStack-LR,GR,96.28,96.75,95.78,96.27,96.28,96.28,0.03,0.98,0.94,TreeStacking,Push Down Method
+3,TBStack-LR,GR,97.76,97.31,98.24,97.77,97.76,97.76,0.02,0.99,0.94,TreeStacking,Push Down Method
+4,TBStack-LR,GR,97.18,96.41,98,97.2,97.18,97.18,0.02,0.99,0.94,TreeStacking,Push Down Method
+5,TBStack-LR,GR,96.14,97.15,95.07,96.1,96.14,96.14,0.03,0.99,0.94,TreeStacking,Push Down Method
+6,TBStack-LR,GR,96.47,96.65,96.28,96.47,96.47,96.47,0.03,0.99,0.94,TreeStacking,Push Down Method
+7,TBStack-LR,GR,96.02,97.05,94.93,95.98,96.02,96.02,0.03,0.99,0.94,TreeStacking,Push Down Method
+8,TBStack-LR,GR,97.15,97.14,97.17,97.15,97.15,97.15,0.02,0.99,0.94,TreeStacking,Push Down Method
+9,TBStack-LR,GR,97.62,97.26,98,97.63,97.62,97.62,0.02,0.99,0.94,TreeStacking,Push Down Method
+10,TBStack-DT,GR,93.89,97.43,90.16,93.65,93.89,93.88,0.06,0.94,0.85,TreeStacking,Push Down Method
+11,TBStack-DT,GR,93.55,97.53,89.35,93.26,93.55,93.53,0.06,0.94,0.85,TreeStacking,Push Down Method
+12,TBStack-DT,GR,90.23,97.1,82.94,89.47,90.23,90.18,0.1,0.9,0.85,TreeStacking,Push Down Method
+13,TBStack-DT,GR,90.82,97.43,83.85,90.13,90.82,90.77,0.09,0.91,0.85,TreeStacking,Push Down Method
+14,TBStack-DT,GR,93.1,97.11,88.85,92.8,93.1,93.09,0.07,0.93,0.85,TreeStacking,Push Down Method
+15,TBStack-DT,GR,93.06,97.45,88.42,92.72,93.06,93.04,0.07,0.93,0.85,TreeStacking,Push Down Method
+16,TBStack-DT,GR,94.52,97.08,91.81,94.37,94.52,94.52,0.05,0.95,0.85,TreeStacking,Push Down Method
+17,TBStack-DT,GR,90.98,97.12,84.47,90.36,90.98,90.95,0.09,0.91,0.85,TreeStacking,Push Down Method
+18,TBStack-DT,GR,91.95,97.54,86.06,91.45,91.95,91.92,0.08,0.92,0.85,TreeStacking,Push Down Method
+19,TBStack-DT,GR,92.94,97.32,88.3,92.59,92.94,92.92,0.07,0.93,0.85,TreeStacking,Push Down Method
+0,Stack-LR,GR,84.02,84.94,82.7,83.81,84.02,84.02,0.12,0.91,0.58,Stacking,Rename Method
+1,Stack-LR,GR,79.57,77.44,83.46,80.34,79.57,79.54,0.14,0.87,0.58,Stacking,Rename Method
+2,Stack-LR,GR,79.57,76.78,84.79,80.58,79.57,79.52,0.14,0.88,0.58,Stacking,Rename Method
+3,Stack-LR,GR,80.32,78,84.47,81.1,80.32,80.29,0.14,0.88,0.58,Stacking,Rename Method
+4,Stack-LR,GR,68.8,64.44,83.91,72.9,68.8,68.07,0.21,0.77,0.58,Stacking,Rename Method
+5,Stack-LR,GR,82.48,82.01,83.22,82.61,82.48,82.48,0.13,0.89,0.58,Stacking,Rename Method
+6,Stack-LR,GR,77.64,74.81,83.35,78.85,77.64,77.57,0.16,0.84,0.58,Stacking,Rename Method
+7,Stack-LR,GR,81.04,78.9,84.75,81.72,81.04,81.01,0.14,0.89,0.58,Stacking,Rename Method
+8,Stack-LR,GR,74.61,71,83.21,76.62,74.61,74.42,0.19,0.79,0.58,Stacking,Rename Method
+9,Stack-LR,GR,78.44,75.44,84.33,79.64,78.44,78.36,0.15,0.87,0.58,Stacking,Rename Method
+10,Stack-DT,GR,55.68,53.15,95.95,68.4,55.68,47.11,0.44,0.56,0.13,Stacking,Rename Method
+11,Stack-DT,GR,55.3,52.94,95.58,68.14,55.3,46.64,0.45,0.55,0.13,Stacking,Rename Method
+12,Stack-DT,GR,56.62,53.69,96.45,68.98,56.62,48.44,0.43,0.57,0.13,Stacking,Rename Method
+13,Stack-DT,GR,53.61,51.99,94.53,67.08,53.61,44.28,0.46,0.54,0.13,Stacking,Rename Method
+14,Stack-DT,GR,51.46,50.77,95.87,66.39,51.46,39.54,0.49,0.51,0.13,Stacking,Rename Method
+15,Stack-DT,GR,51.73,50.94,93.72,66.01,51.73,41.39,0.48,0.52,0.13,Stacking,Rename Method
+16,Stack-DT,GR,52.91,51.57,95.35,66.94,52.91,42.56,0.47,0.53,0.13,Stacking,Rename Method
+17,Stack-DT,GR,51.84,50.99,94.85,66.32,51.84,40.91,0.48,0.52,0.13,Stacking,Rename Method
+18,Stack-DT,GR,51.69,50.9,95.69,66.45,51.69,40.09,0.48,0.52,0.13,Stacking,Rename Method
+19,Stack-DT,GR,54.72,52.59,95.89,67.93,54.72,45.48,0.45,0.55,0.13,Stacking,Rename Method
+0,TBStack-LR,GR,83.56,85.83,80.38,83.02,83.56,83.54,0.12,0.91,0.57,TreeStacking,Rename Method
+1,TBStack-LR,GR,80.62,81.02,79.98,80.5,80.62,80.62,0.14,0.88,0.57,TreeStacking,Rename Method
+2,TBStack-LR,GR,79.17,78.27,80.77,79.5,79.17,79.17,0.14,0.88,0.57,TreeStacking,Rename Method
+3,TBStack-LR,GR,80.03,79.41,81.06,80.23,80.03,80.02,0.14,0.88,0.57,TreeStacking,Rename Method
+4,TBStack-LR,GR,69.03,65.31,81.2,72.39,69.03,68.57,0.21,0.77,0.57,TreeStacking,Rename Method
+5,TBStack-LR,GR,81.6,82.45,80.3,81.36,81.6,81.6,0.13,0.9,0.57,TreeStacking,Rename Method
+6,TBStack-LR,GR,77.07,74.94,81.34,78.01,77.07,77.03,0.16,0.84,0.57,TreeStacking,Rename Method
+7,TBStack-LR,GR,80.95,80.02,82.49,81.24,80.95,80.95,0.13,0.89,0.57,TreeStacking,Rename Method
+8,TBStack-LR,GR,74.48,72.1,79.87,75.78,74.48,74.41,0.18,0.8,0.57,TreeStacking,Rename Method
+9,TBStack-LR,GR,79.23,78.45,80.6,79.51,79.23,79.22,0.14,0.88,0.57,TreeStacking,Rename Method
+10,TBStack-DT,GR,58.08,54.6,95.92,69.59,58.08,51.08,0.42,0.58,0.18,TreeStacking,Rename Method
+11,TBStack-DT,GR,56.45,53.61,95.83,68.76,56.45,48.46,0.44,0.56,0.18,TreeStacking,Rename Method
+12,TBStack-DT,GR,56.49,53.63,95.89,68.79,56.49,48.49,0.44,0.56,0.18,TreeStacking,Rename Method
+13,TBStack-DT,GR,56,53.35,95.49,68.46,56,47.87,0.44,0.56,0.18,TreeStacking,Rename Method
+14,TBStack-DT,GR,53.8,52.06,96.13,67.54,53.8,43.72,0.46,0.54,0.18,TreeStacking,Rename Method
+15,TBStack-DT,GR,54.02,52.19,95.79,67.57,54.02,44.3,0.46,0.54,0.18,TreeStacking,Rename Method
+16,TBStack-DT,GR,54.58,52.51,95.86,67.85,54.58,45.25,0.45,0.55,0.18,TreeStacking,Rename Method
+17,TBStack-DT,GR,54.99,52.78,94.51,67.74,54.99,46.65,0.45,0.55,0.18,TreeStacking,Rename Method
+18,TBStack-DT,GR,54.62,52.53,96,67.9,54.62,45.25,0.45,0.55,0.18,TreeStacking,Rename Method
+19,TBStack-DT,GR,53.83,52.09,95.4,67.39,53.83,44.18,0.46,0.54,0.18,TreeStacking,Rename Method

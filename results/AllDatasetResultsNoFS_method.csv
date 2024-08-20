@@ -1,0 +1,92 @@
+Unnamed: 0,Classifier,Accuracy,Precision,Recall,F1-score,F1-micro,F1-weight,Brier,AUC,MCC,Type,Dataset
+0,DT,75.67,80.03,68.39,73.69,75.67,75.52,0.24,0.76,0.52,Individual,Extract And Move Method
+1,LR,72.21,68.64,81.71,74.59,72.21,71.95,0.18,0.8,0.45,Individual,Extract And Move Method
+2,SVM,72.61,69.2,81.47,74.82,72.61,72.39,0.18,0.8,0.46,Individual,Extract And Move Method
+3,MLP,76.94,75.3,80.13,77.61,76.94,76.9,0.16,0.85,0.54,Individual,Extract And Move Method
+4,SGD,72.33,69.87,78.85,73.87,72.33,72.12,0.19,0.8,0.45,Individual,Extract And Move Method
+5,NB(B),68.44,71.03,62.18,66.28,68.44,68.3,0.23,0.75,0.37,Individual,Extract And Move Method
+6,NB(G),64.92,59.55,93.02,72.61,64.92,61.91,0.35,0.71,0.36,Individual,Extract And Move Method
+7,NB(M),69.29,64.51,85.66,73.59,69.29,68.44,0.23,0.73,0.41,Individual,Extract And Move Method
+8,KNN,75.02,74.96,75.1,75.01,75.02,75.02,0.18,0.82,0.5,Individual,Extract And Move Method
+0,Stack-LR,79.15,78.49,80.28,79.37,79.15,79.14,0.15,0.87,0.58,Stacking,Extract And Move Method
+1,Stack-DT,70.7,71.52,68.73,70.08,70.7,70.68,0.29,0.71,0.41,Stacking,Extract And Move Method
+0,TBStack-LR,85.33,84.25,86.89,85.54,85.33,85.32,0.11,0.92,0.71,TreeStacking,Extract And Move Method
+1,TBStack-DT,79.62,80.89,77.56,79.17,79.62,79.61,0.2,0.8,0.59,TreeStacking,Extract And Move Method
+0,DT,65.02,60.42,87.38,71.43,65.02,63.14,0.35,0.65,0.34,Individual,Extract Method
+1,LR,78.18,76.14,82.74,79.22,78.18,78.08,0.16,0.85,0.57,Individual,Extract Method
+2,SVM,77.57,75.98,81.3,78.46,77.57,77.49,0.16,0.84,0.55,Individual,Extract Method
+3,MLP,72.49,67.15,88.53,76.33,72.49,71.72,0.21,0.75,0.47,Individual,Extract Method
+4,SGD,77.08,74.77,82.55,78.36,77.08,76.94,0.17,0.84,0.55,Individual,Extract Method
+5,NB(B),71.12,68.63,78.18,73.06,71.12,70.95,0.23,0.79,0.43,Individual,Extract Method
+6,NB(G),62.99,58.1,95.03,72.05,62.99,58.49,0.37,0.82,0.33,Individual,Extract Method
+7,NB(M),76.02,72.68,84.05,77.88,76.02,75.8,0.22,0.83,0.53,Individual,Extract Method
+8,KNN,68.56,63.8,86.23,73.31,68.56,67.5,0.25,0.72,0.4,Individual,Extract Method
+0,Stack-LR,80.47,79.62,82.41,80.91,80.47,80.43,0.14,0.88,0.61,Stacking,Extract Method
+1,Stack-DT,69.05,67.18,74.76,70.74,69.05,68.92,0.31,0.69,0.38,Stacking,Extract Method
+0,TBStack-LR,81.2,80.49,82.65,81.51,81.2,81.18,0.13,0.89,0.62,TreeStacking,Extract Method
+1,TBStack-DT,72.69,71.18,76.41,73.69,72.69,72.64,0.27,0.73,0.46,TreeStacking,Extract Method
+0,DT,89.29,93.76,84.18,88.71,89.29,89.26,0.11,0.89,0.79,Individual,Inline Method
+1,LR,73.3,69.06,84.38,75.95,73.3,72.96,0.18,0.81,0.48,Individual,Inline Method
+2,SVM,73.87,69.77,84.23,76.31,73.87,73.59,0.18,0.81,0.49,Individual,Inline Method
+3,MLP,80.65,79,83.55,81.19,80.65,80.63,0.14,0.89,0.61,Individual,Inline Method
+4,SGD,72.33,68.19,83.9,75.19,72.33,71.93,0.19,0.8,0.46,Individual,Inline Method
+5,NB(B),66.94,66.71,67.56,67.12,66.94,66.93,0.22,0.73,0.34,Individual,Inline Method
+6,NB(G),62.65,57.77,94.09,71.58,62.65,58.55,0.37,0.69,0.33,Individual,Inline Method
+7,NB(M),69.76,65.36,84.04,73.53,69.76,69.13,0.23,0.74,0.41,Individual,Inline Method
+8,KNN,79.73,80.03,79.23,79.62,79.73,79.73,0.15,0.87,0.59,Individual,Inline Method
+0,Stack-LR,89.75,90.87,88.39,89.61,89.75,89.75,0.08,0.95,0.8,Stacking,Inline Method
+1,Stack-DT,83.91,84.2,83.47,83.83,83.91,83.91,0.16,0.84,0.68,Stacking,Inline Method
+0,TBStack-LR,96.78,95.78,97.87,96.82,96.78,96.78,0.03,0.99,0.94,TreeStacking,Inline Method
+1,TBStack-DT,94.79,95.23,94.29,94.76,94.79,94.79,0.05,0.95,0.9,TreeStacking,Inline Method
+0,DT,91.7,97.56,85.54,91.15,91.7,91.67,0.08,0.92,0.84,Individual,Move Method
+1,LR,72.91,68.73,84.02,75.6,72.91,72.57,0.18,0.8,0.47,Individual,Move Method
+2,SVM,73.27,69.29,83.54,75.74,73.27,72.98,0.18,0.8,0.48,Individual,Move Method
+3,MLP,80.85,80.19,82.03,81.06,80.85,80.84,0.14,0.88,0.62,Individual,Move Method
+4,SGD,71.62,67.41,83.72,74.65,71.62,71.18,0.19,0.79,0.45,Individual,Move Method
+5,NB(B),65.29,67.02,60.18,63.4,65.29,65.2,0.24,0.71,0.31,Individual,Move Method
+6,NB(G),64.3,59.01,93.64,72.4,64.3,60.93,0.35,0.69,0.35,Individual,Move Method
+7,NB(M),69,64.33,85.26,73.33,69,68.15,0.23,0.72,0.4,Individual,Move Method
+8,KNN,82.73,86.6,77.45,81.76,82.73,82.68,0.13,0.9,0.66,Individual,Move Method
+0,Stack-LR,93.13,94.93,91.13,92.99,93.13,93.13,0.05,0.97,0.86,Stacking,Move Method
+1,Stack-DT,89.82,90.16,89.4,89.78,89.82,89.82,0.1,0.9,0.8,Stacking,Move Method
+0,TBStack-LR,98.96,98.81,99.11,98.96,98.96,98.96,0.01,1,0.98,TreeStacking,Move Method
+1,TBStack-DT,98.4,98.5,98.31,98.4,98.4,98.4,0.02,0.98,0.97,TreeStacking,Move Method
+0,DT,89.38,97.4,80.92,88.39,89.38,89.3,0.11,0.89,0.8,Individual,Pull Up Method
+1,LR,78.45,74.29,87.02,80.14,78.45,78.29,0.15,0.86,0.58,Individual,Pull Up Method
+2,SVM,78.91,74.95,86.82,80.44,78.91,78.77,0.15,0.87,0.59,Individual,Pull Up Method
+3,MLP,84.06,84.23,83.84,84,84.06,84.05,0.12,0.91,0.68,Individual,Pull Up Method
+4,SGD,77.64,73.77,85.81,79.3,77.64,77.48,0.16,0.85,0.56,Individual,Pull Up Method
+5,NB(B),71.96,74.66,66.48,70.33,71.96,71.88,0.23,0.79,0.44,Individual,Pull Up Method
+6,NB(G),70.63,63.89,94.85,76.35,70.63,68.79,0.29,0.75,0.47,Individual,Pull Up Method
+7,NB(M),72.91,67.04,90.09,76.87,72.91,72.09,0.22,0.76,0.49,Individual,Pull Up Method
+8,KNN,84.43,87.77,80,83.7,84.43,84.4,0.12,0.91,0.69,Individual,Pull Up Method
+0,Stack-LR,91.84,93.39,90.06,91.69,91.84,91.84,0.06,0.97,0.84,Stacking,Pull Up Method
+1,Stack-DT,88.53,89.3,87.55,88.41,88.53,88.52,0.11,0.89,0.77,Stacking,Pull Up Method
+0,TBStack-LR,98.55,98.23,98.88,98.55,98.55,98.55,0.01,1,0.97,TreeStacking,Pull Up Method
+1,TBStack-DT,97.67,98.08,97.25,97.66,97.67,97.67,0.02,0.98,0.95,TreeStacking,Pull Up Method
+0,DT,83.61,97.08,69.3,80.84,83.61,83.26,0.16,0.84,0.7,Individual,Push Down Method
+1,LR,77.88,73.56,87.02,79.7,77.88,77.69,0.16,0.85,0.57,Individual,Push Down Method
+2,SVM,78.22,73.83,87.41,80.03,78.22,78.03,0.15,0.86,0.57,Individual,Push Down Method
+3,MLP,83.36,84.25,82.07,83.11,83.36,83.35,0.13,0.9,0.67,Individual,Push Down Method
+4,SGD,77.18,73.12,85.96,78.97,77.18,76.98,0.16,0.85,0.55,Individual,Push Down Method
+5,NB(B),70.54,73.74,63.75,68.35,70.54,70.39,0.23,0.77,0.41,Individual,Push Down Method
+6,NB(G),68.59,62.32,93.96,74.93,68.59,66.42,0.31,0.73,0.43,Individual,Push Down Method
+7,NB(M),71.48,65.97,88.68,75.65,71.48,70.61,0.22,0.75,0.46,Individual,Push Down Method
+8,KNN,81.19,84.76,76.04,80.15,81.19,81.13,0.14,0.88,0.63,Individual,Push Down Method
+0,Stack-LR,87.55,88.72,86.03,87.34,87.55,87.54,0.09,0.95,0.75,Stacking,Push Down Method
+1,Stack-DT,82.95,85.8,78.96,82.22,82.95,82.92,0.17,0.83,0.66,Stacking,Push Down Method
+0,TBStack-LR,95.72,95.96,95.46,95.7,95.72,95.72,0.03,0.99,0.91,TreeStacking,Push Down Method
+1,TBStack-DT,93.02,96.37,89.4,92.74,93.02,93.01,0.07,0.93,0.86,TreeStacking,Push Down Method
+0,DT,54.92,52.74,94.95,67.81,54.92,46.29,0.45,0.55,0.16,Individual,Rename Method
+1,LR,77.56,74.04,85.79,79.39,77.56,77.32,0.16,0.85,0.56,Individual,Rename Method
+2,SVM,77.62,74.44,84.99,79.27,77.62,77.42,0.16,0.85,0.56,Individual,Rename Method
+3,MLP,70.47,66.09,86.11,74.61,70.47,69.5,0.22,0.73,0.43,Individual,Rename Method
+4,SGD,77.07,73.2,86.18,79.08,77.07,76.8,0.16,0.85,0.55,Individual,Rename Method
+5,NB(B),68.96,73.2,60.9,66.34,68.96,68.73,0.27,0.75,0.39,Individual,Rename Method
+6,NB(G),65.52,60,94.57,73.36,65.52,62.11,0.34,0.73,0.38,Individual,Rename Method
+7,NB(M),71.47,67.26,84.65,74.88,71.47,70.85,0.23,0.74,0.45,Individual,Rename Method
+8,KNN,66.3,61.94,85.29,71.72,66.3,64.96,0.27,0.7,0.35,Individual,Rename Method
+0,Stack-LR,78.98,76.99,83.52,80.02,78.98,78.86,0.15,0.87,0.58,Stacking,Rename Method
+1,Stack-DT,65.13,62.41,76.75,68.79,65.13,64.59,0.35,0.65,0.31,Stacking,Rename Method
+0,TBStack-LR,79.26,78.85,80.79,79.69,79.26,79.2,0.15,0.87,0.59,TreeStacking,Rename Method
+1,TBStack-DT,65.84,62.73,78.74,69.77,65.84,65.19,0.34,0.66,0.33,TreeStacking,Rename Method

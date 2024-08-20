@@ -1,0 +1,1333 @@
+Unnamed: 0,Classifier_1,Classifier_2,Test,Stat,p-value,Null Hypo,Win,Lost,Dataset
+0,DT,LR,t-test,11.6098622041235,0.04433134173181207,Reject,LR,DT,Extract Variable
+1,DT,SVM,t-test,11.6098622041235,0.05201827238183379,Accept,,,Extract Variable
+2,DT,MLP,t-test,11.6098622041235,0.0002742025528458073,Reject,MLP,DT,Extract Variable
+3,DT,SGD,t-test,11.6098622041235,0.08939867981879918,Accept,,,Extract Variable
+4,DT,NB(B),t-test,11.6098622041235,1.0,Accept,,,Extract Variable
+5,DT,NB(G),t-test,11.6098622041235,0.0002633545934216986,Reject,DT,NB(G),Extract Variable
+6,DT,NB(M),t-test,11.6098622041235,1.0,Accept,,,Extract Variable
+7,DT,KNN,t-test,11.6098622041235,0.06524164210632963,Accept,,,Extract Variable
+9,DT,Stack-LR,t-test,11.6098622041235,0.0009088584972677272,Reject,Stack-LR,DT,Extract Variable
+10,DT,Stack-DT,t-test,11.6098622041235,1.0,Accept,,,Extract Variable
+11,DT,TBStack-LR,t-test,11.6098622041235,0.0001948581959087816,Reject,TBStack-LR,DT,Extract Variable
+12,DT,TBStack-DT,t-test,11.6098622041235,1.0,Accept,,,Extract Variable
+13,LR,SVM,t-test,11.6098622041235,1.0,Accept,,,Extract Variable
+14,LR,MLP,t-test,11.6098622041235,0.002357351316918994,Reject,MLP,LR,Extract Variable
+15,LR,SGD,t-test,11.6098622041235,1.0,Accept,,,Extract Variable
+16,LR,NB(B),t-test,11.6098622041235,0.001574464085153429,Reject,LR,NB(B),Extract Variable
+17,LR,NB(G),t-test,11.6098622041235,1.098697007215134e-05,Reject,LR,NB(G),Extract Variable
+18,LR,NB(M),t-test,11.6098622041235,0.0006578062429434241,Reject,LR,NB(M),Extract Variable
+19,LR,KNN,t-test,11.6098622041235,1.0,Accept,,,Extract Variable
+21,LR,Stack-LR,t-test,11.6098622041235,0.0003075231031134055,Reject,Stack-LR,LR,Extract Variable
+22,LR,Stack-DT,t-test,11.6098622041235,6.644150944006161e-05,Reject,LR,Stack-DT,Extract Variable
+23,LR,TBStack-LR,t-test,11.6098622041235,0.0001039329382843031,Reject,TBStack-LR,LR,Extract Variable
+24,LR,TBStack-DT,t-test,11.6098622041235,0.02883802547110118,Reject,LR,TBStack-DT,Extract Variable
+25,SVM,MLP,t-test,11.6098622041235,0.02883973410705054,Reject,MLP,SVM,Extract Variable
+26,SVM,SGD,t-test,11.6098622041235,1.0,Accept,,,Extract Variable
+27,SVM,NB(B),t-test,11.6098622041235,0.001222381651767289,Reject,SVM,NB(B),Extract Variable
+28,SVM,NB(G),t-test,11.6098622041235,1.91905351305088e-05,Reject,SVM,NB(G),Extract Variable
+29,SVM,NB(M),t-test,11.6098622041235,0.002255925308663126,Reject,SVM,NB(M),Extract Variable
+30,SVM,KNN,t-test,11.6098622041235,1.0,Accept,,,Extract Variable
+32,SVM,Stack-LR,t-test,11.6098622041235,0.003472179925717022,Reject,Stack-LR,SVM,Extract Variable
+33,SVM,Stack-DT,t-test,11.6098622041235,0.000101478175099938,Reject,SVM,Stack-DT,Extract Variable
+34,SVM,TBStack-LR,t-test,11.6098622041235,0.0008182066869201535,Reject,TBStack-LR,SVM,Extract Variable
+35,SVM,TBStack-DT,t-test,11.6098622041235,0.04560743970849707,Reject,SVM,TBStack-DT,Extract Variable
+36,MLP,SGD,t-test,11.6098622041235,0.08879699115471854,Accept,,,Extract Variable
+37,MLP,NB(B),t-test,11.6098622041235,0.0001329672920335154,Reject,MLP,NB(B),Extract Variable
+38,MLP,NB(G),t-test,11.6098622041235,3.434314670894078e-07,Reject,MLP,NB(G),Extract Variable
+39,MLP,NB(M),t-test,11.6098622041235,5.105442748525924e-07,Reject,MLP,NB(M),Extract Variable
+40,MLP,KNN,t-test,11.6098622041235,0.1118415601416943,Accept,,,Extract Variable
+42,MLP,Stack-LR,t-test,11.6098622041235,1.0,Accept,,,Extract Variable
+43,MLP,Stack-DT,t-test,11.6098622041235,2.035912112527412e-06,Reject,MLP,Stack-DT,Extract Variable
+44,MLP,TBStack-LR,t-test,11.6098622041235,0.02483191518282333,Reject,TBStack-LR,MLP,Extract Variable
+45,MLP,TBStack-DT,t-test,11.6098622041235,0.0002014207787306522,Reject,MLP,TBStack-DT,Extract Variable
+46,SGD,NB(B),t-test,11.6098622041235,0.002975494008031114,Reject,SGD,NB(B),Extract Variable
+47,SGD,NB(G),t-test,11.6098622041235,5.145039814381748e-05,Reject,SGD,NB(G),Extract Variable
+48,SGD,NB(M),t-test,11.6098622041235,0.02162219891177928,Reject,SGD,NB(M),Extract Variable
+49,SGD,KNN,t-test,11.6098622041235,1.0,Accept,,,Extract Variable
+51,SGD,Stack-LR,t-test,11.6098622041235,0.0158997222278662,Reject,Stack-LR,SGD,Extract Variable
+52,SGD,Stack-DT,t-test,11.6098622041235,7.113847961885942e-05,Reject,SGD,Stack-DT,Extract Variable
+53,SGD,TBStack-LR,t-test,11.6098622041235,0.001676242197635102,Reject,TBStack-LR,SGD,Extract Variable
+54,SGD,TBStack-DT,t-test,11.6098622041235,0.2174985400623364,Accept,,,Extract Variable
+55,NB(B),NB(G),t-test,11.6098622041235,0.0883756928614132,Accept,,,Extract Variable
+56,NB(B),NB(M),t-test,11.6098622041235,0.09436487222931668,Accept,,,Extract Variable
+57,NB(B),KNN,t-test,11.6098622041235,0.005304064371553672,Reject,KNN,NB(B),Extract Variable
+59,NB(B),Stack-LR,t-test,11.6098622041235,5.305677500447314e-05,Reject,Stack-LR,NB(B),Extract Variable
+60,NB(B),Stack-DT,t-test,11.6098622041235,1.0,Accept,,,Extract Variable
+61,NB(B),TBStack-LR,t-test,11.6098622041235,6.499471542591765e-05,Reject,TBStack-LR,NB(B),Extract Variable
+62,NB(B),TBStack-DT,t-test,11.6098622041235,0.03887156597869298,Reject,TBStack-DT,NB(B),Extract Variable
+63,NB(G),NB(M),t-test,11.6098622041235,6.31549484955967e-06,Reject,NB(M),NB(G),Extract Variable
+64,NB(G),KNN,t-test,11.6098622041235,9.840349744441345e-06,Reject,KNN,NB(G),Extract Variable
+66,NB(G),Stack-LR,t-test,11.6098622041235,2.313819598283624e-06,Reject,Stack-LR,NB(G),Extract Variable
+67,NB(G),Stack-DT,t-test,11.6098622041235,0.0002582068134706334,Reject,Stack-DT,NB(G),Extract Variable
+68,NB(G),TBStack-LR,t-test,11.6098622041235,4.95522104632654e-07,Reject,TBStack-LR,NB(G),Extract Variable
+69,NB(G),TBStack-DT,t-test,11.6098622041235,0.0002126210391570996,Reject,TBStack-DT,NB(G),Extract Variable
+70,NB(M),KNN,t-test,11.6098622041235,0.006696367005889028,Reject,KNN,NB(M),Extract Variable
+72,NB(M),Stack-LR,t-test,11.6098622041235,1.899639961886839e-05,Reject,Stack-LR,NB(M),Extract Variable
+73,NB(M),Stack-DT,t-test,11.6098622041235,1.0,Accept,,,Extract Variable
+74,NB(M),TBStack-LR,t-test,11.6098622041235,5.922576600845027e-06,Reject,TBStack-LR,NB(M),Extract Variable
+75,NB(M),TBStack-DT,t-test,11.6098622041235,1.0,Accept,,,Extract Variable
+77,KNN,Stack-LR,t-test,11.6098622041235,0.08817742374212353,Accept,,,Extract Variable
+78,KNN,Stack-DT,t-test,11.6098622041235,0.002869006821337448,Reject,KNN,Stack-DT,Extract Variable
+79,KNN,TBStack-LR,t-test,11.6098622041235,0.008058633948864647,Reject,TBStack-LR,KNN,Extract Variable
+80,KNN,TBStack-DT,t-test,11.6098622041235,0.1390573733626973,Accept,,,Extract Variable
+85,Stack-LR,Stack-DT,t-test,11.6098622041235,1.715613444641705e-06,Reject,Stack-LR,Stack-DT,Extract Variable
+86,Stack-LR,TBStack-LR,t-test,11.6098622041235,0.09925470682868988,Accept,,,Extract Variable
+87,Stack-LR,TBStack-DT,t-test,11.6098622041235,4.908529640843224e-05,Reject,Stack-LR,TBStack-DT,Extract Variable
+88,Stack-DT,TBStack-LR,t-test,11.6098622041235,5.629961598578528e-07,Reject,TBStack-LR,Stack-DT,Extract Variable
+89,Stack-DT,TBStack-DT,t-test,11.6098622041235,1.0,Accept,,,Extract Variable
+90,TBStack-LR,TBStack-DT,t-test,11.6098622041235,9.280672474871285e-05,Reject,TBStack-LR,TBStack-DT,Extract Variable
+0,DT,LR,Wilcoxon,0.0,1.254911081776055e-05,Reject,DT,LR,Inline Variable
+1,DT,SVM,Wilcoxon,0.0,0.0001106270205230007,Reject,DT,SVM,Inline Variable
+2,DT,MLP,Wilcoxon,0.0,4.181694100695941e-06,Reject,MLP,DT,Inline Variable
+3,DT,SGD,Wilcoxon,0.0,1.116158926391678e-05,Reject,DT,SGD,Inline Variable
+4,DT,NB(B),Wilcoxon,0.0,7.580823174042099e-08,Reject,DT,NB(B),Inline Variable
+5,DT,NB(G),Wilcoxon,0.0,0.177734375,Accept,,,Inline Variable
+6,DT,NB(M),Wilcoxon,0.0,9.741515948884445e-09,Reject,DT,NB(M),Inline Variable
+7,DT,KNN,Wilcoxon,0.0,1.0,Accept,,,Inline Variable
+9,DT,Stack-LR,Wilcoxon,0.0,7.025283524415782e-09,Reject,Stack-LR,DT,Inline Variable
+10,DT,Stack-DT,Wilcoxon,0.0,0.968897760863672,Accept,,,Inline Variable
+11,DT,TBStack-LR,Wilcoxon,0.0,7.442540178267585e-11,Reject,TBStack-LR,DT,Inline Variable
+12,DT,TBStack-DT,Wilcoxon,0.0,0.177734375,Accept,,,Inline Variable
+13,LR,SVM,Wilcoxon,0.0,0.001364145984574706,Reject,SVM,LR,Inline Variable
+14,LR,MLP,Wilcoxon,0.0,2.619370411950078e-09,Reject,MLP,LR,Inline Variable
+15,LR,SGD,Wilcoxon,0.0,0.07204695495799583,Accept,,,Inline Variable
+16,LR,NB(B),Wilcoxon,0.0,4.900964005413071e-06,Reject,LR,NB(B),Inline Variable
+17,LR,NB(G),Wilcoxon,0.0,0.177734375,Accept,,,Inline Variable
+18,LR,NB(M),Wilcoxon,0.0,4.606196912312214e-08,Reject,LR,NB(M),Inline Variable
+19,LR,KNN,Wilcoxon,0.0,0.0001074907837034975,Reject,KNN,LR,Inline Variable
+21,LR,Stack-LR,Wilcoxon,0.0,1.467602293596232e-09,Reject,Stack-LR,LR,Inline Variable
+22,LR,Stack-DT,Wilcoxon,0.0,0.0007987073349235089,Reject,Stack-DT,LR,Inline Variable
+23,LR,TBStack-LR,Wilcoxon,0.0,1.290816953039056e-11,Reject,TBStack-LR,LR,Inline Variable
+24,LR,TBStack-DT,Wilcoxon,0.0,0.177734375,Accept,,,Inline Variable
+25,SVM,MLP,Wilcoxon,0.0,1.836341198246458e-08,Reject,MLP,SVM,Inline Variable
+26,SVM,SGD,Wilcoxon,0.0,0.00100698926308261,Reject,SVM,SGD,Inline Variable
+27,SVM,NB(B),Wilcoxon,0.0,8.320374424821482e-07,Reject,SVM,NB(B),Inline Variable
+28,SVM,NB(G),Wilcoxon,0.0,0.177734375,Accept,,,Inline Variable
+29,SVM,NB(M),Wilcoxon,0.0,2.41831943106117e-08,Reject,SVM,NB(M),Inline Variable
+30,SVM,KNN,Wilcoxon,0.0,0.0007042370854753197,Reject,KNN,SVM,Inline Variable
+32,SVM,Stack-LR,Wilcoxon,0.0,1.087988869075707e-08,Reject,Stack-LR,SVM,Inline Variable
+33,SVM,Stack-DT,Wilcoxon,0.0,0.008035304359889408,Reject,Stack-DT,SVM,Inline Variable
+34,SVM,TBStack-LR,Wilcoxon,0.0,2.403604585137742e-11,Reject,TBStack-LR,SVM,Inline Variable
+35,SVM,TBStack-DT,Wilcoxon,0.0,0.177734375,Accept,,,Inline Variable
+36,MLP,SGD,Wilcoxon,0.0,1.069654291129327e-07,Reject,MLP,SGD,Inline Variable
+37,MLP,NB(B),Wilcoxon,0.0,2.819468337967379e-09,Reject,MLP,NB(B),Inline Variable
+38,MLP,NB(G),Wilcoxon,0.0,0.177734375,Accept,,,Inline Variable
+39,MLP,NB(M),Wilcoxon,0.0,4.616145092077621e-10,Reject,MLP,NB(M),Inline Variable
+40,MLP,KNN,Wilcoxon,0.0,0.0001850781853601558,Reject,MLP,KNN,Inline Variable
+42,MLP,Stack-LR,Wilcoxon,0.0,2.547559037637448e-05,Reject,Stack-LR,MLP,Inline Variable
+43,MLP,Stack-DT,Wilcoxon,0.0,1.457892003198731e-05,Reject,MLP,Stack-DT,Inline Variable
+44,MLP,TBStack-LR,Wilcoxon,0.0,1.771252654204853e-11,Reject,TBStack-LR,MLP,Inline Variable
+45,MLP,TBStack-DT,Wilcoxon,0.0,0.177734375,Accept,,,Inline Variable
+46,SGD,NB(B),Wilcoxon,0.0,0.0001677762273617732,Reject,SGD,NB(B),Inline Variable
+47,SGD,NB(G),Wilcoxon,0.0,0.177734375,Accept,,,Inline Variable
+48,SGD,NB(M),Wilcoxon,0.0,2.625004632179002e-06,Reject,SGD,NB(M),Inline Variable
+49,SGD,KNN,Wilcoxon,0.0,6.5577065957129e-06,Reject,KNN,SGD,Inline Variable
+51,SGD,Stack-LR,Wilcoxon,0.0,9.716824816133704e-09,Reject,Stack-LR,SGD,Inline Variable
+52,SGD,Stack-DT,Wilcoxon,0.0,0.0002562786438732929,Reject,Stack-DT,SGD,Inline Variable
+53,SGD,TBStack-LR,Wilcoxon,0.0,3.600107228584913e-10,Reject,TBStack-LR,SGD,Inline Variable
+54,SGD,TBStack-DT,Wilcoxon,0.0,0.177734375,Accept,,,Inline Variable
+55,NB(B),NB(G),Wilcoxon,0.0,0.177734375,Accept,,,Inline Variable
+56,NB(B),NB(M),Wilcoxon,0.0,1.0,Accept,,,Inline Variable
+57,NB(B),KNN,Wilcoxon,0.0,2.655450011488872e-07,Reject,KNN,NB(B),Inline Variable
+59,NB(B),Stack-LR,Wilcoxon,0.0,5.163938925378991e-10,Reject,Stack-LR,NB(B),Inline Variable
+60,NB(B),Stack-DT,Wilcoxon,0.0,3.428490749495434e-07,Reject,Stack-DT,NB(B),Inline Variable
+61,NB(B),TBStack-LR,Wilcoxon,0.0,1.933469178477963e-11,Reject,TBStack-LR,NB(B),Inline Variable
+62,NB(B),TBStack-DT,Wilcoxon,0.0,0.177734375,Accept,,,Inline Variable
+63,NB(G),NB(M),Wilcoxon,0.0,0.177734375,Accept,,,Inline Variable
+64,NB(G),KNN,Wilcoxon,0.0,0.177734375,Accept,,,Inline Variable
+66,NB(G),Stack-LR,Wilcoxon,0.0,0.177734375,Accept,,,Inline Variable
+67,NB(G),Stack-DT,Wilcoxon,0.0,0.177734375,Accept,,,Inline Variable
+68,NB(G),TBStack-LR,Wilcoxon,0.0,0.177734375,Accept,,,Inline Variable
+69,NB(G),TBStack-DT,Wilcoxon,0.0,0.177734375,Accept,,,Inline Variable
+70,NB(M),KNN,Wilcoxon,0.0,3.660140720700107e-08,Reject,KNN,NB(M),Inline Variable
+72,NB(M),Stack-LR,Wilcoxon,0.0,1.474940756968998e-10,Reject,Stack-LR,NB(M),Inline Variable
+73,NB(M),Stack-DT,Wilcoxon,0.0,6.833626817958762e-07,Reject,Stack-DT,NB(M),Inline Variable
+74,NB(M),TBStack-LR,Wilcoxon,0.0,9.523389571537315e-12,Reject,TBStack-LR,NB(M),Inline Variable
+75,NB(M),TBStack-DT,Wilcoxon,0.0,0.177734375,Accept,,,Inline Variable
+77,KNN,Stack-LR,Wilcoxon,0.0,8.661652475861199e-07,Reject,Stack-LR,KNN,Inline Variable
+78,KNN,Stack-DT,Wilcoxon,0.0,1.0,Accept,,,Inline Variable
+79,KNN,TBStack-LR,Wilcoxon,0.0,1.037153725744024e-09,Reject,TBStack-LR,KNN,Inline Variable
+80,KNN,TBStack-DT,Wilcoxon,0.0,0.177734375,Accept,,,Inline Variable
+85,Stack-LR,Stack-DT,Wilcoxon,0.0,6.446113746219657e-08,Reject,Stack-LR,Stack-DT,Inline Variable
+86,Stack-LR,TBStack-LR,Wilcoxon,0.0,1.862273356302599e-09,Reject,TBStack-LR,Stack-LR,Inline Variable
+87,Stack-LR,TBStack-DT,Wilcoxon,0.0,0.177734375,Accept,,,Inline Variable
+88,Stack-DT,TBStack-LR,Wilcoxon,0.0,6.330059263005026e-11,Reject,TBStack-LR,Stack-DT,Inline Variable
+89,Stack-DT,TBStack-DT,Wilcoxon,0.0,0.177734375,Accept,,,Inline Variable
+90,TBStack-LR,TBStack-DT,Wilcoxon,0.0,0.177734375,Accept,,,Inline Variable
+0,DT,LR,t-test,27.05131496877111,0.0001065932810909997,Reject,DT,LR,Parameterize Variable
+1,DT,SVM,t-test,27.05131496877111,0.0003759744122230747,Reject,DT,SVM,Parameterize Variable
+2,DT,MLP,t-test,27.05131496877111,1.0,Accept,,,Parameterize Variable
+3,DT,SGD,t-test,27.05131496877111,8.361298121976155e-05,Reject,DT,SGD,Parameterize Variable
+4,DT,NB(B),t-test,27.05131496877111,9.276026655170002e-09,Reject,DT,NB(B),Parameterize Variable
+5,DT,NB(G),t-test,27.05131496877111,4.201513422069399e-09,Reject,DT,NB(G),Parameterize Variable
+6,DT,NB(M),t-test,27.05131496877111,4.695133852101e-07,Reject,DT,NB(M),Parameterize Variable
+7,DT,KNN,t-test,27.05131496877111,0.006356645742404262,Reject,DT,KNN,Parameterize Variable
+9,DT,Stack-LR,t-test,27.05131496877111,4.794112268457128e-05,Reject,Stack-LR,DT,Parameterize Variable
+10,DT,Stack-DT,t-test,27.05131496877111,0.006599509021065035,Reject,DT,Stack-DT,Parameterize Variable
+11,DT,TBStack-LR,t-test,27.05131496877111,5.813720436502357e-08,Reject,TBStack-LR,DT,Parameterize Variable
+12,DT,TBStack-DT,t-test,27.05131496877111,6.550778179220534e-06,Reject,TBStack-DT,DT,Parameterize Variable
+13,LR,SVM,t-test,27.05131496877111,0.001330277934395266,Reject,SVM,LR,Parameterize Variable
+14,LR,MLP,t-test,27.05131496877111,5.537501882850602e-07,Reject,MLP,LR,Parameterize Variable
+15,LR,SGD,t-test,27.05131496877111,0.01851460127882542,Reject,LR,SGD,Parameterize Variable
+16,LR,NB(B),t-test,27.05131496877111,8.421731020572044e-05,Reject,LR,NB(B),Parameterize Variable
+17,LR,NB(G),t-test,27.05131496877111,2.202756289456739e-08,Reject,LR,NB(G),Parameterize Variable
+18,LR,NB(M),t-test,27.05131496877111,3.326017503897669e-05,Reject,LR,NB(M),Parameterize Variable
+19,LR,KNN,t-test,27.05131496877111,0.0002795734823009918,Reject,KNN,LR,Parameterize Variable
+21,LR,Stack-LR,t-test,27.05131496877111,4.571176643516681e-08,Reject,Stack-LR,LR,Parameterize Variable
+22,LR,Stack-DT,t-test,27.05131496877111,0.01619839651488593,Reject,Stack-DT,LR,Parameterize Variable
+23,LR,TBStack-LR,t-test,27.05131496877111,7.085405274570173e-09,Reject,TBStack-LR,LR,Parameterize Variable
+24,LR,TBStack-DT,t-test,27.05131496877111,1.73322392881563e-07,Reject,TBStack-DT,LR,Parameterize Variable
+25,SVM,MLP,t-test,27.05131496877111,2.399944317268706e-06,Reject,MLP,SVM,Parameterize Variable
+26,SVM,SGD,t-test,27.05131496877111,0.0005823320593258862,Reject,SVM,SGD,Parameterize Variable
+27,SVM,NB(B),t-test,27.05131496877111,3.913675085212427e-05,Reject,SVM,NB(B),Parameterize Variable
+28,SVM,NB(G),t-test,27.05131496877111,2.012174541734819e-08,Reject,SVM,NB(G),Parameterize Variable
+29,SVM,NB(M),t-test,27.05131496877111,1.51802959024122e-05,Reject,SVM,NB(M),Parameterize Variable
+30,SVM,KNN,t-test,27.05131496877111,0.002694749960443587,Reject,KNN,SVM,Parameterize Variable
+32,SVM,Stack-LR,t-test,27.05131496877111,1.969608883442627e-07,Reject,Stack-LR,SVM,Parameterize Variable
+33,SVM,Stack-DT,t-test,27.05131496877111,0.1067067163024265,Accept,,,Parameterize Variable
+34,SVM,TBStack-LR,t-test,27.05131496877111,2.153813001176248e-08,Reject,TBStack-LR,SVM,Parameterize Variable
+35,SVM,TBStack-DT,t-test,27.05131496877111,5.095409593779987e-07,Reject,TBStack-DT,SVM,Parameterize Variable
+36,MLP,SGD,t-test,27.05131496877111,1.420844455109731e-06,Reject,MLP,SGD,Parameterize Variable
+37,MLP,NB(B),t-test,27.05131496877111,4.112833647061312e-10,Reject,MLP,NB(B),Parameterize Variable
+38,MLP,NB(G),t-test,27.05131496877111,6.425069268691246e-11,Reject,MLP,NB(G),Parameterize Variable
+39,MLP,NB(M),t-test,27.05131496877111,7.497815386533945e-10,Reject,MLP,NB(M),Parameterize Variable
+40,MLP,KNN,t-test,27.05131496877111,5.890560916989994e-05,Reject,MLP,KNN,Parameterize Variable
+42,MLP,Stack-LR,t-test,27.05131496877111,2.863004593133186e-06,Reject,Stack-LR,MLP,Parameterize Variable
+43,MLP,Stack-DT,t-test,27.05131496877111,0.0004716554493634765,Reject,MLP,Stack-DT,Parameterize Variable
+44,MLP,TBStack-LR,t-test,27.05131496877111,1.94730854477977e-09,Reject,TBStack-LR,MLP,Parameterize Variable
+45,MLP,TBStack-DT,t-test,27.05131496877111,2.457219019944145e-07,Reject,TBStack-DT,MLP,Parameterize Variable
+46,SGD,NB(B),t-test,27.05131496877111,0.001733248429792032,Reject,SGD,NB(B),Parameterize Variable
+47,SGD,NB(G),t-test,27.05131496877111,1.325790768704396e-07,Reject,SGD,NB(G),Parameterize Variable
+48,SGD,NB(M),t-test,27.05131496877111,0.002454604670490323,Reject,SGD,NB(M),Parameterize Variable
+49,SGD,KNN,t-test,27.05131496877111,0.0002378814735021699,Reject,KNN,SGD,Parameterize Variable
+51,SGD,Stack-LR,t-test,27.05131496877111,9.450758338432357e-08,Reject,Stack-LR,SGD,Parameterize Variable
+52,SGD,Stack-DT,t-test,27.05131496877111,0.005042692931234235,Reject,Stack-DT,SGD,Parameterize Variable
+53,SGD,TBStack-LR,t-test,27.05131496877111,1.443941065152942e-08,Reject,TBStack-LR,SGD,Parameterize Variable
+54,SGD,TBStack-DT,t-test,27.05131496877111,4.192179949418304e-07,Reject,TBStack-DT,SGD,Parameterize Variable
+55,NB(B),NB(G),t-test,27.05131496877111,3.448279355543766e-08,Reject,NB(B),NB(G),Parameterize Variable
+56,NB(B),NB(M),t-test,27.05131496877111,0.2462102241664197,Accept,,,Parameterize Variable
+57,NB(B),KNN,t-test,27.05131496877111,1.464541950712101e-08,Reject,KNN,NB(B),Parameterize Variable
+59,NB(B),Stack-LR,t-test,27.05131496877111,1.15726307778858e-10,Reject,Stack-LR,NB(B),Parameterize Variable
+60,NB(B),Stack-DT,t-test,27.05131496877111,6.390561567684471e-07,Reject,Stack-DT,NB(B),Parameterize Variable
+61,NB(B),TBStack-LR,t-test,27.05131496877111,3.471784504582433e-11,Reject,TBStack-LR,NB(B),Parameterize Variable
+62,NB(B),TBStack-DT,t-test,27.05131496877111,1.023039805428912e-10,Reject,TBStack-DT,NB(B),Parameterize Variable
+63,NB(G),NB(M),t-test,27.05131496877111,2.835812348023901e-08,Reject,NB(M),NB(G),Parameterize Variable
+64,NB(G),KNN,t-test,27.05131496877111,1.982186186760044e-10,Reject,KNN,NB(G),Parameterize Variable
+66,NB(G),Stack-LR,t-test,27.05131496877111,2.582174868781307e-11,Reject,Stack-LR,NB(G),Parameterize Variable
+67,NB(G),Stack-DT,t-test,27.05131496877111,6.711009150449597e-10,Reject,Stack-DT,NB(G),Parameterize Variable
+68,NB(G),TBStack-LR,t-test,27.05131496877111,2.489227626230348e-12,Reject,TBStack-LR,NB(G),Parameterize Variable
+69,NB(G),TBStack-DT,t-test,27.05131496877111,2.272208689813341e-11,Reject,TBStack-DT,NB(G),Parameterize Variable
+70,NB(M),KNN,t-test,27.05131496877111,1.710159689414966e-08,Reject,KNN,NB(M),Parameterize Variable
+72,NB(M),Stack-LR,t-test,27.05131496877111,2.806873062169877e-11,Reject,Stack-LR,NB(M),Parameterize Variable
+73,NB(M),Stack-DT,t-test,27.05131496877111,4.220648864485353e-06,Reject,Stack-DT,NB(M),Parameterize Variable
+74,NB(M),TBStack-LR,t-test,27.05131496877111,6.93256563365505e-11,Reject,TBStack-LR,NB(M),Parameterize Variable
+75,NB(M),TBStack-DT,t-test,27.05131496877111,1.175370440778895e-09,Reject,TBStack-DT,NB(M),Parameterize Variable
+77,KNN,Stack-LR,t-test,27.05131496877111,5.731755627514765e-08,Reject,Stack-LR,KNN,Parameterize Variable
+78,KNN,Stack-DT,t-test,27.05131496877111,1.0,Accept,,,Parameterize Variable
+79,KNN,TBStack-LR,t-test,27.05131496877111,1.010033152712959e-09,Reject,TBStack-LR,KNN,Parameterize Variable
+80,KNN,TBStack-DT,t-test,27.05131496877111,1.430161633195323e-07,Reject,TBStack-DT,KNN,Parameterize Variable
+85,Stack-LR,Stack-DT,t-test,27.05131496877111,4.110324694051947e-06,Reject,Stack-LR,Stack-DT,Parameterize Variable
+86,Stack-LR,TBStack-LR,t-test,27.05131496877111,8.04420001707579e-08,Reject,TBStack-LR,Stack-LR,Parameterize Variable
+87,Stack-LR,TBStack-DT,t-test,27.05131496877111,0.007694500318477892,Reject,TBStack-DT,Stack-LR,Parameterize Variable
+88,Stack-DT,TBStack-LR,t-test,27.05131496877111,9.072954048120655e-09,Reject,TBStack-LR,Stack-DT,Parameterize Variable
+89,Stack-DT,TBStack-DT,t-test,27.05131496877111,7.950948137298304e-07,Reject,TBStack-DT,Stack-DT,Parameterize Variable
+90,TBStack-LR,TBStack-DT,t-test,27.05131496877111,5.681948405762287e-08,Reject,TBStack-LR,TBStack-DT,Parameterize Variable
+0,DT,LR,t-test,11.06621636868138,1.000792528266619e-12,Reject,DT,LR,Rename Parameter
+1,DT,SVM,t-test,11.06621636868138,1.301000946488395e-12,Reject,DT,SVM,Rename Parameter
+2,DT,MLP,t-test,11.06621636868138,3.019075921969131e-09,Reject,DT,MLP,Rename Parameter
+3,DT,SGD,t-test,11.06621636868138,4.961960735513298e-13,Reject,DT,SGD,Rename Parameter
+4,DT,NB(B),t-test,11.06621636868138,2.116508392266326e-13,Reject,DT,NB(B),Rename Parameter
+5,DT,NB(G),t-test,11.06621636868138,2.771734125793142e-16,Reject,DT,NB(G),Rename Parameter
+6,DT,NB(M),t-test,11.06621636868138,3.308628340279284e-13,Reject,DT,NB(M),Rename Parameter
+7,DT,KNN,t-test,11.06621636868138,1.152889226398312e-10,Reject,DT,KNN,Rename Parameter
+9,DT,Stack-LR,t-test,11.06621636868138,4.119040453549148e-07,Reject,Stack-LR,DT,Rename Parameter
+10,DT,Stack-DT,t-test,11.06621636868138,4.543388330627154e-06,Reject,DT,Stack-DT,Rename Parameter
+11,DT,TBStack-LR,t-test,11.06621636868138,3.476490450137881e-09,Reject,TBStack-LR,DT,Rename Parameter
+12,DT,TBStack-DT,t-test,11.06621636868138,1.893273013082718e-09,Reject,TBStack-DT,DT,Rename Parameter
+13,LR,SVM,t-test,11.06621636868138,0.2253122247918531,Accept,,,Rename Parameter
+14,LR,MLP,t-test,11.06621636868138,2.384606516013916e-08,Reject,MLP,LR,Rename Parameter
+15,LR,SGD,t-test,11.06621636868138,6.897821988317423e-06,Reject,LR,SGD,Rename Parameter
+16,LR,NB(B),t-test,11.06621636868138,6.988508171904719e-08,Reject,LR,NB(B),Rename Parameter
+17,LR,NB(G),t-test,11.06621636868138,4.676832503126818e-12,Reject,LR,NB(G),Rename Parameter
+18,LR,NB(M),t-test,11.06621636868138,3.069498285101896e-09,Reject,LR,NB(M),Rename Parameter
+19,LR,KNN,t-test,11.06621636868138,1.395111203403504e-11,Reject,KNN,LR,Rename Parameter
+21,LR,Stack-LR,t-test,11.06621636868138,8.600308154377153e-13,Reject,Stack-LR,LR,Rename Parameter
+22,LR,Stack-DT,t-test,11.06621636868138,5.335469030175925e-12,Reject,Stack-DT,LR,Rename Parameter
+23,LR,TBStack-LR,t-test,11.06621636868138,3.730572198977845e-13,Reject,TBStack-LR,LR,Rename Parameter
+24,LR,TBStack-DT,t-test,11.06621636868138,6.987772096095156e-13,Reject,TBStack-DT,LR,Rename Parameter
+25,SVM,MLP,t-test,11.06621636868138,3.635880502404911e-08,Reject,MLP,SVM,Rename Parameter
+26,SVM,SGD,t-test,11.06621636868138,2.26505302348904e-06,Reject,SVM,SGD,Rename Parameter
+27,SVM,NB(B),t-test,11.06621636868138,5.489973515095478e-08,Reject,SVM,NB(B),Rename Parameter
+28,SVM,NB(G),t-test,11.06621636868138,4.637623204682083e-12,Reject,SVM,NB(G),Rename Parameter
+29,SVM,NB(M),t-test,11.06621636868138,2.373960089403769e-09,Reject,SVM,NB(M),Rename Parameter
+30,SVM,KNN,t-test,11.06621636868138,2.500711954534311e-11,Reject,KNN,SVM,Rename Parameter
+32,SVM,Stack-LR,t-test,11.06621636868138,1.115175488910926e-12,Reject,Stack-LR,SVM,Rename Parameter
+33,SVM,Stack-DT,t-test,11.06621636868138,6.532275162971483e-12,Reject,Stack-DT,SVM,Rename Parameter
+34,SVM,TBStack-LR,t-test,11.06621636868138,3.84352216099692e-13,Reject,TBStack-LR,SVM,Rename Parameter
+35,SVM,TBStack-DT,t-test,11.06621636868138,7.158494075972486e-13,Reject,TBStack-DT,SVM,Rename Parameter
+36,MLP,SGD,t-test,11.06621636868138,2.490645078277361e-08,Reject,MLP,SGD,Rename Parameter
+37,MLP,NB(B),t-test,11.06621636868138,2.935376377334304e-09,Reject,MLP,NB(B),Rename Parameter
+38,MLP,NB(G),t-test,11.06621636868138,7.84438747041889e-12,Reject,MLP,NB(G),Rename Parameter
+39,MLP,NB(M),t-test,11.06621636868138,2.037099681036547e-09,Reject,MLP,NB(M),Rename Parameter
+40,MLP,KNN,t-test,11.06621636868138,2.705991893550972e-05,Reject,KNN,MLP,Rename Parameter
+42,MLP,Stack-LR,t-test,11.06621636868138,4.775685942454775e-10,Reject,Stack-LR,MLP,Rename Parameter
+43,MLP,Stack-DT,t-test,11.06621636868138,1.598217844289255e-08,Reject,Stack-DT,MLP,Rename Parameter
+44,MLP,TBStack-LR,t-test,11.06621636868138,4.756377317273127e-11,Reject,TBStack-LR,MLP,Rename Parameter
+45,MLP,TBStack-DT,t-test,11.06621636868138,1.095321631436618e-10,Reject,TBStack-DT,MLP,Rename Parameter
+46,SGD,NB(B),t-test,11.06621636868138,1.015853623496673e-07,Reject,SGD,NB(B),Rename Parameter
+47,SGD,NB(G),t-test,11.06621636868138,5.17866589269426e-12,Reject,SGD,NB(G),Rename Parameter
+48,SGD,NB(M),t-test,11.06621636868138,3.29388114886027e-09,Reject,SGD,NB(M),Rename Parameter
+49,SGD,KNN,t-test,11.06621636868138,4.894317428372244e-11,Reject,KNN,SGD,Rename Parameter
+51,SGD,Stack-LR,t-test,11.06621636868138,7.922661127170634e-13,Reject,Stack-LR,SGD,Rename Parameter
+52,SGD,Stack-DT,t-test,11.06621636868138,2.950839977931394e-12,Reject,Stack-DT,SGD,Rename Parameter
+53,SGD,TBStack-LR,t-test,11.06621636868138,4.576067617124661e-13,Reject,TBStack-LR,SGD,Rename Parameter
+54,SGD,TBStack-DT,t-test,11.06621636868138,6.226317947400318e-13,Reject,TBStack-DT,SGD,Rename Parameter
+55,NB(B),NB(G),t-test,11.06621636868138,5.98951952779745e-08,Reject,NB(B),NB(G),Rename Parameter
+56,NB(B),NB(M),t-test,11.06621636868138,1.0,Accept,,,Rename Parameter
+57,NB(B),KNN,t-test,11.06621636868138,3.834082391466139e-11,Reject,KNN,NB(B),Rename Parameter
+59,NB(B),Stack-LR,t-test,11.06621636868138,5.858475125109943e-13,Reject,Stack-LR,NB(B),Rename Parameter
+60,NB(B),Stack-DT,t-test,11.06621636868138,5.64500966372404e-13,Reject,Stack-DT,NB(B),Rename Parameter
+61,NB(B),TBStack-LR,t-test,11.06621636868138,1.379456029445292e-13,Reject,TBStack-LR,NB(B),Rename Parameter
+62,NB(B),TBStack-DT,t-test,11.06621636868138,7.34110443164469e-14,Reject,TBStack-DT,NB(B),Rename Parameter
+63,NB(G),NB(M),t-test,11.06621636868138,4.587563675079491e-10,Reject,NB(M),NB(G),Rename Parameter
+64,NB(G),KNN,t-test,11.06621636868138,8.861488266142644e-14,Reject,KNN,NB(G),Rename Parameter
+66,NB(G),Stack-LR,t-test,11.06621636868138,2.084718781932531e-16,Reject,Stack-LR,NB(G),Rename Parameter
+67,NB(G),Stack-DT,t-test,11.06621636868138,3.697973331996488e-16,Reject,Stack-DT,NB(G),Rename Parameter
+68,NB(G),TBStack-LR,t-test,11.06621636868138,3.387756752369534e-16,Reject,TBStack-LR,NB(G),Rename Parameter
+69,NB(G),TBStack-DT,t-test,11.06621636868138,1.657680365346061e-16,Reject,TBStack-DT,NB(G),Rename Parameter
+70,NB(M),KNN,t-test,11.06621636868138,3.037910329164522e-11,Reject,KNN,NB(M),Rename Parameter
+72,NB(M),Stack-LR,t-test,11.06621636868138,2.220316871812793e-13,Reject,Stack-LR,NB(M),Rename Parameter
+73,NB(M),Stack-DT,t-test,11.06621636868138,6.327654921473759e-13,Reject,Stack-DT,NB(M),Rename Parameter
+74,NB(M),TBStack-LR,t-test,11.06621636868138,2.971640862190452e-13,Reject,TBStack-LR,NB(M),Rename Parameter
+75,NB(M),TBStack-DT,t-test,11.06621636868138,3.096420643009065e-13,Reject,TBStack-DT,NB(M),Rename Parameter
+77,KNN,Stack-LR,t-test,11.06621636868138,7.663932635526507e-12,Reject,Stack-LR,KNN,Rename Parameter
+78,KNN,Stack-DT,t-test,11.06621636868138,1.426976270646413e-09,Reject,Stack-DT,KNN,Rename Parameter
+79,KNN,TBStack-LR,t-test,11.06621636868138,3.028918156868504e-12,Reject,TBStack-LR,KNN,Rename Parameter
+80,KNN,TBStack-DT,t-test,11.06621636868138,8.432312247299467e-12,Reject,TBStack-DT,KNN,Rename Parameter
+85,Stack-LR,Stack-DT,t-test,11.06621636868138,1.124573165963972e-10,Reject,Stack-LR,Stack-DT,Rename Parameter
+86,Stack-LR,TBStack-LR,t-test,11.06621636868138,6.928747191842599e-09,Reject,TBStack-LR,Stack-LR,Rename Parameter
+87,Stack-LR,TBStack-DT,t-test,11.06621636868138,5.432386816780281e-08,Reject,TBStack-DT,Stack-LR,Rename Parameter
+88,Stack-DT,TBStack-LR,t-test,11.06621636868138,1.207752770176473e-10,Reject,TBStack-LR,Stack-DT,Rename Parameter
+89,Stack-DT,TBStack-DT,t-test,11.06621636868138,1.751992086040949e-10,Reject,TBStack-DT,Stack-DT,Rename Parameter
+90,TBStack-LR,TBStack-DT,t-test,11.06621636868138,0.000139270926089189,Reject,TBStack-LR,TBStack-DT,Rename Parameter
+0,DT,LR,t-test,17.24878723728229,5.04373628230066e-10,Reject,DT,LR,Rename Variable
+1,DT,SVM,t-test,17.24878723728229,1.039046537501934e-10,Reject,DT,SVM,Rename Variable
+2,DT,MLP,t-test,17.24878723728229,3.572569769118794e-08,Reject,DT,MLP,Rename Variable
+3,DT,SGD,t-test,17.24878723728229,3.287457286678221e-10,Reject,DT,SGD,Rename Variable
+4,DT,NB(B),t-test,17.24878723728229,1.390830752262203e-10,Reject,DT,NB(B),Rename Variable
+5,DT,NB(G),t-test,17.24878723728229,7.321413721038869e-14,Reject,DT,NB(G),Rename Variable
+6,DT,NB(M),t-test,17.24878723728229,4.534330720706903e-12,Reject,DT,NB(M),Rename Variable
+7,DT,KNN,t-test,17.24878723728229,1.048257179267461e-08,Reject,DT,KNN,Rename Variable
+9,DT,Stack-LR,t-test,17.24878723728229,2.677878023015175e-06,Reject,Stack-LR,DT,Rename Variable
+10,DT,Stack-DT,t-test,17.24878723728229,0.0002914983820346906,Reject,DT,Stack-DT,Rename Variable
+11,DT,TBStack-LR,t-test,17.24878723728229,3.360529252428517e-10,Reject,TBStack-LR,DT,Rename Variable
+12,DT,TBStack-DT,t-test,17.24878723728229,6.187275818522025e-10,Reject,TBStack-DT,DT,Rename Variable
+13,LR,SVM,t-test,17.24878723728229,0.3002542812713164,Accept,,,Rename Variable
+14,LR,MLP,t-test,17.24878723728229,1.021660570184447e-09,Reject,MLP,LR,Rename Variable
+15,LR,SGD,t-test,17.24878723728229,1.970857064309183e-05,Reject,LR,SGD,Rename Variable
+16,LR,NB(B),t-test,17.24878723728229,8.666703274830342e-07,Reject,LR,NB(B),Rename Variable
+17,LR,NB(G),t-test,17.24878723728229,2.967799036855953e-09,Reject,LR,NB(G),Rename Variable
+18,LR,NB(M),t-test,17.24878723728229,5.42146705727881e-05,Reject,LR,NB(M),Rename Variable
+19,LR,KNN,t-test,17.24878723728229,1.099660927635306e-10,Reject,KNN,LR,Rename Variable
+21,LR,Stack-LR,t-test,17.24878723728229,3.570982878062479e-11,Reject,Stack-LR,LR,Rename Variable
+22,LR,Stack-DT,t-test,17.24878723728229,4.392548850560436e-10,Reject,Stack-DT,LR,Rename Variable
+23,LR,TBStack-LR,t-test,17.24878723728229,8.207759026312763e-12,Reject,TBStack-LR,LR,Rename Variable
+24,LR,TBStack-DT,t-test,17.24878723728229,1.328922208001488e-11,Reject,TBStack-DT,LR,Rename Variable
+25,SVM,MLP,t-test,17.24878723728229,1.338027574629131e-10,Reject,MLP,SVM,Rename Variable
+26,SVM,SGD,t-test,17.24878723728229,1.832352185499425e-05,Reject,SVM,SGD,Rename Variable
+27,SVM,NB(B),t-test,17.24878723728229,6.603443412265734e-07,Reject,SVM,NB(B),Rename Variable
+28,SVM,NB(G),t-test,17.24878723728229,5.62533986225137e-10,Reject,SVM,NB(G),Rename Variable
+29,SVM,NB(M),t-test,17.24878723728229,6.008335949811272e-06,Reject,SVM,NB(M),Rename Variable
+30,SVM,KNN,t-test,17.24878723728229,1.372220441389505e-11,Reject,KNN,SVM,Rename Variable
+32,SVM,Stack-LR,t-test,17.24878723728229,6.154737277896379e-12,Reject,Stack-LR,SVM,Rename Variable
+33,SVM,Stack-DT,t-test,17.24878723728229,8.634903217179558e-11,Reject,Stack-DT,SVM,Rename Variable
+34,SVM,TBStack-LR,t-test,17.24878723728229,1.513836781838611e-12,Reject,TBStack-LR,SVM,Rename Variable
+35,SVM,TBStack-DT,t-test,17.24878723728229,2.714721543717776e-12,Reject,TBStack-DT,SVM,Rename Variable
+36,MLP,SGD,t-test,17.24878723728229,6.04755649469493e-09,Reject,MLP,SGD,Rename Variable
+37,MLP,NB(B),t-test,17.24878723728229,9.890763879893703e-10,Reject,MLP,NB(B),Rename Variable
+38,MLP,NB(G),t-test,17.24878723728229,2.421525468721163e-12,Reject,MLP,NB(G),Rename Variable
+39,MLP,NB(M),t-test,17.24878723728229,3.176432269364961e-10,Reject,MLP,NB(M),Rename Variable
+40,MLP,KNN,t-test,17.24878723728229,1.0,Accept,,,Rename Variable
+42,MLP,Stack-LR,t-test,17.24878723728229,6.598068668130114e-10,Reject,Stack-LR,MLP,Rename Variable
+43,MLP,Stack-DT,t-test,17.24878723728229,4.468292677918998e-08,Reject,Stack-DT,MLP,Rename Variable
+44,MLP,TBStack-LR,t-test,17.24878723728229,2.554449035019242e-11,Reject,TBStack-LR,MLP,Rename Variable
+45,MLP,TBStack-DT,t-test,17.24878723728229,5.668433434989224e-11,Reject,TBStack-DT,MLP,Rename Variable
+46,SGD,NB(B),t-test,17.24878723728229,0.004850883037890061,Reject,SGD,NB(B),Rename Variable
+47,SGD,NB(G),t-test,17.24878723728229,4.610063518748355e-08,Reject,SGD,NB(G),Rename Variable
+48,SGD,NB(M),t-test,17.24878723728229,0.2748195467281119,Accept,,,Rename Variable
+49,SGD,KNN,t-test,17.24878723728229,1.948906623538806e-10,Reject,KNN,SGD,Rename Variable
+51,SGD,Stack-LR,t-test,17.24878723728229,3.68881487746514e-11,Reject,Stack-LR,SGD,Rename Variable
+52,SGD,Stack-DT,t-test,17.24878723728229,4.528283588458279e-10,Reject,Stack-DT,SGD,Rename Variable
+53,SGD,TBStack-LR,t-test,17.24878723728229,1.858064785219454e-11,Reject,TBStack-LR,SGD,Rename Variable
+54,SGD,TBStack-DT,t-test,17.24878723728229,2.635536543506484e-11,Reject,TBStack-DT,SGD,Rename Variable
+55,NB(B),NB(G),t-test,17.24878723728229,1.230236913252386e-07,Reject,NB(B),NB(G),Rename Variable
+56,NB(B),NB(M),t-test,17.24878723728229,1.0,Accept,,,Rename Variable
+57,NB(B),KNN,t-test,17.24878723728229,9.488065551934134e-11,Reject,KNN,NB(B),Rename Variable
+59,NB(B),Stack-LR,t-test,17.24878723728229,9.32128574373895e-12,Reject,Stack-LR,NB(B),Rename Variable
+60,NB(B),Stack-DT,t-test,17.24878723728229,1.046252056778007e-10,Reject,Stack-DT,NB(B),Rename Variable
+61,NB(B),TBStack-LR,t-test,17.24878723728229,3.258528503929584e-12,Reject,TBStack-LR,NB(B),Rename Variable
+62,NB(B),TBStack-DT,t-test,17.24878723728229,4.409862300012616e-12,Reject,TBStack-DT,NB(B),Rename Variable
+63,NB(G),NB(M),t-test,17.24878723728229,2.4804592196615e-12,Reject,NB(M),NB(G),Rename Variable
+64,NB(G),KNN,t-test,17.24878723728229,7.933806971365058e-12,Reject,KNN,NB(G),Rename Variable
+66,NB(G),Stack-LR,t-test,17.24878723728229,1.196253035208878e-13,Reject,Stack-LR,NB(G),Rename Variable
+67,NB(G),Stack-DT,t-test,17.24878723728229,2.556919811957024e-13,Reject,Stack-DT,NB(G),Rename Variable
+68,NB(G),TBStack-LR,t-test,17.24878723728229,5.560213657272968e-14,Reject,TBStack-LR,NB(G),Rename Variable
+69,NB(G),TBStack-DT,t-test,17.24878723728229,8.144193541830231e-14,Reject,TBStack-DT,NB(G),Rename Variable
+70,NB(M),KNN,t-test,17.24878723728229,5.05328429621941e-10,Reject,KNN,NB(M),Rename Variable
+72,NB(M),Stack-LR,t-test,17.24878723728229,4.609976663887388e-12,Reject,Stack-LR,NB(M),Rename Variable
+73,NB(M),Stack-DT,t-test,17.24878723728229,2.178607123362799e-11,Reject,Stack-DT,NB(M),Rename Variable
+74,NB(M),TBStack-LR,t-test,17.24878723728229,1.634637290692564e-12,Reject,TBStack-LR,NB(M),Rename Variable
+75,NB(M),TBStack-DT,t-test,17.24878723728229,2.530368578413901e-12,Reject,TBStack-DT,NB(M),Rename Variable
+77,KNN,Stack-LR,t-test,17.24878723728229,6.374004562832819e-11,Reject,Stack-LR,KNN,Rename Variable
+78,KNN,Stack-DT,t-test,17.24878723728229,1.352882759237707e-08,Reject,Stack-DT,KNN,Rename Variable
+79,KNN,TBStack-LR,t-test,17.24878723728229,7.421828636296993e-12,Reject,TBStack-LR,KNN,Rename Variable
+80,KNN,TBStack-DT,t-test,17.24878723728229,1.817584872156978e-11,Reject,TBStack-DT,KNN,Rename Variable
+85,Stack-LR,Stack-DT,t-test,17.24878723728229,1.492827576558469e-09,Reject,Stack-LR,Stack-DT,Rename Variable
+86,Stack-LR,TBStack-LR,t-test,17.24878723728229,6.589826913914047e-11,Reject,TBStack-LR,Stack-LR,Rename Variable
+87,Stack-LR,TBStack-DT,t-test,17.24878723728229,6.350138172409249e-10,Reject,TBStack-DT,Stack-LR,Rename Variable
+88,Stack-DT,TBStack-LR,t-test,17.24878723728229,1.090823384506944e-12,Reject,TBStack-LR,Stack-DT,Rename Variable
+89,Stack-DT,TBStack-DT,t-test,17.24878723728229,2.202910124134155e-12,Reject,TBStack-DT,Stack-DT,Rename Variable
+90,TBStack-LR,TBStack-DT,t-test,17.24878723728229,3.034778269503338e-06,Reject,TBStack-LR,TBStack-DT,Rename Variable
+0,DT,LR,t-test,28.30013173868053,0.0005237794536218495,Reject,DT,LR,Replace Variable With Attribute
+1,DT,SVM,t-test,28.30013173868053,0.006139604696903781,Reject,DT,SVM,Replace Variable With Attribute
+2,DT,MLP,t-test,28.30013173868053,0.06656526084966466,Accept,,,Replace Variable With Attribute
+3,DT,SGD,t-test,28.30013173868053,0.0003424879288779936,Reject,DT,SGD,Replace Variable With Attribute
+4,DT,NB(B),t-test,28.30013173868053,3.215459666039834e-06,Reject,DT,NB(B),Replace Variable With Attribute
+5,DT,NB(G),t-test,28.30013173868053,1.465651018811585e-09,Reject,DT,NB(G),Replace Variable With Attribute
+6,DT,NB(M),t-test,28.30013173868053,1.494714314007371e-07,Reject,DT,NB(M),Replace Variable With Attribute
+7,DT,KNN,t-test,28.30013173868053,1.0,Accept,,,Replace Variable With Attribute
+9,DT,Stack-LR,t-test,28.30013173868053,1.938582775233835e-05,Reject,Stack-LR,DT,Replace Variable With Attribute
+10,DT,Stack-DT,t-test,28.30013173868053,0.0006144427023508269,Reject,DT,Stack-DT,Replace Variable With Attribute
+11,DT,TBStack-LR,t-test,28.30013173868053,6.023186980586301e-09,Reject,TBStack-LR,DT,Replace Variable With Attribute
+12,DT,TBStack-DT,t-test,28.30013173868053,6.345224369428578e-06,Reject,TBStack-DT,DT,Replace Variable With Attribute
+13,LR,SVM,t-test,28.30013173868053,0.002227339640647697,Reject,SVM,LR,Replace Variable With Attribute
+14,LR,MLP,t-test,28.30013173868053,8.377569322632837e-07,Reject,MLP,LR,Replace Variable With Attribute
+15,LR,SGD,t-test,28.30013173868053,0.1449476042623171,Accept,,,Replace Variable With Attribute
+16,LR,NB(B),t-test,28.30013173868053,2.386869563458515e-06,Reject,LR,NB(B),Replace Variable With Attribute
+17,LR,NB(G),t-test,28.30013173868053,6.752669298059159e-10,Reject,LR,NB(G),Replace Variable With Attribute
+18,LR,NB(M),t-test,28.30013173868053,3.263575552969484e-07,Reject,LR,NB(M),Replace Variable With Attribute
+19,LR,KNN,t-test,28.30013173868053,0.0001537709029534584,Reject,KNN,LR,Replace Variable With Attribute
+21,LR,Stack-LR,t-test,28.30013173868053,1.29220036012474e-08,Reject,Stack-LR,LR,Replace Variable With Attribute
+22,LR,Stack-DT,t-test,28.30013173868053,0.8536941175260492,Accept,,,Replace Variable With Attribute
+23,LR,TBStack-LR,t-test,28.30013173868053,7.691199188819585e-11,Reject,TBStack-LR,LR,Replace Variable With Attribute
+24,LR,TBStack-DT,t-test,28.30013173868053,1.772844988275196e-08,Reject,TBStack-DT,LR,Replace Variable With Attribute
+25,SVM,MLP,t-test,28.30013173868053,4.214603806117411e-06,Reject,MLP,SVM,Replace Variable With Attribute
+26,SVM,SGD,t-test,28.30013173868053,0.005360967476853843,Reject,SVM,SGD,Replace Variable With Attribute
+27,SVM,NB(B),t-test,28.30013173868053,2.412614215618155e-06,Reject,SVM,NB(B),Replace Variable With Attribute
+28,SVM,NB(G),t-test,28.30013173868053,1.669632450381096e-09,Reject,SVM,NB(G),Replace Variable With Attribute
+29,SVM,NB(M),t-test,28.30013173868053,1.030812300034552e-06,Reject,SVM,NB(M),Replace Variable With Attribute
+30,SVM,KNN,t-test,28.30013173868053,0.009178521495593197,Reject,KNN,SVM,Replace Variable With Attribute
+32,SVM,Stack-LR,t-test,28.30013173868053,7.817174236252356e-08,Reject,Stack-LR,SVM,Replace Variable With Attribute
+33,SVM,Stack-DT,t-test,28.30013173868053,1.0,Accept,,,Replace Variable With Attribute
+34,SVM,TBStack-LR,t-test,28.30013173868053,1.965829644004615e-10,Reject,TBStack-LR,SVM,Replace Variable With Attribute
+35,SVM,TBStack-DT,t-test,28.30013173868053,8.046901897167599e-08,Reject,TBStack-DT,SVM,Replace Variable With Attribute
+36,MLP,SGD,t-test,28.30013173868053,1.404030859628894e-06,Reject,MLP,SGD,Replace Variable With Attribute
+37,MLP,NB(B),t-test,28.30013173868053,5.239229683432725e-09,Reject,MLP,NB(B),Replace Variable With Attribute
+38,MLP,NB(G),t-test,28.30013173868053,1.517034286045265e-10,Reject,MLP,NB(G),Replace Variable With Attribute
+39,MLP,NB(M),t-test,28.30013173868053,8.703774682586401e-09,Reject,MLP,NB(M),Replace Variable With Attribute
+40,MLP,KNN,t-test,28.30013173868053,0.002211982517701521,Reject,MLP,KNN,Replace Variable With Attribute
+42,MLP,Stack-LR,t-test,28.30013173868053,0.009650417795729211,Reject,Stack-LR,MLP,Replace Variable With Attribute
+43,MLP,Stack-DT,t-test,28.30013173868053,5.598480257333986e-06,Reject,MLP,Stack-DT,Replace Variable With Attribute
+44,MLP,TBStack-LR,t-test,28.30013173868053,1.290747661516088e-08,Reject,TBStack-LR,MLP,Replace Variable With Attribute
+45,MLP,TBStack-DT,t-test,28.30013173868053,0.000204768736746236,Reject,TBStack-DT,MLP,Replace Variable With Attribute
+46,SGD,NB(B),t-test,28.30013173868053,2.344305656736243e-05,Reject,SGD,NB(B),Replace Variable With Attribute
+47,SGD,NB(G),t-test,28.30013173868053,7.677683614197943e-10,Reject,SGD,NB(G),Replace Variable With Attribute
+48,SGD,NB(M),t-test,28.30013173868053,2.621973667523308e-05,Reject,SGD,NB(M),Replace Variable With Attribute
+49,SGD,KNN,t-test,28.30013173868053,0.0001781251044965437,Reject,KNN,SGD,Replace Variable With Attribute
+51,SGD,Stack-LR,t-test,28.30013173868053,1.848177628378839e-08,Reject,Stack-LR,SGD,Replace Variable With Attribute
+52,SGD,Stack-DT,t-test,28.30013173868053,0.02264483709287799,Reject,Stack-DT,SGD,Replace Variable With Attribute
+53,SGD,TBStack-LR,t-test,28.30013173868053,1.418708346796284e-09,Reject,TBStack-LR,SGD,Replace Variable With Attribute
+54,SGD,TBStack-DT,t-test,28.30013173868053,1.956004949019142e-07,Reject,TBStack-DT,SGD,Replace Variable With Attribute
+55,NB(B),NB(G),t-test,28.30013173868053,2.017317930783648e-05,Reject,NB(B),NB(G),Replace Variable With Attribute
+56,NB(B),NB(M),t-test,28.30013173868053,1.0,Accept,,,Replace Variable With Attribute
+57,NB(B),KNN,t-test,28.30013173868053,1.860596048424561e-07,Reject,KNN,NB(B),Replace Variable With Attribute
+59,NB(B),Stack-LR,t-test,28.30013173868053,4.614911129078449e-09,Reject,Stack-LR,NB(B),Replace Variable With Attribute
+60,NB(B),Stack-DT,t-test,28.30013173868053,6.223761930211677e-06,Reject,Stack-DT,NB(B),Replace Variable With Attribute
+61,NB(B),TBStack-LR,t-test,28.30013173868053,4.902176960255342e-10,Reject,TBStack-LR,NB(B),Replace Variable With Attribute
+62,NB(B),TBStack-DT,t-test,28.30013173868053,9.445515895016656e-09,Reject,TBStack-DT,NB(B),Replace Variable With Attribute
+63,NB(G),NB(M),t-test,28.30013173868053,5.553465830457485e-09,Reject,NB(M),NB(G),Replace Variable With Attribute
+64,NB(G),KNN,t-test,28.30013173868053,5.255222474952569e-10,Reject,KNN,NB(G),Replace Variable With Attribute
+66,NB(G),Stack-LR,t-test,28.30013173868053,1.149035996045903e-11,Reject,Stack-LR,NB(G),Replace Variable With Attribute
+67,NB(G),Stack-DT,t-test,28.30013173868053,3.616956833248693e-10,Reject,Stack-DT,NB(G),Replace Variable With Attribute
+68,NB(G),TBStack-LR,t-test,28.30013173868053,4.601554773326769e-12,Reject,TBStack-LR,NB(G),Replace Variable With Attribute
+69,NB(G),TBStack-DT,t-test,28.30013173868053,2.044407521902788e-10,Reject,TBStack-DT,NB(G),Replace Variable With Attribute
+70,NB(M),KNN,t-test,28.30013173868053,3.285488507017972e-09,Reject,KNN,NB(M),Replace Variable With Attribute
+72,NB(M),Stack-LR,t-test,28.30013173868053,5.541049381227462e-10,Reject,Stack-LR,NB(M),Replace Variable With Attribute
+73,NB(M),Stack-DT,t-test,28.30013173868053,2.568103305731103e-07,Reject,Stack-DT,NB(M),Replace Variable With Attribute
+74,NB(M),TBStack-LR,t-test,28.30013173868053,1.370968123431156e-11,Reject,TBStack-LR,NB(M),Replace Variable With Attribute
+75,NB(M),TBStack-DT,t-test,28.30013173868053,1.377366768643667e-09,Reject,TBStack-DT,NB(M),Replace Variable With Attribute
+77,KNN,Stack-LR,t-test,28.30013173868053,5.654747438946645e-06,Reject,Stack-LR,KNN,Replace Variable With Attribute
+78,KNN,Stack-DT,t-test,28.30013173868053,0.0004865252838005242,Reject,KNN,Stack-DT,Replace Variable With Attribute
+79,KNN,TBStack-LR,t-test,28.30013173868053,2.690554468742618e-10,Reject,TBStack-LR,KNN,Replace Variable With Attribute
+80,KNN,TBStack-DT,t-test,28.30013173868053,2.604856004149291e-07,Reject,TBStack-DT,KNN,Replace Variable With Attribute
+85,Stack-LR,Stack-DT,t-test,28.30013173868053,9.525253701736281e-08,Reject,Stack-LR,Stack-DT,Replace Variable With Attribute
+86,Stack-LR,TBStack-LR,t-test,28.30013173868053,2.797585029815023e-08,Reject,TBStack-LR,Stack-LR,Replace Variable With Attribute
+87,Stack-LR,TBStack-DT,t-test,28.30013173868053,0.1088478212886455,Accept,,,Replace Variable With Attribute
+88,Stack-DT,TBStack-LR,t-test,28.30013173868053,8.068318355072974e-11,Reject,TBStack-LR,Stack-DT,Replace Variable With Attribute
+89,Stack-DT,TBStack-DT,t-test,28.30013173868053,2.258746165489369e-09,Reject,TBStack-DT,Stack-DT,Replace Variable With Attribute
+90,TBStack-LR,TBStack-DT,t-test,28.30013173868053,3.80155151412596e-08,Reject,TBStack-LR,TBStack-DT,Replace Variable With Attribute
+0,DT-GR,LR-GR,t-test,22.61396586257356,0.001482350364953919,Reject,LR-GR,DT-GR,Extract Variable
+1,DT-GR,SVM-GR,t-test,22.61396586257356,0.0001641372781536796,Reject,SVM-GR,DT-GR,Extract Variable
+2,DT-GR,MLP-GR,t-test,22.61396586257356,0.0003309774639021956,Reject,MLP-GR,DT-GR,Extract Variable
+3,DT-GR,SGD-GR,t-test,22.61396586257356,0.001153126743885318,Reject,SGD-GR,DT-GR,Extract Variable
+4,DT-GR,NB(B)-GR,t-test,22.61396586257356,0.0006439857271582018,Reject,DT-GR,NB(B)-GR,Extract Variable
+5,DT-GR,NB(G)-GR,t-test,22.61396586257356,1.176174440761647e-07,Reject,DT-GR,NB(G)-GR,Extract Variable
+6,DT-GR,NB(M)-GR,t-test,22.61396586257356,0.06972612756246056,Accept,,,Extract Variable
+7,DT-GR,KNN-GR,t-test,22.61396586257356,0.004966314516102909,Reject,KNN-GR,DT-GR,Extract Variable
+9,DT-GR,Stack-LR-GR,t-test,22.61396586257356,3.391938831164216e-05,Reject,Stack-LR-GR,DT-GR,Extract Variable
+10,DT-GR,Stack-DT-GR,t-test,22.61396586257356,1.0,Accept,,,Extract Variable
+11,DT-GR,TBStack-LR-GR,t-test,22.61396586257356,6.429644110578167e-07,Reject,TBStack-LR-GR,DT-GR,Extract Variable
+12,DT-GR,TBStack-DT-GR,t-test,22.61396586257356,1.0,Accept,,,Extract Variable
+13,LR-GR,SVM-GR,t-test,22.61396586257356,0.1015303799060564,Accept,,,Extract Variable
+14,LR-GR,MLP-GR,t-test,22.61396586257356,0.01814338830780165,Reject,MLP-GR,LR-GR,Extract Variable
+15,LR-GR,SGD-GR,t-test,22.61396586257356,1.0,Accept,,,Extract Variable
+16,LR-GR,NB(B)-GR,t-test,22.61396586257356,1.101411683382227e-05,Reject,LR-GR,NB(B)-GR,Extract Variable
+17,LR-GR,NB(G)-GR,t-test,22.61396586257356,4.999691480733294e-09,Reject,LR-GR,NB(G)-GR,Extract Variable
+18,LR-GR,NB(M)-GR,t-test,22.61396586257356,1.0,Accept,,,Extract Variable
+19,LR-GR,KNN-GR,t-test,22.61396586257356,1.0,Accept,,,Extract Variable
+21,LR-GR,Stack-LR-GR,t-test,22.61396586257356,0.0004484873828400054,Reject,Stack-LR-GR,LR-GR,Extract Variable
+22,LR-GR,Stack-DT-GR,t-test,22.61396586257356,0.08920224604557557,Accept,,,Extract Variable
+23,LR-GR,TBStack-LR-GR,t-test,22.61396586257356,1.378854532320503e-05,Reject,TBStack-LR-GR,LR-GR,Extract Variable
+24,LR-GR,TBStack-DT-GR,t-test,22.61396586257356,0.006717228725490172,Reject,LR-GR,TBStack-DT-GR,Extract Variable
+25,SVM-GR,MLP-GR,t-test,22.61396586257356,0.08462926778556755,Accept,,,Extract Variable
+26,SVM-GR,SGD-GR,t-test,22.61396586257356,0.3430178930467392,Accept,,,Extract Variable
+27,SVM-GR,NB(B)-GR,t-test,22.61396586257356,3.073412479115233e-06,Reject,SVM-GR,NB(B)-GR,Extract Variable
+28,SVM-GR,NB(G)-GR,t-test,22.61396586257356,3.124352207400695e-09,Reject,SVM-GR,NB(G)-GR,Extract Variable
+29,SVM-GR,NB(M)-GR,t-test,22.61396586257356,0.123780502610681,Accept,,,Extract Variable
+30,SVM-GR,KNN-GR,t-test,22.61396586257356,1.0,Accept,,,Extract Variable
+32,SVM-GR,Stack-LR-GR,t-test,22.61396586257356,0.0006828265891364359,Reject,Stack-LR-GR,SVM-GR,Extract Variable
+33,SVM-GR,Stack-DT-GR,t-test,22.61396586257356,0.01394655418178797,Reject,SVM-GR,Stack-DT-GR,Extract Variable
+34,SVM-GR,TBStack-LR-GR,t-test,22.61396586257356,1.790643738922903e-05,Reject,TBStack-LR-GR,SVM-GR,Extract Variable
+35,SVM-GR,TBStack-DT-GR,t-test,22.61396586257356,0.0008709957399981241,Reject,SVM-GR,TBStack-DT-GR,Extract Variable
+36,MLP-GR,SGD-GR,t-test,22.61396586257356,0.0813125843809385,Accept,,,Extract Variable
+37,MLP-GR,NB(B)-GR,t-test,22.61396586257356,3.579979582894813e-06,Reject,MLP-GR,NB(B)-GR,Extract Variable
+38,MLP-GR,NB(G)-GR,t-test,22.61396586257356,1.240297766640142e-08,Reject,MLP-GR,NB(G)-GR,Extract Variable
+39,MLP-GR,NB(M)-GR,t-test,22.61396586257356,1.534715165066252e-05,Reject,MLP-GR,NB(M)-GR,Extract Variable
+40,MLP-GR,KNN-GR,t-test,22.61396586257356,0.0652939896092326,Accept,,,Extract Variable
+42,MLP-GR,Stack-LR-GR,t-test,22.61396586257356,1.0,Accept,,,Extract Variable
+43,MLP-GR,Stack-DT-GR,t-test,22.61396586257356,0.001318996364271138,Reject,MLP-GR,Stack-DT-GR,Extract Variable
+44,MLP-GR,TBStack-LR-GR,t-test,22.61396586257356,0.1403241755138507,Accept,,,Extract Variable
+45,MLP-GR,TBStack-DT-GR,t-test,22.61396586257356,0.0001866362824152307,Reject,MLP-GR,TBStack-DT-GR,Extract Variable
+46,SGD-GR,NB(B)-GR,t-test,22.61396586257356,2.571368875919148e-05,Reject,SGD-GR,NB(B)-GR,Extract Variable
+47,SGD-GR,NB(G)-GR,t-test,22.61396586257356,1.848445679232569e-08,Reject,SGD-GR,NB(G)-GR,Extract Variable
+48,SGD-GR,NB(M)-GR,t-test,22.61396586257356,1.0,Accept,,,Extract Variable
+49,SGD-GR,KNN-GR,t-test,22.61396586257356,1.0,Accept,,,Extract Variable
+51,SGD-GR,Stack-LR-GR,t-test,22.61396586257356,0.005278545008071892,Reject,Stack-LR-GR,SGD-GR,Extract Variable
+52,SGD-GR,Stack-DT-GR,t-test,22.61396586257356,0.1402697814228038,Accept,,,Extract Variable
+53,SGD-GR,TBStack-LR-GR,t-test,22.61396586257356,1.401109851280725e-05,Reject,TBStack-LR-GR,SGD-GR,Extract Variable
+54,SGD-GR,TBStack-DT-GR,t-test,22.61396586257356,0.007795801363330023,Reject,SGD-GR,TBStack-DT-GR,Extract Variable
+55,NB(B)-GR,NB(G)-GR,t-test,22.61396586257356,0.040226131584714,Reject,NB(B)-GR,NB(G)-GR,Extract Variable
+56,NB(B)-GR,NB(M)-GR,t-test,22.61396586257356,6.693178302772215e-06,Reject,NB(M)-GR,NB(B)-GR,Extract Variable
+57,NB(B)-GR,KNN-GR,t-test,22.61396586257356,4.472738411875457e-06,Reject,KNN-GR,NB(B)-GR,Extract Variable
+59,NB(B)-GR,Stack-LR-GR,t-test,22.61396586257356,7.366337456298619e-07,Reject,Stack-LR-GR,NB(B)-GR,Extract Variable
+60,NB(B)-GR,Stack-DT-GR,t-test,22.61396586257356,5.861038526134048e-05,Reject,Stack-DT-GR,NB(B)-GR,Extract Variable
+61,NB(B)-GR,TBStack-LR-GR,t-test,22.61396586257356,1.632853392465289e-07,Reject,TBStack-LR-GR,NB(B)-GR,Extract Variable
+62,NB(B)-GR,TBStack-DT-GR,t-test,22.61396586257356,8.753696535743384e-05,Reject,TBStack-DT-GR,NB(B)-GR,Extract Variable
+63,NB(G)-GR,NB(M)-GR,t-test,22.61396586257356,1.664716382097603e-08,Reject,NB(M)-GR,NB(G)-GR,Extract Variable
+64,NB(G)-GR,KNN-GR,t-test,22.61396586257356,3.105769634487619e-09,Reject,KNN-GR,NB(G)-GR,Extract Variable
+66,NB(G)-GR,Stack-LR-GR,t-test,22.61396586257356,6.667143007403678e-10,Reject,Stack-LR-GR,NB(G)-GR,Extract Variable
+67,NB(G)-GR,Stack-DT-GR,t-test,22.61396586257356,1.571423680809385e-05,Reject,Stack-DT-GR,NB(G)-GR,Extract Variable
+68,NB(G)-GR,TBStack-LR-GR,t-test,22.61396586257356,1.153196489573543e-11,Reject,TBStack-LR-GR,NB(G)-GR,Extract Variable
+69,NB(G)-GR,TBStack-DT-GR,t-test,22.61396586257356,2.582923884139511e-08,Reject,TBStack-DT-GR,NB(G)-GR,Extract Variable
+70,NB(M)-GR,KNN-GR,t-test,22.61396586257356,0.6077387803446789,Accept,,,Extract Variable
+72,NB(M)-GR,Stack-LR-GR,t-test,22.61396586257356,1.997309497355522e-05,Reject,Stack-LR-GR,NB(M)-GR,Extract Variable
+73,NB(M)-GR,Stack-DT-GR,t-test,22.61396586257356,0.111640453949886,Accept,,,Extract Variable
+74,NB(M)-GR,TBStack-LR-GR,t-test,22.61396586257356,6.057541827914993e-05,Reject,TBStack-LR-GR,NB(M)-GR,Extract Variable
+75,NB(M)-GR,TBStack-DT-GR,t-test,22.61396586257356,0.034238249827466,Reject,NB(M)-GR,TBStack-DT-GR,Extract Variable
+77,KNN-GR,Stack-LR-GR,t-test,22.61396586257356,0.001503763684348089,Reject,Stack-LR-GR,KNN-GR,Extract Variable
+78,KNN-GR,Stack-DT-GR,t-test,22.61396586257356,0.01928139032187145,Reject,KNN-GR,Stack-DT-GR,Extract Variable
+79,KNN-GR,TBStack-LR-GR,t-test,22.61396586257356,0.0001829310321819858,Reject,TBStack-LR-GR,KNN-GR,Extract Variable
+80,KNN-GR,TBStack-DT-GR,t-test,22.61396586257356,0.0005359111590851899,Reject,KNN-GR,TBStack-DT-GR,Extract Variable
+85,Stack-LR-GR,Stack-DT-GR,t-test,22.61396586257356,0.0007031862007392107,Reject,Stack-LR-GR,Stack-DT-GR,Extract Variable
+86,Stack-LR-GR,TBStack-LR-GR,t-test,22.61396586257356,0.01081959598370288,Reject,TBStack-LR-GR,Stack-LR-GR,Extract Variable
+87,Stack-LR-GR,TBStack-DT-GR,t-test,22.61396586257356,2.538698473586158e-05,Reject,Stack-LR-GR,TBStack-DT-GR,Extract Variable
+88,Stack-DT-GR,TBStack-LR-GR,t-test,22.61396586257356,0.0001161989278391962,Reject,TBStack-LR-GR,Stack-DT-GR,Extract Variable
+89,Stack-DT-GR,TBStack-DT-GR,t-test,22.61396586257356,1.0,Accept,,,Extract Variable
+90,TBStack-LR-GR,TBStack-DT-GR,t-test,22.61396586257356,2.789473851689529e-07,Reject,TBStack-LR-GR,TBStack-DT-GR,Extract Variable
+0,DT-GR,LR-GR,t-test,19.96680696791673,7.457331558941974e-08,Reject,DT-GR,LR-GR,Inline Variable
+1,DT-GR,SVM-GR,t-test,19.96680696791673,4.696870645099354e-08,Reject,DT-GR,SVM-GR,Inline Variable
+2,DT-GR,MLP-GR,t-test,19.96680696791673,1.0,Accept,,,Inline Variable
+3,DT-GR,SGD-GR,t-test,19.96680696791673,1.308032314025478e-08,Reject,DT-GR,SGD-GR,Inline Variable
+4,DT-GR,NB(B)-GR,t-test,19.96680696791673,8.309866001373153e-09,Reject,DT-GR,NB(B)-GR,Inline Variable
+5,DT-GR,NB(G)-GR,t-test,19.96680696791673,5.880235639181285e-11,Reject,DT-GR,NB(G)-GR,Inline Variable
+6,DT-GR,NB(M)-GR,t-test,19.96680696791673,3.525409022786046e-08,Reject,DT-GR,NB(M)-GR,Inline Variable
+7,DT-GR,KNN-GR,t-test,19.96680696791673,1.0,Accept,,,Inline Variable
+9,DT-GR,Stack-LR-GR,t-test,19.96680696791673,2.395851504713297e-06,Reject,Stack-LR-GR,DT-GR,Inline Variable
+10,DT-GR,Stack-DT-GR,t-test,19.96680696791673,1.0,Accept,,,Inline Variable
+11,DT-GR,TBStack-LR-GR,t-test,19.96680696791673,2.135185416039087e-10,Reject,TBStack-LR-GR,DT-GR,Inline Variable
+12,DT-GR,TBStack-DT-GR,t-test,19.96680696791673,5.715086334214828e-11,Reject,TBStack-DT-GR,DT-GR,Inline Variable
+13,LR-GR,SVM-GR,t-test,19.96680696791673,0.07045394915521079,Accept,,,Inline Variable
+14,LR-GR,MLP-GR,t-test,19.96680696791673,2.13003461693978e-09,Reject,MLP-GR,LR-GR,Inline Variable
+15,LR-GR,SGD-GR,t-test,19.96680696791673,0.01014195128403735,Reject,LR-GR,SGD-GR,Inline Variable
+16,LR-GR,NB(B)-GR,t-test,19.96680696791673,0.0001195981400445178,Reject,LR-GR,NB(B)-GR,Inline Variable
+17,LR-GR,NB(G)-GR,t-test,19.96680696791673,3.459007208906484e-10,Reject,LR-GR,NB(G)-GR,Inline Variable
+18,LR-GR,NB(M)-GR,t-test,19.96680696791673,4.958032916235892e-06,Reject,LR-GR,NB(M)-GR,Inline Variable
+19,LR-GR,KNN-GR,t-test,19.96680696791673,2.113784647846988e-09,Reject,KNN-GR,LR-GR,Inline Variable
+21,LR-GR,Stack-LR-GR,t-test,19.96680696791673,1.115237765164425e-10,Reject,Stack-LR-GR,LR-GR,Inline Variable
+22,LR-GR,Stack-DT-GR,t-test,19.96680696791673,4.385818746533315e-08,Reject,Stack-DT-GR,LR-GR,Inline Variable
+23,LR-GR,TBStack-LR-GR,t-test,19.96680696791673,1.546103256781639e-12,Reject,TBStack-LR-GR,LR-GR,Inline Variable
+24,LR-GR,TBStack-DT-GR,t-test,19.96680696791673,8.46718336469038e-12,Reject,TBStack-DT-GR,LR-GR,Inline Variable
+25,SVM-GR,MLP-GR,t-test,19.96680696791673,2.737102558976007e-08,Reject,MLP-GR,SVM-GR,Inline Variable
+26,SVM-GR,SGD-GR,t-test,19.96680696791673,0.0001319836473048347,Reject,SVM-GR,SGD-GR,Inline Variable
+27,SVM-GR,NB(B)-GR,t-test,19.96680696791673,6.040045793279926e-05,Reject,SVM-GR,NB(B)-GR,Inline Variable
+28,SVM-GR,NB(G)-GR,t-test,19.96680696791673,1.125640232563674e-09,Reject,SVM-GR,NB(G)-GR,Inline Variable
+29,SVM-GR,NB(M)-GR,t-test,19.96680696791673,6.753078133728357e-06,Reject,SVM-GR,NB(M)-GR,Inline Variable
+30,SVM-GR,KNN-GR,t-test,19.96680696791673,4.796003905076718e-10,Reject,KNN-GR,SVM-GR,Inline Variable
+32,SVM-GR,Stack-LR-GR,t-test,19.96680696791673,3.612357845172043e-10,Reject,Stack-LR-GR,SVM-GR,Inline Variable
+33,SVM-GR,Stack-DT-GR,t-test,19.96680696791673,5.811430134278112e-08,Reject,Stack-DT-GR,SVM-GR,Inline Variable
+34,SVM-GR,TBStack-LR-GR,t-test,19.96680696791673,1.114977506934387e-11,Reject,TBStack-LR-GR,SVM-GR,Inline Variable
+35,SVM-GR,TBStack-DT-GR,t-test,19.96680696791673,3.072178651044169e-11,Reject,TBStack-DT-GR,SVM-GR,Inline Variable
+36,MLP-GR,SGD-GR,t-test,19.96680696791673,1.19495979246577e-08,Reject,MLP-GR,SGD-GR,Inline Variable
+37,MLP-GR,NB(B)-GR,t-test,19.96680696791673,1.165868541977118e-10,Reject,MLP-GR,NB(B)-GR,Inline Variable
+38,MLP-GR,NB(G)-GR,t-test,19.96680696791673,2.922564635500389e-14,Reject,MLP-GR,NB(G)-GR,Inline Variable
+39,MLP-GR,NB(M)-GR,t-test,19.96680696791673,8.522626944605224e-11,Reject,MLP-GR,NB(M)-GR,Inline Variable
+40,MLP-GR,KNN-GR,t-test,19.96680696791673,0.2396696332534016,Accept,,,Inline Variable
+42,MLP-GR,Stack-LR-GR,t-test,19.96680696791673,3.950759730662846e-09,Reject,Stack-LR-GR,MLP-GR,Inline Variable
+43,MLP-GR,Stack-DT-GR,t-test,19.96680696791673,1.0,Accept,,,Inline Variable
+44,MLP-GR,TBStack-LR-GR,t-test,19.96680696791673,3.084392438706905e-11,Reject,TBStack-LR-GR,MLP-GR,Inline Variable
+45,MLP-GR,TBStack-DT-GR,t-test,19.96680696791673,2.918410581562055e-10,Reject,TBStack-DT-GR,MLP-GR,Inline Variable
+46,SGD-GR,NB(B)-GR,t-test,19.96680696791673,0.006193398323587365,Reject,SGD-GR,NB(B)-GR,Inline Variable
+47,SGD-GR,NB(G)-GR,t-test,19.96680696791673,2.526022569137412e-09,Reject,SGD-GR,NB(G)-GR,Inline Variable
+48,SGD-GR,NB(M)-GR,t-test,19.96680696791673,0.0001778465393874246,Reject,SGD-GR,NB(M)-GR,Inline Variable
+49,SGD-GR,KNN-GR,t-test,19.96680696791673,4.216832047629205e-09,Reject,KNN-GR,SGD-GR,Inline Variable
+51,SGD-GR,Stack-LR-GR,t-test,19.96680696791673,6.072700737493213e-10,Reject,Stack-LR-GR,SGD-GR,Inline Variable
+52,SGD-GR,Stack-DT-GR,t-test,19.96680696791673,7.715421849482355e-09,Reject,Stack-DT-GR,SGD-GR,Inline Variable
+53,SGD-GR,TBStack-LR-GR,t-test,19.96680696791673,6.09029770413422e-12,Reject,TBStack-LR-GR,SGD-GR,Inline Variable
+54,SGD-GR,TBStack-DT-GR,t-test,19.96680696791673,1.283074206538116e-11,Reject,TBStack-DT-GR,SGD-GR,Inline Variable
+55,NB(B)-GR,NB(G)-GR,t-test,19.96680696791673,6.341738314664197e-09,Reject,NB(B)-GR,NB(G)-GR,Inline Variable
+56,NB(B)-GR,NB(M)-GR,t-test,19.96680696791673,0.04821745022483742,Reject,NB(B)-GR,NB(M)-GR,Inline Variable
+57,NB(B)-GR,KNN-GR,t-test,19.96680696791673,4.164481372265782e-10,Reject,KNN-GR,NB(B)-GR,Inline Variable
+59,NB(B)-GR,Stack-LR-GR,t-test,19.96680696791673,1.09205465512281e-11,Reject,Stack-LR-GR,NB(B)-GR,Inline Variable
+60,NB(B)-GR,Stack-DT-GR,t-test,19.96680696791673,1.007656703136758e-10,Reject,Stack-DT-GR,NB(B)-GR,Inline Variable
+61,NB(B)-GR,TBStack-LR-GR,t-test,19.96680696791673,1.550928121565757e-12,Reject,TBStack-LR-GR,NB(B)-GR,Inline Variable
+62,NB(B)-GR,TBStack-DT-GR,t-test,19.96680696791673,7.69264500460005e-12,Reject,TBStack-DT-GR,NB(B)-GR,Inline Variable
+63,NB(G)-GR,NB(M)-GR,t-test,19.96680696791673,3.698551426785894e-08,Reject,NB(M)-GR,NB(G)-GR,Inline Variable
+64,NB(G)-GR,KNN-GR,t-test,19.96680696791673,2.923664959968398e-11,Reject,KNN-GR,NB(G)-GR,Inline Variable
+66,NB(G)-GR,Stack-LR-GR,t-test,19.96680696791673,2.031583343237505e-13,Reject,Stack-LR-GR,NB(G)-GR,Inline Variable
+67,NB(G)-GR,Stack-DT-GR,t-test,19.96680696791673,5.085664079236207e-12,Reject,Stack-DT-GR,NB(G)-GR,Inline Variable
+68,NB(G)-GR,TBStack-LR-GR,t-test,19.96680696791673,4.466338606719123e-14,Reject,TBStack-LR-GR,NB(G)-GR,Inline Variable
+69,NB(G)-GR,TBStack-DT-GR,t-test,19.96680696791673,1.702098939804841e-13,Reject,TBStack-DT-GR,NB(G)-GR,Inline Variable
+70,NB(M)-GR,KNN-GR,t-test,19.96680696791673,4.050806867074431e-09,Reject,KNN-GR,NB(M)-GR,Inline Variable
+72,NB(M)-GR,Stack-LR-GR,t-test,19.96680696791673,3.271036906774232e-11,Reject,Stack-LR-GR,NB(M)-GR,Inline Variable
+73,NB(M)-GR,Stack-DT-GR,t-test,19.96680696791673,6.851523734277577e-09,Reject,Stack-DT-GR,NB(M)-GR,Inline Variable
+74,NB(M)-GR,TBStack-LR-GR,t-test,19.96680696791673,5.147786757796757e-12,Reject,TBStack-LR-GR,NB(M)-GR,Inline Variable
+75,NB(M)-GR,TBStack-DT-GR,t-test,19.96680696791673,3.235417947825527e-11,Reject,TBStack-DT-GR,NB(M)-GR,Inline Variable
+77,KNN-GR,Stack-LR-GR,t-test,19.96680696791673,7.785906167563619e-07,Reject,Stack-LR-GR,KNN-GR,Inline Variable
+78,KNN-GR,Stack-DT-GR,t-test,19.96680696791673,0.04757918739425739,Reject,KNN-GR,Stack-DT-GR,Inline Variable
+79,KNN-GR,TBStack-LR-GR,t-test,19.96680696791673,2.002984602078959e-09,Reject,TBStack-LR-GR,KNN-GR,Inline Variable
+80,KNN-GR,TBStack-DT-GR,t-test,19.96680696791673,1.725590446613522e-08,Reject,TBStack-DT-GR,KNN-GR,Inline Variable
+85,Stack-LR-GR,Stack-DT-GR,t-test,19.96680696791673,2.722285485821978e-07,Reject,Stack-LR-GR,Stack-DT-GR,Inline Variable
+86,Stack-LR-GR,TBStack-LR-GR,t-test,19.96680696791673,4.541427436588906e-10,Reject,TBStack-LR-GR,Stack-LR-GR,Inline Variable
+87,Stack-LR-GR,TBStack-DT-GR,t-test,19.96680696791673,3.141415632683215e-07,Reject,TBStack-DT-GR,Stack-LR-GR,Inline Variable
+88,Stack-DT-GR,TBStack-LR-GR,t-test,19.96680696791673,5.249797564753302e-10,Reject,TBStack-LR-GR,Stack-DT-GR,Inline Variable
+89,Stack-DT-GR,TBStack-DT-GR,t-test,19.96680696791673,4.000248214665538e-09,Reject,TBStack-DT-GR,Stack-DT-GR,Inline Variable
+90,TBStack-LR-GR,TBStack-DT-GR,t-test,19.96680696791673,8.384296002858494e-07,Reject,TBStack-LR-GR,TBStack-DT-GR,Inline Variable
+0,DT-GR,LR-GR,t-test,25.32867198105068,1.760750117413222e-06,Reject,DT-GR,LR-GR,Parameterize Variable
+1,DT-GR,SVM-GR,t-test,25.32867198105068,2.758845783441993e-06,Reject,DT-GR,SVM-GR,Parameterize Variable
+2,DT-GR,MLP-GR,t-test,25.32867198105068,0.08755253098908229,Accept,,,Parameterize Variable
+3,DT-GR,SGD-GR,t-test,25.32867198105068,8.167998469701125e-07,Reject,DT-GR,SGD-GR,Parameterize Variable
+4,DT-GR,NB(B)-GR,t-test,25.32867198105068,7.219037236364657e-09,Reject,DT-GR,NB(B)-GR,Parameterize Variable
+5,DT-GR,NB(G)-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+6,DT-GR,NB(M)-GR,t-test,25.32867198105068,3.316503983219435e-07,Reject,DT-GR,NB(M)-GR,Parameterize Variable
+7,DT-GR,KNN-GR,t-test,25.32867198105068,1.0,Accept,,,Parameterize Variable
+9,DT-GR,Stack-LR-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+10,DT-GR,Stack-DT-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+11,DT-GR,TBStack-LR-GR,t-test,25.32867198105068,1.926699629180274e-11,Reject,TBStack-LR-GR,DT-GR,Parameterize Variable
+12,DT-GR,TBStack-DT-GR,t-test,25.32867198105068,3.208380531243683e-09,Reject,TBStack-DT-GR,DT-GR,Parameterize Variable
+13,LR-GR,SVM-GR,t-test,25.32867198105068,0.0904866538736873,Accept,,,Parameterize Variable
+14,LR-GR,MLP-GR,t-test,25.32867198105068,1.881242886277022e-07,Reject,MLP-GR,LR-GR,Parameterize Variable
+15,LR-GR,SGD-GR,t-test,25.32867198105068,0.04946385603118036,Reject,LR-GR,SGD-GR,Parameterize Variable
+16,LR-GR,NB(B)-GR,t-test,25.32867198105068,0.0005850291885234575,Reject,LR-GR,NB(B)-GR,Parameterize Variable
+17,LR-GR,NB(G)-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+18,LR-GR,NB(M)-GR,t-test,25.32867198105068,0.0001151922435067694,Reject,LR-GR,NB(M)-GR,Parameterize Variable
+19,LR-GR,KNN-GR,t-test,25.32867198105068,1.176668877029013e-08,Reject,KNN-GR,LR-GR,Parameterize Variable
+21,LR-GR,Stack-LR-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+22,LR-GR,Stack-DT-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+23,LR-GR,TBStack-LR-GR,t-test,25.32867198105068,1.113026822754793e-09,Reject,TBStack-LR-GR,LR-GR,Parameterize Variable
+24,LR-GR,TBStack-DT-GR,t-test,25.32867198105068,1.275518942537451e-08,Reject,TBStack-DT-GR,LR-GR,Parameterize Variable
+25,SVM-GR,MLP-GR,t-test,25.32867198105068,6.492678006416986e-07,Reject,MLP-GR,SVM-GR,Parameterize Variable
+26,SVM-GR,SGD-GR,t-test,25.32867198105068,0.004343326309799007,Reject,SVM-GR,SGD-GR,Parameterize Variable
+27,SVM-GR,NB(B)-GR,t-test,25.32867198105068,8.721775182319118e-05,Reject,SVM-GR,NB(B)-GR,Parameterize Variable
+28,SVM-GR,NB(G)-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+29,SVM-GR,NB(M)-GR,t-test,25.32867198105068,1.162132165473883e-05,Reject,SVM-GR,NB(M)-GR,Parameterize Variable
+30,SVM-GR,KNN-GR,t-test,25.32867198105068,9.607664727367842e-08,Reject,KNN-GR,SVM-GR,Parameterize Variable
+32,SVM-GR,Stack-LR-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+33,SVM-GR,Stack-DT-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+34,SVM-GR,TBStack-LR-GR,t-test,25.32867198105068,1.546595502182519e-09,Reject,TBStack-LR-GR,SVM-GR,Parameterize Variable
+35,SVM-GR,TBStack-DT-GR,t-test,25.32867198105068,1.433082986346345e-08,Reject,TBStack-DT-GR,SVM-GR,Parameterize Variable
+36,MLP-GR,SGD-GR,t-test,25.32867198105068,5.815046787862989e-08,Reject,MLP-GR,SGD-GR,Parameterize Variable
+37,MLP-GR,NB(B)-GR,t-test,25.32867198105068,5.044804055014475e-08,Reject,MLP-GR,NB(B)-GR,Parameterize Variable
+38,MLP-GR,NB(G)-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+39,MLP-GR,NB(M)-GR,t-test,25.32867198105068,8.729759078449711e-08,Reject,MLP-GR,NB(M)-GR,Parameterize Variable
+40,MLP-GR,KNN-GR,t-test,25.32867198105068,1.0,Accept,,,Parameterize Variable
+42,MLP-GR,Stack-LR-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+43,MLP-GR,Stack-DT-GR,t-test,25.32867198105068,1.0,Accept,,,Parameterize Variable
+44,MLP-GR,TBStack-LR-GR,t-test,25.32867198105068,2.038235942267015e-09,Reject,TBStack-LR-GR,MLP-GR,Parameterize Variable
+45,MLP-GR,TBStack-DT-GR,t-test,25.32867198105068,7.25371065211485e-08,Reject,TBStack-DT-GR,MLP-GR,Parameterize Variable
+46,SGD-GR,NB(B)-GR,t-test,25.32867198105068,0.005147024150444994,Reject,SGD-GR,NB(B)-GR,Parameterize Variable
+47,SGD-GR,NB(G)-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+48,SGD-GR,NB(M)-GR,t-test,25.32867198105068,3.984241607777484e-05,Reject,SGD-GR,NB(M)-GR,Parameterize Variable
+49,SGD-GR,KNN-GR,t-test,25.32867198105068,2.032841689421165e-10,Reject,KNN-GR,SGD-GR,Parameterize Variable
+51,SGD-GR,Stack-LR-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+52,SGD-GR,Stack-DT-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+53,SGD-GR,TBStack-LR-GR,t-test,25.32867198105068,4.787083836437851e-10,Reject,TBStack-LR-GR,SGD-GR,Parameterize Variable
+54,SGD-GR,TBStack-DT-GR,t-test,25.32867198105068,6.153269361455061e-09,Reject,TBStack-DT-GR,SGD-GR,Parameterize Variable
+55,NB(B)-GR,NB(G)-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+56,NB(B)-GR,NB(M)-GR,t-test,25.32867198105068,1.0,Accept,,,Parameterize Variable
+57,NB(B)-GR,KNN-GR,t-test,25.32867198105068,3.200129338334052e-09,Reject,KNN-GR,NB(B)-GR,Parameterize Variable
+59,NB(B)-GR,Stack-LR-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+60,NB(B)-GR,Stack-DT-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+61,NB(B)-GR,TBStack-LR-GR,t-test,25.32867198105068,1.249461813016066e-11,Reject,TBStack-LR-GR,NB(B)-GR,Parameterize Variable
+62,NB(B)-GR,TBStack-DT-GR,t-test,25.32867198105068,6.842818254816676e-11,Reject,TBStack-DT-GR,NB(B)-GR,Parameterize Variable
+63,NB(G)-GR,NB(M)-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+64,NB(G)-GR,KNN-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+66,NB(G)-GR,Stack-LR-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+67,NB(G)-GR,Stack-DT-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+68,NB(G)-GR,TBStack-LR-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+69,NB(G)-GR,TBStack-DT-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+70,NB(M)-GR,KNN-GR,t-test,25.32867198105068,4.20718709890788e-10,Reject,KNN-GR,NB(M)-GR,Parameterize Variable
+72,NB(M)-GR,Stack-LR-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+73,NB(M)-GR,Stack-DT-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+74,NB(M)-GR,TBStack-LR-GR,t-test,25.32867198105068,3.760820981597959e-10,Reject,TBStack-LR-GR,NB(M)-GR,Parameterize Variable
+75,NB(M)-GR,TBStack-DT-GR,t-test,25.32867198105068,3.373702249782891e-09,Reject,TBStack-DT-GR,NB(M)-GR,Parameterize Variable
+77,KNN-GR,Stack-LR-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+78,KNN-GR,Stack-DT-GR,t-test,25.32867198105068,0.35546875,Accept,,,Parameterize Variable
+79,KNN-GR,TBStack-LR-GR,t-test,25.32867198105068,3.782246468877604e-09,Reject,TBStack-LR-GR,KNN-GR,Parameterize Variable
+80,KNN-GR,TBStack-DT-GR,t-test,25.32867198105068,2.472268134548364e-07,Reject,TBStack-DT-GR,KNN-GR,Parameterize Variable
+85,Stack-LR-GR,Stack-DT-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+86,Stack-LR-GR,TBStack-LR-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+87,Stack-LR-GR,TBStack-DT-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+88,Stack-DT-GR,TBStack-LR-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+89,Stack-DT-GR,TBStack-DT-GR,t-test,25.32867198105068,0.177734375,Accept,,,Parameterize Variable
+90,TBStack-LR-GR,TBStack-DT-GR,t-test,25.32867198105068,1.020110004200856e-07,Reject,TBStack-LR-GR,TBStack-DT-GR,Parameterize Variable
+0,DT-GR,LR-GR,t-test,11.98930639918274,7.968178970945751e-12,Reject,DT-GR,LR-GR,Rename Parameter
+1,DT-GR,SVM-GR,t-test,11.98930639918274,1.334072735894676e-11,Reject,DT-GR,SVM-GR,Rename Parameter
+2,DT-GR,MLP-GR,t-test,11.98930639918274,6.546849946379466e-12,Reject,DT-GR,MLP-GR,Rename Parameter
+3,DT-GR,SGD-GR,t-test,11.98930639918274,1.005878224688285e-11,Reject,DT-GR,SGD-GR,Rename Parameter
+4,DT-GR,NB(B)-GR,t-test,11.98930639918274,6.559165816138133e-13,Reject,DT-GR,NB(B)-GR,Rename Parameter
+5,DT-GR,NB(G)-GR,t-test,11.98930639918274,2.660713642921895e-15,Reject,DT-GR,NB(G)-GR,Rename Parameter
+6,DT-GR,NB(M)-GR,t-test,11.98930639918274,1.701738207768813e-12,Reject,DT-GR,NB(M)-GR,Rename Parameter
+7,DT-GR,KNN-GR,t-test,11.98930639918274,1.250444178117306e-10,Reject,DT-GR,KNN-GR,Rename Parameter
+9,DT-GR,Stack-LR-GR,t-test,11.98930639918274,2.407103111294765e-10,Reject,Stack-LR-GR,DT-GR,Rename Parameter
+10,DT-GR,Stack-DT-GR,t-test,11.98930639918274,0.0004996561573349518,Reject,DT-GR,Stack-DT-GR,Rename Parameter
+11,DT-GR,TBStack-LR-GR,t-test,11.98930639918274,4.687858064840569e-11,Reject,TBStack-LR-GR,DT-GR,Rename Parameter
+12,DT-GR,TBStack-DT-GR,t-test,11.98930639918274,1.970788626802877e-12,Reject,TBStack-DT-GR,DT-GR,Rename Parameter
+13,LR-GR,SVM-GR,t-test,11.98930639918274,1.0,Accept,,,Rename Parameter
+14,LR-GR,MLP-GR,t-test,11.98930639918274,2.019641290545536e-06,Reject,MLP-GR,LR-GR,Rename Parameter
+15,LR-GR,SGD-GR,t-test,11.98930639918274,0.0003416654675598405,Reject,LR-GR,SGD-GR,Rename Parameter
+16,LR-GR,NB(B)-GR,t-test,11.98930639918274,2.481730172620341e-08,Reject,LR-GR,NB(B)-GR,Rename Parameter
+17,LR-GR,NB(G)-GR,t-test,11.98930639918274,1.110093701260335e-10,Reject,LR-GR,NB(G)-GR,Rename Parameter
+18,LR-GR,NB(M)-GR,t-test,11.98930639918274,2.445546342787053e-10,Reject,LR-GR,NB(M)-GR,Rename Parameter
+19,LR-GR,KNN-GR,t-test,11.98930639918274,3.374095112936678e-11,Reject,KNN-GR,LR-GR,Rename Parameter
+21,LR-GR,Stack-LR-GR,t-test,11.98930639918274,1.74797437249974e-12,Reject,Stack-LR-GR,LR-GR,Rename Parameter
+22,LR-GR,Stack-DT-GR,t-test,11.98930639918274,1.08956218070101e-11,Reject,Stack-DT-GR,LR-GR,Rename Parameter
+23,LR-GR,TBStack-LR-GR,t-test,11.98930639918274,5.259514737949023e-13,Reject,TBStack-LR-GR,LR-GR,Rename Parameter
+24,LR-GR,TBStack-DT-GR,t-test,11.98930639918274,9.712554295927065e-13,Reject,TBStack-DT-GR,LR-GR,Rename Parameter
+25,SVM-GR,MLP-GR,t-test,11.98930639918274,1.983522835569819e-06,Reject,MLP-GR,SVM-GR,Rename Parameter
+26,SVM-GR,SGD-GR,t-test,11.98930639918274,0.001406667071123645,Reject,SVM-GR,SGD-GR,Rename Parameter
+27,SVM-GR,NB(B)-GR,t-test,11.98930639918274,1.583468757213749e-08,Reject,SVM-GR,NB(B)-GR,Rename Parameter
+28,SVM-GR,NB(G)-GR,t-test,11.98930639918274,2.435614754889367e-10,Reject,SVM-GR,NB(G)-GR,Rename Parameter
+29,SVM-GR,NB(M)-GR,t-test,11.98930639918274,4.026791220455994e-10,Reject,SVM-GR,NB(M)-GR,Rename Parameter
+30,SVM-GR,KNN-GR,t-test,11.98930639918274,6.877965977350191e-11,Reject,KNN-GR,SVM-GR,Rename Parameter
+32,SVM-GR,Stack-LR-GR,t-test,11.98930639918274,3.03606208192521e-12,Reject,Stack-LR-GR,SVM-GR,Rename Parameter
+33,SVM-GR,Stack-DT-GR,t-test,11.98930639918274,2.266627092813112e-11,Reject,Stack-DT-GR,SVM-GR,Rename Parameter
+34,SVM-GR,TBStack-LR-GR,t-test,11.98930639918274,8.163545322333994e-13,Reject,TBStack-LR-GR,SVM-GR,Rename Parameter
+35,SVM-GR,TBStack-DT-GR,t-test,11.98930639918274,1.500526551886497e-12,Reject,TBStack-DT-GR,SVM-GR,Rename Parameter
+36,MLP-GR,SGD-GR,t-test,11.98930639918274,1.248163240331329e-06,Reject,MLP-GR,SGD-GR,Rename Parameter
+37,MLP-GR,NB(B)-GR,t-test,11.98930639918274,1.076751943059754e-10,Reject,MLP-GR,NB(B)-GR,Rename Parameter
+38,MLP-GR,NB(G)-GR,t-test,11.98930639918274,2.342723415553962e-11,Reject,MLP-GR,NB(G)-GR,Rename Parameter
+39,MLP-GR,NB(M)-GR,t-test,11.98930639918274,7.915542244861829e-10,Reject,MLP-GR,NB(M)-GR,Rename Parameter
+40,MLP-GR,KNN-GR,t-test,11.98930639918274,8.344230411901088e-10,Reject,KNN-GR,MLP-GR,Rename Parameter
+42,MLP-GR,Stack-LR-GR,t-test,11.98930639918274,6.334867507900186e-13,Reject,Stack-LR-GR,MLP-GR,Rename Parameter
+43,MLP-GR,Stack-DT-GR,t-test,11.98930639918274,1.779284444619571e-11,Reject,Stack-DT-GR,MLP-GR,Rename Parameter
+44,MLP-GR,TBStack-LR-GR,t-test,11.98930639918274,1.186221711698512e-12,Reject,TBStack-LR-GR,MLP-GR,Rename Parameter
+45,MLP-GR,TBStack-DT-GR,t-test,11.98930639918274,9.53858838706233e-13,Reject,TBStack-DT-GR,MLP-GR,Rename Parameter
+46,SGD-GR,NB(B)-GR,t-test,11.98930639918274,6.33532075824131e-08,Reject,SGD-GR,NB(B)-GR,Rename Parameter
+47,SGD-GR,NB(G)-GR,t-test,11.98930639918274,1.229538085743029e-10,Reject,SGD-GR,NB(G)-GR,Rename Parameter
+48,SGD-GR,NB(M)-GR,t-test,11.98930639918274,1.034361981037699e-10,Reject,SGD-GR,NB(M)-GR,Rename Parameter
+49,SGD-GR,KNN-GR,t-test,11.98930639918274,9.523295943625745e-11,Reject,KNN-GR,SGD-GR,Rename Parameter
+51,SGD-GR,Stack-LR-GR,t-test,11.98930639918274,2.956829741341799e-12,Reject,Stack-LR-GR,SGD-GR,Rename Parameter
+52,SGD-GR,Stack-DT-GR,t-test,11.98930639918274,1.054271304788948e-11,Reject,Stack-DT-GR,SGD-GR,Rename Parameter
+53,SGD-GR,TBStack-LR-GR,t-test,11.98930639918274,8.60411269102492e-13,Reject,TBStack-LR-GR,SGD-GR,Rename Parameter
+54,SGD-GR,TBStack-DT-GR,t-test,11.98930639918274,1.094092919827944e-12,Reject,TBStack-DT-GR,SGD-GR,Rename Parameter
+55,NB(B)-GR,NB(G)-GR,t-test,11.98930639918274,1.019765109143305e-05,Reject,NB(B)-GR,NB(G)-GR,Rename Parameter
+56,NB(B)-GR,NB(M)-GR,t-test,11.98930639918274,0.001617596802630783,Reject,NB(B)-GR,NB(M)-GR,Rename Parameter
+57,NB(B)-GR,KNN-GR,t-test,11.98930639918274,2.667954431570842e-12,Reject,KNN-GR,NB(B)-GR,Rename Parameter
+59,NB(B)-GR,Stack-LR-GR,t-test,11.98930639918274,2.167534859148867e-13,Reject,Stack-LR-GR,NB(B)-GR,Rename Parameter
+60,NB(B)-GR,Stack-DT-GR,t-test,11.98930639918274,5.120711396425047e-13,Reject,Stack-DT-GR,NB(B)-GR,Rename Parameter
+61,NB(B)-GR,TBStack-LR-GR,t-test,11.98930639918274,7.881331245011106e-14,Reject,TBStack-LR-GR,NB(B)-GR,Rename Parameter
+62,NB(B)-GR,TBStack-DT-GR,t-test,11.98930639918274,9.258638051016581e-14,Reject,TBStack-DT-GR,NB(B)-GR,Rename Parameter
+63,NB(G)-GR,NB(M)-GR,t-test,11.98930639918274,0.3869795343449025,Accept,,,Rename Parameter
+64,NB(G)-GR,KNN-GR,t-test,11.98930639918274,2.064896966433753e-13,Reject,KNN-GR,NB(G)-GR,Rename Parameter
+66,NB(G)-GR,Stack-LR-GR,t-test,11.98930639918274,2.729361554219318e-15,Reject,Stack-LR-GR,NB(G)-GR,Rename Parameter
+67,NB(G)-GR,Stack-DT-GR,t-test,11.98930639918274,5.272172263412292e-16,Reject,Stack-DT-GR,NB(G)-GR,Rename Parameter
+68,NB(G)-GR,TBStack-LR-GR,t-test,11.98930639918274,8.772240795064823e-16,Reject,TBStack-LR-GR,NB(G)-GR,Rename Parameter
+69,NB(G)-GR,TBStack-DT-GR,t-test,11.98930639918274,7.080157491299089e-16,Reject,TBStack-DT-GR,NB(G)-GR,Rename Parameter
+70,NB(M)-GR,KNN-GR,t-test,11.98930639918274,1.655557277797402e-11,Reject,KNN-GR,NB(M)-GR,Rename Parameter
+72,NB(M)-GR,Stack-LR-GR,t-test,11.98930639918274,9.969088738669112e-13,Reject,Stack-LR-GR,NB(M)-GR,Rename Parameter
+73,NB(M)-GR,Stack-DT-GR,t-test,11.98930639918274,1.936705079788606e-12,Reject,Stack-DT-GR,NB(M)-GR,Rename Parameter
+74,NB(M)-GR,TBStack-LR-GR,t-test,11.98930639918274,4.252002966677661e-13,Reject,TBStack-LR-GR,NB(M)-GR,Rename Parameter
+75,NB(M)-GR,TBStack-DT-GR,t-test,11.98930639918274,4.061726658015565e-13,Reject,TBStack-DT-GR,NB(M)-GR,Rename Parameter
+77,KNN-GR,Stack-LR-GR,t-test,11.98930639918274,4.874850005983508e-13,Reject,Stack-LR-GR,KNN-GR,Rename Parameter
+78,KNN-GR,Stack-DT-GR,t-test,11.98930639918274,1.267277855832459e-09,Reject,Stack-DT-GR,KNN-GR,Rename Parameter
+79,KNN-GR,TBStack-LR-GR,t-test,11.98930639918274,2.507004380884746e-13,Reject,TBStack-LR-GR,KNN-GR,Rename Parameter
+80,KNN-GR,TBStack-DT-GR,t-test,11.98930639918274,1.021033927749812e-12,Reject,TBStack-DT-GR,KNN-GR,Rename Parameter
+85,Stack-LR-GR,Stack-DT-GR,t-test,11.98930639918274,1.101914557239628e-08,Reject,Stack-LR-GR,Stack-DT-GR,Rename Parameter
+86,Stack-LR-GR,TBStack-LR-GR,t-test,11.98930639918274,7.990198301347923e-10,Reject,TBStack-LR-GR,Stack-LR-GR,Rename Parameter
+87,Stack-LR-GR,TBStack-DT-GR,t-test,11.98930639918274,5.736250260881008e-10,Reject,TBStack-DT-GR,Stack-LR-GR,Rename Parameter
+88,Stack-DT-GR,TBStack-LR-GR,t-test,11.98930639918274,1.565790879066775e-10,Reject,TBStack-LR-GR,Stack-DT-GR,Rename Parameter
+89,Stack-DT-GR,TBStack-DT-GR,t-test,11.98930639918274,9.209708303222692e-11,Reject,TBStack-DT-GR,Stack-DT-GR,Rename Parameter
+90,TBStack-LR-GR,TBStack-DT-GR,t-test,11.98930639918274,7.060309164207197e-05,Reject,TBStack-LR-GR,TBStack-DT-GR,Rename Parameter
+0,DT-GR,LR-GR,t-test,8.261244766306062,0.177734375,Accept,,,Rename Variable
+1,DT-GR,SVM-GR,t-test,8.261244766306062,0.177734375,Accept,,,Rename Variable
+2,DT-GR,MLP-GR,t-test,8.261244766306062,0.177734375,Accept,,,Rename Variable
+3,DT-GR,SGD-GR,t-test,8.261244766306062,0.177734375,Accept,,,Rename Variable
+4,DT-GR,NB(B)-GR,t-test,8.261244766306062,0.177734375,Accept,,,Rename Variable
+5,DT-GR,NB(G)-GR,t-test,8.261244766306062,0.177734375,Accept,,,Rename Variable
+6,DT-GR,NB(M)-GR,t-test,8.261244766306062,0.177734375,Accept,,,Rename Variable
+7,DT-GR,KNN-GR,t-test,8.261244766306062,0.177734375,Accept,,,Rename Variable
+9,DT-GR,Stack-LR-GR,t-test,8.261244766306062,0.177734375,Accept,,,Rename Variable
+10,DT-GR,Stack-DT-GR,t-test,8.261244766306062,0.177734375,Accept,,,Rename Variable
+11,DT-GR,TBStack-LR-GR,t-test,8.261244766306062,0.177734375,Accept,,,Rename Variable
+12,DT-GR,TBStack-DT-GR,t-test,8.261244766306062,0.177734375,Accept,,,Rename Variable
+13,LR-GR,SVM-GR,t-test,8.261244766306062,5.969890337238666e-05,Reject,SVM-GR,LR-GR,Rename Variable
+14,LR-GR,MLP-GR,t-test,8.261244766306062,8.632364770358298e-09,Reject,MLP-GR,LR-GR,Rename Variable
+15,LR-GR,SGD-GR,t-test,8.261244766306062,4.656235019271493e-05,Reject,LR-GR,SGD-GR,Rename Variable
+16,LR-GR,NB(B)-GR,t-test,8.261244766306062,0.0001471667151393365,Reject,LR-GR,NB(B)-GR,Rename Variable
+17,LR-GR,NB(G)-GR,t-test,8.261244766306062,4.266699801285113e-08,Reject,LR-GR,NB(G)-GR,Rename Variable
+18,LR-GR,NB(M)-GR,t-test,8.261244766306062,3.786161845061507e-05,Reject,LR-GR,NB(M)-GR,Rename Variable
+19,LR-GR,KNN-GR,t-test,8.261244766306062,3.052768190939214e-12,Reject,KNN-GR,LR-GR,Rename Variable
+21,LR-GR,Stack-LR-GR,t-test,8.261244766306062,1.171471338748276e-11,Reject,Stack-LR-GR,LR-GR,Rename Variable
+22,LR-GR,Stack-DT-GR,t-test,8.261244766306062,2.360017266527172e-11,Reject,Stack-DT-GR,LR-GR,Rename Variable
+23,LR-GR,TBStack-LR-GR,t-test,8.261244766306062,7.828066215882246e-12,Reject,TBStack-LR-GR,LR-GR,Rename Variable
+24,LR-GR,TBStack-DT-GR,t-test,8.261244766306062,1.311669807865207e-11,Reject,TBStack-DT-GR,LR-GR,Rename Variable
+25,SVM-GR,MLP-GR,t-test,8.261244766306062,7.789206823070177e-09,Reject,MLP-GR,SVM-GR,Rename Variable
+26,SVM-GR,SGD-GR,t-test,8.261244766306062,1.109031353378243e-05,Reject,SVM-GR,SGD-GR,Rename Variable
+27,SVM-GR,NB(B)-GR,t-test,8.261244766306062,4.99553826163414e-05,Reject,SVM-GR,NB(B)-GR,Rename Variable
+28,SVM-GR,NB(G)-GR,t-test,8.261244766306062,2.315030489573393e-08,Reject,SVM-GR,NB(G)-GR,Rename Variable
+29,SVM-GR,NB(M)-GR,t-test,8.261244766306062,1.275021295157861e-05,Reject,SVM-GR,NB(M)-GR,Rename Variable
+30,SVM-GR,KNN-GR,t-test,8.261244766306062,1.598771271874472e-12,Reject,KNN-GR,SVM-GR,Rename Variable
+32,SVM-GR,Stack-LR-GR,t-test,8.261244766306062,7.447886844412845e-12,Reject,Stack-LR-GR,SVM-GR,Rename Variable
+33,SVM-GR,Stack-DT-GR,t-test,8.261244766306062,1.550678112823676e-11,Reject,Stack-DT-GR,SVM-GR,Rename Variable
+34,SVM-GR,TBStack-LR-GR,t-test,8.261244766306062,4.958525458301302e-12,Reject,TBStack-LR-GR,SVM-GR,Rename Variable
+35,SVM-GR,TBStack-DT-GR,t-test,8.261244766306062,8.321045446892566e-12,Reject,TBStack-DT-GR,SVM-GR,Rename Variable
+36,MLP-GR,SGD-GR,t-test,8.261244766306062,2.102318950828106e-09,Reject,MLP-GR,SGD-GR,Rename Variable
+37,MLP-GR,NB(B)-GR,t-test,8.261244766306062,1.228231716148593e-09,Reject,MLP-GR,NB(B)-GR,Rename Variable
+38,MLP-GR,NB(G)-GR,t-test,8.261244766306062,4.442316112854888e-12,Reject,MLP-GR,NB(G)-GR,Rename Variable
+39,MLP-GR,NB(M)-GR,t-test,8.261244766306062,5.378983479986451e-09,Reject,MLP-GR,NB(M)-GR,Rename Variable
+40,MLP-GR,KNN-GR,t-test,8.261244766306062,1.588086243396437e-10,Reject,KNN-GR,MLP-GR,Rename Variable
+42,MLP-GR,Stack-LR-GR,t-test,8.261244766306062,1.301278796360119e-11,Reject,Stack-LR-GR,MLP-GR,Rename Variable
+43,MLP-GR,Stack-DT-GR,t-test,8.261244766306062,9.353377476363222e-12,Reject,Stack-DT-GR,MLP-GR,Rename Variable
+44,MLP-GR,TBStack-LR-GR,t-test,8.261244766306062,3.930907007337525e-12,Reject,TBStack-LR-GR,MLP-GR,Rename Variable
+45,MLP-GR,TBStack-DT-GR,t-test,8.261244766306062,9.95180584802558e-12,Reject,TBStack-DT-GR,MLP-GR,Rename Variable
+46,SGD-GR,NB(B)-GR,t-test,8.261244766306062,0.2996903659118016,Accept,,,Rename Variable
+47,SGD-GR,NB(G)-GR,t-test,8.261244766306062,5.484298015186208e-08,Reject,SGD-GR,NB(G)-GR,Rename Variable
+48,SGD-GR,NB(M)-GR,t-test,8.261244766306062,0.04160124772771769,Reject,SGD-GR,NB(M)-GR,Rename Variable
+49,SGD-GR,KNN-GR,t-test,8.261244766306062,7.909815768283818e-12,Reject,KNN-GR,SGD-GR,Rename Variable
+51,SGD-GR,Stack-LR-GR,t-test,8.261244766306062,9.516908319657549e-12,Reject,Stack-LR-GR,SGD-GR,Rename Variable
+52,SGD-GR,Stack-DT-GR,t-test,8.261244766306062,1.5675907454149e-11,Reject,Stack-DT-GR,SGD-GR,Rename Variable
+53,SGD-GR,TBStack-LR-GR,t-test,8.261244766306062,5.460871928313294e-12,Reject,TBStack-LR-GR,SGD-GR,Rename Variable
+54,SGD-GR,TBStack-DT-GR,t-test,8.261244766306062,8.26453895079159e-12,Reject,TBStack-DT-GR,SGD-GR,Rename Variable
+55,NB(B)-GR,NB(G)-GR,t-test,8.261244766306062,1.63284993279102e-06,Reject,NB(B)-GR,NB(G)-GR,Rename Variable
+56,NB(B)-GR,NB(M)-GR,t-test,8.261244766306062,1.0,Accept,,,Rename Variable
+57,NB(B)-GR,KNN-GR,t-test,8.261244766306062,9.823053183720767e-11,Reject,KNN-GR,NB(B)-GR,Rename Variable
+59,NB(B)-GR,Stack-LR-GR,t-test,8.261244766306062,9.31949050024802e-12,Reject,Stack-LR-GR,NB(B)-GR,Rename Variable
+60,NB(B)-GR,Stack-DT-GR,t-test,8.261244766306062,1.118437768089571e-11,Reject,Stack-DT-GR,NB(B)-GR,Rename Variable
+61,NB(B)-GR,TBStack-LR-GR,t-test,8.261244766306062,3.89492556601344e-12,Reject,TBStack-LR-GR,NB(B)-GR,Rename Variable
+62,NB(B)-GR,TBStack-DT-GR,t-test,8.261244766306062,6.209896894368933e-12,Reject,TBStack-DT-GR,NB(B)-GR,Rename Variable
+63,NB(G)-GR,NB(M)-GR,t-test,8.261244766306062,7.613787543163758e-06,Reject,NB(M)-GR,NB(G)-GR,Rename Variable
+64,NB(G)-GR,KNN-GR,t-test,8.261244766306062,1.676083374780242e-12,Reject,KNN-GR,NB(G)-GR,Rename Variable
+66,NB(G)-GR,Stack-LR-GR,t-test,8.261244766306062,5.276142852124428e-14,Reject,Stack-LR-GR,NB(G)-GR,Rename Variable
+67,NB(G)-GR,Stack-DT-GR,t-test,8.261244766306062,2.106412655640844e-14,Reject,Stack-DT-GR,NB(G)-GR,Rename Variable
+68,NB(G)-GR,TBStack-LR-GR,t-test,8.261244766306062,2.144386053046916e-14,Reject,TBStack-LR-GR,NB(G)-GR,Rename Variable
+69,NB(G)-GR,TBStack-DT-GR,t-test,8.261244766306062,1.666883200925924e-14,Reject,TBStack-DT-GR,NB(G)-GR,Rename Variable
+70,NB(M)-GR,KNN-GR,t-test,8.261244766306062,1.411516378664483e-11,Reject,KNN-GR,NB(M)-GR,Rename Variable
+72,NB(M)-GR,Stack-LR-GR,t-test,8.261244766306062,1.563309482000129e-12,Reject,Stack-LR-GR,NB(M)-GR,Rename Variable
+73,NB(M)-GR,Stack-DT-GR,t-test,8.261244766306062,8.338096570056077e-12,Reject,Stack-DT-GR,NB(M)-GR,Rename Variable
+74,NB(M)-GR,TBStack-LR-GR,t-test,8.261244766306062,1.434622074972149e-12,Reject,TBStack-LR-GR,NB(M)-GR,Rename Variable
+75,NB(M)-GR,TBStack-DT-GR,t-test,8.261244766306062,1.947649673811366e-12,Reject,TBStack-DT-GR,NB(M)-GR,Rename Variable
+77,KNN-GR,Stack-LR-GR,t-test,8.261244766306062,3.198159318705966e-09,Reject,Stack-LR-GR,KNN-GR,Rename Variable
+78,KNN-GR,Stack-DT-GR,t-test,8.261244766306062,4.567076286031948e-08,Reject,Stack-DT-GR,KNN-GR,Rename Variable
+79,KNN-GR,TBStack-LR-GR,t-test,8.261244766306062,9.273800563918495e-10,Reject,TBStack-LR-GR,KNN-GR,Rename Variable
+80,KNN-GR,TBStack-DT-GR,t-test,8.261244766306062,2.427763613244611e-09,Reject,TBStack-DT-GR,KNN-GR,Rename Variable
+85,Stack-LR-GR,Stack-DT-GR,t-test,8.261244766306062,1.225849352947236e-07,Reject,Stack-LR-GR,Stack-DT-GR,Rename Variable
+86,Stack-LR-GR,TBStack-LR-GR,t-test,8.261244766306062,2.807181341969925e-10,Reject,TBStack-LR-GR,Stack-LR-GR,Rename Variable
+87,Stack-LR-GR,TBStack-DT-GR,t-test,8.261244766306062,3.390026179016968e-08,Reject,TBStack-DT-GR,Stack-LR-GR,Rename Variable
+88,Stack-DT-GR,TBStack-LR-GR,t-test,8.261244766306062,6.948721082389472e-11,Reject,TBStack-LR-GR,Stack-DT-GR,Rename Variable
+89,Stack-DT-GR,TBStack-DT-GR,t-test,8.261244766306062,1.799526492013731e-10,Reject,TBStack-DT-GR,Stack-DT-GR,Rename Variable
+90,TBStack-LR-GR,TBStack-DT-GR,t-test,8.261244766306062,0.0015567890447831,Reject,TBStack-LR-GR,TBStack-DT-GR,Rename Variable
+0,DT-GR,LR-GR,t-test,22.38987927731735,1.537554004962031e-08,Reject,DT-GR,LR-GR,Replace Variable With Attribute
+1,DT-GR,SVM-GR,t-test,22.38987927731735,5.60084952389026e-09,Reject,DT-GR,SVM-GR,Replace Variable With Attribute
+2,DT-GR,MLP-GR,t-test,22.38987927731735,2.067660391736664e-07,Reject,DT-GR,MLP-GR,Replace Variable With Attribute
+3,DT-GR,SGD-GR,t-test,22.38987927731735,8.294401373626759e-08,Reject,DT-GR,SGD-GR,Replace Variable With Attribute
+4,DT-GR,NB(B)-GR,t-test,22.38987927731735,1.451211309827736e-09,Reject,DT-GR,NB(B)-GR,Replace Variable With Attribute
+5,DT-GR,NB(G)-GR,t-test,22.38987927731735,9.612012258021227e-12,Reject,DT-GR,NB(G)-GR,Replace Variable With Attribute
+6,DT-GR,NB(M)-GR,t-test,22.38987927731735,1.827787947591769e-10,Reject,DT-GR,NB(M)-GR,Replace Variable With Attribute
+7,DT-GR,KNN-GR,t-test,22.38987927731735,0.0002682309712396984,Reject,DT-GR,KNN-GR,Replace Variable With Attribute
+9,DT-GR,Stack-LR-GR,t-test,22.38987927731735,5.548584057645782e-05,Reject,Stack-LR-GR,DT-GR,Replace Variable With Attribute
+10,DT-GR,Stack-DT-GR,t-test,22.38987927731735,1.777100673571061e-05,Reject,DT-GR,Stack-DT-GR,Replace Variable With Attribute
+11,DT-GR,TBStack-LR-GR,t-test,22.38987927731735,4.394340188300032e-11,Reject,TBStack-LR-GR,DT-GR,Replace Variable With Attribute
+12,DT-GR,TBStack-DT-GR,t-test,22.38987927731735,6.240643982914681e-08,Reject,TBStack-DT-GR,DT-GR,Replace Variable With Attribute
+13,LR-GR,SVM-GR,t-test,22.38987927731735,0.217812891565414,Accept,,,Replace Variable With Attribute
+14,LR-GR,MLP-GR,t-test,22.38987927731735,1.156268708993754e-05,Reject,MLP-GR,LR-GR,Replace Variable With Attribute
+15,LR-GR,SGD-GR,t-test,22.38987927731735,1.0,Accept,,,Replace Variable With Attribute
+16,LR-GR,NB(B)-GR,t-test,22.38987927731735,1.228128353630753e-06,Reject,LR-GR,NB(B)-GR,Replace Variable With Attribute
+17,LR-GR,NB(G)-GR,t-test,22.38987927731735,2.460156424440167e-09,Reject,LR-GR,NB(G)-GR,Replace Variable With Attribute
+18,LR-GR,NB(M)-GR,t-test,22.38987927731735,5.002471244963874e-08,Reject,LR-GR,NB(M)-GR,Replace Variable With Attribute
+19,LR-GR,KNN-GR,t-test,22.38987927731735,5.632461387902712e-06,Reject,KNN-GR,LR-GR,Replace Variable With Attribute
+21,LR-GR,Stack-LR-GR,t-test,22.38987927731735,4.986134420977001e-10,Reject,Stack-LR-GR,LR-GR,Replace Variable With Attribute
+22,LR-GR,Stack-DT-GR,t-test,22.38987927731735,0.008324174010823752,Reject,Stack-DT-GR,LR-GR,Replace Variable With Attribute
+23,LR-GR,TBStack-LR-GR,t-test,22.38987927731735,8.638318508162383e-12,Reject,TBStack-LR-GR,LR-GR,Replace Variable With Attribute
+24,LR-GR,TBStack-DT-GR,t-test,22.38987927731735,7.524050557464914e-10,Reject,TBStack-DT-GR,LR-GR,Replace Variable With Attribute
+25,SVM-GR,MLP-GR,t-test,22.38987927731735,1.338258118429527e-05,Reject,MLP-GR,SVM-GR,Replace Variable With Attribute
+26,SVM-GR,SGD-GR,t-test,22.38987927731735,0.3297874842328172,Accept,,,Replace Variable With Attribute
+27,SVM-GR,NB(B)-GR,t-test,22.38987927731735,8.47852940844238e-07,Reject,SVM-GR,NB(B)-GR,Replace Variable With Attribute
+28,SVM-GR,NB(G)-GR,t-test,22.38987927731735,1.541128619905011e-09,Reject,SVM-GR,NB(G)-GR,Replace Variable With Attribute
+29,SVM-GR,NB(M)-GR,t-test,22.38987927731735,5.788322921232919e-08,Reject,SVM-GR,NB(M)-GR,Replace Variable With Attribute
+30,SVM-GR,KNN-GR,t-test,22.38987927731735,1.252588574402307e-05,Reject,KNN-GR,SVM-GR,Replace Variable With Attribute
+32,SVM-GR,Stack-LR-GR,t-test,22.38987927731735,1.3281763205165e-09,Reject,Stack-LR-GR,SVM-GR,Replace Variable With Attribute
+33,SVM-GR,Stack-DT-GR,t-test,22.38987927731735,0.0140309319324958,Reject,Stack-DT-GR,SVM-GR,Replace Variable With Attribute
+34,SVM-GR,TBStack-LR-GR,t-test,22.38987927731735,7.587026198521342e-12,Reject,TBStack-LR-GR,SVM-GR,Replace Variable With Attribute
+35,SVM-GR,TBStack-DT-GR,t-test,22.38987927731735,6.524465542597861e-10,Reject,TBStack-DT-GR,SVM-GR,Replace Variable With Attribute
+36,MLP-GR,SGD-GR,t-test,22.38987927731735,3.204475482572929e-05,Reject,MLP-GR,SGD-GR,Replace Variable With Attribute
+37,MLP-GR,NB(B)-GR,t-test,22.38987927731735,2.188262590283247e-08,Reject,MLP-GR,NB(B)-GR,Replace Variable With Attribute
+38,MLP-GR,NB(G)-GR,t-test,22.38987927731735,4.080163626927536e-10,Reject,MLP-GR,NB(G)-GR,Replace Variable With Attribute
+39,MLP-GR,NB(M)-GR,t-test,22.38987927731735,9.413001747715475e-09,Reject,MLP-GR,NB(M)-GR,Replace Variable With Attribute
+40,MLP-GR,KNN-GR,t-test,22.38987927731735,0.009606788467016337,Reject,KNN-GR,MLP-GR,Replace Variable With Attribute
+42,MLP-GR,Stack-LR-GR,t-test,22.38987927731735,8.818013729484589e-08,Reject,Stack-LR-GR,MLP-GR,Replace Variable With Attribute
+43,MLP-GR,Stack-DT-GR,t-test,22.38987927731735,0.336842293946681,Accept,,,Replace Variable With Attribute
+44,MLP-GR,TBStack-LR-GR,t-test,22.38987927731735,1.279654897588422e-11,Reject,TBStack-LR-GR,MLP-GR,Replace Variable With Attribute
+45,MLP-GR,TBStack-DT-GR,t-test,22.38987927731735,2.179816362467452e-10,Reject,TBStack-DT-GR,MLP-GR,Replace Variable With Attribute
+46,SGD-GR,NB(B)-GR,t-test,22.38987927731735,3.973273182765736e-06,Reject,SGD-GR,NB(B)-GR,Replace Variable With Attribute
+47,SGD-GR,NB(G)-GR,t-test,22.38987927731735,6.043699840300185e-09,Reject,SGD-GR,NB(G)-GR,Replace Variable With Attribute
+48,SGD-GR,NB(M)-GR,t-test,22.38987927731735,1.116809574481335e-08,Reject,SGD-GR,NB(M)-GR,Replace Variable With Attribute
+49,SGD-GR,KNN-GR,t-test,22.38987927731735,9.892837198535825e-06,Reject,KNN-GR,SGD-GR,Replace Variable With Attribute
+51,SGD-GR,Stack-LR-GR,t-test,22.38987927731735,7.129719995788797e-09,Reject,Stack-LR-GR,SGD-GR,Replace Variable With Attribute
+52,SGD-GR,Stack-DT-GR,t-test,22.38987927731735,0.01091330055840874,Reject,Stack-DT-GR,SGD-GR,Replace Variable With Attribute
+53,SGD-GR,TBStack-LR-GR,t-test,22.38987927731735,9.983215981946773e-12,Reject,TBStack-LR-GR,SGD-GR,Replace Variable With Attribute
+54,SGD-GR,TBStack-DT-GR,t-test,22.38987927731735,1.479979054912577e-09,Reject,TBStack-DT-GR,SGD-GR,Replace Variable With Attribute
+55,NB(B)-GR,NB(G)-GR,t-test,22.38987927731735,0.005883744212730985,Reject,NB(B)-GR,NB(G)-GR,Replace Variable With Attribute
+56,NB(B)-GR,NB(M)-GR,t-test,22.38987927731735,1.0,Accept,,,Replace Variable With Attribute
+57,NB(B)-GR,KNN-GR,t-test,22.38987927731735,1.967036948921052e-08,Reject,KNN-GR,NB(B)-GR,Replace Variable With Attribute
+59,NB(B)-GR,Stack-LR-GR,t-test,22.38987927731735,2.804082002140491e-10,Reject,Stack-LR-GR,NB(B)-GR,Replace Variable With Attribute
+60,NB(B)-GR,Stack-DT-GR,t-test,22.38987927731735,4.081636338525302e-06,Reject,Stack-DT-GR,NB(B)-GR,Replace Variable With Attribute
+61,NB(B)-GR,TBStack-LR-GR,t-test,22.38987927731735,1.528457796861445e-11,Reject,TBStack-LR-GR,NB(B)-GR,Replace Variable With Attribute
+62,NB(B)-GR,TBStack-DT-GR,t-test,22.38987927731735,2.506584180159898e-10,Reject,TBStack-DT-GR,NB(B)-GR,Replace Variable With Attribute
+63,NB(G)-GR,NB(M)-GR,t-test,22.38987927731735,4.752655048071571e-06,Reject,NB(M)-GR,NB(G)-GR,Replace Variable With Attribute
+64,NB(G)-GR,KNN-GR,t-test,22.38987927731735,5.831443131194278e-10,Reject,KNN-GR,NB(G)-GR,Replace Variable With Attribute
+66,NB(G)-GR,Stack-LR-GR,t-test,22.38987927731735,2.04057705161881e-11,Reject,Stack-LR-GR,NB(G)-GR,Replace Variable With Attribute
+67,NB(G)-GR,Stack-DT-GR,t-test,22.38987927731735,1.728619019135162e-09,Reject,Stack-DT-GR,NB(G)-GR,Replace Variable With Attribute
+68,NB(G)-GR,TBStack-LR-GR,t-test,22.38987927731735,2.903427202022345e-13,Reject,TBStack-LR-GR,NB(G)-GR,Replace Variable With Attribute
+69,NB(G)-GR,TBStack-DT-GR,t-test,22.38987927731735,9.42459544179749e-12,Reject,TBStack-DT-GR,NB(G)-GR,Replace Variable With Attribute
+70,NB(M)-GR,KNN-GR,t-test,22.38987927731735,5.087931290000546e-09,Reject,KNN-GR,NB(M)-GR,Replace Variable With Attribute
+72,NB(M)-GR,Stack-LR-GR,t-test,22.38987927731735,1.52453414405507e-10,Reject,Stack-LR-GR,NB(M)-GR,Replace Variable With Attribute
+73,NB(M)-GR,Stack-DT-GR,t-test,22.38987927731735,7.765266486264415e-07,Reject,Stack-DT-GR,NB(M)-GR,Replace Variable With Attribute
+74,NB(M)-GR,TBStack-LR-GR,t-test,22.38987927731735,2.015136462836204e-13,Reject,TBStack-LR-GR,NB(M)-GR,Replace Variable With Attribute
+75,NB(M)-GR,TBStack-DT-GR,t-test,22.38987927731735,5.23556745384637e-11,Reject,TBStack-DT-GR,NB(M)-GR,Replace Variable With Attribute
+77,KNN-GR,Stack-LR-GR,t-test,22.38987927731735,6.846834466769006e-07,Reject,Stack-LR-GR,KNN-GR,Replace Variable With Attribute
+78,KNN-GR,Stack-DT-GR,t-test,22.38987927731735,0.04414576962270022,Reject,KNN-GR,Stack-DT-GR,Replace Variable With Attribute
+79,KNN-GR,TBStack-LR-GR,t-test,22.38987927731735,1.371945980767407e-10,Reject,TBStack-LR-GR,KNN-GR,Replace Variable With Attribute
+80,KNN-GR,TBStack-DT-GR,t-test,22.38987927731735,1.622501867078682e-09,Reject,TBStack-DT-GR,KNN-GR,Replace Variable With Attribute
+85,Stack-LR-GR,Stack-DT-GR,t-test,22.38987927731735,2.989000456999918e-06,Reject,Stack-LR-GR,Stack-DT-GR,Replace Variable With Attribute
+86,Stack-LR-GR,TBStack-LR-GR,t-test,22.38987927731735,3.557463142991925e-08,Reject,TBStack-LR-GR,Stack-LR-GR,Replace Variable With Attribute
+87,Stack-LR-GR,TBStack-DT-GR,t-test,22.38987927731735,4.585724602429885e-05,Reject,TBStack-DT-GR,Stack-LR-GR,Replace Variable With Attribute
+88,Stack-DT-GR,TBStack-LR-GR,t-test,22.38987927731735,8.276434168041602e-10,Reject,TBStack-LR-GR,Stack-DT-GR,Replace Variable With Attribute
+89,Stack-DT-GR,TBStack-DT-GR,t-test,22.38987927731735,9.344744074007196e-09,Reject,TBStack-DT-GR,Stack-DT-GR,Replace Variable With Attribute
+90,TBStack-LR-GR,TBStack-DT-GR,t-test,22.38987927731735,3.046694748604539e-07,Reject,TBStack-LR-GR,TBStack-DT-GR,Replace Variable With Attribute
+0,DT-PCA,LR-PCA,t-test,12.8832196843665,0.001488157663788628,Reject,LR-PCA,DT-PCA,Extract Variable
+1,DT-PCA,SVM-PCA,t-test,12.8832196843665,0.004034133403362589,Reject,SVM-PCA,DT-PCA,Extract Variable
+2,DT-PCA,MLP-PCA,t-test,12.8832196843665,7.663084109641504e-05,Reject,MLP-PCA,DT-PCA,Extract Variable
+3,DT-PCA,SGD-PCA,t-test,12.8832196843665,0.0008698277336785645,Reject,SGD-PCA,DT-PCA,Extract Variable
+4,DT-PCA,NB(B)-PCA,t-test,12.8832196843665,1.0,Accept,,,Extract Variable
+5,DT-PCA,NB(G)-PCA,t-test,12.8832196843665,6.706224185623849e-06,Reject,DT-PCA,NB(G)-PCA,Extract Variable
+6,DT-PCA,KNN-PCA,t-test,12.8832196843665,0.001766024261050493,Reject,KNN-PCA,DT-PCA,Extract Variable
+8,DT-PCA,Stack-LR-PCA,t-test,12.8832196843665,4.640934057219503e-05,Reject,Stack-LR-PCA,DT-PCA,Extract Variable
+9,DT-PCA,Stack-DT-PCA,t-test,12.8832196843665,1.0,Accept,,,Extract Variable
+10,DT-PCA,TBStack-LR-PCA,t-test,12.8832196843665,9.72856393955014e-06,Reject,TBStack-LR-PCA,DT-PCA,Extract Variable
+11,DT-PCA,TBStack-DT-PCA,t-test,12.8832196843665,1.0,Accept,,,Extract Variable
+12,LR-PCA,SVM-PCA,t-test,12.8832196843665,1.0,Accept,,,Extract Variable
+13,LR-PCA,MLP-PCA,t-test,12.8832196843665,0.007948667658977327,Reject,MLP-PCA,LR-PCA,Extract Variable
+14,LR-PCA,SGD-PCA,t-test,12.8832196843665,1.0,Accept,,,Extract Variable
+15,LR-PCA,NB(B)-PCA,t-test,12.8832196843665,0.0001912794289003464,Reject,LR-PCA,NB(B)-PCA,Extract Variable
+16,LR-PCA,NB(G)-PCA,t-test,12.8832196843665,7.064878185919174e-09,Reject,LR-PCA,NB(G)-PCA,Extract Variable
+17,LR-PCA,KNN-PCA,t-test,12.8832196843665,1.0,Accept,,,Extract Variable
+19,LR-PCA,Stack-LR-PCA,t-test,12.8832196843665,0.002436708882246356,Reject,Stack-LR-PCA,LR-PCA,Extract Variable
+20,LR-PCA,Stack-DT-PCA,t-test,12.8832196843665,0.0004995742835575228,Reject,LR-PCA,Stack-DT-PCA,Extract Variable
+21,LR-PCA,TBStack-LR-PCA,t-test,12.8832196843665,0.00102877140092893,Reject,TBStack-LR-PCA,LR-PCA,Extract Variable
+22,LR-PCA,TBStack-DT-PCA,t-test,12.8832196843665,0.00364658027797847,Reject,LR-PCA,TBStack-DT-PCA,Extract Variable
+23,SVM-PCA,MLP-PCA,t-test,12.8832196843665,0.00403639919236932,Reject,MLP-PCA,SVM-PCA,Extract Variable
+24,SVM-PCA,SGD-PCA,t-test,12.8832196843665,1.0,Accept,,,Extract Variable
+25,SVM-PCA,NB(B)-PCA,t-test,12.8832196843665,5.429825468547304e-05,Reject,SVM-PCA,NB(B)-PCA,Extract Variable
+26,SVM-PCA,NB(G)-PCA,t-test,12.8832196843665,3.963313732869748e-08,Reject,SVM-PCA,NB(G)-PCA,Extract Variable
+27,SVM-PCA,KNN-PCA,t-test,12.8832196843665,1.0,Accept,,,Extract Variable
+29,SVM-PCA,Stack-LR-PCA,t-test,12.8832196843665,0.005040111866496943,Reject,Stack-LR-PCA,SVM-PCA,Extract Variable
+30,SVM-PCA,Stack-DT-PCA,t-test,12.8832196843665,0.002338953635939815,Reject,SVM-PCA,Stack-DT-PCA,Extract Variable
+31,SVM-PCA,TBStack-LR-PCA,t-test,12.8832196843665,0.000776574077461256,Reject,TBStack-LR-PCA,SVM-PCA,Extract Variable
+32,SVM-PCA,TBStack-DT-PCA,t-test,12.8832196843665,0.003894588696505662,Reject,SVM-PCA,TBStack-DT-PCA,Extract Variable
+33,MLP-PCA,SGD-PCA,t-test,12.8832196843665,0.0281374381242683,Reject,MLP-PCA,SGD-PCA,Extract Variable
+34,MLP-PCA,NB(B)-PCA,t-test,12.8832196843665,3.66464602010102e-05,Reject,MLP-PCA,NB(B)-PCA,Extract Variable
+35,MLP-PCA,NB(G)-PCA,t-test,12.8832196843665,8.194244970113326e-08,Reject,MLP-PCA,NB(G)-PCA,Extract Variable
+36,MLP-PCA,KNN-PCA,t-test,12.8832196843665,0.1581080775851017,Accept,,,Extract Variable
+38,MLP-PCA,Stack-LR-PCA,t-test,12.8832196843665,1.0,Accept,,,Extract Variable
+39,MLP-PCA,Stack-DT-PCA,t-test,12.8832196843665,4.302547700817658e-06,Reject,MLP-PCA,Stack-DT-PCA,Extract Variable
+40,MLP-PCA,TBStack-LR-PCA,t-test,12.8832196843665,1.0,Accept,,,Extract Variable
+41,MLP-PCA,TBStack-DT-PCA,t-test,12.8832196843665,0.0002083006294175848,Reject,MLP-PCA,TBStack-DT-PCA,Extract Variable
+42,SGD-PCA,NB(B)-PCA,t-test,12.8832196843665,0.000281602249609762,Reject,SGD-PCA,NB(B)-PCA,Extract Variable
+43,SGD-PCA,NB(G)-PCA,t-test,12.8832196843665,5.34451942674969e-09,Reject,SGD-PCA,NB(G)-PCA,Extract Variable
+44,SGD-PCA,KNN-PCA,t-test,12.8832196843665,1.0,Accept,,,Extract Variable
+46,SGD-PCA,Stack-LR-PCA,t-test,12.8832196843665,0.03745767771764685,Reject,Stack-LR-PCA,SGD-PCA,Extract Variable
+47,SGD-PCA,Stack-DT-PCA,t-test,12.8832196843665,0.0006262694031442584,Reject,SGD-PCA,Stack-DT-PCA,Extract Variable
+48,SGD-PCA,TBStack-LR-PCA,t-test,12.8832196843665,0.006788455809254162,Reject,TBStack-LR-PCA,SGD-PCA,Extract Variable
+49,SGD-PCA,TBStack-DT-PCA,t-test,12.8832196843665,0.000923444358047038,Reject,SGD-PCA,TBStack-DT-PCA,Extract Variable
+50,NB(B)-PCA,NB(G)-PCA,t-test,12.8832196843665,1.651674858467996e-05,Reject,NB(B)-PCA,NB(G)-PCA,Extract Variable
+51,NB(B)-PCA,KNN-PCA,t-test,12.8832196843665,0.001000359144590955,Reject,KNN-PCA,NB(B)-PCA,Extract Variable
+53,NB(B)-PCA,Stack-LR-PCA,t-test,12.8832196843665,4.426038281319901e-05,Reject,Stack-LR-PCA,NB(B)-PCA,Extract Variable
+54,NB(B)-PCA,Stack-DT-PCA,t-test,12.8832196843665,1.0,Accept,,,Extract Variable
+55,NB(B)-PCA,TBStack-LR-PCA,t-test,12.8832196843665,3.53080213798567e-06,Reject,TBStack-LR-PCA,NB(B)-PCA,Extract Variable
+56,NB(B)-PCA,TBStack-DT-PCA,t-test,12.8832196843665,1.0,Accept,,,Extract Variable
+57,NB(G)-PCA,KNN-PCA,t-test,12.8832196843665,7.797938224329487e-08,Reject,KNN-PCA,NB(G)-PCA,Extract Variable
+59,NB(G)-PCA,Stack-LR-PCA,t-test,12.8832196843665,6.525139564120083e-08,Reject,Stack-LR-PCA,NB(G)-PCA,Extract Variable
+60,NB(G)-PCA,Stack-DT-PCA,t-test,12.8832196843665,8.363941557325978e-06,Reject,Stack-DT-PCA,NB(G)-PCA,Extract Variable
+61,NB(G)-PCA,TBStack-LR-PCA,t-test,12.8832196843665,2.159997716871426e-08,Reject,TBStack-LR-PCA,NB(G)-PCA,Extract Variable
+62,NB(G)-PCA,TBStack-DT-PCA,t-test,12.8832196843665,4.654667710746631e-05,Reject,TBStack-DT-PCA,NB(G)-PCA,Extract Variable
+64,KNN-PCA,Stack-LR-PCA,t-test,12.8832196843665,0.1699763047116228,Accept,,,Extract Variable
+65,KNN-PCA,Stack-DT-PCA,t-test,12.8832196843665,0.0008965958749722446,Reject,KNN-PCA,Stack-DT-PCA,Extract Variable
+66,KNN-PCA,TBStack-LR-PCA,t-test,12.8832196843665,0.07997884150501207,Accept,,,Extract Variable
+67,KNN-PCA,TBStack-DT-PCA,t-test,12.8832196843665,0.002513659459724575,Reject,KNN-PCA,TBStack-DT-PCA,Extract Variable
+72,Stack-LR-PCA,Stack-DT-PCA,t-test,12.8832196843665,1.223644140984089e-06,Reject,Stack-LR-PCA,Stack-DT-PCA,Extract Variable
+73,Stack-LR-PCA,TBStack-LR-PCA,t-test,12.8832196843665,1.0,Accept,,,Extract Variable
+74,Stack-LR-PCA,TBStack-DT-PCA,t-test,12.8832196843665,0.0002435800637343561,Reject,Stack-LR-PCA,TBStack-DT-PCA,Extract Variable
+75,Stack-DT-PCA,TBStack-LR-PCA,t-test,12.8832196843665,5.956503254863424e-07,Reject,TBStack-LR-PCA,Stack-DT-PCA,Extract Variable
+76,Stack-DT-PCA,TBStack-DT-PCA,t-test,12.8832196843665,1.0,Accept,,,Extract Variable
+77,TBStack-LR-PCA,TBStack-DT-PCA,t-test,12.8832196843665,3.272608039132757e-05,Reject,TBStack-LR-PCA,TBStack-DT-PCA,Extract Variable
+0,DT-PCA,LR-PCA,t-test,42.80315661139706,1.0,Accept,,,Inline Variable
+1,DT-PCA,SVM-PCA,t-test,42.80315661139706,1.0,Accept,,,Inline Variable
+2,DT-PCA,MLP-PCA,t-test,42.80315661139706,5.598469943618947e-07,Reject,MLP-PCA,DT-PCA,Inline Variable
+3,DT-PCA,SGD-PCA,t-test,42.80315661139706,1.0,Accept,,,Inline Variable
+4,DT-PCA,NB(B)-PCA,t-test,42.80315661139706,7.780013089324665e-06,Reject,DT-PCA,NB(B)-PCA,Inline Variable
+5,DT-PCA,NB(G)-PCA,t-test,42.80315661139706,9.633349111505846e-11,Reject,DT-PCA,NB(G)-PCA,Inline Variable
+6,DT-PCA,KNN-PCA,t-test,42.80315661139706,5.559483596418667e-07,Reject,KNN-PCA,DT-PCA,Inline Variable
+8,DT-PCA,Stack-LR-PCA,t-test,42.80315661139706,3.207104587613185e-08,Reject,Stack-LR-PCA,DT-PCA,Inline Variable
+9,DT-PCA,Stack-DT-PCA,t-test,42.80315661139706,1.0,Accept,,,Inline Variable
+10,DT-PCA,TBStack-LR-PCA,t-test,42.80315661139706,1.006390081899429e-09,Reject,TBStack-LR-PCA,DT-PCA,Inline Variable
+11,DT-PCA,TBStack-DT-PCA,t-test,42.80315661139706,0.0002731843464848541,Reject,TBStack-DT-PCA,DT-PCA,Inline Variable
+12,LR-PCA,SVM-PCA,t-test,42.80315661139706,1.0,Accept,,,Inline Variable
+13,LR-PCA,MLP-PCA,t-test,42.80315661139706,1.371933831569577e-06,Reject,MLP-PCA,LR-PCA,Inline Variable
+14,LR-PCA,SGD-PCA,t-test,42.80315661139706,1.0,Accept,,,Inline Variable
+15,LR-PCA,NB(B)-PCA,t-test,42.80315661139706,3.143906000550137e-07,Reject,LR-PCA,NB(B)-PCA,Inline Variable
+16,LR-PCA,NB(G)-PCA,t-test,42.80315661139706,2.038886414967675e-09,Reject,LR-PCA,NB(G)-PCA,Inline Variable
+17,LR-PCA,KNN-PCA,t-test,42.80315661139706,2.393665664801671e-05,Reject,KNN-PCA,LR-PCA,Inline Variable
+19,LR-PCA,Stack-LR-PCA,t-test,42.80315661139706,1.470155818525088e-07,Reject,Stack-LR-PCA,LR-PCA,Inline Variable
+20,LR-PCA,Stack-DT-PCA,t-test,42.80315661139706,1.0,Accept,,,Inline Variable
+21,LR-PCA,TBStack-LR-PCA,t-test,42.80315661139706,8.56090339378155e-10,Reject,TBStack-LR-PCA,LR-PCA,Inline Variable
+22,LR-PCA,TBStack-DT-PCA,t-test,42.80315661139706,0.002382041868678298,Reject,TBStack-DT-PCA,LR-PCA,Inline Variable
+23,SVM-PCA,MLP-PCA,t-test,42.80315661139706,9.306635782306884e-07,Reject,MLP-PCA,SVM-PCA,Inline Variable
+24,SVM-PCA,SGD-PCA,t-test,42.80315661139706,1.0,Accept,,,Inline Variable
+25,SVM-PCA,NB(B)-PCA,t-test,42.80315661139706,2.631636021904022e-07,Reject,SVM-PCA,NB(B)-PCA,Inline Variable
+26,SVM-PCA,NB(G)-PCA,t-test,42.80315661139706,1.127697886902804e-09,Reject,SVM-PCA,NB(G)-PCA,Inline Variable
+27,SVM-PCA,KNN-PCA,t-test,42.80315661139706,2.153259989936521e-05,Reject,KNN-PCA,SVM-PCA,Inline Variable
+29,SVM-PCA,Stack-LR-PCA,t-test,42.80315661139706,5.846609485176829e-08,Reject,Stack-LR-PCA,SVM-PCA,Inline Variable
+30,SVM-PCA,Stack-DT-PCA,t-test,42.80315661139706,1.0,Accept,,,Inline Variable
+31,SVM-PCA,TBStack-LR-PCA,t-test,42.80315661139706,4.850370051475928e-10,Reject,TBStack-LR-PCA,SVM-PCA,Inline Variable
+32,SVM-PCA,TBStack-DT-PCA,t-test,42.80315661139706,0.001579433647573935,Reject,TBStack-DT-PCA,SVM-PCA,Inline Variable
+33,MLP-PCA,SGD-PCA,t-test,42.80315661139706,3.115092940392795e-07,Reject,MLP-PCA,SGD-PCA,Inline Variable
+34,MLP-PCA,NB(B)-PCA,t-test,42.80315661139706,6.210992956608672e-11,Reject,MLP-PCA,NB(B)-PCA,Inline Variable
+35,MLP-PCA,NB(G)-PCA,t-test,42.80315661139706,5.024296479236711e-12,Reject,MLP-PCA,NB(G)-PCA,Inline Variable
+36,MLP-PCA,KNN-PCA,t-test,42.80315661139706,0.4921525173515335,Accept,,,Inline Variable
+38,MLP-PCA,Stack-LR-PCA,t-test,42.80315661139706,0.0006062866161972226,Reject,Stack-LR-PCA,MLP-PCA,Inline Variable
+39,MLP-PCA,Stack-DT-PCA,t-test,42.80315661139706,0.0002709124226297519,Reject,MLP-PCA,Stack-DT-PCA,Inline Variable
+40,MLP-PCA,TBStack-LR-PCA,t-test,42.80315661139706,9.593391752903546e-09,Reject,TBStack-LR-PCA,MLP-PCA,Inline Variable
+41,MLP-PCA,TBStack-DT-PCA,t-test,42.80315661139706,0.0003099280796571403,Reject,MLP-PCA,TBStack-DT-PCA,Inline Variable
+42,SGD-PCA,NB(B)-PCA,t-test,42.80315661139706,4.155223019366881e-08,Reject,SGD-PCA,NB(B)-PCA,Inline Variable
+43,SGD-PCA,NB(G)-PCA,t-test,42.80315661139706,6.871450262317025e-09,Reject,SGD-PCA,NB(G)-PCA,Inline Variable
+44,SGD-PCA,KNN-PCA,t-test,42.80315661139706,3.537517179736445e-06,Reject,KNN-PCA,SGD-PCA,Inline Variable
+46,SGD-PCA,Stack-LR-PCA,t-test,42.80315661139706,5.095439313450157e-08,Reject,Stack-LR-PCA,SGD-PCA,Inline Variable
+47,SGD-PCA,Stack-DT-PCA,t-test,42.80315661139706,1.0,Accept,,,Inline Variable
+48,SGD-PCA,TBStack-LR-PCA,t-test,42.80315661139706,7.316737014554247e-10,Reject,TBStack-LR-PCA,SGD-PCA,Inline Variable
+49,SGD-PCA,TBStack-DT-PCA,t-test,42.80315661139706,0.001041577024855412,Reject,TBStack-DT-PCA,SGD-PCA,Inline Variable
+50,NB(B)-PCA,NB(G)-PCA,t-test,42.80315661139706,5.400694249986816e-07,Reject,NB(B)-PCA,NB(G)-PCA,Inline Variable
+51,NB(B)-PCA,KNN-PCA,t-test,42.80315661139706,5.673528234394044e-09,Reject,KNN-PCA,NB(B)-PCA,Inline Variable
+53,NB(B)-PCA,Stack-LR-PCA,t-test,42.80315661139706,6.807059089060787e-12,Reject,Stack-LR-PCA,NB(B)-PCA,Inline Variable
+54,NB(B)-PCA,Stack-DT-PCA,t-test,42.80315661139706,0.05059166627335054,Accept,,,Inline Variable
+55,NB(B)-PCA,TBStack-LR-PCA,t-test,42.80315661139706,9.701755441686192e-12,Reject,TBStack-LR-PCA,NB(B)-PCA,Inline Variable
+56,NB(B)-PCA,TBStack-DT-PCA,t-test,42.80315661139706,2.213993820600439e-07,Reject,TBStack-DT-PCA,NB(B)-PCA,Inline Variable
+57,NB(G)-PCA,KNN-PCA,t-test,42.80315661139706,1.525058886983861e-10,Reject,KNN-PCA,NB(G)-PCA,Inline Variable
+59,NB(G)-PCA,Stack-LR-PCA,t-test,42.80315661139706,4.327034777003135e-12,Reject,Stack-LR-PCA,NB(G)-PCA,Inline Variable
+60,NB(G)-PCA,Stack-DT-PCA,t-test,42.80315661139706,7.132050349205151e-06,Reject,Stack-DT-PCA,NB(G)-PCA,Inline Variable
+61,NB(G)-PCA,TBStack-LR-PCA,t-test,42.80315661139706,1.427245385452822e-13,Reject,TBStack-LR-PCA,NB(G)-PCA,Inline Variable
+62,NB(G)-PCA,TBStack-DT-PCA,t-test,42.80315661139706,6.546916787924579e-10,Reject,TBStack-DT-PCA,NB(G)-PCA,Inline Variable
+64,KNN-PCA,Stack-LR-PCA,t-test,42.80315661139706,0.0002356969328355984,Reject,Stack-LR-PCA,KNN-PCA,Inline Variable
+65,KNN-PCA,Stack-DT-PCA,t-test,42.80315661139706,6.164663623427574e-05,Reject,KNN-PCA,Stack-DT-PCA,Inline Variable
+66,KNN-PCA,TBStack-LR-PCA,t-test,42.80315661139706,2.770913097601924e-07,Reject,TBStack-LR-PCA,KNN-PCA,Inline Variable
+67,KNN-PCA,TBStack-DT-PCA,t-test,42.80315661139706,0.1406782158300704,Accept,,,Inline Variable
+72,Stack-LR-PCA,Stack-DT-PCA,t-test,42.80315661139706,1.53008716452233e-05,Reject,Stack-LR-PCA,Stack-DT-PCA,Inline Variable
+73,Stack-LR-PCA,TBStack-LR-PCA,t-test,42.80315661139706,1.308575659470576e-06,Reject,TBStack-LR-PCA,Stack-LR-PCA,Inline Variable
+74,Stack-LR-PCA,TBStack-DT-PCA,t-test,42.80315661139706,1.858127638228608e-05,Reject,Stack-LR-PCA,TBStack-DT-PCA,Inline Variable
+75,Stack-DT-PCA,TBStack-LR-PCA,t-test,42.80315661139706,8.799944476060021e-07,Reject,TBStack-LR-PCA,Stack-DT-PCA,Inline Variable
+76,Stack-DT-PCA,TBStack-DT-PCA,t-test,42.80315661139706,0.005677712892247298,Reject,TBStack-DT-PCA,Stack-DT-PCA,Inline Variable
+77,TBStack-LR-PCA,TBStack-DT-PCA,t-test,42.80315661139706,8.071917492481416e-10,Reject,TBStack-LR-PCA,TBStack-DT-PCA,Inline Variable
+0,DT-PCA,LR-PCA,t-test,28.20068825240185,1.0,Accept,,,Parameterize Variable
+1,DT-PCA,SVM-PCA,t-test,28.20068825240185,1.0,Accept,,,Parameterize Variable
+2,DT-PCA,MLP-PCA,t-test,28.20068825240185,5.756319607431739e-06,Reject,MLP-PCA,DT-PCA,Parameterize Variable
+3,DT-PCA,SGD-PCA,t-test,28.20068825240185,1.0,Accept,,,Parameterize Variable
+4,DT-PCA,NB(B)-PCA,t-test,28.20068825240185,0.0003856287894502149,Reject,DT-PCA,NB(B)-PCA,Parameterize Variable
+5,DT-PCA,NB(G)-PCA,t-test,28.20068825240185,1.907510459501937e-07,Reject,DT-PCA,NB(G)-PCA,Parameterize Variable
+6,DT-PCA,KNN-PCA,t-test,28.20068825240185,3.59183718775781e-06,Reject,KNN-PCA,DT-PCA,Parameterize Variable
+8,DT-PCA,Stack-LR-PCA,t-test,28.20068825240185,2.302164346602026e-09,Reject,Stack-LR-PCA,DT-PCA,Parameterize Variable
+9,DT-PCA,Stack-DT-PCA,t-test,28.20068825240185,1.0,Accept,,,Parameterize Variable
+10,DT-PCA,TBStack-LR-PCA,t-test,28.20068825240185,5.323573776101989e-10,Reject,TBStack-LR-PCA,DT-PCA,Parameterize Variable
+11,DT-PCA,TBStack-DT-PCA,t-test,28.20068825240185,4.200936938562384e-05,Reject,TBStack-DT-PCA,DT-PCA,Parameterize Variable
+12,LR-PCA,SVM-PCA,t-test,28.20068825240185,1.0,Accept,,,Parameterize Variable
+13,LR-PCA,MLP-PCA,t-test,28.20068825240185,4.752893163021228e-07,Reject,MLP-PCA,LR-PCA,Parameterize Variable
+14,LR-PCA,SGD-PCA,t-test,28.20068825240185,1.0,Accept,,,Parameterize Variable
+15,LR-PCA,NB(B)-PCA,t-test,28.20068825240185,1.792814532402598e-05,Reject,LR-PCA,NB(B)-PCA,Parameterize Variable
+16,LR-PCA,NB(G)-PCA,t-test,28.20068825240185,8.273766612173192e-07,Reject,LR-PCA,NB(G)-PCA,Parameterize Variable
+17,LR-PCA,KNN-PCA,t-test,28.20068825240185,3.299602604529614e-05,Reject,KNN-PCA,LR-PCA,Parameterize Variable
+19,LR-PCA,Stack-LR-PCA,t-test,28.20068825240185,7.145049620915526e-09,Reject,Stack-LR-PCA,LR-PCA,Parameterize Variable
+20,LR-PCA,Stack-DT-PCA,t-test,28.20068825240185,1.0,Accept,,,Parameterize Variable
+21,LR-PCA,TBStack-LR-PCA,t-test,28.20068825240185,8.542674172687865e-09,Reject,TBStack-LR-PCA,LR-PCA,Parameterize Variable
+22,LR-PCA,TBStack-DT-PCA,t-test,28.20068825240185,0.002631859139769967,Reject,TBStack-DT-PCA,LR-PCA,Parameterize Variable
+23,SVM-PCA,MLP-PCA,t-test,28.20068825240185,6.436747738662295e-07,Reject,MLP-PCA,SVM-PCA,Parameterize Variable
+24,SVM-PCA,SGD-PCA,t-test,28.20068825240185,1.0,Accept,,,Parameterize Variable
+25,SVM-PCA,NB(B)-PCA,t-test,28.20068825240185,8.475366584466924e-06,Reject,SVM-PCA,NB(B)-PCA,Parameterize Variable
+26,SVM-PCA,NB(G)-PCA,t-test,28.20068825240185,5.904225899255997e-07,Reject,SVM-PCA,NB(G)-PCA,Parameterize Variable
+27,SVM-PCA,KNN-PCA,t-test,28.20068825240185,3.927964149492618e-05,Reject,KNN-PCA,SVM-PCA,Parameterize Variable
+29,SVM-PCA,Stack-LR-PCA,t-test,28.20068825240185,1.538850140843144e-08,Reject,Stack-LR-PCA,SVM-PCA,Parameterize Variable
+30,SVM-PCA,Stack-DT-PCA,t-test,28.20068825240185,1.0,Accept,,,Parameterize Variable
+31,SVM-PCA,TBStack-LR-PCA,t-test,28.20068825240185,1.794426892522762e-08,Reject,TBStack-LR-PCA,SVM-PCA,Parameterize Variable
+32,SVM-PCA,TBStack-DT-PCA,t-test,28.20068825240185,0.003050005636594133,Reject,TBStack-DT-PCA,SVM-PCA,Parameterize Variable
+33,MLP-PCA,SGD-PCA,t-test,28.20068825240185,1.336755336076467e-06,Reject,MLP-PCA,SGD-PCA,Parameterize Variable
+34,MLP-PCA,NB(B)-PCA,t-test,28.20068825240185,5.480663971264414e-08,Reject,MLP-PCA,NB(B)-PCA,Parameterize Variable
+35,MLP-PCA,NB(G)-PCA,t-test,28.20068825240185,3.490833345926184e-08,Reject,MLP-PCA,NB(G)-PCA,Parameterize Variable
+36,MLP-PCA,KNN-PCA,t-test,28.20068825240185,0.2708164596477679,Accept,,,Parameterize Variable
+38,MLP-PCA,Stack-LR-PCA,t-test,28.20068825240185,0.003427222009019173,Reject,Stack-LR-PCA,MLP-PCA,Parameterize Variable
+39,MLP-PCA,Stack-DT-PCA,t-test,28.20068825240185,1.96688968692437e-05,Reject,MLP-PCA,Stack-DT-PCA,Parameterize Variable
+40,MLP-PCA,TBStack-LR-PCA,t-test,28.20068825240185,2.472088428704543e-06,Reject,TBStack-LR-PCA,MLP-PCA,Parameterize Variable
+41,MLP-PCA,TBStack-DT-PCA,t-test,28.20068825240185,0.003167570372297361,Reject,MLP-PCA,TBStack-DT-PCA,Parameterize Variable
+42,SGD-PCA,NB(B)-PCA,t-test,28.20068825240185,9.852280659112178e-06,Reject,SGD-PCA,NB(B)-PCA,Parameterize Variable
+43,SGD-PCA,NB(G)-PCA,t-test,28.20068825240185,4.389047222050521e-07,Reject,SGD-PCA,NB(G)-PCA,Parameterize Variable
+44,SGD-PCA,KNN-PCA,t-test,28.20068825240185,3.535203386159796e-05,Reject,KNN-PCA,SGD-PCA,Parameterize Variable
+46,SGD-PCA,Stack-LR-PCA,t-test,28.20068825240185,2.418035457628627e-08,Reject,Stack-LR-PCA,SGD-PCA,Parameterize Variable
+47,SGD-PCA,Stack-DT-PCA,t-test,28.20068825240185,1.0,Accept,,,Parameterize Variable
+48,SGD-PCA,TBStack-LR-PCA,t-test,28.20068825240185,1.499446972725296e-08,Reject,TBStack-LR-PCA,SGD-PCA,Parameterize Variable
+49,SGD-PCA,TBStack-DT-PCA,t-test,28.20068825240185,0.0004082821167537438,Reject,TBStack-DT-PCA,SGD-PCA,Parameterize Variable
+50,NB(B)-PCA,NB(G)-PCA,t-test,28.20068825240185,3.824396047770145e-06,Reject,NB(B)-PCA,NB(G)-PCA,Parameterize Variable
+51,NB(B)-PCA,KNN-PCA,t-test,28.20068825240185,2.504959825685149e-07,Reject,KNN-PCA,NB(B)-PCA,Parameterize Variable
+53,NB(B)-PCA,Stack-LR-PCA,t-test,28.20068825240185,1.6804752762597e-09,Reject,Stack-LR-PCA,NB(B)-PCA,Parameterize Variable
+54,NB(B)-PCA,Stack-DT-PCA,t-test,28.20068825240185,0.01611870533862922,Reject,Stack-DT-PCA,NB(B)-PCA,Parameterize Variable
+55,NB(B)-PCA,TBStack-LR-PCA,t-test,28.20068825240185,3.97723233226612e-10,Reject,TBStack-LR-PCA,NB(B)-PCA,Parameterize Variable
+56,NB(B)-PCA,TBStack-DT-PCA,t-test,28.20068825240185,3.501294280820529e-07,Reject,TBStack-DT-PCA,NB(B)-PCA,Parameterize Variable
+57,NB(G)-PCA,KNN-PCA,t-test,28.20068825240185,1.007362437120576e-08,Reject,KNN-PCA,NB(G)-PCA,Parameterize Variable
+59,NB(G)-PCA,Stack-LR-PCA,t-test,28.20068825240185,9.418326444404817e-10,Reject,Stack-LR-PCA,NB(G)-PCA,Parameterize Variable
+60,NB(G)-PCA,Stack-DT-PCA,t-test,28.20068825240185,5.370419183643577e-07,Reject,Stack-DT-PCA,NB(G)-PCA,Parameterize Variable
+61,NB(G)-PCA,TBStack-LR-PCA,t-test,28.20068825240185,8.783888258383393e-10,Reject,TBStack-LR-PCA,NB(G)-PCA,Parameterize Variable
+62,NB(G)-PCA,TBStack-DT-PCA,t-test,28.20068825240185,5.984176301893678e-10,Reject,TBStack-DT-PCA,NB(G)-PCA,Parameterize Variable
+64,KNN-PCA,Stack-LR-PCA,t-test,28.20068825240185,8.620726170271663e-07,Reject,Stack-LR-PCA,KNN-PCA,Parameterize Variable
+65,KNN-PCA,Stack-DT-PCA,t-test,28.20068825240185,6.210414859976117e-06,Reject,KNN-PCA,Stack-DT-PCA,Parameterize Variable
+66,KNN-PCA,TBStack-LR-PCA,t-test,28.20068825240185,8.665668327511133e-07,Reject,TBStack-LR-PCA,KNN-PCA,Parameterize Variable
+67,KNN-PCA,TBStack-DT-PCA,t-test,28.20068825240185,0.237447955495264,Accept,,,Parameterize Variable
+72,Stack-LR-PCA,Stack-DT-PCA,t-test,28.20068825240185,1.560374163723709e-07,Reject,Stack-LR-PCA,Stack-DT-PCA,Parameterize Variable
+73,Stack-LR-PCA,TBStack-LR-PCA,t-test,28.20068825240185,9.865773169658849e-06,Reject,TBStack-LR-PCA,Stack-LR-PCA,Parameterize Variable
+74,Stack-LR-PCA,TBStack-DT-PCA,t-test,28.20068825240185,1.059889610817719e-06,Reject,Stack-LR-PCA,TBStack-DT-PCA,Parameterize Variable
+75,Stack-DT-PCA,TBStack-LR-PCA,t-test,28.20068825240185,3.113397569630389e-08,Reject,TBStack-LR-PCA,Stack-DT-PCA,Parameterize Variable
+76,Stack-DT-PCA,TBStack-DT-PCA,t-test,28.20068825240185,5.281076577407925e-05,Reject,TBStack-DT-PCA,Stack-DT-PCA,Parameterize Variable
+77,TBStack-LR-PCA,TBStack-DT-PCA,t-test,28.20068825240185,3.36227579902252e-08,Reject,TBStack-LR-PCA,TBStack-DT-PCA,Parameterize Variable
+0,DT-PCA,LR-PCA,t-test,53.68295637063854,5.203392068055251e-13,Reject,DT-PCA,LR-PCA,Rename Parameter
+1,DT-PCA,SVM-PCA,t-test,53.68295637063854,2.673188651811428e-13,Reject,DT-PCA,SVM-PCA,Rename Parameter
+2,DT-PCA,MLP-PCA,t-test,53.68295637063854,2.861059340689578e-10,Reject,DT-PCA,MLP-PCA,Rename Parameter
+3,DT-PCA,SGD-PCA,t-test,53.68295637063854,1.38300160589722e-12,Reject,DT-PCA,SGD-PCA,Rename Parameter
+4,DT-PCA,NB(B)-PCA,t-test,53.68295637063854,2.279256369917922e-13,Reject,DT-PCA,NB(B)-PCA,Rename Parameter
+5,DT-PCA,NB(G)-PCA,t-test,53.68295637063854,2.317923788445892e-14,Reject,DT-PCA,NB(G)-PCA,Rename Parameter
+6,DT-PCA,KNN-PCA,t-test,53.68295637063854,2.938464305518509e-08,Reject,DT-PCA,KNN-PCA,Rename Parameter
+8,DT-PCA,Stack-LR-PCA,t-test,53.68295637063854,0.15234375,Accept,,,Rename Parameter
+9,DT-PCA,Stack-DT-PCA,t-test,53.68295637063854,1.534605519386523e-06,Reject,DT-PCA,Stack-DT-PCA,Rename Parameter
+10,DT-PCA,TBStack-LR-PCA,t-test,53.68295637063854,3.615483959732102e-14,Reject,TBStack-LR-PCA,DT-PCA,Rename Parameter
+11,DT-PCA,TBStack-DT-PCA,t-test,53.68295637063854,1.51778587785075e-13,Reject,TBStack-DT-PCA,DT-PCA,Rename Parameter
+12,LR-PCA,SVM-PCA,t-test,53.68295637063854,0.0001069518575607282,Reject,LR-PCA,SVM-PCA,Rename Parameter
+13,LR-PCA,MLP-PCA,t-test,53.68295637063854,3.07095234662803e-11,Reject,MLP-PCA,LR-PCA,Rename Parameter
+14,LR-PCA,SGD-PCA,t-test,53.68295637063854,0.12694381787999,Accept,,,Rename Parameter
+15,LR-PCA,NB(B)-PCA,t-test,53.68295637063854,9.557853234614041e-09,Reject,LR-PCA,NB(B)-PCA,Rename Parameter
+16,LR-PCA,NB(G)-PCA,t-test,53.68295637063854,1.232031403360946e-11,Reject,LR-PCA,NB(G)-PCA,Rename Parameter
+17,LR-PCA,KNN-PCA,t-test,53.68295637063854,1.688242156402333e-13,Reject,KNN-PCA,LR-PCA,Rename Parameter
+19,LR-PCA,Stack-LR-PCA,t-test,53.68295637063854,0.15234375,Accept,,,Rename Parameter
+20,LR-PCA,Stack-DT-PCA,t-test,53.68295637063854,7.010569057642831e-12,Reject,Stack-DT-PCA,LR-PCA,Rename Parameter
+21,LR-PCA,TBStack-LR-PCA,t-test,53.68295637063854,7.22884484105557e-14,Reject,TBStack-LR-PCA,LR-PCA,Rename Parameter
+22,LR-PCA,TBStack-DT-PCA,t-test,53.68295637063854,7.803732710457266e-14,Reject,TBStack-DT-PCA,LR-PCA,Rename Parameter
+23,SVM-PCA,MLP-PCA,t-test,53.68295637063854,2.374338359997195e-11,Reject,MLP-PCA,SVM-PCA,Rename Parameter
+24,SVM-PCA,SGD-PCA,t-test,53.68295637063854,1.0,Accept,,,Rename Parameter
+25,SVM-PCA,NB(B)-PCA,t-test,53.68295637063854,8.853231774877135e-09,Reject,SVM-PCA,NB(B)-PCA,Rename Parameter
+26,SVM-PCA,NB(G)-PCA,t-test,53.68295637063854,1.142021253049176e-11,Reject,SVM-PCA,NB(G)-PCA,Rename Parameter
+27,SVM-PCA,KNN-PCA,t-test,53.68295637063854,5.16802678439659e-14,Reject,KNN-PCA,SVM-PCA,Rename Parameter
+29,SVM-PCA,Stack-LR-PCA,t-test,53.68295637063854,0.15234375,Accept,,,Rename Parameter
+30,SVM-PCA,Stack-DT-PCA,t-test,53.68295637063854,4.834805687449565e-12,Reject,Stack-DT-PCA,SVM-PCA,Rename Parameter
+31,SVM-PCA,TBStack-LR-PCA,t-test,53.68295637063854,4.337318380880178e-14,Reject,TBStack-LR-PCA,SVM-PCA,Rename Parameter
+32,SVM-PCA,TBStack-DT-PCA,t-test,53.68295637063854,5.20862157084381e-14,Reject,TBStack-DT-PCA,SVM-PCA,Rename Parameter
+33,MLP-PCA,SGD-PCA,t-test,53.68295637063854,6.249367079215787e-12,Reject,MLP-PCA,SGD-PCA,Rename Parameter
+34,MLP-PCA,NB(B)-PCA,t-test,53.68295637063854,4.986590208730542e-11,Reject,MLP-PCA,NB(B)-PCA,Rename Parameter
+35,MLP-PCA,NB(G)-PCA,t-test,53.68295637063854,1.63325428999686e-13,Reject,MLP-PCA,NB(G)-PCA,Rename Parameter
+36,MLP-PCA,KNN-PCA,t-test,53.68295637063854,4.69546433330488e-09,Reject,KNN-PCA,MLP-PCA,Rename Parameter
+38,MLP-PCA,Stack-LR-PCA,t-test,53.68295637063854,0.15234375,Accept,,,Rename Parameter
+39,MLP-PCA,Stack-DT-PCA,t-test,53.68295637063854,5.964243626497225e-09,Reject,Stack-DT-PCA,MLP-PCA,Rename Parameter
+40,MLP-PCA,TBStack-LR-PCA,t-test,53.68295637063854,2.055497726979994e-12,Reject,TBStack-LR-PCA,MLP-PCA,Rename Parameter
+41,MLP-PCA,TBStack-DT-PCA,t-test,53.68295637063854,3.766361517250192e-12,Reject,TBStack-DT-PCA,MLP-PCA,Rename Parameter
+42,SGD-PCA,NB(B)-PCA,t-test,53.68295637063854,4.277099970801048e-09,Reject,SGD-PCA,NB(B)-PCA,Rename Parameter
+43,SGD-PCA,NB(G)-PCA,t-test,53.68295637063854,4.41082201930058e-12,Reject,SGD-PCA,NB(G)-PCA,Rename Parameter
+44,SGD-PCA,KNN-PCA,t-test,53.68295637063854,2.270667616403294e-12,Reject,KNN-PCA,SGD-PCA,Rename Parameter
+46,SGD-PCA,Stack-LR-PCA,t-test,53.68295637063854,0.15234375,Accept,,,Rename Parameter
+47,SGD-PCA,Stack-DT-PCA,t-test,53.68295637063854,1.478504537405757e-11,Reject,Stack-DT-PCA,SGD-PCA,Rename Parameter
+48,SGD-PCA,TBStack-LR-PCA,t-test,53.68295637063854,9.364909991665935e-14,Reject,TBStack-LR-PCA,SGD-PCA,Rename Parameter
+49,SGD-PCA,TBStack-DT-PCA,t-test,53.68295637063854,1.180079859873954e-13,Reject,TBStack-DT-PCA,SGD-PCA,Rename Parameter
+50,NB(B)-PCA,NB(G)-PCA,t-test,53.68295637063854,5.190549597914475e-08,Reject,NB(B)-PCA,NB(G)-PCA,Rename Parameter
+51,NB(B)-PCA,KNN-PCA,t-test,53.68295637063854,2.722571148995387e-13,Reject,KNN-PCA,NB(B)-PCA,Rename Parameter
+53,NB(B)-PCA,Stack-LR-PCA,t-test,53.68295637063854,0.15234375,Accept,,,Rename Parameter
+54,NB(B)-PCA,Stack-DT-PCA,t-test,53.68295637063854,4.054180531383027e-12,Reject,Stack-DT-PCA,NB(B)-PCA,Rename Parameter
+55,NB(B)-PCA,TBStack-LR-PCA,t-test,53.68295637063854,3.74716395149121e-14,Reject,TBStack-LR-PCA,NB(B)-PCA,Rename Parameter
+56,NB(B)-PCA,TBStack-DT-PCA,t-test,53.68295637063854,6.463014404463521e-14,Reject,TBStack-DT-PCA,NB(B)-PCA,Rename Parameter
+57,NB(G)-PCA,KNN-PCA,t-test,53.68295637063854,2.747925895538049e-13,Reject,KNN-PCA,NB(G)-PCA,Rename Parameter
+59,NB(G)-PCA,Stack-LR-PCA,t-test,53.68295637063854,0.15234375,Accept,,,Rename Parameter
+60,NB(G)-PCA,Stack-DT-PCA,t-test,53.68295637063854,3.752007264145439e-15,Reject,Stack-DT-PCA,NB(G)-PCA,Rename Parameter
+61,NB(G)-PCA,TBStack-LR-PCA,t-test,53.68295637063854,8.887979219518461e-16,Reject,TBStack-LR-PCA,NB(G)-PCA,Rename Parameter
+62,NB(G)-PCA,TBStack-DT-PCA,t-test,53.68295637063854,8.717578954734496e-16,Reject,TBStack-DT-PCA,NB(G)-PCA,Rename Parameter
+64,KNN-PCA,Stack-LR-PCA,t-test,53.68295637063854,0.15234375,Accept,,,Rename Parameter
+65,KNN-PCA,Stack-DT-PCA,t-test,53.68295637063854,0.00411719809627469,Reject,Stack-DT-PCA,KNN-PCA,Rename Parameter
+66,KNN-PCA,TBStack-LR-PCA,t-test,53.68295637063854,5.035333554686043e-12,Reject,TBStack-LR-PCA,KNN-PCA,Rename Parameter
+67,KNN-PCA,TBStack-DT-PCA,t-test,53.68295637063854,2.573586353807381e-11,Reject,TBStack-DT-PCA,KNN-PCA,Rename Parameter
+72,Stack-LR-PCA,Stack-DT-PCA,t-test,53.68295637063854,0.15234375,Accept,,,Rename Parameter
+73,Stack-LR-PCA,TBStack-LR-PCA,t-test,53.68295637063854,0.15234375,Accept,,,Rename Parameter
+74,Stack-LR-PCA,TBStack-DT-PCA,t-test,53.68295637063854,0.15234375,Accept,,,Rename Parameter
+75,Stack-DT-PCA,TBStack-LR-PCA,t-test,53.68295637063854,2.063370808271858e-12,Reject,TBStack-LR-PCA,Stack-DT-PCA,Rename Parameter
+76,Stack-DT-PCA,TBStack-DT-PCA,t-test,53.68295637063854,3.405850288448919e-12,Reject,TBStack-DT-PCA,Stack-DT-PCA,Rename Parameter
+77,TBStack-LR-PCA,TBStack-DT-PCA,t-test,53.68295637063854,1.05900414149642e-10,Reject,TBStack-LR-PCA,TBStack-DT-PCA,Rename Parameter
+0,DT-PCA,LR-PCA,Wilcoxon,0.0,1.843801578726298e-12,Reject,DT-PCA,LR-PCA,Rename Variable
+1,DT-PCA,SVM-PCA,Wilcoxon,0.0,6.848445314836543e-13,Reject,DT-PCA,SVM-PCA,Rename Variable
+2,DT-PCA,MLP-PCA,Wilcoxon,0.0,1.109555348654548e-09,Reject,DT-PCA,MLP-PCA,Rename Variable
+3,DT-PCA,SGD-PCA,Wilcoxon,0.0,4.062857525679365e-12,Reject,DT-PCA,SGD-PCA,Rename Variable
+4,DT-PCA,NB(B)-PCA,Wilcoxon,0.0,4.544380473833219e-13,Reject,DT-PCA,NB(B)-PCA,Rename Variable
+5,DT-PCA,NB(G)-PCA,Wilcoxon,0.0,2.877120901627881e-12,Reject,DT-PCA,NB(G)-PCA,Rename Variable
+6,DT-PCA,KNN-PCA,Wilcoxon,0.0,1.553188609676564e-09,Reject,DT-PCA,KNN-PCA,Rename Variable
+8,DT-PCA,Stack-LR-PCA,Wilcoxon,0.0,9.75767979031358e-08,Reject,Stack-LR-PCA,DT-PCA,Rename Variable
+9,DT-PCA,Stack-DT-PCA,Wilcoxon,0.0,1.451703752430443e-06,Reject,DT-PCA,Stack-DT-PCA,Rename Variable
+10,DT-PCA,TBStack-LR-PCA,Wilcoxon,0.0,0.15234375,Accept,,,Rename Variable
+11,DT-PCA,TBStack-DT-PCA,Wilcoxon,0.0,0.15234375,Accept,,,Rename Variable
+12,LR-PCA,SVM-PCA,Wilcoxon,0.0,0.008101329518598098,Reject,LR-PCA,SVM-PCA,Rename Variable
+13,LR-PCA,MLP-PCA,Wilcoxon,0.0,9.784655656739792e-11,Reject,MLP-PCA,LR-PCA,Rename Variable
+14,LR-PCA,SGD-PCA,Wilcoxon,0.0,0.9030888131600107,Accept,,,Rename Variable
+15,LR-PCA,NB(B)-PCA,Wilcoxon,0.0,1.556641660618661e-07,Reject,LR-PCA,NB(B)-PCA,Rename Variable
+16,LR-PCA,NB(G)-PCA,Wilcoxon,0.0,3.9010532205361e-09,Reject,LR-PCA,NB(G)-PCA,Rename Variable
+17,LR-PCA,KNN-PCA,Wilcoxon,0.0,4.997594268919974e-10,Reject,KNN-PCA,LR-PCA,Rename Variable
+19,LR-PCA,Stack-LR-PCA,Wilcoxon,0.0,7.878558295793965e-12,Reject,Stack-LR-PCA,LR-PCA,Rename Variable
+20,LR-PCA,Stack-DT-PCA,Wilcoxon,0.0,4.575142863421717e-11,Reject,Stack-DT-PCA,LR-PCA,Rename Variable
+21,LR-PCA,TBStack-LR-PCA,Wilcoxon,0.0,0.15234375,Accept,,,Rename Variable
+22,LR-PCA,TBStack-DT-PCA,Wilcoxon,0.0,0.15234375,Accept,,,Rename Variable
+23,SVM-PCA,MLP-PCA,Wilcoxon,0.0,2.287557020940916e-11,Reject,MLP-PCA,SVM-PCA,Rename Variable
+24,SVM-PCA,SGD-PCA,Wilcoxon,0.0,1.0,Accept,,,Rename Variable
+25,SVM-PCA,NB(B)-PCA,Wilcoxon,0.0,8.826354964042294e-08,Reject,SVM-PCA,NB(B)-PCA,Rename Variable
+26,SVM-PCA,NB(G)-PCA,Wilcoxon,0.0,5.295937710168941e-09,Reject,SVM-PCA,NB(G)-PCA,Rename Variable
+27,SVM-PCA,KNN-PCA,Wilcoxon,0.0,2.495257416759444e-10,Reject,KNN-PCA,SVM-PCA,Rename Variable
+29,SVM-PCA,Stack-LR-PCA,Wilcoxon,0.0,4.897775397599406e-12,Reject,Stack-LR-PCA,SVM-PCA,Rename Variable
+30,SVM-PCA,Stack-DT-PCA,Wilcoxon,0.0,1.750259350059113e-11,Reject,Stack-DT-PCA,SVM-PCA,Rename Variable
+31,SVM-PCA,TBStack-LR-PCA,Wilcoxon,0.0,0.15234375,Accept,,,Rename Variable
+32,SVM-PCA,TBStack-DT-PCA,Wilcoxon,0.0,0.15234375,Accept,,,Rename Variable
+33,MLP-PCA,SGD-PCA,Wilcoxon,0.0,8.497038641640105e-10,Reject,MLP-PCA,SGD-PCA,Rename Variable
+34,MLP-PCA,NB(B)-PCA,Wilcoxon,0.0,4.607128907920893e-12,Reject,MLP-PCA,NB(B)-PCA,Rename Variable
+35,MLP-PCA,NB(G)-PCA,Wilcoxon,0.0,9.043351909499813e-11,Reject,MLP-PCA,NB(G)-PCA,Rename Variable
+36,MLP-PCA,KNN-PCA,Wilcoxon,0.0,6.142646184949926e-05,Reject,KNN-PCA,MLP-PCA,Rename Variable
+38,MLP-PCA,Stack-LR-PCA,Wilcoxon,0.0,1.227940438098846e-09,Reject,Stack-LR-PCA,MLP-PCA,Rename Variable
+39,MLP-PCA,Stack-DT-PCA,Wilcoxon,0.0,4.33916637733638e-08,Reject,Stack-DT-PCA,MLP-PCA,Rename Variable
+40,MLP-PCA,TBStack-LR-PCA,Wilcoxon,0.0,0.15234375,Accept,,,Rename Variable
+41,MLP-PCA,TBStack-DT-PCA,Wilcoxon,0.0,0.15234375,Accept,,,Rename Variable
+42,SGD-PCA,NB(B)-PCA,Wilcoxon,0.0,4.178788046190674e-07,Reject,SGD-PCA,NB(B)-PCA,Rename Variable
+43,SGD-PCA,NB(G)-PCA,Wilcoxon,0.0,5.073126593178921e-09,Reject,SGD-PCA,NB(G)-PCA,Rename Variable
+44,SGD-PCA,KNN-PCA,Wilcoxon,0.0,4.255706107946729e-10,Reject,KNN-PCA,SGD-PCA,Rename Variable
+46,SGD-PCA,Stack-LR-PCA,Wilcoxon,0.0,9.856253384283753e-12,Reject,Stack-LR-PCA,SGD-PCA,Rename Variable
+47,SGD-PCA,Stack-DT-PCA,Wilcoxon,0.0,1.129942072693018e-10,Reject,Stack-DT-PCA,SGD-PCA,Rename Variable
+48,SGD-PCA,TBStack-LR-PCA,Wilcoxon,0.0,0.15234375,Accept,,,Rename Variable
+49,SGD-PCA,TBStack-DT-PCA,Wilcoxon,0.0,0.15234375,Accept,,,Rename Variable
+50,NB(B)-PCA,NB(G)-PCA,Wilcoxon,0.0,3.728311688195774e-07,Reject,NB(B)-PCA,NB(G)-PCA,Rename Variable
+51,NB(B)-PCA,KNN-PCA,Wilcoxon,0.0,1.427992769216863e-11,Reject,KNN-PCA,NB(B)-PCA,Rename Variable
+53,NB(B)-PCA,Stack-LR-PCA,Wilcoxon,0.0,3.502221891173877e-13,Reject,Stack-LR-PCA,NB(B)-PCA,Rename Variable
+54,NB(B)-PCA,Stack-DT-PCA,Wilcoxon,0.0,3.67298763361065e-13,Reject,Stack-DT-PCA,NB(B)-PCA,Rename Variable
+55,NB(B)-PCA,TBStack-LR-PCA,Wilcoxon,0.0,0.15234375,Accept,,,Rename Variable
+56,NB(B)-PCA,TBStack-DT-PCA,Wilcoxon,0.0,0.15234375,Accept,,,Rename Variable
+57,NB(G)-PCA,KNN-PCA,Wilcoxon,0.0,1.388695936408199e-11,Reject,KNN-PCA,NB(G)-PCA,Rename Variable
+59,NB(G)-PCA,Stack-LR-PCA,Wilcoxon,0.0,1.578235661594675e-13,Reject,Stack-LR-PCA,NB(G)-PCA,Rename Variable
+60,NB(G)-PCA,Stack-DT-PCA,Wilcoxon,0.0,2.814498108099668e-12,Reject,Stack-DT-PCA,NB(G)-PCA,Rename Variable
+61,NB(G)-PCA,TBStack-LR-PCA,Wilcoxon,0.0,0.15234375,Accept,,,Rename Variable
+62,NB(G)-PCA,TBStack-DT-PCA,Wilcoxon,0.0,0.15234375,Accept,,,Rename Variable
+64,KNN-PCA,Stack-LR-PCA,Wilcoxon,0.0,3.737925917683471e-11,Reject,Stack-LR-PCA,KNN-PCA,Rename Variable
+65,KNN-PCA,Stack-DT-PCA,Wilcoxon,0.0,2.336457107941909e-06,Reject,Stack-DT-PCA,KNN-PCA,Rename Variable
+66,KNN-PCA,TBStack-LR-PCA,Wilcoxon,0.0,0.15234375,Accept,,,Rename Variable
+67,KNN-PCA,TBStack-DT-PCA,Wilcoxon,0.0,0.15234375,Accept,,,Rename Variable
+72,Stack-LR-PCA,Stack-DT-PCA,Wilcoxon,0.0,4.286578918237788e-10,Reject,Stack-LR-PCA,Stack-DT-PCA,Rename Variable
+73,Stack-LR-PCA,TBStack-LR-PCA,Wilcoxon,0.0,0.15234375,Accept,,,Rename Variable
+74,Stack-LR-PCA,TBStack-DT-PCA,Wilcoxon,0.0,0.15234375,Accept,,,Rename Variable
+75,Stack-DT-PCA,TBStack-LR-PCA,Wilcoxon,0.0,0.15234375,Accept,,,Rename Variable
+76,Stack-DT-PCA,TBStack-DT-PCA,Wilcoxon,0.0,0.15234375,Accept,,,Rename Variable
+77,TBStack-LR-PCA,TBStack-DT-PCA,Wilcoxon,0.0,0.15234375,Accept,,,Rename Variable
+0,DT-PCA,LR-PCA,t-test,41.9468876683587,0.02346672636555628,Reject,LR-PCA,DT-PCA,Replace Variable With Attribute
+1,DT-PCA,SVM-PCA,t-test,41.9468876683587,0.001140267187821917,Reject,SVM-PCA,DT-PCA,Replace Variable With Attribute
+2,DT-PCA,MLP-PCA,t-test,41.9468876683587,1.020444376374881e-07,Reject,MLP-PCA,DT-PCA,Replace Variable With Attribute
+3,DT-PCA,SGD-PCA,t-test,41.9468876683587,1.0,Accept,,,Replace Variable With Attribute
+4,DT-PCA,NB(B)-PCA,t-test,41.9468876683587,4.831720662332146e-06,Reject,DT-PCA,NB(B)-PCA,Replace Variable With Attribute
+5,DT-PCA,NB(G)-PCA,t-test,41.9468876683587,3.90382964481514e-09,Reject,DT-PCA,NB(G)-PCA,Replace Variable With Attribute
+6,DT-PCA,KNN-PCA,t-test,41.9468876683587,5.305584328286593e-06,Reject,KNN-PCA,DT-PCA,Replace Variable With Attribute
+8,DT-PCA,Stack-LR-PCA,t-test,41.9468876683587,2.745732446524756e-08,Reject,Stack-LR-PCA,DT-PCA,Replace Variable With Attribute
+9,DT-PCA,Stack-DT-PCA,t-test,41.9468876683587,1.0,Accept,,,Replace Variable With Attribute
+10,DT-PCA,TBStack-LR-PCA,t-test,41.9468876683587,4.484948030053823e-09,Reject,TBStack-LR-PCA,DT-PCA,Replace Variable With Attribute
+11,DT-PCA,TBStack-DT-PCA,t-test,41.9468876683587,0.0001388952586687736,Reject,TBStack-DT-PCA,DT-PCA,Replace Variable With Attribute
+12,LR-PCA,SVM-PCA,t-test,41.9468876683587,1.0,Accept,,,Replace Variable With Attribute
+13,LR-PCA,MLP-PCA,t-test,41.9468876683587,4.651258043210653e-08,Reject,MLP-PCA,LR-PCA,Replace Variable With Attribute
+14,LR-PCA,SGD-PCA,t-test,41.9468876683587,1.0,Accept,,,Replace Variable With Attribute
+15,LR-PCA,NB(B)-PCA,t-test,41.9468876683587,2.613421283571735e-07,Reject,LR-PCA,NB(B)-PCA,Replace Variable With Attribute
+16,LR-PCA,NB(G)-PCA,t-test,41.9468876683587,2.390970829434678e-08,Reject,LR-PCA,NB(G)-PCA,Replace Variable With Attribute
+17,LR-PCA,KNN-PCA,t-test,41.9468876683587,1.555350134969576e-05,Reject,KNN-PCA,LR-PCA,Replace Variable With Attribute
+19,LR-PCA,Stack-LR-PCA,t-test,41.9468876683587,8.043782037487859e-08,Reject,Stack-LR-PCA,LR-PCA,Replace Variable With Attribute
+20,LR-PCA,Stack-DT-PCA,t-test,41.9468876683587,0.15234375,Accept,,,Replace Variable With Attribute
+21,LR-PCA,TBStack-LR-PCA,t-test,41.9468876683587,7.099604248866638e-10,Reject,TBStack-LR-PCA,LR-PCA,Replace Variable With Attribute
+22,LR-PCA,TBStack-DT-PCA,t-test,41.9468876683587,0.05256307314354323,Accept,,,Replace Variable With Attribute
+23,SVM-PCA,MLP-PCA,t-test,41.9468876683587,2.356896884754381e-08,Reject,MLP-PCA,SVM-PCA,Replace Variable With Attribute
+24,SVM-PCA,SGD-PCA,t-test,41.9468876683587,1.0,Accept,,,Replace Variable With Attribute
+25,SVM-PCA,NB(B)-PCA,t-test,41.9468876683587,1.579652521199126e-07,Reject,SVM-PCA,NB(B)-PCA,Replace Variable With Attribute
+26,SVM-PCA,NB(G)-PCA,t-test,41.9468876683587,5.504759502043731e-09,Reject,SVM-PCA,NB(G)-PCA,Replace Variable With Attribute
+27,SVM-PCA,KNN-PCA,t-test,41.9468876683587,6.024212559799718e-06,Reject,KNN-PCA,SVM-PCA,Replace Variable With Attribute
+29,SVM-PCA,Stack-LR-PCA,t-test,41.9468876683587,1.675944870024686e-08,Reject,Stack-LR-PCA,SVM-PCA,Replace Variable With Attribute
+30,SVM-PCA,Stack-DT-PCA,t-test,41.9468876683587,0.15234375,Accept,,,Replace Variable With Attribute
+31,SVM-PCA,TBStack-LR-PCA,t-test,41.9468876683587,6.630185988026736e-10,Reject,TBStack-LR-PCA,SVM-PCA,Replace Variable With Attribute
+32,SVM-PCA,TBStack-DT-PCA,t-test,41.9468876683587,0.01854321586113344,Reject,TBStack-DT-PCA,SVM-PCA,Replace Variable With Attribute
+33,MLP-PCA,SGD-PCA,t-test,41.9468876683587,0.15234375,Accept,,,Replace Variable With Attribute
+34,MLP-PCA,NB(B)-PCA,t-test,41.9468876683587,7.612372093926734e-09,Reject,MLP-PCA,NB(B)-PCA,Replace Variable With Attribute
+35,MLP-PCA,NB(G)-PCA,t-test,41.9468876683587,6.219114792568551e-10,Reject,MLP-PCA,NB(G)-PCA,Replace Variable With Attribute
+36,MLP-PCA,KNN-PCA,t-test,41.9468876683587,0.0004875650793028961,Reject,MLP-PCA,KNN-PCA,Replace Variable With Attribute
+38,MLP-PCA,Stack-LR-PCA,t-test,41.9468876683587,0.0003310334059836302,Reject,Stack-LR-PCA,MLP-PCA,Replace Variable With Attribute
+39,MLP-PCA,Stack-DT-PCA,t-test,41.9468876683587,0.15234375,Accept,,,Replace Variable With Attribute
+40,MLP-PCA,TBStack-LR-PCA,t-test,41.9468876683587,3.870966288369385e-08,Reject,TBStack-LR-PCA,MLP-PCA,Replace Variable With Attribute
+41,MLP-PCA,TBStack-DT-PCA,t-test,41.9468876683587,2.565292305481912e-06,Reject,MLP-PCA,TBStack-DT-PCA,Replace Variable With Attribute
+42,SGD-PCA,NB(B)-PCA,t-test,41.9468876683587,0.15234375,Accept,,,Replace Variable With Attribute
+43,SGD-PCA,NB(G)-PCA,t-test,41.9468876683587,0.15234375,Accept,,,Replace Variable With Attribute
+44,SGD-PCA,KNN-PCA,t-test,41.9468876683587,0.15234375,Accept,,,Replace Variable With Attribute
+46,SGD-PCA,Stack-LR-PCA,t-test,41.9468876683587,0.15234375,Accept,,,Replace Variable With Attribute
+47,SGD-PCA,Stack-DT-PCA,t-test,41.9468876683587,0.3046875,Accept,,,Replace Variable With Attribute
+48,SGD-PCA,TBStack-LR-PCA,t-test,41.9468876683587,0.15234375,Accept,,,Replace Variable With Attribute
+49,SGD-PCA,TBStack-DT-PCA,t-test,41.9468876683587,0.15234375,Accept,,,Replace Variable With Attribute
+50,NB(B)-PCA,NB(G)-PCA,t-test,41.9468876683587,1.893910536579077e-05,Reject,NB(B)-PCA,NB(G)-PCA,Replace Variable With Attribute
+51,NB(B)-PCA,KNN-PCA,t-test,41.9468876683587,4.867544241411385e-09,Reject,KNN-PCA,NB(B)-PCA,Replace Variable With Attribute
+53,NB(B)-PCA,Stack-LR-PCA,t-test,41.9468876683587,7.294809183669652e-10,Reject,Stack-LR-PCA,NB(B)-PCA,Replace Variable With Attribute
+54,NB(B)-PCA,Stack-DT-PCA,t-test,41.9468876683587,0.15234375,Accept,,,Replace Variable With Attribute
+55,NB(B)-PCA,TBStack-LR-PCA,t-test,41.9468876683587,9.994318557143034e-11,Reject,TBStack-LR-PCA,NB(B)-PCA,Replace Variable With Attribute
+56,NB(B)-PCA,TBStack-DT-PCA,t-test,41.9468876683587,1.785007866990447e-07,Reject,TBStack-DT-PCA,NB(B)-PCA,Replace Variable With Attribute
+57,NB(G)-PCA,KNN-PCA,t-test,41.9468876683587,8.678055117198279e-10,Reject,KNN-PCA,NB(G)-PCA,Replace Variable With Attribute
+59,NB(G)-PCA,Stack-LR-PCA,t-test,41.9468876683587,1.956561130648583e-10,Reject,Stack-LR-PCA,NB(G)-PCA,Replace Variable With Attribute
+60,NB(G)-PCA,Stack-DT-PCA,t-test,41.9468876683587,0.15234375,Accept,,,Replace Variable With Attribute
+61,NB(G)-PCA,TBStack-LR-PCA,t-test,41.9468876683587,3.814841492210344e-11,Reject,TBStack-LR-PCA,NB(G)-PCA,Replace Variable With Attribute
+62,NB(G)-PCA,TBStack-DT-PCA,t-test,41.9468876683587,2.052734417729498e-09,Reject,TBStack-DT-PCA,NB(G)-PCA,Replace Variable With Attribute
+64,KNN-PCA,Stack-LR-PCA,t-test,41.9468876683587,6.090839724486041e-07,Reject,Stack-LR-PCA,KNN-PCA,Replace Variable With Attribute
+65,KNN-PCA,Stack-DT-PCA,t-test,41.9468876683587,0.15234375,Accept,,,Replace Variable With Attribute
+66,KNN-PCA,TBStack-LR-PCA,t-test,41.9468876683587,3.211484930016803e-10,Reject,TBStack-LR-PCA,KNN-PCA,Replace Variable With Attribute
+67,KNN-PCA,TBStack-DT-PCA,t-test,41.9468876683587,1.247916386365152e-05,Reject,KNN-PCA,TBStack-DT-PCA,Replace Variable With Attribute
+72,Stack-LR-PCA,Stack-DT-PCA,t-test,41.9468876683587,0.15234375,Accept,,,Replace Variable With Attribute
+73,Stack-LR-PCA,TBStack-LR-PCA,t-test,41.9468876683587,1.068978444966879e-06,Reject,TBStack-LR-PCA,Stack-LR-PCA,Replace Variable With Attribute
+74,Stack-LR-PCA,TBStack-DT-PCA,t-test,41.9468876683587,1.523646284626634e-07,Reject,Stack-LR-PCA,TBStack-DT-PCA,Replace Variable With Attribute
+75,Stack-DT-PCA,TBStack-LR-PCA,t-test,41.9468876683587,0.15234375,Accept,,,Replace Variable With Attribute
+76,Stack-DT-PCA,TBStack-DT-PCA,t-test,41.9468876683587,0.15234375,Accept,,,Replace Variable With Attribute
+77,TBStack-LR-PCA,TBStack-DT-PCA,t-test,41.9468876683587,9.673931951529517e-10,Reject,TBStack-LR-PCA,TBStack-DT-PCA,Replace Variable With Attribute
