@@ -2,6 +2,6 @@
 
 Replication data is available in this repository. This repository contains:
 
-1- Source code
-2- Detailed results
-3- Preprocessed dataset, which can be downloaded from here (https://www.dropbox.com/s/p5l4kmr9ac38q0k/datasets.zip?dl=0)
+- Source code
+- Detailed results
+- Preprocessed dataset, which can be downloaded from here (https://www.dropbox.com/s/p5l4kmr9ac38q0k/datasets.zip?dl=0)
