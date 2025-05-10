@@ -49,7 +49,5 @@ This repository contains the implementation, features, and results of a Two-Leve
 
 ---
 
-This README provides a brief overview of all repository files and their purpose. Please refer to the notebook for full implementation details.
-
 ### 6. The Preprocessed dataset
 Preprocessed dataset, can be downloaded from here (https://www.dropbox.com/s/p5l4kmr9ac38q0k/datasets.zip?dl=0)
