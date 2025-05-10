@@ -1,0 +1,92 @@
+Unnamed: 0,Classifier,Accuracy,Precision,Recall,F1-score,F1-micro,F1-weight,Brier,AUC,MCC,Type,Dataset
+0,DT,82.02,82,82.3,82.11,82.02,82.01,0.18,0.82,0.64,Individual,Extract Class
+1,LR,78.38,74.14,87.63,80.28,78.38,78.16,0.15,0.86,0.58,Individual,Extract Class
+2,SVM,80.83,77.12,88.04,82.18,80.83,80.71,0.13,0.88,0.62,Individual,Extract Class
+3,MLP,85.96,82.43,91.7,86.77,85.96,85.9,0.1,0.93,0.72,Individual,Extract Class
+4,SGD,77.53,72.95,87.91,79.63,77.53,77.23,0.15,0.85,0.57,Individual,Extract Class
+5,NB(B),72.81,66.46,93.02,77.47,72.81,71.53,0.25,0.74,0.5,Individual,Extract Class
+6,NB(G),59.04,55.61,91.88,69.24,59.04,53.81,0.4,0.8,0.23,Individual,Extract Class
+7,NB(M),77.63,75.61,81.83,78.57,77.63,77.57,0.22,0.8,0.55,Individual,Extract Class
+8,KNN,80.26,75.46,90.16,82.1,80.26,80.02,0.15,0.87,0.62,Individual,Extract Class
+0,Stack-LR,86.32,83.44,90.79,86.94,86.32,86.28,0.1,0.93,0.73,Stacking,Extract Class
+1,Stack-DT,80.52,80.98,80,80.45,80.52,80.51,0.19,0.81,0.61,Stacking,Extract Class
+0,TBStack-LR,87.57,85.6,90.49,87.95,87.57,87.55,0.09,0.95,0.75,TreeStacking,Extract Class
+1,TBStack-DT,82.35,83.11,81.45,82.22,82.35,82.34,0.18,0.82,0.65,TreeStacking,Extract Class
+0,DT,87.86,87.04,89.04,88.02,87.86,87.86,0.12,0.88,0.76,Individual,Extract Interface
+1,LR,83.32,79.08,90.84,84.52,83.32,83.21,0.12,0.91,0.67,Individual,Extract Interface
+2,SVM,85.3,81.62,91.27,86.16,85.3,85.24,0.11,0.92,0.71,Individual,Extract Interface
+3,MLP,89.83,87.7,92.79,90.15,89.83,89.82,0.07,0.96,0.8,Individual,Extract Interface
+4,SGD,82.76,79.02,89.57,83.88,82.76,82.65,0.12,0.9,0.66,Individual,Extract Interface
+5,NB(B),77.26,78.47,75.88,77.03,77.26,77.22,0.18,0.87,0.55,Individual,Extract Interface
+6,NB(G),63.35,58.37,94.66,72.16,63.35,59.11,0.36,0.72,0.34,Individual,Extract Interface
+7,NB(M),82.85,80.28,87.24,83.59,82.85,82.8,0.19,0.87,0.66,Individual,Extract Interface
+8,KNN,84.18,80.08,91.25,85.27,84.18,84.09,0.11,0.91,0.69,Individual,Extract Interface
+0,Stack-LR,90.37,89.38,91.68,90.5,90.37,90.36,0.07,0.97,0.81,Stacking,Extract Interface
+1,Stack-DT,85.76,85.9,85.67,85.76,85.76,85.76,0.14,0.86,0.72,Stacking,Extract Interface
+0,TBStack-LR,91.74,91.59,91.94,91.76,91.74,91.73,0.06,0.98,0.83,TreeStacking,Extract Interface
+1,TBStack-DT,88.45,88.49,88.49,88.47,88.45,88.45,0.12,0.88,0.77,TreeStacking,Extract Interface
+0,DT,87.47,87.71,87.16,87.42,87.47,87.47,0.13,0.87,0.75,Individual,Extract Subclass
+1,LR,83.82,79.2,91.75,85.01,83.82,83.72,0.12,0.91,0.69,Individual,Extract Subclass
+2,SVM,87,83.21,92.71,87.69,87,86.95,0.1,0.94,0.75,Individual,Extract Subclass
+3,MLP,91.4,89.54,93.8,91.6,91.4,91.39,0.06,0.97,0.83,Individual,Extract Subclass
+4,SGD,83.44,78.76,91.69,84.69,83.44,83.31,0.12,0.91,0.68,Individual,Extract Subclass
+5,NB(B),74.38,67.04,95.95,78.91,74.38,73.12,0.22,0.86,0.54,Individual,Extract Subclass
+6,NB(G),64.22,58.79,95.13,72.67,64.22,60.42,0.36,0.69,0.36,Individual,Extract Subclass
+7,NB(M),83.35,80.29,88.41,84.14,83.35,83.31,0.2,0.87,0.67,Individual,Extract Subclass
+8,KNN,85.61,81.54,92.07,86.48,85.61,85.55,0.11,0.92,0.72,Individual,Extract Subclass
+0,Stack-LR,91.69,89.95,93.88,91.86,91.69,91.68,0.06,0.97,0.83,Stacking,Extract Subclass
+1,Stack-DT,86.92,87.65,85.98,86.79,86.92,86.92,0.13,0.87,0.74,Stacking,Extract Subclass
+0,TBStack-LR,92.05,91.19,93.09,92.13,92.05,92.05,0.06,0.98,0.84,TreeStacking,Extract Subclass
+1,TBStack-DT,88.49,89.04,87.81,88.41,88.49,88.49,0.12,0.88,0.77,TreeStacking,Extract Subclass
+0,DT,87.31,86.85,87.99,87.4,87.31,87.3,0.13,0.87,0.75,Individual,Extract Superclass
+1,LR,84.75,80.26,92.36,85.86,84.75,84.65,0.11,0.92,0.7,Individual,Extract Superclass
+2,SVM,86.99,83.05,93.09,87.76,86.99,86.93,0.1,0.93,0.75,Individual,Extract Superclass
+3,MLP,90.48,88.82,92.73,90.7,90.48,90.48,0.07,0.97,0.81,Individual,Extract Superclass
+4,SGD,83.71,79.17,91.85,84.97,83.71,83.57,0.12,0.91,0.68,Individual,Extract Superclass
+5,NB(B),77.71,70.68,95.62,81.2,77.71,76.85,0.17,0.89,0.59,Individual,Extract Superclass
+6,NB(G),64.85,59.29,95.94,73.25,64.85,60.88,0.35,0.69,0.38,Individual,Extract Superclass
+7,NB(M),84.33,81.4,89.16,85.07,84.33,84.28,0.19,0.89,0.69,Individual,Extract Superclass
+8,KNN,85.55,81.19,92.71,86.54,85.55,85.46,0.11,0.92,0.72,Individual,Extract Superclass
+0,Stack-LR,90.79,89.79,92.11,90.92,90.79,90.79,0.07,0.97,0.82,Stacking,Extract Superclass
+1,Stack-DT,85.87,86.43,85.17,85.77,85.87,85.86,0.14,0.86,0.72,Stacking,Extract Superclass
+0,TBStack-LR,91.86,91.07,92.88,91.95,91.86,91.86,0.06,0.98,0.84,TreeStacking,Extract Superclass
+1,TBStack-DT,87.59,87.72,87.49,87.59,87.59,87.59,0.12,0.88,0.75,TreeStacking,Extract Superclass
+0,DT,89.42,90.51,88.06,89.09,89.42,89.38,0.11,0.89,0.79,Individual,Move And Rename Class
+1,LR,85.29,82.56,90.07,85.96,85.29,85.21,0.1,0.94,0.71,Individual,Move And Rename Class
+2,SVM,86.86,85.07,89.73,87.14,86.86,86.81,0.09,0.95,0.74,Individual,Move And Rename Class
+3,MLP,89.59,86.81,93.37,89.9,89.59,89.56,0.07,0.96,0.8,Individual,Move And Rename Class
+4,SGD,85.21,82.59,90.41,85.88,85.21,85.06,0.1,0.95,0.72,Individual,Move And Rename Class
+5,NB(B),84.05,83.92,84.61,84.09,84.05,84.01,0.13,0.92,0.68,Individual,Move And Rename Class
+6,NB(G),74.21,67.55,94.7,78.73,74.21,72.89,0.26,0.77,0.53,Individual,Move And Rename Class
+7,NB(M),87.52,82.15,96.19,88.51,87.52,87.39,0.16,0.95,0.76,Individual,Move And Rename Class
+8,KNN,86.45,82.45,92.89,87.25,86.45,86.36,0.1,0.93,0.74,Individual,Move And Rename Class
+0,Stack-LR,92.73,91.84,93.87,92.76,92.73,92.72,0.06,0.97,0.86,Stacking,Move And Rename Class
+1,Stack-DT,85.62,88.58,82.01,84.64,85.62,85.49,0.14,0.86,0.72,Stacking,Move And Rename Class
+0,TBStack-LR,94.88,95.21,94.53,94.81,94.88,94.87,0.04,0.99,0.9,TreeStacking,Move And Rename Class
+1,TBStack-DT,93.06,93.62,92.56,93,93.06,93.05,0.07,0.93,0.86,TreeStacking,Move And Rename Class
+0,DT,95.98,95.59,96.43,96,95.98,95.98,0.04,0.96,0.92,Individual,Move Class
+1,LR,88.52,86.03,92.09,88.93,88.52,88.5,0.08,0.96,0.77,Individual,Move Class
+2,SVM,91.61,89.56,94.27,91.84,91.61,91.6,0.06,0.97,0.83,Individual,Move Class
+3,MLP,95.62,94.56,96.83,95.67,95.62,95.62,0.03,0.99,0.91,Individual,Move Class
+4,SGD,87.76,85.22,91.52,88.22,87.76,87.74,0.08,0.96,0.76,Individual,Move Class
+5,NB(B),90.22,91.43,88.9,90.12,90.22,90.21,0.07,0.97,0.81,Individual,Move Class
+6,NB(G),73.69,66.56,96.4,78.67,73.69,72.05,0.26,0.77,0.53,Individual,Move Class
+7,NB(M),89.52,85.97,94.57,90.04,89.52,89.48,0.15,0.95,0.79,Individual,Move Class
+8,KNN,91.11,87.75,95.66,91.52,91.11,91.09,0.07,0.96,0.83,Individual,Move Class
+0,Stack-LR,96.44,96.27,96.64,96.45,96.44,96.44,0.03,0.99,0.93,Stacking,Move Class
+1,Stack-DT,94.69,94.86,94.51,94.68,94.69,94.69,0.05,0.95,0.89,Stacking,Move Class
+0,TBStack-LR,97.44,97.87,96.99,97.43,97.44,97.44,0.02,1,0.95,TreeStacking,Move Class
+1,TBStack-DT,96.24,96.15,96.35,96.25,96.24,96.24,0.04,0.96,0.92,TreeStacking,Move Class
+0,DT,90.92,91.4,90.35,90.86,90.92,90.92,0.09,0.91,0.82,Individual,Rename Class
+1,LR,85.04,82.54,88.88,85.57,85.04,85.02,0.1,0.94,0.7,Individual,Rename Class
+2,SVM,88.1,85.77,91.39,88.47,88.1,88.08,0.08,0.96,0.76,Individual,Rename Class
+3,MLP,92.28,91.38,93.39,92.36,92.28,92.28,0.06,0.98,0.85,Individual,Rename Class
+4,SGD,85.54,82.7,89.92,86.11,85.54,85.5,0.1,0.95,0.71,Individual,Rename Class
+5,NB(B),83.39,82.23,85.2,83.67,83.39,83.38,0.13,0.92,0.67,Individual,Rename Class
+6,NB(G),69.63,62.89,95.87,75.95,69.63,67.37,0.3,0.73,0.46,Individual,Rename Class
+7,NB(M),87.71,84.16,92.96,88.32,87.71,87.67,0.17,0.94,0.76,Individual,Rename Class
+8,KNN,88.22,85.15,92.62,88.69,88.22,88.19,0.09,0.94,0.77,Individual,Rename Class
+0,Stack-LR,92.64,92.24,93.12,92.67,92.64,92.64,0.06,0.98,0.85,Stacking,Rename Class
+1,Stack-DT,87.2,88.66,85.28,86.88,87.2,87.19,0.13,0.87,0.75,Stacking,Rename Class
+0,TBStack-LR,94.33,94.54,94.11,94.32,94.33,94.33,0.04,0.99,0.89,TreeStacking,Rename Class
+1,TBStack-DT,91.1,91.21,90.96,91.07,91.1,91.1,0.09,0.91,0.82,TreeStacking,Rename Class

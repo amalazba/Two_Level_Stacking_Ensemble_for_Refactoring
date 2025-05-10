@@ -1,0 +1,547 @@
+Unnamed: 0,Classifier_1,Classifier_2,Test,Stat,p-value,Null Hypo,Win,Lost,Dataset
+0,DT,LR,t-test,14.66476432225286,0.006241161,Reject,DT,LR,Extract Class
+1,DT,SVM,t-test,14.66476432225286,1,Accept,,,Extract Class
+2,DT,MLP,t-test,14.66476432225286,8.975686037689984e-05,Reject,MLP,DT,Extract Class
+3,DT,SGD,t-test,14.66476432225286,0.001510191,Reject,DT,SGD,Extract Class
+4,DT,NB(B),t-test,14.66476432225286,0.000129107,Reject,DT,NB(B),Extract Class
+5,DT,NB(G),t-test,14.66476432225286,1.24387830741756e-05,Reject,DT,NB(G),Extract Class
+6,DT,NB(M),t-test,14.66476432225286,0.001186168,Reject,DT,NB(M),Extract Class
+7,DT,KNN,t-test,14.66476432225286,0.1171489524945871,Accept,,,Extract Class
+9,DT,Stack-LR,t-test,14.66476432225286,0.00018443,Reject,Stack-LR,DT,Extract Class
+10,DT,Stack-DT,t-test,14.66476432225286,0.6184186670614527,Accept,,,Extract Class
+11,DT,TBStack-LR,t-test,14.66476432225286,1.325464514135873e-05,Reject,TBStack-LR,DT,Extract Class
+12,DT,TBStack-DT,t-test,14.66476432225286,1,Accept,,,Extract Class
+13,LR,SVM,t-test,14.66476432225286,3.351185574371998e-05,Reject,SVM,LR,Extract Class
+14,LR,MLP,t-test,14.66476432225286,1.497584912875667e-05,Reject,MLP,LR,Extract Class
+15,LR,SGD,t-test,14.66476432225286,1,Accept,,,Extract Class
+16,LR,NB(B),t-test,14.66476432225286,0.041476481,Reject,LR,NB(B),Extract Class
+17,LR,NB(G),t-test,14.66476432225286,7.435253020822816e-05,Reject,LR,NB(G),Extract Class
+18,LR,NB(M),t-test,14.66476432225286,1,Accept,,,Extract Class
+19,LR,KNN,t-test,14.66476432225286,0.1522861515531734,Accept,,,Extract Class
+21,LR,Stack-LR,t-test,14.66476432225286,2.707604880525429e-05,Reject,Stack-LR,LR,Extract Class
+22,LR,Stack-DT,t-test,14.66476432225286,0.6733839084980793,Accept,,,Extract Class
+23,LR,TBStack-LR,t-test,14.66476432225286,4.608000213281247e-05,Reject,TBStack-LR,LR,Extract Class
+24,LR,TBStack-DT,t-test,14.66476432225286,0.035559712,Reject,TBStack-DT,LR,Extract Class
+25,SVM,MLP,t-test,14.66476432225286,0.000101462,Reject,MLP,SVM,Extract Class
+26,SVM,SGD,t-test,14.66476432225286,0.001962391,Reject,SVM,SGD,Extract Class
+27,SVM,NB(B),t-test,14.66476432225286,0.004560853,Reject,SVM,NB(B),Extract Class
+28,SVM,NB(G),t-test,14.66476432225286,1.796055685599361e-05,Reject,SVM,NB(G),Extract Class
+29,SVM,NB(M),t-test,14.66476432225286,0.03858442,Reject,SVM,NB(M),Extract Class
+30,SVM,KNN,t-test,14.66476432225286,1,Accept,,,Extract Class
+32,SVM,Stack-LR,t-test,14.66476432225286,0.000125498,Reject,Stack-LR,SVM,Extract Class
+33,SVM,Stack-DT,t-test,14.66476432225286,1,Accept,,,Extract Class
+34,SVM,TBStack-LR,t-test,14.66476432225286,0.000169471,Reject,TBStack-LR,SVM,Extract Class
+35,SVM,TBStack-DT,t-test,14.66476432225286,1,Accept,,,Extract Class
+36,MLP,SGD,t-test,14.66476432225286,2.467978844260665e-05,Reject,MLP,SGD,Extract Class
+37,MLP,NB(B),t-test,14.66476432225286,8.349955671904059e-05,Reject,MLP,NB(B),Extract Class
+38,MLP,NB(G),t-test,14.66476432225286,1.624926988927624e-06,Reject,MLP,NB(G),Extract Class
+39,MLP,NB(M),t-test,14.66476432225286,4.861373746859462e-05,Reject,MLP,NB(M),Extract Class
+40,MLP,KNN,t-test,14.66476432225286,1.02791912414899e-05,Reject,MLP,KNN,Extract Class
+42,MLP,Stack-LR,t-test,14.66476432225286,1,Accept,,,Extract Class
+43,MLP,Stack-DT,t-test,14.66476432225286,3.974587552963569e-06,Reject,MLP,Stack-DT,Extract Class
+44,MLP,TBStack-LR,t-test,14.66476432225286,0.046462163,Reject,TBStack-LR,MLP,Extract Class
+45,MLP,TBStack-DT,t-test,14.66476432225286,0.0006095,Reject,MLP,TBStack-DT,Extract Class
+46,SGD,NB(B),t-test,14.66476432225286,0.044083241,Reject,SGD,NB(B),Extract Class
+47,SGD,NB(G),t-test,14.66476432225286,0.000301465,Reject,SGD,NB(G),Extract Class
+48,SGD,NB(M),t-test,14.66476432225286,1,Accept,,,Extract Class
+49,SGD,KNN,t-test,14.66476432225286,0.056289571,Accept,,,Extract Class
+51,SGD,Stack-LR,t-test,14.66476432225286,4.746329273663518e-05,Reject,Stack-LR,SGD,Extract Class
+52,SGD,Stack-DT,t-test,14.66476432225286,0.193328984,Accept,,,Extract Class
+53,SGD,TBStack-LR,t-test,14.66476432225286,6.333806640792519e-05,Reject,TBStack-LR,SGD,Extract Class
+54,SGD,TBStack-DT,t-test,14.66476432225286,0.01474197,Reject,TBStack-DT,SGD,Extract Class
+55,NB(B),NB(G),t-test,14.66476432225286,0.016091266,Reject,NB(B),NB(G),Extract Class
+56,NB(B),NB(M),t-test,14.66476432225286,0.030775442,Reject,NB(M),NB(B),Extract Class
+57,NB(B),KNN,t-test,14.66476432225286,0.004220946,Reject,KNN,NB(B),Extract Class
+59,NB(B),Stack-LR,t-test,14.66476432225286,0.000114349,Reject,Stack-LR,NB(B),Extract Class
+60,NB(B),Stack-DT,t-test,14.66476432225286,0.008141078,Reject,Stack-DT,NB(B),Extract Class
+61,NB(B),TBStack-LR,t-test,14.66476432225286,3.588630315578408e-05,Reject,TBStack-LR,NB(B),Extract Class
+62,NB(B),TBStack-DT,t-test,14.66476432225286,0.000875636,Reject,TBStack-DT,NB(B),Extract Class
+63,NB(G),NB(M),t-test,14.66476432225286,0.000179541,Reject,NB(M),NB(G),Extract Class
+64,NB(G),KNN,t-test,14.66476432225286,1.061266344381349e-05,Reject,KNN,NB(G),Extract Class
+66,NB(G),Stack-LR,t-test,14.66476432225286,9.414255552401599e-07,Reject,Stack-LR,NB(G),Extract Class
+67,NB(G),Stack-DT,t-test,14.66476432225286,4.804051948749651e-06,Reject,Stack-DT,NB(G),Extract Class
+68,NB(G),TBStack-LR,t-test,14.66476432225286,6.381330332870309e-07,Reject,TBStack-LR,NB(G),Extract Class
+69,NB(G),TBStack-DT,t-test,14.66476432225286,4.403875701573789e-06,Reject,TBStack-DT,NB(G),Extract Class
+70,NB(M),KNN,t-test,14.66476432225286,0.501798286,Accept,,,Extract Class
+72,NB(M),Stack-LR,t-test,14.66476432225286,0.000102353,Reject,Stack-LR,NB(M),Extract Class
+73,NB(M),Stack-DT,t-test,14.66476432225286,0.5342020979635993,Accept,,,Extract Class
+74,NB(M),TBStack-LR,t-test,14.66476432225286,3.155375119553294e-05,Reject,TBStack-LR,NB(M),Extract Class
+75,NB(M),TBStack-DT,t-test,14.66476432225286,0.012738789,Reject,TBStack-DT,NB(M),Extract Class
+77,KNN,Stack-LR,t-test,14.66476432225286,8.373561982506413e-06,Reject,Stack-LR,KNN,Extract Class
+78,KNN,Stack-DT,t-test,14.66476432225286,1,Accept,,,Extract Class
+79,KNN,TBStack-LR,t-test,14.66476432225286,1.278346025561057e-05,Reject,TBStack-LR,KNN,Extract Class
+80,KNN,TBStack-DT,t-test,14.66476432225286,0.2133126115057603,Accept,,,Extract Class
+85,Stack-LR,Stack-DT,t-test,14.66476432225286,5.233787438910918e-07,Reject,Stack-LR,Stack-DT,Extract Class
+86,Stack-LR,TBStack-LR,t-test,14.66476432225286,0.081796677,Accept,,,Extract Class
+87,Stack-LR,TBStack-DT,t-test,14.66476432225286,0.000134506,Reject,Stack-LR,TBStack-DT,Extract Class
+88,Stack-DT,TBStack-LR,t-test,14.66476432225286,1.330326554017447e-06,Reject,TBStack-LR,Stack-DT,Extract Class
+89,Stack-DT,TBStack-DT,t-test,14.66476432225286,0.028654288,Reject,TBStack-DT,Stack-DT,Extract Class
+90,TBStack-LR,TBStack-DT,t-test,14.66476432225286,1.249040491305851e-05,Reject,TBStack-LR,TBStack-DT,Extract Class
+0,DT,LR,t-test,11.09937360167478,0.003346789,Reject,DT,LR,Extract Interface
+1,DT,SVM,t-test,11.09937360167478,0.098203872,Accept,,,Extract Interface
+2,DT,MLP,t-test,11.09937360167478,0.000758085,Reject,MLP,DT,Extract Interface
+3,DT,SGD,t-test,11.09937360167478,0.00115873,Reject,DT,SGD,Extract Interface
+4,DT,NB(B),t-test,11.09937360167478,0.004792181,Reject,DT,NB(B),Extract Interface
+5,DT,NB(G),t-test,11.09937360167478,9.771757373295338e-07,Reject,DT,NB(G),Extract Interface
+6,DT,NB(M),t-test,11.09937360167478,0.002089233,Reject,DT,NB(M),Extract Interface
+7,DT,KNN,t-test,11.09937360167478,0.00717908,Reject,DT,KNN,Extract Interface
+9,DT,Stack-LR,t-test,11.09937360167478,2.529961179516167e-05,Reject,Stack-LR,DT,Extract Interface
+10,DT,Stack-DT,t-test,11.09937360167478,0.00483577,Reject,DT,Stack-DT,Extract Interface
+11,DT,TBStack-LR,t-test,11.09937360167478,2.400476456157148e-06,Reject,TBStack-LR,DT,Extract Interface
+12,DT,TBStack-DT,t-test,11.09937360167478,1,Accept,,,Extract Interface
+13,LR,SVM,t-test,11.09937360167478,0.002273219,Reject,SVM,LR,Extract Interface
+14,LR,MLP,t-test,11.09937360167478,4.81795301117633e-05,Reject,MLP,LR,Extract Interface
+15,LR,SGD,t-test,11.09937360167478,0.095995694,Accept,,,Extract Interface
+16,LR,NB(B),t-test,11.09937360167478,0.094035076,Accept,,,Extract Interface
+17,LR,NB(G),t-test,11.09937360167478,9.201226105301955e-05,Reject,LR,NB(G),Extract Interface
+18,LR,NB(M),t-test,11.09937360167478,1,Accept,,,Extract Interface
+19,LR,KNN,t-test,11.09937360167478,1,Accept,,,Extract Interface
+21,LR,Stack-LR,t-test,11.09937360167478,3.089235997849757e-05,Reject,Stack-LR,LR,Extract Interface
+22,LR,Stack-DT,t-test,11.09937360167478,0.057182401,Accept,,,Extract Interface
+23,LR,TBStack-LR,t-test,11.09937360167478,4.501337460347832e-05,Reject,TBStack-LR,LR,Extract Interface
+24,LR,TBStack-DT,t-test,11.09937360167478,0.000638144,Reject,TBStack-DT,LR,Extract Interface
+25,SVM,MLP,t-test,11.09937360167478,0.000236177,Reject,MLP,SVM,Extract Interface
+26,SVM,SGD,t-test,11.09937360167478,0.000321582,Reject,SVM,SGD,Extract Interface
+27,SVM,NB(B),t-test,11.09937360167478,0.009703172,Reject,SVM,NB(B),Extract Interface
+28,SVM,NB(G),t-test,11.09937360167478,1.586345612991332e-05,Reject,SVM,NB(G),Extract Interface
+29,SVM,NB(M),t-test,11.09937360167478,0.011893135,Reject,SVM,NB(M),Extract Interface
+30,SVM,KNN,t-test,11.09937360167478,1,Accept,,,Extract Interface
+32,SVM,Stack-LR,t-test,11.09937360167478,7.31901758207357e-05,Reject,Stack-LR,SVM,Extract Interface
+33,SVM,Stack-DT,t-test,11.09937360167478,1,Accept,,,Extract Interface
+34,SVM,TBStack-LR,t-test,11.09937360167478,0.00013055,Reject,TBStack-LR,SVM,Extract Interface
+35,SVM,TBStack-DT,t-test,11.09937360167478,0.015294096,Reject,TBStack-DT,SVM,Extract Interface
+36,MLP,SGD,t-test,11.09937360167478,1.697505126445918e-05,Reject,MLP,SGD,Extract Interface
+37,MLP,NB(B),t-test,11.09937360167478,0.000903089,Reject,MLP,NB(B),Extract Interface
+38,MLP,NB(G),t-test,11.09937360167478,1.070027606248203e-06,Reject,MLP,NB(G),Extract Interface
+39,MLP,NB(M),t-test,11.09937360167478,7.621180342164865e-05,Reject,MLP,NB(M),Extract Interface
+40,MLP,KNN,t-test,11.09937360167478,0.000171617,Reject,MLP,KNN,Extract Interface
+42,MLP,Stack-LR,t-test,11.09937360167478,0.3310030505998439,Accept,,,Extract Interface
+43,MLP,Stack-DT,t-test,11.09937360167478,2.791003926665187e-07,Reject,MLP,Stack-DT,Extract Interface
+44,MLP,TBStack-LR,t-test,11.09937360167478,0.000959914,Reject,TBStack-LR,MLP,Extract Interface
+45,MLP,TBStack-DT,t-test,11.09937360167478,0.020684265,Reject,MLP,TBStack-DT,Extract Interface
+46,SGD,NB(B),t-test,11.09937360167478,0.1561036949286968,Accept,,,Extract Interface
+47,SGD,NB(G),t-test,11.09937360167478,0.000113718,Reject,SGD,NB(G),Extract Interface
+48,SGD,NB(M),t-test,11.09937360167478,1,Accept,,,Extract Interface
+49,SGD,KNN,t-test,11.09937360167478,1,Accept,,,Extract Interface
+51,SGD,Stack-LR,t-test,11.09937360167478,1.040412735088214e-05,Reject,Stack-LR,SGD,Extract Interface
+52,SGD,Stack-DT,t-test,11.09937360167478,0.00667977,Reject,Stack-DT,SGD,Extract Interface
+53,SGD,TBStack-LR,t-test,11.09937360167478,1.705559762456851e-05,Reject,TBStack-LR,SGD,Extract Interface
+54,SGD,TBStack-DT,t-test,11.09937360167478,0.000217241,Reject,TBStack-DT,SGD,Extract Interface
+55,NB(B),NB(G),t-test,11.09937360167478,0.012340101,Reject,NB(B),NB(G),Extract Interface
+56,NB(B),NB(M),t-test,11.09937360167478,0.1025192505879047,Accept,,,Extract Interface
+57,NB(B),KNN,t-test,11.09937360167478,0.099947273,Accept,,,Extract Interface
+59,NB(B),Stack-LR,t-test,11.09937360167478,0.00047111,Reject,Stack-LR,NB(B),Extract Interface
+60,NB(B),Stack-DT,t-test,11.09937360167478,0.015854494,Reject,Stack-DT,NB(B),Extract Interface
+61,NB(B),TBStack-LR,t-test,11.09937360167478,0.000231864,Reject,TBStack-LR,NB(B),Extract Interface
+62,NB(B),TBStack-DT,t-test,11.09937360167478,0.00244979,Reject,TBStack-DT,NB(B),Extract Interface
+63,NB(G),NB(M),t-test,11.09937360167478,0.00012132,Reject,NB(M),NB(G),Extract Interface
+64,NB(G),KNN,t-test,11.09937360167478,2.011709117053307e-05,Reject,KNN,NB(G),Extract Interface
+66,NB(G),Stack-LR,t-test,11.09937360167478,5.928364754083294e-07,Reject,Stack-LR,NB(G),Extract Interface
+67,NB(G),Stack-DT,t-test,11.09937360167478,7.273643780054587e-06,Reject,Stack-DT,NB(G),Extract Interface
+68,NB(G),TBStack-LR,t-test,11.09937360167478,3.520346969705238e-07,Reject,TBStack-LR,NB(G),Extract Interface
+69,NB(G),TBStack-DT,t-test,11.09937360167478,2.100998374363132e-06,Reject,TBStack-DT,NB(G),Extract Interface
+70,NB(M),KNN,t-test,11.09937360167478,1,Accept,,,Extract Interface
+72,NB(M),Stack-LR,t-test,11.09937360167478,4.051064025594502e-05,Reject,Stack-LR,NB(M),Extract Interface
+73,NB(M),Stack-DT,t-test,11.09937360167478,0.037383264,Reject,Stack-DT,NB(M),Extract Interface
+74,NB(M),TBStack-LR,t-test,11.09937360167478,3.724612056419975e-05,Reject,TBStack-LR,NB(M),Extract Interface
+75,NB(M),TBStack-DT,t-test,11.09937360167478,0.000553634,Reject,TBStack-DT,NB(M),Extract Interface
+77,KNN,Stack-LR,t-test,11.09937360167478,5.677667516088088e-05,Reject,Stack-LR,KNN,Extract Interface
+78,KNN,Stack-DT,t-test,11.09937360167478,1,Accept,,,Extract Interface
+79,KNN,TBStack-LR,t-test,11.09937360167478,6.405877669427464e-05,Reject,TBStack-LR,KNN,Extract Interface
+80,KNN,TBStack-DT,t-test,11.09937360167478,0.007853896,Reject,TBStack-DT,KNN,Extract Interface
+85,Stack-LR,Stack-DT,t-test,11.09937360167478,2.116357814231905e-07,Reject,Stack-LR,Stack-DT,Extract Interface
+86,Stack-LR,TBStack-LR,t-test,11.09937360167478,0.003786773,Reject,TBStack-LR,Stack-LR,Extract Interface
+87,Stack-LR,TBStack-DT,t-test,11.09937360167478,0.010421036,Reject,Stack-LR,TBStack-DT,Extract Interface
+88,Stack-DT,TBStack-LR,t-test,11.09937360167478,2.713311847985486e-07,Reject,TBStack-LR,Stack-DT,Extract Interface
+89,Stack-DT,TBStack-DT,t-test,11.09937360167478,0.000499152,Reject,TBStack-DT,Stack-DT,Extract Interface
+90,TBStack-LR,TBStack-DT,t-test,11.09937360167478,0.000135798,Reject,TBStack-LR,TBStack-DT,Extract Interface
+0,DT,LR,t-test,8.144115667257944,0.35546875,Accept,,,Extract Subclass
+1,DT,SVM,t-test,8.144115667257944,1,Accept,,,Extract Subclass
+2,DT,MLP,t-test,8.144115667257944,0.177734375,Accept,,,Extract Subclass
+3,DT,SGD,t-test,8.144115667257944,0.35546875,Accept,,,Extract Subclass
+4,DT,NB(B),t-test,8.144115667257944,0.177734375,Accept,,,Extract Subclass
+5,DT,NB(G),t-test,8.144115667257944,0.177734375,Accept,,,Extract Subclass
+6,DT,NB(M),t-test,8.144115667257944,0.35546875,Accept,,,Extract Subclass
+7,DT,KNN,t-test,8.144115667257944,1,Accept,,,Extract Subclass
+9,DT,Stack-LR,t-test,8.144115667257944,0.177734375,Accept,,,Extract Subclass
+10,DT,Stack-DT,t-test,8.144115667257944,1,Accept,,,Extract Subclass
+11,DT,TBStack-LR,t-test,8.144115667257944,0.177734375,Accept,,,Extract Subclass
+12,DT,TBStack-DT,t-test,8.144115667257944,1,Accept,,,Extract Subclass
+13,LR,SVM,t-test,8.144115667257944,1.740600600723336e-06,Reject,SVM,LR,Extract Subclass
+14,LR,MLP,t-test,8.144115667257944,5.37340100447574e-08,Reject,MLP,LR,Extract Subclass
+15,LR,SGD,t-test,8.144115667257944,1,Accept,,,Extract Subclass
+16,LR,NB(B),t-test,8.144115667257944,1.141204243748141e-05,Reject,LR,NB(B),Extract Subclass
+17,LR,NB(G),t-test,8.144115667257944,1.202469965306547e-09,Reject,LR,NB(G),Extract Subclass
+18,LR,NB(M),t-test,8.144115667257944,1,Accept,,,Extract Subclass
+19,LR,KNN,t-test,8.144115667257944,0.03056903,Reject,KNN,LR,Extract Subclass
+21,LR,Stack-LR,t-test,8.144115667257944,1.281009073544796e-06,Reject,Stack-LR,LR,Extract Subclass
+22,LR,Stack-DT,t-test,8.144115667257944,0.012245908,Reject,Stack-DT,LR,Extract Subclass
+23,LR,TBStack-LR,t-test,8.144115667257944,1.961899454243205e-05,Reject,TBStack-LR,LR,Extract Subclass
+24,LR,TBStack-DT,t-test,8.144115667257944,3.708058014094951e-05,Reject,TBStack-DT,LR,Extract Subclass
+25,SVM,MLP,t-test,8.144115667257944,1.218048214187299e-07,Reject,MLP,SVM,Extract Subclass
+26,SVM,SGD,t-test,8.144115667257944,7.077649856932223e-07,Reject,SVM,SGD,Extract Subclass
+27,SVM,NB(B),t-test,8.144115667257944,1.995895546910744e-07,Reject,SVM,NB(B),Extract Subclass
+28,SVM,NB(G),t-test,8.144115667257944,3.413199395532476e-10,Reject,SVM,NB(G),Extract Subclass
+29,SVM,NB(M),t-test,8.144115667257944,0.000594826,Reject,SVM,NB(M),Extract Subclass
+30,SVM,KNN,t-test,8.144115667257944,0.079248557,Accept,,,Extract Subclass
+32,SVM,Stack-LR,t-test,8.144115667257944,1.105755241857114e-05,Reject,Stack-LR,SVM,Extract Subclass
+33,SVM,Stack-DT,t-test,8.144115667257944,1,Accept,,,Extract Subclass
+34,SVM,TBStack-LR,t-test,8.144115667257944,0.000455046,Reject,TBStack-LR,SVM,Extract Subclass
+35,SVM,TBStack-DT,t-test,8.144115667257944,0.1858396218754449,Accept,,,Extract Subclass
+36,MLP,SGD,t-test,8.144115667257944,2.038916367175144e-08,Reject,MLP,SGD,Extract Subclass
+37,MLP,NB(B),t-test,8.144115667257944,3.473056363692995e-09,Reject,MLP,NB(B),Extract Subclass
+38,MLP,NB(G),t-test,8.144115667257944,8.40111543577441e-12,Reject,MLP,NB(G),Extract Subclass
+39,MLP,NB(M),t-test,8.144115667257944,2.437392545200345e-06,Reject,MLP,NB(M),Extract Subclass
+40,MLP,KNN,t-test,8.144115667257944,5.43090312059233e-08,Reject,MLP,KNN,Extract Subclass
+42,MLP,Stack-LR,t-test,8.144115667257944,1,Accept,,,Extract Subclass
+43,MLP,Stack-DT,t-test,8.144115667257944,8.954122823061266e-06,Reject,MLP,Stack-DT,Extract Subclass
+44,MLP,TBStack-LR,t-test,8.144115667257944,1,Accept,,,Extract Subclass
+45,MLP,TBStack-DT,t-test,8.144115667257944,0.003396834,Reject,MLP,TBStack-DT,Extract Subclass
+46,SGD,NB(B),t-test,8.144115667257944,4.223556300503566e-06,Reject,SGD,NB(B),Extract Subclass
+47,SGD,NB(G),t-test,8.144115667257944,2.07272510460595e-09,Reject,SGD,NB(G),Extract Subclass
+48,SGD,NB(M),t-test,8.144115667257944,1,Accept,,,Extract Subclass
+49,SGD,KNN,t-test,8.144115667257944,0.018286994,Reject,KNN,SGD,Extract Subclass
+51,SGD,Stack-LR,t-test,8.144115667257944,3.838927473946629e-07,Reject,Stack-LR,SGD,Extract Subclass
+52,SGD,Stack-DT,t-test,8.144115667257944,0.00288815,Reject,Stack-DT,SGD,Extract Subclass
+53,SGD,TBStack-LR,t-test,8.144115667257944,5.045236921232445e-06,Reject,TBStack-LR,SGD,Extract Subclass
+54,SGD,TBStack-DT,t-test,8.144115667257944,9.803866701078752e-06,Reject,TBStack-DT,SGD,Extract Subclass
+55,NB(B),NB(G),t-test,8.144115667257944,5.726122942002792e-06,Reject,NB(B),NB(G),Extract Subclass
+56,NB(B),NB(M),t-test,8.144115667257944,0.000102173,Reject,NB(M),NB(B),Extract Subclass
+57,NB(B),KNN,t-test,8.144115667257944,4.763436096388858e-07,Reject,KNN,NB(B),Extract Subclass
+59,NB(B),Stack-LR,t-test,8.144115667257944,1.946377206721517e-09,Reject,Stack-LR,NB(B),Extract Subclass
+60,NB(B),Stack-DT,t-test,8.144115667257944,4.126107168076384e-07,Reject,Stack-DT,NB(B),Extract Subclass
+61,NB(B),TBStack-LR,t-test,8.144115667257944,1.028113871355579e-09,Reject,TBStack-LR,NB(B),Extract Subclass
+62,NB(B),TBStack-DT,t-test,8.144115667257944,1.195201501473589e-07,Reject,TBStack-DT,NB(B),Extract Subclass
+63,NB(G),NB(M),t-test,8.144115667257944,8.720754895415723e-10,Reject,NB(M),NB(G),Extract Subclass
+64,NB(G),KNN,t-test,8.144115667257944,1.8258406879395e-11,Reject,KNN,NB(G),Extract Subclass
+66,NB(G),Stack-LR,t-test,8.144115667257944,1.480861690206951e-11,Reject,Stack-LR,NB(G),Extract Subclass
+67,NB(G),Stack-DT,t-test,8.144115667257944,2.40558006344541e-11,Reject,Stack-DT,NB(G),Extract Subclass
+68,NB(G),TBStack-LR,t-test,8.144115667257944,1.409386480295094e-10,Reject,TBStack-LR,NB(G),Extract Subclass
+69,NB(G),TBStack-DT,t-test,8.144115667257944,1.361605131244456e-10,Reject,TBStack-DT,NB(G),Extract Subclass
+70,NB(M),KNN,t-test,8.144115667257944,0.054472689,Accept,,,Extract Subclass
+72,NB(M),Stack-LR,t-test,8.144115667257944,1.252832143088757e-05,Reject,Stack-LR,NB(M),Extract Subclass
+73,NB(M),Stack-DT,t-test,8.144115667257944,0.023108994,Reject,Stack-DT,NB(M),Extract Subclass
+74,NB(M),TBStack-LR,t-test,8.144115667257944,4.705861018146544e-05,Reject,TBStack-LR,NB(M),Extract Subclass
+75,NB(M),TBStack-DT,t-test,8.144115667257944,4.790189987387069e-05,Reject,TBStack-DT,NB(M),Extract Subclass
+77,KNN,Stack-LR,t-test,8.144115667257944,9.953867512848378e-07,Reject,Stack-LR,KNN,Extract Subclass
+78,KNN,Stack-DT,t-test,8.144115667257944,0.7416337072898621,Accept,,,Extract Subclass
+79,KNN,TBStack-LR,t-test,8.144115667257944,7.961735653637415e-05,Reject,TBStack-LR,KNN,Extract Subclass
+80,KNN,TBStack-DT,t-test,8.144115667257944,0.00649179,Reject,TBStack-DT,KNN,Extract Subclass
+85,Stack-LR,Stack-DT,t-test,8.144115667257944,4.282380971041735e-07,Reject,Stack-LR,Stack-DT,Extract Subclass
+86,Stack-LR,TBStack-LR,t-test,8.144115667257944,1,Accept,,,Extract Subclass
+87,Stack-LR,TBStack-DT,t-test,8.144115667257944,0.001103183,Reject,Stack-LR,TBStack-DT,Extract Subclass
+88,Stack-DT,TBStack-LR,t-test,8.144115667257944,9.467595109056024e-05,Reject,TBStack-LR,Stack-DT,Extract Subclass
+89,Stack-DT,TBStack-DT,t-test,8.144115667257944,0.979308706,Accept,,,Extract Subclass
+90,TBStack-LR,TBStack-DT,t-test,8.144115667257944,0.001746008,Reject,TBStack-LR,TBStack-DT,Extract Subclass
+0,DT,LR,t-test,19.26980417661449,0.168341135,Accept,,,Extract Superclass
+1,DT,SVM,t-test,19.26980417661449,1,Accept,,,Extract Superclass
+2,DT,MLP,t-test,19.26980417661449,1.941615524301154e-05,Reject,MLP,DT,Extract Superclass
+3,DT,SGD,t-test,19.26980417661449,0.031181805,Reject,DT,SGD,Extract Superclass
+4,DT,NB(B),t-test,19.26980417661449,0.005002816,Reject,DT,NB(B),Extract Superclass
+5,DT,NB(G),t-test,19.26980417661449,7.561778950663066e-06,Reject,DT,NB(G),Extract Superclass
+6,DT,NB(M),t-test,19.26980417661449,0.064612044,Accept,,,Extract Superclass
+7,DT,KNN,t-test,19.26980417661449,0.267243776,Accept,,,Extract Superclass
+9,DT,Stack-LR,t-test,19.26980417661449,4.088055394964434e-05,Reject,Stack-LR,DT,Extract Superclass
+10,DT,Stack-DT,t-test,19.26980417661449,0.2947944250962116,Accept,,,Extract Superclass
+11,DT,TBStack-LR,t-test,19.26980417661449,9.259613303390741e-06,Reject,TBStack-LR,DT,Extract Superclass
+12,DT,TBStack-DT,t-test,19.26980417661449,1,Accept,,,Extract Superclass
+13,LR,SVM,t-test,19.26980417661449,0.004885893,Reject,SVM,LR,Extract Superclass
+14,LR,MLP,t-test,19.26980417661449,0.000888876,Reject,MLP,LR,Extract Superclass
+15,LR,SGD,t-test,19.26980417661449,0.002942555,Reject,LR,SGD,Extract Superclass
+16,LR,NB(B),t-test,19.26980417661449,0.008585716,Reject,LR,NB(B),Extract Superclass
+17,LR,NB(G),t-test,19.26980417661449,7.027275695047469e-05,Reject,LR,NB(G),Extract Superclass
+18,LR,NB(M),t-test,19.26980417661449,1,Accept,,,Extract Superclass
+19,LR,KNN,t-test,19.26980417661449,1,Accept,,,Extract Superclass
+21,LR,Stack-LR,t-test,19.26980417661449,0.000541741,Reject,Stack-LR,LR,Extract Superclass
+22,LR,Stack-DT,t-test,19.26980417661449,1,Accept,,,Extract Superclass
+23,LR,TBStack-LR,t-test,19.26980417661449,0.000110064,Reject,TBStack-LR,LR,Extract Superclass
+24,LR,TBStack-DT,t-test,19.26980417661449,0.120007085,Accept,,,Extract Superclass
+25,SVM,MLP,t-test,19.26980417661449,0.002562467,Reject,MLP,SVM,Extract Superclass
+26,SVM,SGD,t-test,19.26980417661449,0.002598834,Reject,SVM,SGD,Extract Superclass
+27,SVM,NB(B),t-test,19.26980417661449,0.003921408,Reject,SVM,NB(B),Extract Superclass
+28,SVM,NB(G),t-test,19.26980417661449,8.226716225925072e-06,Reject,SVM,NB(G),Extract Superclass
+29,SVM,NB(M),t-test,19.26980417661449,0.002529326,Reject,SVM,NB(M),Extract Superclass
+30,SVM,KNN,t-test,19.26980417661449,0.1079799110375651,Accept,,,Extract Superclass
+32,SVM,Stack-LR,t-test,19.26980417661449,0.001412096,Reject,Stack-LR,SVM,Extract Superclass
+33,SVM,Stack-DT,t-test,19.26980417661449,1,Accept,,,Extract Superclass
+34,SVM,TBStack-LR,t-test,19.26980417661449,0.000239739,Reject,TBStack-LR,SVM,Extract Superclass
+35,SVM,TBStack-DT,t-test,19.26980417661449,1,Accept,,,Extract Superclass
+36,MLP,SGD,t-test,19.26980417661449,0.000387523,Reject,MLP,SGD,Extract Superclass
+37,MLP,NB(B),t-test,19.26980417661449,0.000836623,Reject,MLP,NB(B),Extract Superclass
+38,MLP,NB(G),t-test,19.26980417661449,1.031302119570476e-06,Reject,MLP,NB(G),Extract Superclass
+39,MLP,NB(M),t-test,19.26980417661449,0.000321254,Reject,MLP,NB(M),Extract Superclass
+40,MLP,KNN,t-test,19.26980417661449,0.000121122,Reject,MLP,KNN,Extract Superclass
+42,MLP,Stack-LR,t-test,19.26980417661449,1,Accept,,,Extract Superclass
+43,MLP,Stack-DT,t-test,19.26980417661449,2.556455924690317e-05,Reject,MLP,Stack-DT,Extract Superclass
+44,MLP,TBStack-LR,t-test,19.26980417661449,0.002342202,Reject,TBStack-LR,MLP,Extract Superclass
+45,MLP,TBStack-DT,t-test,19.26980417661449,2.040839101311567e-05,Reject,MLP,TBStack-DT,Extract Superclass
+46,SGD,NB(B),t-test,19.26980417661449,0.017477108,Reject,SGD,NB(B),Extract Superclass
+47,SGD,NB(G),t-test,19.26980417661449,0.000148549,Reject,SGD,NB(G),Extract Superclass
+48,SGD,NB(M),t-test,19.26980417661449,1,Accept,,,Extract Superclass
+49,SGD,KNN,t-test,19.26980417661449,0.3435359517651813,Accept,,,Extract Superclass
+51,SGD,Stack-LR,t-test,19.26980417661449,0.000244371,Reject,Stack-LR,SGD,Extract Superclass
+52,SGD,Stack-DT,t-test,19.26980417661449,1,Accept,,,Extract Superclass
+53,SGD,TBStack-LR,t-test,19.26980417661449,4.743116141040468e-05,Reject,TBStack-LR,SGD,Extract Superclass
+54,SGD,TBStack-DT,t-test,19.26980417661449,0.021398094,Reject,TBStack-DT,SGD,Extract Superclass
+55,NB(B),NB(G),t-test,19.26980417661449,0.052553531,Accept,,,Extract Superclass
+56,NB(B),NB(M),t-test,19.26980417661449,0.020435449,Reject,NB(M),NB(B),Extract Superclass
+57,NB(B),KNN,t-test,19.26980417661449,0.019127152,Reject,KNN,NB(B),Extract Superclass
+59,NB(B),Stack-LR,t-test,19.26980417661449,0.00056395,Reject,Stack-LR,NB(B),Extract Superclass
+60,NB(B),Stack-DT,t-test,19.26980417661449,0.026665339,Reject,Stack-DT,NB(B),Extract Superclass
+61,NB(B),TBStack-LR,t-test,19.26980417661449,0.000190262,Reject,TBStack-LR,NB(B),Extract Superclass
+62,NB(B),TBStack-DT,t-test,19.26980417661449,0.003678894,Reject,TBStack-DT,NB(B),Extract Superclass
+63,NB(G),NB(M),t-test,19.26980417661449,5.317549609833697e-05,Reject,NB(M),NB(G),Extract Superclass
+64,NB(G),KNN,t-test,19.26980417661449,1.4222268880871e-05,Reject,KNN,NB(G),Extract Superclass
+66,NB(G),Stack-LR,t-test,19.26980417661449,7.637139784126752e-07,Reject,Stack-LR,NB(G),Extract Superclass
+67,NB(G),Stack-DT,t-test,19.26980417661449,1.095194573548819e-05,Reject,Stack-DT,NB(G),Extract Superclass
+68,NB(G),TBStack-LR,t-test,19.26980417661449,7.504247382219208e-07,Reject,TBStack-LR,NB(G),Extract Superclass
+69,NB(G),TBStack-DT,t-test,19.26980417661449,4.791305217385484e-06,Reject,TBStack-DT,NB(G),Extract Superclass
+70,NB(M),KNN,t-test,19.26980417661449,1,Accept,,,Extract Superclass
+72,NB(M),Stack-LR,t-test,19.26980417661449,0.000200914,Reject,Stack-LR,NB(M),Extract Superclass
+73,NB(M),Stack-DT,t-test,19.26980417661449,1,Accept,,,Extract Superclass
+74,NB(M),TBStack-LR,t-test,19.26980417661449,3.502106779818756e-05,Reject,TBStack-LR,NB(M),Extract Superclass
+75,NB(M),TBStack-DT,t-test,19.26980417661449,0.028104435,Reject,TBStack-DT,NB(M),Extract Superclass
+77,KNN,Stack-LR,t-test,19.26980417661449,9.924174036174658e-05,Reject,Stack-LR,KNN,Extract Superclass
+78,KNN,Stack-DT,t-test,19.26980417661449,1,Accept,,,Extract Superclass
+79,KNN,TBStack-LR,t-test,19.26980417661449,3.070414796379774e-05,Reject,TBStack-LR,KNN,Extract Superclass
+80,KNN,TBStack-DT,t-test,19.26980417661449,0.1507607749124604,Accept,,,Extract Superclass
+85,Stack-LR,Stack-DT,t-test,19.26980417661449,1.501538310353242e-05,Reject,Stack-LR,Stack-DT,Extract Superclass
+86,Stack-LR,TBStack-LR,t-test,19.26980417661449,0.001917541,Reject,TBStack-LR,Stack-LR,Extract Superclass
+87,Stack-LR,TBStack-DT,t-test,19.26980417661449,2.396955203955389e-05,Reject,Stack-LR,TBStack-DT,Extract Superclass
+88,Stack-DT,TBStack-LR,t-test,19.26980417661449,8.440060585290434e-06,Reject,TBStack-LR,Stack-DT,Extract Superclass
+89,Stack-DT,TBStack-DT,t-test,19.26980417661449,0.020209247,Reject,TBStack-DT,Stack-DT,Extract Superclass
+90,TBStack-LR,TBStack-DT,t-test,19.26980417661449,1.146729938303167e-06,Reject,TBStack-LR,TBStack-DT,Extract Superclass
+0,DT,LR,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+1,DT,SVM,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+2,DT,MLP,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+3,DT,SGD,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+4,DT,NB(B),t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+5,DT,NB(G),t-test,2.309339124875336,0.00476804,Reject,DT,NB(G),Move And Rename Class
+6,DT,NB(M),t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+7,DT,KNN,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+9,DT,Stack-LR,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+10,DT,Stack-DT,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+11,DT,TBStack-LR,t-test,2.309339124875336,0.4831898037404427,Accept,,,Move And Rename Class
+12,DT,TBStack-DT,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+13,LR,SVM,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+14,LR,MLP,t-test,2.309339124875336,0.5072423910098501,Accept,,,Move And Rename Class
+15,LR,SGD,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+16,LR,NB(B),t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+17,LR,NB(G),t-test,2.309339124875336,0.3653096948240941,Accept,,,Move And Rename Class
+18,LR,NB(M),t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+19,LR,KNN,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+21,LR,Stack-LR,t-test,2.309339124875336,0.022582293,Reject,Stack-LR,LR,Move And Rename Class
+22,LR,Stack-DT,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+23,LR,TBStack-LR,t-test,2.309339124875336,0.006435908,Reject,TBStack-LR,LR,Move And Rename Class
+24,LR,TBStack-DT,t-test,2.309339124875336,0.033349609,Reject,TBStack-DT,LR,Move And Rename Class
+25,SVM,MLP,t-test,2.309339124875336,0.1329288552223701,Accept,,,Move And Rename Class
+26,SVM,SGD,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+27,SVM,NB(B),t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+28,SVM,NB(G),t-test,2.309339124875336,0.030812718,Reject,SVM,NB(G),Move And Rename Class
+29,SVM,NB(M),t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+30,SVM,KNN,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+32,SVM,Stack-LR,t-test,2.309339124875336,0.01225685,Reject,Stack-LR,SVM,Move And Rename Class
+33,SVM,Stack-DT,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+34,SVM,TBStack-LR,t-test,2.309339124875336,0.007054649,Reject,TBStack-LR,SVM,Move And Rename Class
+35,SVM,TBStack-DT,t-test,2.309339124875336,0.1438794538445907,Accept,,,Move And Rename Class
+36,MLP,SGD,t-test,2.309339124875336,0.3665858550001583,Accept,,,Move And Rename Class
+37,MLP,NB(B),t-test,2.309339124875336,0.888671875,Accept,,,Move And Rename Class
+38,MLP,NB(G),t-test,2.309339124875336,0.004206445,Reject,MLP,NB(G),Move And Rename Class
+39,MLP,NB(M),t-test,2.309339124875336,0.7082325995404308,Accept,,,Move And Rename Class
+40,MLP,KNN,t-test,2.309339124875336,0.7074046222458278,Accept,,,Move And Rename Class
+42,MLP,Stack-LR,t-test,2.309339124875336,0.003639056,Reject,Stack-LR,MLP,Move And Rename Class
+43,MLP,Stack-DT,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+44,MLP,TBStack-LR,t-test,2.309339124875336,0.007437341,Reject,TBStack-LR,MLP,Move And Rename Class
+45,MLP,TBStack-DT,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+46,SGD,NB(B),t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+47,SGD,NB(G),t-test,2.309339124875336,0.2363376179457136,Accept,,,Move And Rename Class
+48,SGD,NB(M),t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+49,SGD,KNN,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+51,SGD,Stack-LR,t-test,2.309339124875336,0.02499114,Reject,Stack-LR,SGD,Move And Rename Class
+52,SGD,Stack-DT,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+53,SGD,TBStack-LR,t-test,2.309339124875336,0.004086207,Reject,TBStack-LR,SGD,Move And Rename Class
+54,SGD,TBStack-DT,t-test,2.309339124875336,0.027812059,Reject,TBStack-DT,SGD,Move And Rename Class
+55,NB(B),NB(G),t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+56,NB(B),NB(M),t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+57,NB(B),KNN,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+59,NB(B),Stack-LR,t-test,2.309339124875336,0.177734375,Accept,,,Move And Rename Class
+60,NB(B),Stack-DT,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+61,NB(B),TBStack-LR,t-test,2.309339124875336,0.177734375,Accept,,,Move And Rename Class
+62,NB(B),TBStack-DT,t-test,2.309339124875336,0.35546875,Accept,,,Move And Rename Class
+63,NB(G),NB(M),t-test,2.309339124875336,0.010912903,Reject,NB(M),NB(G),Move And Rename Class
+64,NB(G),KNN,t-test,2.309339124875336,0.018934568,Reject,KNN,NB(G),Move And Rename Class
+66,NB(G),Stack-LR,t-test,2.309339124875336,0.000651637,Reject,Stack-LR,NB(G),Move And Rename Class
+67,NB(G),Stack-DT,t-test,2.309339124875336,0.041787667,Reject,Stack-DT,NB(G),Move And Rename Class
+68,NB(G),TBStack-LR,t-test,2.309339124875336,0.000230308,Reject,TBStack-LR,NB(G),Move And Rename Class
+69,NB(G),TBStack-DT,t-test,2.309339124875336,0.00051121,Reject,TBStack-DT,NB(G),Move And Rename Class
+70,NB(M),KNN,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+72,NB(M),Stack-LR,t-test,2.309339124875336,6.230863014569096e-05,Reject,Stack-LR,NB(M),Move And Rename Class
+73,NB(M),Stack-DT,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+74,NB(M),TBStack-LR,t-test,2.309339124875336,7.904314831963626e-05,Reject,TBStack-LR,NB(M),Move And Rename Class
+75,NB(M),TBStack-DT,t-test,2.309339124875336,0.012051873,Reject,TBStack-DT,NB(M),Move And Rename Class
+77,KNN,Stack-LR,t-test,2.309339124875336,0.00053367,Reject,Stack-LR,KNN,Move And Rename Class
+78,KNN,Stack-DT,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+79,KNN,TBStack-LR,t-test,2.309339124875336,4.200629044092441e-05,Reject,TBStack-LR,KNN,Move And Rename Class
+80,KNN,TBStack-DT,t-test,2.309339124875336,0.000916465,Reject,TBStack-DT,KNN,Move And Rename Class
+85,Stack-LR,Stack-DT,t-test,2.309339124875336,0.9045981533846904,Accept,,,Move And Rename Class
+86,Stack-LR,TBStack-LR,t-test,2.309339124875336,0.2483840669616691,Accept,,,Move And Rename Class
+87,Stack-LR,TBStack-DT,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+88,Stack-DT,TBStack-LR,t-test,2.309339124875336,0.1824114219055268,Accept,,,Move And Rename Class
+89,Stack-DT,TBStack-DT,t-test,2.309339124875336,0.1751566272992789,Accept,,,Move And Rename Class
+90,TBStack-LR,TBStack-DT,t-test,2.309339124875336,1,Accept,,,Move And Rename Class
+0,DT,LR,t-test,7.208483848459236,5.544769156033262e-06,Reject,DT,LR,Move Class
+1,DT,SVM,t-test,7.208483848459236,9.428148966234614e-05,Reject,DT,SVM,Move Class
+2,DT,MLP,t-test,7.208483848459236,0.01951428,Reject,DT,MLP,Move Class
+3,DT,SGD,t-test,7.208483848459236,5.296881022895283e-06,Reject,DT,SGD,Move Class
+4,DT,NB(B),t-test,7.208483848459236,0.001402795,Reject,DT,NB(B),Move Class
+5,DT,NB(G),t-test,7.208483848459236,1.862340382228685e-05,Reject,DT,NB(G),Move Class
+6,DT,NB(M),t-test,7.208483848459236,6.781621021410388e-05,Reject,DT,NB(M),Move Class
+7,DT,KNN,t-test,7.208483848459236,5.137259420141757e-05,Reject,DT,KNN,Move Class
+9,DT,Stack-LR,t-test,7.208483848459236,0.6943829241010391,Accept,,,Move Class
+10,DT,Stack-DT,t-test,7.208483848459236,0.000201764,Reject,DT,Stack-DT,Move Class
+11,DT,TBStack-LR,t-test,7.208483848459236,0.003466154,Reject,TBStack-LR,DT,Move Class
+12,DT,TBStack-DT,t-test,7.208483848459236,1,Accept,,,Move Class
+13,LR,SVM,t-test,7.208483848459236,2.429885279281206e-07,Reject,SVM,LR,Move Class
+14,LR,MLP,t-test,7.208483848459236,1.173897056156372e-05,Reject,MLP,LR,Move Class
+15,LR,SGD,t-test,7.208483848459236,0.001250215,Reject,LR,SGD,Move Class
+16,LR,NB(B),t-test,7.208483848459236,1,Accept,,,Move Class
+17,LR,NB(G),t-test,7.208483848459236,0.001062304,Reject,LR,NB(G),Move Class
+18,LR,NB(M),t-test,7.208483848459236,0.009544933,Reject,NB(M),LR,Move Class
+19,LR,KNN,t-test,7.208483848459236,1.103272441680909e-06,Reject,KNN,LR,Move Class
+21,LR,Stack-LR,t-test,7.208483848459236,2.178888145585432e-06,Reject,Stack-LR,LR,Move Class
+22,LR,Stack-DT,t-test,7.208483848459236,2.321380242839047e-05,Reject,Stack-DT,LR,Move Class
+23,LR,TBStack-LR,t-test,7.208483848459236,1.445910717240813e-06,Reject,TBStack-LR,LR,Move Class
+24,LR,TBStack-DT,t-test,7.208483848459236,7.48907573443496e-06,Reject,TBStack-DT,LR,Move Class
+25,SVM,MLP,t-test,7.208483848459236,0.000308387,Reject,MLP,SVM,Move Class
+26,SVM,SGD,t-test,7.208483848459236,2.925899463873563e-07,Reject,SVM,SGD,Move Class
+27,SVM,NB(B),t-test,7.208483848459236,1,Accept,,,Move Class
+28,SVM,NB(G),t-test,7.208483848459236,0.000126002,Reject,SVM,NB(G),Move Class
+29,SVM,NB(M),t-test,7.208483848459236,0.000890018,Reject,SVM,NB(M),Move Class
+30,SVM,KNN,t-test,7.208483848459236,1,Accept,,,Move Class
+32,SVM,Stack-LR,t-test,7.208483848459236,2.811082402015795e-05,Reject,Stack-LR,SVM,Move Class
+33,SVM,Stack-DT,t-test,7.208483848459236,0.001283198,Reject,Stack-DT,SVM,Move Class
+34,SVM,TBStack-LR,t-test,7.208483848459236,1.33048192675427e-05,Reject,TBStack-LR,SVM,Move Class
+35,SVM,TBStack-DT,t-test,7.208483848459236,0.00012894,Reject,TBStack-DT,SVM,Move Class
+36,MLP,SGD,t-test,7.208483848459236,1.029994520299315e-05,Reject,MLP,SGD,Move Class
+37,MLP,NB(B),t-test,7.208483848459236,0.001659171,Reject,MLP,NB(B),Move Class
+38,MLP,NB(G),t-test,7.208483848459236,2.358737975505236e-05,Reject,MLP,NB(G),Move Class
+39,MLP,NB(M),t-test,7.208483848459236,0.000135375,Reject,MLP,NB(M),Move Class
+40,MLP,KNN,t-test,7.208483848459236,0.000138738,Reject,MLP,KNN,Move Class
+42,MLP,Stack-LR,t-test,7.208483848459236,0.006919151,Reject,Stack-LR,MLP,Move Class
+43,MLP,Stack-DT,t-test,7.208483848459236,0.004150413,Reject,MLP,Stack-DT,Move Class
+44,MLP,TBStack-LR,t-test,7.208483848459236,0.000188335,Reject,TBStack-LR,MLP,Move Class
+45,MLP,TBStack-DT,t-test,7.208483848459236,0.075304894,Accept,,,Move Class
+46,SGD,NB(B),t-test,7.208483848459236,1,Accept,,,Move Class
+47,SGD,NB(G),t-test,7.208483848459236,0.001675341,Reject,SGD,NB(G),Move Class
+48,SGD,NB(M),t-test,7.208483848459236,0.000154179,Reject,NB(M),SGD,Move Class
+49,SGD,KNN,t-test,7.208483848459236,1.60114010184159e-06,Reject,KNN,SGD,Move Class
+51,SGD,Stack-LR,t-test,7.208483848459236,2.765218327639514e-06,Reject,Stack-LR,SGD,Move Class
+52,SGD,Stack-DT,t-test,7.208483848459236,1.996401292959901e-05,Reject,Stack-DT,SGD,Move Class
+53,SGD,TBStack-LR,t-test,7.208483848459236,1.652841996717649e-06,Reject,TBStack-LR,SGD,Move Class
+54,SGD,TBStack-DT,t-test,7.208483848459236,7.80755649151607e-06,Reject,TBStack-DT,SGD,Move Class
+55,NB(B),NB(G),t-test,7.208483848459236,0.000836578,Reject,NB(B),NB(G),Move Class
+56,NB(B),NB(M),t-test,7.208483848459236,1,Accept,,,Move Class
+57,NB(B),KNN,t-test,7.208483848459236,1,Accept,,,Move Class
+59,NB(B),Stack-LR,t-test,7.208483848459236,0.000502306,Reject,Stack-LR,NB(B),Move Class
+60,NB(B),Stack-DT,t-test,7.208483848459236,0.009147496,Reject,Stack-DT,NB(B),Move Class
+61,NB(B),TBStack-LR,t-test,7.208483848459236,4.946470836468232e-05,Reject,TBStack-LR,NB(B),Move Class
+62,NB(B),TBStack-DT,t-test,7.208483848459236,0.000726523,Reject,TBStack-DT,NB(B),Move Class
+63,NB(G),NB(M),t-test,7.208483848459236,0.00078426,Reject,NB(M),NB(G),Move Class
+64,NB(G),KNN,t-test,7.208483848459236,0.000305936,Reject,KNN,NB(G),Move Class
+66,NB(G),Stack-LR,t-test,7.208483848459236,1.478510251897217e-05,Reject,Stack-LR,NB(G),Move Class
+67,NB(G),Stack-DT,t-test,7.208483848459236,2.450110002635973e-05,Reject,Stack-DT,NB(G),Move Class
+68,NB(G),TBStack-LR,t-test,7.208483848459236,1.02405648349556e-05,Reject,TBStack-LR,NB(G),Move Class
+69,NB(G),TBStack-DT,t-test,7.208483848459236,1.46432721340175e-05,Reject,TBStack-DT,NB(G),Move Class
+70,NB(M),KNN,t-test,7.208483848459236,0.010273978,Reject,KNN,NB(M),Move Class
+72,NB(M),Stack-LR,t-test,7.208483848459236,2.361593686037016e-05,Reject,Stack-LR,NB(M),Move Class
+73,NB(M),Stack-DT,t-test,7.208483848459236,0.000358784,Reject,Stack-DT,NB(M),Move Class
+74,NB(M),TBStack-LR,t-test,7.208483848459236,8.851962220490835e-06,Reject,TBStack-LR,NB(M),Move Class
+75,NB(M),TBStack-DT,t-test,7.208483848459236,8.531603954188175e-05,Reject,TBStack-DT,NB(M),Move Class
+77,KNN,Stack-LR,t-test,7.208483848459236,1.847976993560679e-05,Reject,Stack-LR,KNN,Move Class
+78,KNN,Stack-DT,t-test,7.208483848459236,0.000658477,Reject,Stack-DT,KNN,Move Class
+79,KNN,TBStack-LR,t-test,7.208483848459236,9.770846351868392e-06,Reject,TBStack-LR,KNN,Move Class
+80,KNN,TBStack-DT,t-test,7.208483848459236,6.274440819891377e-05,Reject,TBStack-DT,KNN,Move Class
+85,Stack-LR,Stack-DT,t-test,7.208483848459236,1.202409158361168e-05,Reject,Stack-LR,Stack-DT,Move Class
+86,Stack-LR,TBStack-LR,t-test,7.208483848459236,0.000833877,Reject,TBStack-LR,Stack-LR,Move Class
+87,Stack-LR,TBStack-DT,t-test,7.208483848459236,1,Accept,,,Move Class
+88,Stack-DT,TBStack-LR,t-test,7.208483848459236,2.420772039487675e-06,Reject,TBStack-LR,Stack-DT,Move Class
+89,Stack-DT,TBStack-DT,t-test,7.208483848459236,5.268712318982847e-05,Reject,TBStack-DT,Stack-DT,Move Class
+90,TBStack-LR,TBStack-DT,t-test,7.208483848459236,0.004583472,Reject,TBStack-LR,TBStack-DT,Move Class
+0,DT,LR,Wilcoxon,0,0.000555095,Reject,DT,LR,Rename Class
+1,DT,SVM,Wilcoxon,0,0.00468324,Reject,DT,SVM,Rename Class
+2,DT,MLP,Wilcoxon,0,0.2943203361434301,Accept,,,Rename Class
+3,DT,SGD,Wilcoxon,0,0.000541205,Reject,DT,SGD,Rename Class
+4,DT,NB(B),Wilcoxon,0,0.000124059,Reject,DT,NB(B),Rename Class
+5,DT,NB(G),Wilcoxon,0,1.925820534869154e-08,Reject,DT,NB(G),Rename Class
+6,DT,NB(M),Wilcoxon,0,0.000367671,Reject,DT,NB(M),Rename Class
+7,DT,KNN,Wilcoxon,0,0.043788818,Reject,DT,KNN,Rename Class
+9,DT,Stack-LR,Wilcoxon,0,0.000930837,Reject,Stack-LR,DT,Rename Class
+10,DT,Stack-DT,Wilcoxon,0,0.065614759,Accept,,,Rename Class
+11,DT,TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Rename Class
+12,DT,TBStack-DT,Wilcoxon,0,1,Accept,,,Rename Class
+13,LR,SVM,Wilcoxon,0,0.014422133,Reject,SVM,LR,Rename Class
+14,LR,MLP,Wilcoxon,0,0.000323078,Reject,MLP,LR,Rename Class
+15,LR,SGD,Wilcoxon,0,1,Accept,,,Rename Class
+16,LR,NB(B),Wilcoxon,0,1,Accept,,,Rename Class
+17,LR,NB(G),Wilcoxon,0,4.663658701379019e-06,Reject,LR,NB(G),Rename Class
+18,LR,NB(M),Wilcoxon,0,0.012310655,Reject,NB(M),LR,Rename Class
+19,LR,KNN,Wilcoxon,0,0.045740648,Reject,KNN,LR,Rename Class
+21,LR,Stack-LR,Wilcoxon,0,2.592581431391598e-05,Reject,Stack-LR,LR,Rename Class
+22,LR,Stack-DT,Wilcoxon,0,1,Accept,,,Rename Class
+23,LR,TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Rename Class
+24,LR,TBStack-DT,Wilcoxon,0,5.632786712884156e-06,Reject,TBStack-DT,LR,Rename Class
+25,SVM,MLP,Wilcoxon,0,3.628029814638021e-05,Reject,MLP,SVM,Rename Class
+26,SVM,SGD,Wilcoxon,0,0.006199164,Reject,SVM,SGD,Rename Class
+27,SVM,NB(B),Wilcoxon,0,0.000740797,Reject,SVM,NB(B),Rename Class
+28,SVM,NB(G),Wilcoxon,0,5.050118883218582e-08,Reject,SVM,NB(G),Rename Class
+29,SVM,NB(M),Wilcoxon,0,1,Accept,,,Rename Class
+30,SVM,KNN,Wilcoxon,0,1,Accept,,,Rename Class
+32,SVM,Stack-LR,Wilcoxon,0,3.885408053635361e-05,Reject,Stack-LR,SVM,Rename Class
+33,SVM,Stack-DT,Wilcoxon,0,1,Accept,,,Rename Class
+34,SVM,TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Rename Class
+35,SVM,TBStack-DT,Wilcoxon,0,4.485226119927902e-05,Reject,TBStack-DT,SVM,Rename Class
+36,MLP,SGD,Wilcoxon,0,0.000131164,Reject,MLP,SGD,Rename Class
+37,MLP,NB(B),Wilcoxon,0,9.97084427933675e-06,Reject,MLP,NB(B),Rename Class
+38,MLP,NB(G),Wilcoxon,0,8.852302635425781e-10,Reject,MLP,NB(G),Rename Class
+39,MLP,NB(M),Wilcoxon,0,6.17860539424003e-05,Reject,MLP,NB(M),Rename Class
+40,MLP,KNN,Wilcoxon,0,0.001696562,Reject,MLP,KNN,Rename Class
+42,MLP,Stack-LR,Wilcoxon,0,1,Accept,,,Rename Class
+43,MLP,Stack-DT,Wilcoxon,0,0.015417732,Reject,MLP,Stack-DT,Rename Class
+44,MLP,TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Rename Class
+45,MLP,TBStack-DT,Wilcoxon,0,1,Accept,,,Rename Class
+46,SGD,NB(B),Wilcoxon,0,0.1311831153809407,Accept,,,Rename Class
+47,SGD,NB(G),Wilcoxon,0,1.130464284696627e-06,Reject,SGD,NB(G),Rename Class
+48,SGD,NB(M),Wilcoxon,0,0.017179888,Reject,NB(M),SGD,Rename Class
+49,SGD,KNN,Wilcoxon,0,0.078878684,Accept,,,Rename Class
+51,SGD,Stack-LR,Wilcoxon,0,1.354750977823862e-05,Reject,Stack-LR,SGD,Rename Class
+52,SGD,Stack-DT,Wilcoxon,0,1,Accept,,,Rename Class
+53,SGD,TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Rename Class
+54,SGD,TBStack-DT,Wilcoxon,0,2.057557914414626e-06,Reject,TBStack-DT,SGD,Rename Class
+55,NB(B),NB(G),Wilcoxon,0,1.898253826958403e-07,Reject,NB(B),NB(G),Rename Class
+56,NB(B),NB(M),Wilcoxon,0,0.002416317,Reject,NB(M),NB(B),Rename Class
+57,NB(B),KNN,Wilcoxon,0,4.687199586491263e-05,Reject,KNN,NB(B),Rename Class
+59,NB(B),Stack-LR,Wilcoxon,0,4.168910998196897e-06,Reject,Stack-LR,NB(B),Rename Class
+60,NB(B),Stack-DT,Wilcoxon,0,0.064320587,Accept,,,Rename Class
+61,NB(B),TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Rename Class
+62,NB(B),TBStack-DT,Wilcoxon,0,2.945065643771872e-05,Reject,TBStack-DT,NB(B),Rename Class
+63,NB(G),NB(M),Wilcoxon,0,1.051669505553559e-07,Reject,NB(M),NB(G),Rename Class
+64,NB(G),KNN,Wilcoxon,0,7.840984923039171e-09,Reject,KNN,NB(G),Rename Class
+66,NB(G),Stack-LR,Wilcoxon,0,1.364975663486809e-09,Reject,Stack-LR,NB(G),Rename Class
+67,NB(G),Stack-DT,Wilcoxon,0,9.915226422713895e-07,Reject,Stack-DT,NB(G),Rename Class
+68,NB(G),TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Rename Class
+69,NB(G),TBStack-DT,Wilcoxon,0,4.203485614229418e-08,Reject,TBStack-DT,NB(G),Rename Class
+70,NB(M),KNN,Wilcoxon,0,1,Accept,,,Rename Class
+72,NB(M),Stack-LR,Wilcoxon,0,4.436278091122715e-06,Reject,Stack-LR,NB(M),Rename Class
+73,NB(M),Stack-DT,Wilcoxon,0,1,Accept,,,Rename Class
+74,NB(M),TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Rename Class
+75,NB(M),TBStack-DT,Wilcoxon,0,3.363554887069429e-07,Reject,TBStack-DT,NB(M),Rename Class
+77,KNN,Stack-LR,Wilcoxon,0,8.447740782963662e-05,Reject,Stack-LR,KNN,Rename Class
+78,KNN,Stack-DT,Wilcoxon,0,1,Accept,,,Rename Class
+79,KNN,TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Rename Class
+80,KNN,TBStack-DT,Wilcoxon,0,0.0237878,Reject,TBStack-DT,KNN,Rename Class
+85,Stack-LR,Stack-DT,Wilcoxon,0,0.001187165,Reject,Stack-LR,Stack-DT,Rename Class
+86,Stack-LR,TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Rename Class
+87,Stack-LR,TBStack-DT,Wilcoxon,0,0.039049768,Reject,Stack-LR,TBStack-DT,Rename Class
+88,Stack-DT,TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Rename Class
+89,Stack-DT,TBStack-DT,Wilcoxon,0,0.03514368,Reject,TBStack-DT,Stack-DT,Rename Class
+90,TBStack-LR,TBStack-DT,Wilcoxon,0,0.177734375,Accept,,,Rename Class

@@ -1,0 +1,547 @@
+Unnamed: 0,Classifier_1,Classifier_2,Test,Stat,p-value,Null Hypo,Win,Lost,Dataset
+0,DT,LR,t-test,15.90049597855024,0.040515708,Reject,DT,LR,Extract And Move Method
+1,DT,SVM,t-test,15.90049597855024,0.1258807842321376,Accept,,,Extract And Move Method
+2,DT,MLP,t-test,15.90049597855024,1,Accept,,,Extract And Move Method
+3,DT,SGD,t-test,15.90049597855024,0.050184036,Accept,,,Extract And Move Method
+4,DT,NB(B),t-test,15.90049597855024,0.001934802,Reject,DT,NB(B),Extract And Move Method
+5,DT,NB(G),t-test,15.90049597855024,3.01950130826389e-06,Reject,DT,NB(G),Extract And Move Method
+6,DT,NB(M),t-test,15.90049597855024,0.000331846,Reject,DT,NB(M),Extract And Move Method
+7,DT,KNN,t-test,15.90049597855024,1,Accept,,,Extract And Move Method
+9,DT,Stack-LR,t-test,15.90049597855024,0.030738667,Reject,Stack-LR,DT,Extract And Move Method
+10,DT,Stack-DT,t-test,15.90049597855024,0.00023532,Reject,DT,Stack-DT,Extract And Move Method
+11,DT,TBStack-LR,t-test,15.90049597855024,6.801051635121336e-07,Reject,TBStack-LR,DT,Extract And Move Method
+12,DT,TBStack-DT,t-test,15.90049597855024,0.000438273,Reject,TBStack-DT,DT,Extract And Move Method
+13,LR,SVM,t-test,15.90049597855024,1,Accept,,,Extract And Move Method
+14,LR,MLP,t-test,15.90049597855024,0.000329664,Reject,MLP,LR,Extract And Move Method
+15,LR,SGD,t-test,15.90049597855024,1,Accept,,,Extract And Move Method
+16,LR,NB(B),t-test,15.90049597855024,0.005233001,Reject,LR,NB(B),Extract And Move Method
+17,LR,NB(G),t-test,15.90049597855024,7.054207293568244e-05,Reject,LR,NB(G),Extract And Move Method
+18,LR,NB(M),t-test,15.90049597855024,0.005940702,Reject,LR,NB(M),Extract And Move Method
+19,LR,KNN,t-test,15.90049597855024,0.000478552,Reject,KNN,LR,Extract And Move Method
+21,LR,Stack-LR,t-test,15.90049597855024,2.241259646623634e-06,Reject,Stack-LR,LR,Extract And Move Method
+22,LR,Stack-DT,t-test,15.90049597855024,1,Accept,,,Extract And Move Method
+23,LR,TBStack-LR,t-test,15.90049597855024,1.043861747259731e-08,Reject,TBStack-LR,LR,Extract And Move Method
+24,LR,TBStack-DT,t-test,15.90049597855024,4.316673980036536e-05,Reject,TBStack-DT,LR,Extract And Move Method
+25,SVM,MLP,t-test,15.90049597855024,0.000837522,Reject,MLP,SVM,Extract And Move Method
+26,SVM,SGD,t-test,15.90049597855024,1,Accept,,,Extract And Move Method
+27,SVM,NB(B),t-test,15.90049597855024,0.003581168,Reject,SVM,NB(B),Extract And Move Method
+28,SVM,NB(G),t-test,15.90049597855024,1.731304960403097e-05,Reject,SVM,NB(G),Extract And Move Method
+29,SVM,NB(M),t-test,15.90049597855024,0.023108024,Reject,SVM,NB(M),Extract And Move Method
+30,SVM,KNN,t-test,15.90049597855024,0.023803206,Reject,KNN,SVM,Extract And Move Method
+32,SVM,Stack-LR,t-test,15.90049597855024,1.993282361661283e-05,Reject,Stack-LR,SVM,Extract And Move Method
+33,SVM,Stack-DT,t-test,15.90049597855024,1,Accept,,,Extract And Move Method
+34,SVM,TBStack-LR,t-test,15.90049597855024,2.507514742314466e-09,Reject,TBStack-LR,SVM,Extract And Move Method
+35,SVM,TBStack-DT,t-test,15.90049597855024,2.295108896714403e-05,Reject,TBStack-DT,SVM,Extract And Move Method
+36,MLP,SGD,t-test,15.90049597855024,0.003060411,Reject,MLP,SGD,Extract And Move Method
+37,MLP,NB(B),t-test,15.90049597855024,1.232428684487796e-05,Reject,MLP,NB(B),Extract And Move Method
+38,MLP,NB(G),t-test,15.90049597855024,6.235480877119116e-06,Reject,MLP,NB(G),Extract And Move Method
+39,MLP,NB(M),t-test,15.90049597855024,2.523658354916995e-05,Reject,MLP,NB(M),Extract And Move Method
+40,MLP,KNN,t-test,15.90049597855024,0.150068467,Accept,,,Extract And Move Method
+42,MLP,Stack-LR,t-test,15.90049597855024,0.1373427212629983,Accept,,,Extract And Move Method
+43,MLP,Stack-DT,t-test,15.90049597855024,0.003306932,Reject,MLP,Stack-DT,Extract And Move Method
+44,MLP,TBStack-LR,t-test,15.90049597855024,8.790754089185473e-07,Reject,TBStack-LR,MLP,Extract And Move Method
+45,MLP,TBStack-DT,t-test,15.90049597855024,0.4222582817383392,Accept,,,Extract And Move Method
+46,SGD,NB(B),t-test,15.90049597855024,0.006170331,Reject,SGD,NB(B),Extract And Move Method
+47,SGD,NB(G),t-test,15.90049597855024,2.685252441990125e-05,Reject,SGD,NB(G),Extract And Move Method
+48,SGD,NB(M),t-test,15.90049597855024,0.081891991,Accept,,,Extract And Move Method
+49,SGD,KNN,t-test,15.90049597855024,0.012676469,Reject,KNN,SGD,Extract And Move Method
+51,SGD,Stack-LR,t-test,15.90049597855024,3.598429362658173e-05,Reject,Stack-LR,SGD,Extract And Move Method
+52,SGD,Stack-DT,t-test,15.90049597855024,1,Accept,,,Extract And Move Method
+53,SGD,TBStack-LR,t-test,15.90049597855024,3.994895175772905e-08,Reject,TBStack-LR,SGD,Extract And Move Method
+54,SGD,TBStack-DT,t-test,15.90049597855024,4.623158481957106e-05,Reject,TBStack-DT,SGD,Extract And Move Method
+55,NB(B),NB(G),t-test,15.90049597855024,0.013623447,Reject,NB(B),NB(G),Extract And Move Method
+56,NB(B),NB(M),t-test,15.90049597855024,1,Accept,,,Extract And Move Method
+57,NB(B),KNN,t-test,15.90049597855024,2.536642593194348e-05,Reject,KNN,NB(B),Extract And Move Method
+59,NB(B),Stack-LR,t-test,15.90049597855024,6.216724747626934e-07,Reject,Stack-LR,NB(B),Extract And Move Method
+60,NB(B),Stack-DT,t-test,15.90049597855024,1,Accept,,,Extract And Move Method
+61,NB(B),TBStack-LR,t-test,15.90049597855024,7.65372208082024e-08,Reject,TBStack-LR,NB(B),Extract And Move Method
+62,NB(B),TBStack-DT,t-test,15.90049597855024,9.255688648087353e-06,Reject,TBStack-DT,NB(B),Extract And Move Method
+63,NB(G),NB(M),t-test,15.90049597855024,0.008423821,Reject,NB(M),NB(G),Extract And Move Method
+64,NB(G),KNN,t-test,15.90049597855024,2.031089203750729e-06,Reject,KNN,NB(G),Extract And Move Method
+66,NB(G),Stack-LR,t-test,15.90049597855024,3.432540672371137e-07,Reject,Stack-LR,NB(G),Extract And Move Method
+67,NB(G),Stack-DT,t-test,15.90049597855024,0.001604501,Reject,Stack-DT,NB(G),Extract And Move Method
+68,NB(G),TBStack-LR,t-test,15.90049597855024,3.923663151413096e-09,Reject,TBStack-LR,NB(G),Extract And Move Method
+69,NB(G),TBStack-DT,t-test,15.90049597855024,2.524026186214986e-09,Reject,TBStack-DT,NB(G),Extract And Move Method
+70,NB(M),KNN,t-test,15.90049597855024,3.946581072980754e-06,Reject,KNN,NB(M),Extract And Move Method
+72,NB(M),Stack-LR,t-test,15.90049597855024,5.195417654068831e-07,Reject,Stack-LR,NB(M),Extract And Move Method
+73,NB(M),Stack-DT,t-test,15.90049597855024,1,Accept,,,Extract And Move Method
+74,NB(M),TBStack-LR,t-test,15.90049597855024,2.370873023806726e-08,Reject,TBStack-LR,NB(M),Extract And Move Method
+75,NB(M),TBStack-DT,t-test,15.90049597855024,3.625323740487402e-06,Reject,TBStack-DT,NB(M),Extract And Move Method
+77,KNN,Stack-LR,t-test,15.90049597855024,5.515897236483256e-05,Reject,Stack-LR,KNN,Extract And Move Method
+78,KNN,Stack-DT,t-test,15.90049597855024,0.008325092,Reject,KNN,Stack-DT,Extract And Move Method
+79,KNN,TBStack-LR,t-test,15.90049597855024,1.580414071722723e-08,Reject,TBStack-LR,KNN,Extract And Move Method
+80,KNN,TBStack-DT,t-test,15.90049597855024,0.000388054,Reject,TBStack-DT,KNN,Extract And Move Method
+85,Stack-LR,Stack-DT,t-test,15.90049597855024,5.404927835826276e-05,Reject,Stack-LR,Stack-DT,Extract And Move Method
+86,Stack-LR,TBStack-LR,t-test,15.90049597855024,4.004410030527156e-06,Reject,TBStack-LR,Stack-LR,Extract And Move Method
+87,Stack-LR,TBStack-DT,t-test,15.90049597855024,1,Accept,,,Extract And Move Method
+88,Stack-DT,TBStack-LR,t-test,15.90049597855024,2.762103995958416e-07,Reject,TBStack-LR,Stack-DT,Extract And Move Method
+89,Stack-DT,TBStack-DT,t-test,15.90049597855024,9.12730192602905e-06,Reject,TBStack-DT,Stack-DT,Extract And Move Method
+90,TBStack-LR,TBStack-DT,t-test,15.90049597855024,6.180956764020002e-06,Reject,TBStack-LR,TBStack-DT,Extract And Move Method
+0,DT,LR,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+1,DT,SVM,Wilcoxon,0,0.000122232,Reject,SVM,DT,Extract Method
+2,DT,MLP,Wilcoxon,0,4.421180233342679e-06,Reject,MLP,DT,Extract Method
+3,DT,SGD,Wilcoxon,0,0.000366006,Reject,SGD,DT,Extract Method
+4,DT,NB(B),Wilcoxon,0,0.000908836,Reject,NB(B),DT,Extract Method
+5,DT,NB(G),Wilcoxon,0,1,Accept,,,Extract Method
+6,DT,NB(M),Wilcoxon,0,0.000807642,Reject,NB(M),DT,Extract Method
+7,DT,KNN,Wilcoxon,0,0.000800175,Reject,KNN,DT,Extract Method
+9,DT,Stack-LR,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+10,DT,Stack-DT,Wilcoxon,0,9.331579421440582e-06,Reject,Stack-DT,DT,Extract Method
+11,DT,TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+12,DT,TBStack-DT,Wilcoxon,0,1.392530975150218e-06,Reject,TBStack-DT,DT,Extract Method
+13,LR,SVM,Wilcoxon,0,1,Accept,,,Extract Method
+14,LR,MLP,Wilcoxon,0,0.533203125,Accept,,,Extract Method
+15,LR,SGD,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+16,LR,NB(B),Wilcoxon,0,0.35546875,Accept,,,Extract Method
+17,LR,NB(G),Wilcoxon,0,0.177734375,Accept,,,Extract Method
+18,LR,NB(M),Wilcoxon,0,0.177734375,Accept,,,Extract Method
+19,LR,KNN,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+21,LR,Stack-LR,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+22,LR,Stack-DT,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+23,LR,TBStack-LR,Wilcoxon,0,0.35546875,Accept,,,Extract Method
+24,LR,TBStack-DT,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+25,SVM,MLP,Wilcoxon,0,0.5199898316837606,Accept,,,Extract Method
+26,SVM,SGD,Wilcoxon,0,1,Accept,,,Extract Method
+27,SVM,NB(B),Wilcoxon,0,0.1804002724794706,Accept,,,Extract Method
+28,SVM,NB(G),Wilcoxon,0,8.855190478323114e-06,Reject,SVM,NB(G),Extract Method
+29,SVM,NB(M),Wilcoxon,0,1,Accept,,,Extract Method
+30,SVM,KNN,Wilcoxon,0,0.007150951,Reject,SVM,KNN,Extract Method
+32,SVM,Stack-LR,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+33,SVM,Stack-DT,Wilcoxon,0,0.001068361,Reject,SVM,Stack-DT,Extract Method
+34,SVM,TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+35,SVM,TBStack-DT,Wilcoxon,0,0.015605768,Reject,SVM,TBStack-DT,Extract Method
+36,MLP,SGD,Wilcoxon,0,1,Accept,,,Extract Method
+37,MLP,NB(B),Wilcoxon,0,1,Accept,,,Extract Method
+38,MLP,NB(G),Wilcoxon,0,0.1128345712696555,Accept,,,Extract Method
+39,MLP,NB(M),Wilcoxon,0,1,Accept,,,Extract Method
+40,MLP,KNN,Wilcoxon,0,0.000210729,Reject,MLP,KNN,Extract Method
+42,MLP,Stack-LR,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+43,MLP,Stack-DT,Wilcoxon,0,0.01756484,Reject,MLP,Stack-DT,Extract Method
+44,MLP,TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+45,MLP,TBStack-DT,Wilcoxon,0,1,Accept,,,Extract Method
+46,SGD,NB(B),Wilcoxon,0,0.3112613187504756,Accept,,,Extract Method
+47,SGD,NB(G),Wilcoxon,0,4.361556308611597e-06,Reject,SGD,NB(G),Extract Method
+48,SGD,NB(M),Wilcoxon,0,0.6017180882696028,Accept,,,Extract Method
+49,SGD,KNN,Wilcoxon,0,0.02187582,Reject,SGD,KNN,Extract Method
+51,SGD,Stack-LR,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+52,SGD,Stack-DT,Wilcoxon,0,0.003915751,Reject,SGD,Stack-DT,Extract Method
+53,SGD,TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+54,SGD,TBStack-DT,Wilcoxon,0,0.1020478258235762,Accept,,,Extract Method
+55,NB(B),NB(G),Wilcoxon,0,0.1933183770596053,Accept,,,Extract Method
+56,NB(B),NB(M),Wilcoxon,0,0.828705049,Accept,,,Extract Method
+57,NB(B),KNN,Wilcoxon,0,1,Accept,,,Extract Method
+59,NB(B),Stack-LR,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+60,NB(B),Stack-DT,Wilcoxon,0,1,Accept,,,Extract Method
+61,NB(B),TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+62,NB(B),TBStack-DT,Wilcoxon,0,1,Accept,,,Extract Method
+63,NB(G),NB(M),Wilcoxon,0,5.330224048968013e-06,Reject,NB(M),NB(G),Extract Method
+64,NB(G),KNN,Wilcoxon,0,1,Accept,,,Extract Method
+66,NB(G),Stack-LR,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+67,NB(G),Stack-DT,Wilcoxon,0,0.350571567,Accept,,,Extract Method
+68,NB(G),TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+69,NB(G),TBStack-DT,Wilcoxon,0,0.004834302,Reject,TBStack-DT,NB(G),Extract Method
+70,NB(M),KNN,Wilcoxon,0,0.059438646,Accept,,,Extract Method
+72,NB(M),Stack-LR,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+73,NB(M),Stack-DT,Wilcoxon,0,0.011300218,Reject,NB(M),Stack-DT,Extract Method
+74,NB(M),TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+75,NB(M),TBStack-DT,Wilcoxon,0,0.5979770554365574,Accept,,,Extract Method
+77,KNN,Stack-LR,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+78,KNN,Stack-DT,Wilcoxon,0,1,Accept,,,Extract Method
+79,KNN,TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+80,KNN,TBStack-DT,Wilcoxon,0,0.019650801,Reject,TBStack-DT,KNN,Extract Method
+85,Stack-LR,Stack-DT,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+86,Stack-LR,TBStack-LR,Wilcoxon,0,1,Accept,,,Extract Method
+87,Stack-LR,TBStack-DT,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+88,Stack-DT,TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+89,Stack-DT,TBStack-DT,Wilcoxon,0,0.000143543,Reject,TBStack-DT,Stack-DT,Extract Method
+90,TBStack-LR,TBStack-DT,Wilcoxon,0,0.177734375,Accept,,,Extract Method
+0,DT,LR,t-test,18.58114087004584,4.859843542850948e-12,Reject,DT,LR,Inline Method
+1,DT,SVM,t-test,18.58114087004584,9.551476914437111e-12,Reject,DT,SVM,Inline Method
+2,DT,MLP,t-test,18.58114087004584,9.934610358916426e-09,Reject,DT,MLP,Inline Method
+3,DT,SGD,t-test,18.58114087004584,4.371728050676062e-11,Reject,DT,SGD,Inline Method
+4,DT,NB(B),t-test,18.58114087004584,1.17556452168224e-10,Reject,DT,NB(B),Inline Method
+5,DT,NB(G),t-test,18.58114087004584,7.299345652566656e-13,Reject,DT,NB(G),Inline Method
+6,DT,NB(M),t-test,18.58114087004584,8.0578509787492e-11,Reject,DT,NB(M),Inline Method
+7,DT,KNN,t-test,18.58114087004584,2.286230071761816e-10,Reject,DT,KNN,Inline Method
+9,DT,Stack-LR,t-test,18.58114087004584,0.019516432,Reject,Stack-LR,DT,Inline Method
+10,DT,Stack-DT,t-test,18.58114087004584,3.879590996626561e-07,Reject,DT,Stack-DT,Inline Method
+11,DT,TBStack-LR,t-test,18.58114087004584,1.749761447000946e-10,Reject,TBStack-LR,DT,Inline Method
+12,DT,TBStack-DT,t-test,18.58114087004584,6.653740793276468e-08,Reject,TBStack-DT,DT,Inline Method
+13,LR,SVM,t-test,18.58114087004584,0.001100968,Reject,SVM,LR,Inline Method
+14,LR,MLP,t-test,18.58114087004584,2.483736370493088e-08,Reject,MLP,LR,Inline Method
+15,LR,SGD,t-test,18.58114087004584,0.1519611360897246,Accept,,,Inline Method
+16,LR,NB(B),t-test,18.58114087004584,6.687026803119989e-06,Reject,LR,NB(B),Inline Method
+17,LR,NB(G),t-test,18.58114087004584,5.784621257734044e-09,Reject,LR,NB(G),Inline Method
+18,LR,NB(M),t-test,18.58114087004584,5.004895347317971e-05,Reject,LR,NB(M),Inline Method
+19,LR,KNN,t-test,18.58114087004584,1.61547400021771e-08,Reject,KNN,LR,Inline Method
+21,LR,Stack-LR,t-test,18.58114087004584,4.422402929470431e-13,Reject,Stack-LR,LR,Inline Method
+22,LR,Stack-DT,t-test,18.58114087004584,7.405066823169224e-09,Reject,Stack-DT,LR,Inline Method
+23,LR,TBStack-LR,t-test,18.58114087004584,7.486164948762252e-13,Reject,TBStack-LR,LR,Inline Method
+24,LR,TBStack-DT,t-test,18.58114087004584,3.488022523049732e-12,Reject,TBStack-DT,LR,Inline Method
+25,SVM,MLP,t-test,18.58114087004584,2.629605093913346e-08,Reject,MLP,SVM,Inline Method
+26,SVM,SGD,t-test,18.58114087004584,0.012682386,Reject,SVM,SGD,Inline Method
+27,SVM,NB(B),t-test,18.58114087004584,3.316553648531058e-06,Reject,SVM,NB(B),Inline Method
+28,SVM,NB(G),t-test,18.58114087004584,1.056531490546414e-09,Reject,SVM,NB(G),Inline Method
+29,SVM,NB(M),t-test,18.58114087004584,5.999844791128848e-06,Reject,SVM,NB(M),Inline Method
+30,SVM,KNN,t-test,18.58114087004584,7.63528875588078e-08,Reject,KNN,SVM,Inline Method
+32,SVM,Stack-LR,t-test,18.58114087004584,7.90967100188481e-13,Reject,Stack-LR,SVM,Inline Method
+33,SVM,Stack-DT,t-test,18.58114087004584,5.880836878153302e-09,Reject,Stack-DT,SVM,Inline Method
+34,SVM,TBStack-LR,t-test,18.58114087004584,8.24013076528824e-13,Reject,TBStack-LR,SVM,Inline Method
+35,SVM,TBStack-DT,t-test,18.58114087004584,3.949796487898523e-12,Reject,TBStack-DT,SVM,Inline Method
+36,MLP,SGD,t-test,18.58114087004584,5.579018906032575e-08,Reject,MLP,SGD,Inline Method
+37,MLP,NB(B),t-test,18.58114087004584,6.845475367840822e-09,Reject,MLP,NB(B),Inline Method
+38,MLP,NB(G),t-test,18.58114087004584,2.011419401584358e-11,Reject,MLP,NB(G),Inline Method
+39,MLP,NB(M),t-test,18.58114087004584,2.404447480086176e-09,Reject,MLP,NB(M),Inline Method
+40,MLP,KNN,t-test,18.58114087004584,0.052276214,Accept,,,Inline Method
+42,MLP,Stack-LR,t-test,18.58114087004584,1.733185532249071e-09,Reject,Stack-LR,MLP,Inline Method
+43,MLP,Stack-DT,t-test,18.58114087004584,0.000166552,Reject,Stack-DT,MLP,Inline Method
+44,MLP,TBStack-LR,t-test,18.58114087004584,6.250642908477508e-12,Reject,TBStack-LR,MLP,Inline Method
+45,MLP,TBStack-DT,t-test,18.58114087004584,1.635170139997527e-10,Reject,TBStack-DT,MLP,Inline Method
+46,SGD,NB(B),t-test,18.58114087004584,8.122679912572281e-06,Reject,SGD,NB(B),Inline Method
+47,SGD,NB(G),t-test,18.58114087004584,2.680831255545882e-08,Reject,SGD,NB(G),Inline Method
+48,SGD,NB(M),t-test,18.58114087004584,0.000787508,Reject,SGD,NB(M),Inline Method
+49,SGD,KNN,t-test,18.58114087004584,1.070000418118628e-09,Reject,KNN,SGD,Inline Method
+51,SGD,Stack-LR,t-test,18.58114087004584,1.357262491777389e-11,Reject,Stack-LR,SGD,Inline Method
+52,SGD,Stack-DT,t-test,18.58114087004584,1.168281534488377e-08,Reject,Stack-DT,SGD,Inline Method
+53,SGD,TBStack-LR,t-test,18.58114087004584,3.259430233900772e-12,Reject,TBStack-LR,SGD,Inline Method
+54,SGD,TBStack-DT,t-test,18.58114087004584,1.535380464302027e-11,Reject,TBStack-DT,SGD,Inline Method
+55,NB(B),NB(G),t-test,18.58114087004584,0.000411305,Reject,NB(B),NB(G),Inline Method
+56,NB(B),NB(M),t-test,18.58114087004584,0.00042424,Reject,NB(M),NB(B),Inline Method
+57,NB(B),KNN,t-test,18.58114087004584,2.658297275320052e-09,Reject,KNN,NB(B),Inline Method
+59,NB(B),Stack-LR,t-test,18.58114087004584,1.197077816573338e-10,Reject,Stack-LR,NB(B),Inline Method
+60,NB(B),Stack-DT,t-test,18.58114087004584,3.239308211186889e-09,Reject,Stack-DT,NB(B),Inline Method
+61,NB(B),TBStack-LR,t-test,18.58114087004584,2.567864602031277e-11,Reject,TBStack-LR,NB(B),Inline Method
+62,NB(B),TBStack-DT,t-test,18.58114087004584,1.879445237797289e-10,Reject,TBStack-DT,NB(B),Inline Method
+63,NB(G),NB(M),t-test,18.58114087004584,1.203502052919584e-08,Reject,NB(M),NB(G),Inline Method
+64,NB(G),KNN,t-test,18.58114087004584,3.420376366192089e-11,Reject,KNN,NB(G),Inline Method
+66,NB(G),Stack-LR,t-test,18.58114087004584,5.529209041448876e-13,Reject,Stack-LR,NB(G),Inline Method
+67,NB(G),Stack-DT,t-test,18.58114087004584,3.096144330257556e-11,Reject,Stack-DT,NB(G),Inline Method
+68,NB(G),TBStack-LR,t-test,18.58114087004584,4.138290488141736e-14,Reject,TBStack-LR,NB(G),Inline Method
+69,NB(G),TBStack-DT,t-test,18.58114087004584,1.772201884898991e-13,Reject,TBStack-DT,NB(G),Inline Method
+70,NB(M),KNN,t-test,18.58114087004584,3.246336005301412e-09,Reject,KNN,NB(M),Inline Method
+72,NB(M),Stack-LR,t-test,18.58114087004584,5.098223632905838e-11,Reject,Stack-LR,NB(M),Inline Method
+73,NB(M),Stack-DT,t-test,18.58114087004584,5.819335043289117e-09,Reject,Stack-DT,NB(M),Inline Method
+74,NB(M),TBStack-LR,t-test,18.58114087004584,5.587393847154673e-12,Reject,TBStack-LR,NB(M),Inline Method
+75,NB(M),TBStack-DT,t-test,18.58114087004584,3.93330108022844e-11,Reject,TBStack-DT,NB(M),Inline Method
+77,KNN,Stack-LR,t-test,18.58114087004584,8.171511150613494e-11,Reject,Stack-LR,KNN,Inline Method
+78,KNN,Stack-DT,t-test,18.58114087004584,1.610814820840184e-05,Reject,Stack-DT,KNN,Inline Method
+79,KNN,TBStack-LR,t-test,18.58114087004584,1.13809630317933e-12,Reject,TBStack-LR,KNN,Inline Method
+80,KNN,TBStack-DT,t-test,18.58114087004584,4.939655405885407e-11,Reject,TBStack-DT,KNN,Inline Method
+85,Stack-LR,Stack-DT,t-test,18.58114087004584,1.041892134559351e-07,Reject,Stack-LR,Stack-DT,Inline Method
+86,Stack-LR,TBStack-LR,t-test,18.58114087004584,4.917033696720419e-10,Reject,TBStack-LR,Stack-LR,Inline Method
+87,Stack-LR,TBStack-DT,t-test,18.58114087004584,9.960781746603685e-08,Reject,TBStack-DT,Stack-LR,Inline Method
+88,Stack-DT,TBStack-LR,t-test,18.58114087004584,1.906163738817069e-10,Reject,TBStack-LR,Stack-DT,Inline Method
+89,Stack-DT,TBStack-DT,t-test,18.58114087004584,2.706440031625966e-09,Reject,TBStack-DT,Stack-DT,Inline Method
+90,TBStack-LR,TBStack-DT,t-test,18.58114087004584,1.579548749603942e-06,Reject,TBStack-LR,TBStack-DT,Inline Method
+0,DT,LR,t-test,14.19142903977825,5.373167364706322e-11,Reject,DT,LR,Move Method
+1,DT,SVM,t-test,14.19142903977825,6.804328087256848e-11,Reject,DT,SVM,Move Method
+2,DT,MLP,t-test,14.19142903977825,7.946759385412133e-12,Reject,DT,MLP,Move Method
+3,DT,SGD,t-test,14.19142903977825,6.486331168565642e-12,Reject,DT,SGD,Move Method
+4,DT,NB(B),t-test,14.19142903977825,6.813068376256588e-12,Reject,DT,NB(B),Move Method
+5,DT,NB(G),t-test,14.19142903977825,1.914617988538873e-14,Reject,DT,NB(G),Move Method
+6,DT,NB(M),t-test,14.19142903977825,1.561414829726397e-13,Reject,DT,NB(M),Move Method
+7,DT,KNN,t-test,14.19142903977825,5.124665141333951e-09,Reject,DT,KNN,Move Method
+9,DT,Stack-LR,t-test,14.19142903977825,4.617028973516903e-06,Reject,Stack-LR,DT,Move Method
+10,DT,Stack-DT,t-test,14.19142903977825,0.000172323,Reject,DT,Stack-DT,Move Method
+11,DT,TBStack-LR,t-test,14.19142903977825,1.191968693887809e-09,Reject,TBStack-LR,DT,Move Method
+12,DT,TBStack-DT,t-test,14.19142903977825,2.168715645103626e-09,Reject,TBStack-DT,DT,Move Method
+13,LR,SVM,t-test,14.19142903977825,0.002992664,Reject,SVM,LR,Move Method
+14,LR,MLP,t-test,14.19142903977825,4.010073828821719e-09,Reject,MLP,LR,Move Method
+15,LR,SGD,t-test,14.19142903977825,0.000577487,Reject,LR,SGD,Move Method
+16,LR,NB(B),t-test,14.19142903977825,6.86199415521822e-07,Reject,LR,NB(B),Move Method
+17,LR,NB(G),t-test,14.19142903977825,1.903164528166253e-07,Reject,LR,NB(G),Move Method
+18,LR,NB(M),t-test,14.19142903977825,1.628438256454748e-06,Reject,LR,NB(M),Move Method
+19,LR,KNN,t-test,14.19142903977825,2.023472737719017e-09,Reject,KNN,LR,Move Method
+21,LR,Stack-LR,t-test,14.19142903977825,5.528442716895246e-11,Reject,Stack-LR,LR,Move Method
+22,LR,Stack-DT,t-test,14.19142903977825,1.733921539564138e-09,Reject,Stack-DT,LR,Move Method
+23,LR,TBStack-LR,t-test,14.19142903977825,1.441141936570429e-11,Reject,TBStack-LR,LR,Move Method
+24,LR,TBStack-DT,t-test,14.19142903977825,2.023391729148043e-11,Reject,TBStack-DT,LR,Move Method
+25,SVM,MLP,t-test,14.19142903977825,7.513432619388261e-09,Reject,MLP,SVM,Move Method
+26,SVM,SGD,t-test,14.19142903977825,8.160849841662009e-05,Reject,SVM,SGD,Move Method
+27,SVM,NB(B),t-test,14.19142903977825,2.960453564401411e-07,Reject,SVM,NB(B),Move Method
+28,SVM,NB(G),t-test,14.19142903977825,8.910334635966926e-08,Reject,SVM,NB(G),Move Method
+29,SVM,NB(M),t-test,14.19142903977825,5.569129141000344e-07,Reject,SVM,NB(M),Move Method
+30,SVM,KNN,t-test,14.19142903977825,3.289019558014087e-09,Reject,KNN,SVM,Move Method
+32,SVM,Stack-LR,t-test,14.19142903977825,6.661591819967837e-11,Reject,Stack-LR,SVM,Move Method
+33,SVM,Stack-DT,t-test,14.19142903977825,1.767885883546435e-09,Reject,Stack-DT,SVM,Move Method
+34,SVM,TBStack-LR,t-test,14.19142903977825,1.359617312540614e-11,Reject,TBStack-LR,SVM,Move Method
+35,SVM,TBStack-DT,t-test,14.19142903977825,1.93450448976682e-11,Reject,TBStack-DT,SVM,Move Method
+36,MLP,SGD,t-test,14.19142903977825,2.604618243833475e-10,Reject,MLP,SGD,Move Method
+37,MLP,NB(B),t-test,14.19142903977825,1.060548261423524e-09,Reject,MLP,NB(B),Move Method
+38,MLP,NB(G),t-test,14.19142903977825,2.040122464131574e-11,Reject,MLP,NB(G),Move Method
+39,MLP,NB(M),t-test,14.19142903977825,2.315366558517037e-12,Reject,MLP,NB(M),Move Method
+40,MLP,KNN,t-test,14.19142903977825,0.001880693,Reject,KNN,MLP,Move Method
+42,MLP,Stack-LR,t-test,14.19142903977825,8.702423527019843e-12,Reject,Stack-LR,MLP,Move Method
+43,MLP,Stack-DT,t-test,14.19142903977825,4.754213341407486e-09,Reject,Stack-DT,MLP,Move Method
+44,MLP,TBStack-LR,t-test,14.19142903977825,1.000386726576058e-11,Reject,TBStack-LR,MLP,Move Method
+45,MLP,TBStack-DT,t-test,14.19142903977825,1.185292795005074e-11,Reject,TBStack-DT,MLP,Move Method
+46,SGD,NB(B),t-test,14.19142903977825,2.629703143552136e-06,Reject,SGD,NB(B),Move Method
+47,SGD,NB(G),t-test,14.19142903977825,1.320251450803986e-07,Reject,SGD,NB(G),Move Method
+48,SGD,NB(M),t-test,14.19142903977825,1.80432741638352e-06,Reject,SGD,NB(M),Move Method
+49,SGD,KNN,t-test,14.19142903977825,5.62137604525467e-10,Reject,KNN,SGD,Move Method
+51,SGD,Stack-LR,t-test,14.19142903977825,9.225666639389545e-12,Reject,Stack-LR,SGD,Move Method
+52,SGD,Stack-DT,t-test,14.19142903977825,3.136388971766342e-10,Reject,Stack-DT,SGD,Move Method
+53,SGD,TBStack-LR,t-test,14.19142903977825,1.829358241293745e-12,Reject,TBStack-LR,SGD,Move Method
+54,SGD,TBStack-DT,t-test,14.19142903977825,2.425014478310756e-12,Reject,TBStack-DT,SGD,Move Method
+55,NB(B),NB(G),t-test,14.19142903977825,1,Accept,,,Move Method
+56,NB(B),NB(M),t-test,14.19142903977825,4.111511703840128e-05,Reject,NB(M),NB(B),Move Method
+57,NB(B),KNN,t-test,14.19142903977825,1.70715529903158e-09,Reject,KNN,NB(B),Move Method
+59,NB(B),Stack-LR,t-test,14.19142903977825,1.002196850099018e-11,Reject,Stack-LR,NB(B),Move Method
+60,NB(B),Stack-DT,t-test,14.19142903977825,5.134143222046931e-11,Reject,Stack-DT,NB(B),Move Method
+61,NB(B),TBStack-LR,t-test,14.19142903977825,1.459427635896236e-12,Reject,TBStack-LR,NB(B),Move Method
+62,NB(B),TBStack-DT,t-test,14.19142903977825,1.787086985793177e-12,Reject,TBStack-DT,NB(B),Move Method
+63,NB(G),NB(M),t-test,14.19142903977825,1.030576413401974e-06,Reject,NB(M),NB(G),Move Method
+64,NB(G),KNN,t-test,14.19142903977825,3.296108676467426e-11,Reject,KNN,NB(G),Move Method
+66,NB(G),Stack-LR,t-test,14.19142903977825,9.016572035424379e-15,Reject,Stack-LR,NB(G),Move Method
+67,NB(G),Stack-DT,t-test,14.19142903977825,5.185479835726934e-14,Reject,Stack-DT,NB(G),Move Method
+68,NB(G),TBStack-LR,t-test,14.19142903977825,1.427391207144623e-17,Reject,TBStack-LR,NB(G),Move Method
+69,NB(G),TBStack-DT,t-test,14.19142903977825,3.109166011702186e-17,Reject,TBStack-DT,NB(G),Move Method
+70,NB(M),KNN,t-test,14.19142903977825,8.406217116120743e-11,Reject,KNN,NB(M),Move Method
+72,NB(M),Stack-LR,t-test,14.19142903977825,4.454568022818746e-13,Reject,Stack-LR,NB(M),Move Method
+73,NB(M),Stack-DT,t-test,14.19142903977825,1.129835812833698e-11,Reject,Stack-DT,NB(M),Move Method
+74,NB(M),TBStack-LR,t-test,14.19142903977825,1.373263235110478e-13,Reject,TBStack-LR,NB(M),Move Method
+75,NB(M),TBStack-DT,t-test,14.19142903977825,1.411814489925456e-13,Reject,TBStack-DT,NB(M),Move Method
+77,KNN,Stack-LR,t-test,14.19142903977825,7.634759570853309e-10,Reject,Stack-LR,KNN,Move Method
+78,KNN,Stack-DT,t-test,14.19142903977825,2.303556812783617e-07,Reject,Stack-DT,KNN,Move Method
+79,KNN,TBStack-LR,t-test,14.19142903977825,1.951551556230875e-11,Reject,TBStack-LR,KNN,Move Method
+80,KNN,TBStack-DT,t-test,14.19142903977825,2.789688428341851e-11,Reject,TBStack-DT,KNN,Move Method
+85,Stack-LR,Stack-DT,t-test,14.19142903977825,2.898532781274233e-07,Reject,Stack-LR,Stack-DT,Move Method
+86,Stack-LR,TBStack-LR,t-test,14.19142903977825,1.243951723933738e-09,Reject,TBStack-LR,Stack-LR,Move Method
+87,Stack-LR,TBStack-DT,t-test,14.19142903977825,2.566190327948627e-09,Reject,TBStack-DT,Stack-LR,Move Method
+88,Stack-DT,TBStack-LR,t-test,14.19142903977825,2.576760198228872e-10,Reject,TBStack-LR,Stack-DT,Move Method
+89,Stack-DT,TBStack-DT,t-test,14.19142903977825,1.210556319503447e-10,Reject,TBStack-DT,Stack-DT,Move Method
+90,TBStack-LR,TBStack-DT,t-test,14.19142903977825,1.65951359030299e-05,Reject,TBStack-LR,TBStack-DT,Move Method
+0,DT,LR,Wilcoxon,0,2.101783873028537e-09,Reject,DT,LR,Pull Up Method
+1,DT,SVM,Wilcoxon,0,2.886141266542866e-09,Reject,DT,SVM,Pull Up Method
+2,DT,MLP,Wilcoxon,0,2.502923499352483e-06,Reject,DT,MLP,Pull Up Method
+3,DT,SGD,Wilcoxon,0,3.818171826833237e-09,Reject,DT,SGD,Pull Up Method
+4,DT,NB(B),Wilcoxon,0,2.482054950929406e-10,Reject,DT,NB(B),Pull Up Method
+5,DT,NB(G),Wilcoxon,0,2.040636382281158e-12,Reject,DT,NB(G),Pull Up Method
+6,DT,NB(M),Wilcoxon,0,2.483330639208825e-10,Reject,DT,NB(M),Pull Up Method
+7,DT,KNN,Wilcoxon,0,8.401996922256586e-07,Reject,DT,KNN,Pull Up Method
+9,DT,Stack-LR,Wilcoxon,0,5.01047856782251e-05,Reject,Stack-LR,DT,Pull Up Method
+10,DT,Stack-DT,Wilcoxon,0,0.2174621934219196,Accept,,,Pull Up Method
+11,DT,TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Pull Up Method
+12,DT,TBStack-DT,Wilcoxon,0,1.383212222286935e-09,Reject,TBStack-DT,DT,Pull Up Method
+13,LR,SVM,Wilcoxon,0,9.413487693642028e-06,Reject,SVM,LR,Pull Up Method
+14,LR,MLP,Wilcoxon,0,8.19736445843332e-07,Reject,MLP,LR,Pull Up Method
+15,LR,SGD,Wilcoxon,0,0.000838608,Reject,LR,SGD,Pull Up Method
+16,LR,NB(B),Wilcoxon,0,1.132913289947216e-06,Reject,LR,NB(B),Pull Up Method
+17,LR,NB(G),Wilcoxon,0,1.12714531342434e-08,Reject,LR,NB(G),Pull Up Method
+18,LR,NB(M),Wilcoxon,0,3.794345616453247e-07,Reject,LR,NB(M),Pull Up Method
+19,LR,KNN,Wilcoxon,0,3.042438197438818e-06,Reject,KNN,LR,Pull Up Method
+21,LR,Stack-LR,Wilcoxon,0,2.411385595818076e-09,Reject,Stack-LR,LR,Pull Up Method
+22,LR,Stack-DT,Wilcoxon,0,5.079859356655713e-08,Reject,Stack-DT,LR,Pull Up Method
+23,LR,TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Pull Up Method
+24,LR,TBStack-DT,Wilcoxon,0,1.547516544733905e-10,Reject,TBStack-DT,LR,Pull Up Method
+25,SVM,MLP,Wilcoxon,0,1.079787474088491e-06,Reject,MLP,SVM,Pull Up Method
+26,SVM,SGD,Wilcoxon,0,6.560266658177704e-05,Reject,SVM,SGD,Pull Up Method
+27,SVM,NB(B),Wilcoxon,0,7.620108407406173e-07,Reject,SVM,NB(B),Pull Up Method
+28,SVM,NB(G),Wilcoxon,0,9.099717537032593e-09,Reject,SVM,NB(G),Pull Up Method
+29,SVM,NB(M),Wilcoxon,0,1.506363632425212e-07,Reject,SVM,NB(M),Pull Up Method
+30,SVM,KNN,Wilcoxon,0,4.957732292658003e-06,Reject,KNN,SVM,Pull Up Method
+32,SVM,Stack-LR,Wilcoxon,0,2.726367542085569e-09,Reject,Stack-LR,SVM,Pull Up Method
+33,SVM,Stack-DT,Wilcoxon,0,6.210496853461432e-08,Reject,Stack-DT,SVM,Pull Up Method
+34,SVM,TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Pull Up Method
+35,SVM,TBStack-DT,Wilcoxon,0,1.772371468697036e-10,Reject,TBStack-DT,SVM,Pull Up Method
+36,MLP,SGD,Wilcoxon,0,2.77098938646094e-07,Reject,MLP,SGD,Pull Up Method
+37,MLP,NB(B),Wilcoxon,0,2.631907691160436e-09,Reject,MLP,NB(B),Pull Up Method
+38,MLP,NB(G),Wilcoxon,0,6.165567826750659e-10,Reject,MLP,NB(G),Pull Up Method
+39,MLP,NB(M),Wilcoxon,0,2.470561980792212e-10,Reject,MLP,NB(M),Pull Up Method
+40,MLP,KNN,Wilcoxon,0,1,Accept,,,Pull Up Method
+42,MLP,Stack-LR,Wilcoxon,0,2.039972969630128e-08,Reject,Stack-LR,MLP,Pull Up Method
+43,MLP,Stack-DT,Wilcoxon,0,1.091706523087587e-05,Reject,Stack-DT,MLP,Pull Up Method
+44,MLP,TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Pull Up Method
+45,MLP,TBStack-DT,Wilcoxon,0,9.604987920794025e-10,Reject,TBStack-DT,MLP,Pull Up Method
+46,SGD,NB(B),Wilcoxon,0,2.090154481258873e-06,Reject,SGD,NB(B),Pull Up Method
+47,SGD,NB(G),Wilcoxon,0,7.997372651825042e-08,Reject,SGD,NB(G),Pull Up Method
+48,SGD,NB(M),Wilcoxon,0,6.226544169767805e-07,Reject,SGD,NB(M),Pull Up Method
+49,SGD,KNN,Wilcoxon,0,1.94219493299926e-06,Reject,KNN,SGD,Pull Up Method
+51,SGD,Stack-LR,Wilcoxon,0,3.906953641785273e-09,Reject,Stack-LR,SGD,Pull Up Method
+52,SGD,Stack-DT,Wilcoxon,0,6.614380772375638e-08,Reject,Stack-DT,SGD,Pull Up Method
+53,SGD,TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Pull Up Method
+54,SGD,TBStack-DT,Wilcoxon,0,2.583209197977743e-10,Reject,TBStack-DT,SGD,Pull Up Method
+55,NB(B),NB(G),Wilcoxon,0,0.036978296,Reject,NB(B),NB(G),Pull Up Method
+56,NB(B),NB(M),Wilcoxon,0,1,Accept,,,Pull Up Method
+57,NB(B),KNN,Wilcoxon,0,3.535397226692367e-09,Reject,KNN,NB(B),Pull Up Method
+59,NB(B),Stack-LR,Wilcoxon,0,9.285067052283501e-11,Reject,Stack-LR,NB(B),Pull Up Method
+60,NB(B),Stack-DT,Wilcoxon,0,4.15621262899041e-10,Reject,Stack-DT,NB(B),Pull Up Method
+61,NB(B),TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Pull Up Method
+62,NB(B),TBStack-DT,Wilcoxon,0,1.267510869972778e-12,Reject,TBStack-DT,NB(B),Pull Up Method
+63,NB(G),NB(M),Wilcoxon,0,0.001610935,Reject,NB(M),NB(G),Pull Up Method
+64,NB(G),KNN,Wilcoxon,0,4.345414201259286e-10,Reject,KNN,NB(G),Pull Up Method
+66,NB(G),Stack-LR,Wilcoxon,0,4.202834593499415e-12,Reject,Stack-LR,NB(G),Pull Up Method
+67,NB(G),Stack-DT,Wilcoxon,0,2.317991145111215e-11,Reject,Stack-DT,NB(G),Pull Up Method
+68,NB(G),TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Pull Up Method
+69,NB(G),TBStack-DT,Wilcoxon,0,4.150003763056449e-14,Reject,TBStack-DT,NB(G),Pull Up Method
+70,NB(M),KNN,Wilcoxon,0,2.761118401596665e-09,Reject,KNN,NB(M),Pull Up Method
+72,NB(M),Stack-LR,Wilcoxon,0,6.39899813755855e-11,Reject,Stack-LR,NB(M),Pull Up Method
+73,NB(M),Stack-DT,Wilcoxon,0,2.771480472648391e-09,Reject,Stack-DT,NB(M),Pull Up Method
+74,NB(M),TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Pull Up Method
+75,NB(M),TBStack-DT,Wilcoxon,0,2.092440828867368e-11,Reject,TBStack-DT,NB(M),Pull Up Method
+77,KNN,Stack-LR,Wilcoxon,0,8.384217825424016e-12,Reject,Stack-LR,KNN,Pull Up Method
+78,KNN,Stack-DT,Wilcoxon,0,9.600062487379003e-06,Reject,Stack-DT,KNN,Pull Up Method
+79,KNN,TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Pull Up Method
+80,KNN,TBStack-DT,Wilcoxon,0,1.10742293482439e-10,Reject,TBStack-DT,KNN,Pull Up Method
+85,Stack-LR,Stack-DT,Wilcoxon,0,3.080011441429341e-05,Reject,Stack-LR,Stack-DT,Pull Up Method
+86,Stack-LR,TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Pull Up Method
+87,Stack-LR,TBStack-DT,Wilcoxon,0,3.900646160127138e-08,Reject,TBStack-DT,Stack-LR,Pull Up Method
+88,Stack-DT,TBStack-LR,Wilcoxon,0,0.177734375,Accept,,,Pull Up Method
+89,Stack-DT,TBStack-DT,Wilcoxon,0,3.888680366218421e-11,Reject,TBStack-DT,Stack-DT,Pull Up Method
+90,TBStack-LR,TBStack-DT,Wilcoxon,0,0.177734375,Accept,,,Pull Up Method
+0,DT,LR,t-test,8.148942141048735,5.021329678880693e-05,Reject,DT,LR,Push Down Method
+1,DT,SVM,t-test,8.148942141048735,5.053184993088432e-05,Reject,DT,SVM,Push Down Method
+2,DT,MLP,t-test,8.148942141048735,1,Accept,,,Push Down Method
+3,DT,SGD,t-test,8.148942141048735,4.84882707137701e-05,Reject,DT,SGD,Push Down Method
+4,DT,NB(B),t-test,8.148942141048735,2.517783124463644e-10,Reject,DT,NB(B),Push Down Method
+5,DT,NB(G),t-test,8.148942141048735,9.65235087437112e-09,Reject,DT,NB(G),Push Down Method
+6,DT,NB(M),t-test,8.148942141048735,0.177734375,Accept,,,Push Down Method
+7,DT,KNN,t-test,8.148942141048735,0.024536595,Reject,DT,KNN,Push Down Method
+9,DT,Stack-LR,t-test,8.148942141048735,0.000132739,Reject,Stack-LR,DT,Push Down Method
+10,DT,Stack-DT,t-test,8.148942141048735,1,Accept,,,Push Down Method
+11,DT,TBStack-LR,t-test,8.148942141048735,2.616938705381846e-07,Reject,TBStack-LR,DT,Push Down Method
+12,DT,TBStack-DT,t-test,8.148942141048735,1.561282062000373e-06,Reject,TBStack-DT,DT,Push Down Method
+13,LR,SVM,t-test,8.148942141048735,1,Accept,,,Push Down Method
+14,LR,MLP,t-test,8.148942141048735,6.75895069330337e-05,Reject,MLP,LR,Push Down Method
+15,LR,SGD,t-test,8.148942141048735,0.038919653,Reject,LR,SGD,Push Down Method
+16,LR,NB(B),t-test,8.148942141048735,1.19347383108839e-06,Reject,LR,NB(B),Push Down Method
+17,LR,NB(G),t-test,8.148942141048735,2.96460314945645e-08,Reject,LR,NB(G),Push Down Method
+18,LR,NB(M),t-test,8.148942141048735,0.177734375,Accept,,,Push Down Method
+19,LR,KNN,t-test,8.148942141048735,0.001772024,Reject,KNN,LR,Push Down Method
+21,LR,Stack-LR,t-test,8.148942141048735,1.84366719250642e-07,Reject,Stack-LR,LR,Push Down Method
+22,LR,Stack-DT,t-test,8.148942141048735,0.000403449,Reject,Stack-DT,LR,Push Down Method
+23,LR,TBStack-LR,t-test,8.148942141048735,3.5159729363687e-08,Reject,TBStack-LR,LR,Push Down Method
+24,LR,TBStack-DT,t-test,8.148942141048735,2.159794523504379e-07,Reject,TBStack-DT,LR,Push Down Method
+25,SVM,MLP,t-test,8.148942141048735,1.647814373269592e-05,Reject,MLP,SVM,Push Down Method
+26,SVM,SGD,t-test,8.148942141048735,0.1008329779846285,Accept,,,Push Down Method
+27,SVM,NB(B),t-test,8.148942141048735,9.615445379060922e-07,Reject,SVM,NB(B),Push Down Method
+28,SVM,NB(G),t-test,8.148942141048735,6.772269835678786e-10,Reject,SVM,NB(G),Push Down Method
+29,SVM,NB(M),t-test,8.148942141048735,0.177734375,Accept,,,Push Down Method
+30,SVM,KNN,t-test,8.148942141048735,0.001871978,Reject,KNN,SVM,Push Down Method
+32,SVM,Stack-LR,t-test,8.148942141048735,7.657455570336068e-08,Reject,Stack-LR,SVM,Push Down Method
+33,SVM,Stack-DT,t-test,8.148942141048735,0.000190229,Reject,Stack-DT,SVM,Push Down Method
+34,SVM,TBStack-LR,t-test,8.148942141048735,1.167678224003097e-08,Reject,TBStack-LR,SVM,Push Down Method
+35,SVM,TBStack-DT,t-test,8.148942141048735,7.464342236418233e-08,Reject,TBStack-DT,SVM,Push Down Method
+36,MLP,SGD,t-test,8.148942141048735,2.987398925383452e-05,Reject,MLP,SGD,Push Down Method
+37,MLP,NB(B),t-test,8.148942141048735,3.473820830101491e-08,Reject,MLP,NB(B),Push Down Method
+38,MLP,NB(G),t-test,8.148942141048735,4.606726229768807e-09,Reject,MLP,NB(G),Push Down Method
+39,MLP,NB(M),t-test,8.148942141048735,0.177734375,Accept,,,Push Down Method
+40,MLP,KNN,t-test,8.148942141048735,0.2099369658143129,Accept,,,Push Down Method
+42,MLP,Stack-LR,t-test,8.148942141048735,0.000690554,Reject,Stack-LR,MLP,Push Down Method
+43,MLP,Stack-DT,t-test,8.148942141048735,1,Accept,,,Push Down Method
+44,MLP,TBStack-LR,t-test,8.148942141048735,6.353010048348244e-07,Reject,TBStack-LR,MLP,Push Down Method
+45,MLP,TBStack-DT,t-test,8.148942141048735,1.911564225192677e-06,Reject,TBStack-DT,MLP,Push Down Method
+46,SGD,NB(B),t-test,8.148942141048735,1.104356444517439e-05,Reject,SGD,NB(B),Push Down Method
+47,SGD,NB(G),t-test,8.148942141048735,1.097945778233665e-07,Reject,SGD,NB(G),Push Down Method
+48,SGD,NB(M),t-test,8.148942141048735,0.177734375,Accept,,,Push Down Method
+49,SGD,KNN,t-test,8.148942141048735,0.000807121,Reject,KNN,SGD,Push Down Method
+51,SGD,Stack-LR,t-test,8.148942141048735,1.439035892366341e-07,Reject,Stack-LR,SGD,Push Down Method
+52,SGD,Stack-DT,t-test,8.148942141048735,0.00015183,Reject,Stack-DT,SGD,Push Down Method
+53,SGD,TBStack-LR,t-test,8.148942141048735,5.331619515914469e-08,Reject,TBStack-LR,SGD,Push Down Method
+54,SGD,TBStack-DT,t-test,8.148942141048735,2.508950538827731e-07,Reject,TBStack-DT,SGD,Push Down Method
+55,NB(B),NB(G),t-test,8.148942141048735,0.3309421780252069,Accept,,,Push Down Method
+56,NB(B),NB(M),t-test,8.148942141048735,1,Accept,,,Push Down Method
+57,NB(B),KNN,t-test,8.148942141048735,7.7192124812952e-08,Reject,KNN,NB(B),Push Down Method
+59,NB(B),Stack-LR,t-test,8.148942141048735,2.353130678915088e-09,Reject,Stack-LR,NB(B),Push Down Method
+60,NB(B),Stack-DT,t-test,8.148942141048735,2.295256519770364e-08,Reject,Stack-DT,NB(B),Push Down Method
+61,NB(B),TBStack-LR,t-test,8.148942141048735,1.498697082027256e-09,Reject,TBStack-LR,NB(B),Push Down Method
+62,NB(B),TBStack-DT,t-test,8.148942141048735,6.763990987431842e-09,Reject,TBStack-DT,NB(B),Push Down Method
+63,NB(G),NB(M),t-test,8.148942141048735,0.177734375,Accept,,,Push Down Method
+64,NB(G),KNN,t-test,8.148942141048735,9.271696291098439e-09,Reject,KNN,NB(G),Push Down Method
+66,NB(G),Stack-LR,t-test,8.148942141048735,1.205370672970145e-10,Reject,Stack-LR,NB(G),Push Down Method
+67,NB(G),Stack-DT,t-test,8.148942141048735,1.105416541618141e-08,Reject,Stack-DT,NB(G),Push Down Method
+68,NB(G),TBStack-LR,t-test,8.148942141048735,9.740281889358832e-11,Reject,TBStack-LR,NB(G),Push Down Method
+69,NB(G),TBStack-DT,t-test,8.148942141048735,1.945284753683948e-10,Reject,TBStack-DT,NB(G),Push Down Method
+70,NB(M),KNN,t-test,8.148942141048735,0.177734375,Accept,,,Push Down Method
+72,NB(M),Stack-LR,t-test,8.148942141048735,0.177734375,Accept,,,Push Down Method
+73,NB(M),Stack-DT,t-test,8.148942141048735,0.177734375,Accept,,,Push Down Method
+74,NB(M),TBStack-LR,t-test,8.148942141048735,0.177734375,Accept,,,Push Down Method
+75,NB(M),TBStack-DT,t-test,8.148942141048735,0.177734375,Accept,,,Push Down Method
+77,KNN,Stack-LR,t-test,8.148942141048735,1.210828876970471e-07,Reject,Stack-LR,KNN,Push Down Method
+78,KNN,Stack-DT,t-test,8.148942141048735,0.059773135,Accept,,,Push Down Method
+79,KNN,TBStack-LR,t-test,8.148942141048735,9.865637071521217e-10,Reject,TBStack-LR,KNN,Push Down Method
+80,KNN,TBStack-DT,t-test,8.148942141048735,2.084102775578449e-07,Reject,TBStack-DT,KNN,Push Down Method
+85,Stack-LR,Stack-DT,t-test,8.148942141048735,1.332253626472841e-06,Reject,Stack-LR,Stack-DT,Push Down Method
+86,Stack-LR,TBStack-LR,t-test,8.148942141048735,1.114059760427089e-06,Reject,TBStack-LR,Stack-LR,Push Down Method
+87,Stack-LR,TBStack-DT,t-test,8.148942141048735,6.258434754131568e-05,Reject,TBStack-DT,Stack-LR,Push Down Method
+88,Stack-DT,TBStack-LR,t-test,8.148942141048735,6.734624440117947e-08,Reject,TBStack-LR,Stack-DT,Push Down Method
+89,Stack-DT,TBStack-DT,t-test,8.148942141048735,1.088743982140005e-06,Reject,TBStack-DT,Stack-DT,Push Down Method
+90,TBStack-LR,TBStack-DT,t-test,8.148942141048735,0.001737731,Reject,TBStack-LR,TBStack-DT,Push Down Method
+0,DT,LR,t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+1,DT,SVM,t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+2,DT,MLP,t-test,16.07472717599502,0.000164918,Reject,MLP,DT,Rename Method
+3,DT,SGD,t-test,16.07472717599502,3.844208496942438e-06,Reject,SGD,DT,Rename Method
+4,DT,NB(B),t-test,16.07472717599502,0.000261521,Reject,NB(B),DT,Rename Method
+5,DT,NB(G),t-test,16.07472717599502,0.007573357,Reject,NB(G),DT,Rename Method
+6,DT,NB(M),t-test,16.07472717599502,7.394169425297174e-05,Reject,NB(M),DT,Rename Method
+7,DT,KNN,t-test,16.07472717599502,1.408816932749176e-05,Reject,KNN,DT,Rename Method
+9,DT,Stack-LR,t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+10,DT,Stack-DT,t-test,16.07472717599502,3.485176141973555e-05,Reject,Stack-DT,DT,Rename Method
+11,DT,TBStack-LR,t-test,16.07472717599502,2.068279234969305e-06,Reject,TBStack-LR,DT,Rename Method
+12,DT,TBStack-DT,t-test,16.07472717599502,2.800666867283069e-05,Reject,TBStack-DT,DT,Rename Method
+13,LR,SVM,t-test,16.07472717599502,1,Accept,,,Rename Method
+14,LR,MLP,t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+15,LR,SGD,t-test,16.07472717599502,1,Accept,,,Rename Method
+16,LR,NB(B),t-test,16.07472717599502,0.35546875,Accept,,,Rename Method
+17,LR,NB(G),t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+18,LR,NB(M),t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+19,LR,KNN,t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+21,LR,Stack-LR,t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+22,LR,Stack-DT,t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+23,LR,TBStack-LR,t-test,16.07472717599502,0.888671875,Accept,,,Rename Method
+24,LR,TBStack-DT,t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+25,SVM,MLP,t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+26,SVM,SGD,t-test,16.07472717599502,1,Accept,,,Rename Method
+27,SVM,NB(B),t-test,16.07472717599502,0.35546875,Accept,,,Rename Method
+28,SVM,NB(G),t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+29,SVM,NB(M),t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+30,SVM,KNN,t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+32,SVM,Stack-LR,t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+33,SVM,Stack-DT,t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+34,SVM,TBStack-LR,t-test,16.07472717599502,0.888671875,Accept,,,Rename Method
+35,SVM,TBStack-DT,t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+36,MLP,SGD,t-test,16.07472717599502,0.1595935612655877,Accept,,,Rename Method
+37,MLP,NB(B),t-test,16.07472717599502,1,Accept,,,Rename Method
+38,MLP,NB(G),t-test,16.07472717599502,1,Accept,,,Rename Method
+39,MLP,NB(M),t-test,16.07472717599502,1,Accept,,,Rename Method
+40,MLP,KNN,t-test,16.07472717599502,0.046673737,Reject,MLP,KNN,Rename Method
+42,MLP,Stack-LR,t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+43,MLP,Stack-DT,t-test,16.07472717599502,0.1665023638851131,Accept,,,Rename Method
+44,MLP,TBStack-LR,t-test,16.07472717599502,0.003633927,Reject,TBStack-LR,MLP,Rename Method
+45,MLP,TBStack-DT,t-test,16.07472717599502,0.096083222,Accept,,,Rename Method
+46,SGD,NB(B),t-test,16.07472717599502,0.002023337,Reject,SGD,NB(B),Rename Method
+47,SGD,NB(G),t-test,16.07472717599502,2.75083751715167e-06,Reject,SGD,NB(G),Rename Method
+48,SGD,NB(M),t-test,16.07472717599502,9.591220382819243e-05,Reject,SGD,NB(M),Rename Method
+49,SGD,KNN,t-test,16.07472717599502,0.000194741,Reject,SGD,KNN,Rename Method
+51,SGD,Stack-LR,t-test,16.07472717599502,0.35546875,Accept,,,Rename Method
+52,SGD,Stack-DT,t-test,16.07472717599502,8.184992654600478e-05,Reject,SGD,Stack-DT,Rename Method
+53,SGD,TBStack-LR,t-test,16.07472717599502,0.1413433658604647,Accept,,,Rename Method
+54,SGD,TBStack-DT,t-test,16.07472717599502,0.00015217,Reject,SGD,TBStack-DT,Rename Method
+55,NB(B),NB(G),t-test,16.07472717599502,1,Accept,,,Rename Method
+56,NB(B),NB(M),t-test,16.07472717599502,1,Accept,,,Rename Method
+57,NB(B),KNN,t-test,16.07472717599502,1,Accept,,,Rename Method
+59,NB(B),Stack-LR,t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+60,NB(B),Stack-DT,t-test,16.07472717599502,0.6317545453832136,Accept,,,Rename Method
+61,NB(B),TBStack-LR,t-test,16.07472717599502,0.000494494,Reject,TBStack-LR,NB(B),Rename Method
+62,NB(B),TBStack-DT,t-test,16.07472717599502,0.8952594097545857,Accept,,,Rename Method
+63,NB(G),NB(M),t-test,16.07472717599502,5.606975568628815e-05,Reject,NB(M),NB(G),Rename Method
+64,NB(G),KNN,t-test,16.07472717599502,1,Accept,,,Rename Method
+66,NB(G),Stack-LR,t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+67,NB(G),Stack-DT,t-test,16.07472717599502,1,Accept,,,Rename Method
+68,NB(G),TBStack-LR,t-test,16.07472717599502,2.074653694873447e-05,Reject,TBStack-LR,NB(G),Rename Method
+69,NB(G),TBStack-DT,t-test,16.07472717599502,1,Accept,,,Rename Method
+70,NB(M),KNN,t-test,16.07472717599502,0.221520117,Accept,,,Rename Method
+72,NB(M),Stack-LR,t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+73,NB(M),Stack-DT,t-test,16.07472717599502,0.050089089,Accept,,,Rename Method
+74,NB(M),TBStack-LR,t-test,16.07472717599502,0.000772449,Reject,TBStack-LR,NB(M),Rename Method
+75,NB(M),TBStack-DT,t-test,16.07472717599502,0.172334612,Accept,,,Rename Method
+77,KNN,Stack-LR,t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+78,KNN,Stack-DT,t-test,16.07472717599502,1,Accept,,,Rename Method
+79,KNN,TBStack-LR,t-test,16.07472717599502,6.012183935202467e-06,Reject,TBStack-LR,KNN,Rename Method
+80,KNN,TBStack-DT,t-test,16.07472717599502,1,Accept,,,Rename Method
+85,Stack-LR,Stack-DT,t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+86,Stack-LR,TBStack-LR,t-test,16.07472717599502,1,Accept,,,Rename Method
+87,Stack-LR,TBStack-DT,t-test,16.07472717599502,0.177734375,Accept,,,Rename Method
+88,Stack-DT,TBStack-LR,t-test,16.07472717599502,5.635898112178689e-06,Reject,TBStack-LR,Stack-DT,Rename Method
+89,Stack-DT,TBStack-DT,t-test,16.07472717599502,1,Accept,,,Rename Method
+90,TBStack-LR,TBStack-DT,t-test,16.07472717599502,5.620527541087319e-06,Reject,TBStack-LR,TBStack-DT,Rename Method
