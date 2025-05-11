@@ -51,3 +51,7 @@ This repository contains the implementation, features, and results of a Two-Leve
 
 ### 6. The Preprocessed dataset
 Preprocessed dataset, can be downloaded from here (https://www.dropbox.com/s/p5l4kmr9ac38q0k/datasets.zip?dl=0)
+
+### 7. Confusion matrix and prediction outputs
+To support further manual inspection and qualitative analysis (e.g., TP, TN, FP, FN cases), we include CSV files containing the actual and predicted labels for all instances, along with all features, can be downloaded from here: 
+https://www.dropbox.com/scl/fo/y76rf4m9f3hnp1ypa7l0o/ADXSC2A3QWXh0eOTn8-xvD0?rlkey=kdaxr2laxkrp59goy96i34l47&st=bmb5efhp&dl=0
